@@ -2,7 +2,7 @@ FROM denoland/deno:alpine AS build
 WORKDIR /app
 USER deno
 COPY . .
-RUN deno install
+RUN deno install --allow-scripts
 
 FROM denoland/deno:alpine AS run
 ENV NODE_ENV production
