@@ -8,7 +8,7 @@
             "command": "deno run -A --watch src/main.ts",
             "dependencies": ["env"]
         },
-        "start2": "deno run -A src/main.ts"
+        "start-prod": "deno run -A src/main.ts"
     },
     "imports": {
         "@nestjs/common": "npm:@nestjs/common@^11.0.11",

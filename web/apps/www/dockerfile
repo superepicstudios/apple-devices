@@ -3,12 +3,12 @@ WORKDIR /app
 USER deno
 COPY . .
 RUN deno install
-RUN deno cache /app/apps/api/src/main.ts
 
 FROM denoland/deno:alpine AS run
+ENV NODE_ENV production
 WORKDIR /app
 USER deno
 COPY --from=build /app .
-WORKDIR /app/apps/api
-EXPOSE 3000
+WORKDIR /app/apps/www
+EXPOSE 5173
 CMD ["deno", "task", "start-prod"]

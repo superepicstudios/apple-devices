@@ -8,6 +8,7 @@
             "command": "vitepress dev .",
             "dependencies": ["env"]
         },
+        "start-prod": "vitepress dev .",
         "build": "vitepress build",
         "preview": "vitepress preview"
     },
