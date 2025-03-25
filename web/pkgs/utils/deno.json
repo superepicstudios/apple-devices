@@ -1,0 +1,10 @@
+{
+    "name": "@pkg/utils",
+    "version": "1.0.0",
+    "description": "Shared workspace utilities",
+    "author": "Super Epic Studios, LLC",
+    "exports": "./src/mod.ts",
+    "imports": {
+        "chalk": "npm:chalk@^5.4.1"
+    }
+}

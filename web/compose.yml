@@ -1,0 +1,9 @@
+services:
+
+  api:
+    container_name: apple-devices-api
+    build:
+      context: .
+      dockerfile: ./apps/api/dockerfile
+    ports:
+      - 3000:3000

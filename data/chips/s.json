@@ -1,0 +1,46 @@
+{
+    "s1": {
+        "id": "s1",
+        "name": "Apple S1"
+    },
+    "s1p": {
+        "id": "s1p",
+        "name": "Apple S1P"
+    },
+    "s2": {
+        "id": "s2",
+        "name": "Apple S2"
+    },
+    "s3": {
+        "id": "s3",
+        "name": "Apple S3"
+    },
+    "s4": {
+        "id": "s4",
+        "name": "Apple S4"
+    },
+    "s5": {
+        "id": "s5",
+        "name": "Apple S5"
+    },
+    "s6": {
+        "id": "s6",
+        "name": "Apple S6"
+    },
+    "s7": {
+        "id": "s7",
+        "name": "Apple S7"
+    },
+    "s8": {
+        "id": "s8",
+        "name": "Apple S8"
+    },
+    "s9": {
+        "id": "s9",
+        "name": "Apple S9"
+    },
+    "s10": {
+        "id": "s10",
+        "name": "Apple S10"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "@pkg/types",
+    "version": "1.0.0",
+    "description": "Shared workspace types",
+    "author": "Super Epic Studios, LLC",
+    "exports": "./src/mod.ts"
+}

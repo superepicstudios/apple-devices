@@ -1,0 +1,1267 @@
+
+[
+    {
+        "name": "iPhone",
+        "year": 2007,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/apl.json#/98"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/iphoneos",
+                "device_version": {
+                    "min": "1.0",
+                    "max": "3.2.2"
+                }
+            }
+        ],
+        "features":[
+            "button.home"
+        ],
+        "internal_names": ["M68AP"],
+        "a_numbers": ["A1203"],
+        "ids": ["iPhone1,1"]
+    },
+    {
+        "name": "iPhone 3G",
+        "year": 2008,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/apl.json#/98"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/iphoneos",
+                "device_version": {
+                    "min": "2.0",
+                    "max": "3.2.2"
+                }
+            },
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "4.0",
+                    "max": "4.2.1"
+                }
+            }
+        ],
+        "features":[
+            "button.home"
+        ],
+        "internal_names": ["N82AP"],
+        "a_numbers": ["A1241", "A1324"],
+        "ids": ["iPhone1,2"]
+    },
+    {
+        "name": "iPhone 3GS",
+        "year": 2009,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/apl.json#/298"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/iphoneos",
+                "device_version": {
+                    "min": "3.0",
+                    "max": "3.2.2"
+                }
+            },
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "4.0",
+                    "max": "6.1.6"
+                }
+            }
+        ],
+        "features":[
+            "button.home"
+        ],
+        "internal_names": ["N88AP"],
+        "a_numbers": ["A1303", "A1325"],
+        "ids": ["iPhone2,1"]
+    },
+    {
+        "name": "iPhone 4",
+        "year": 2010,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a4"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "4.0",
+                    "max": "7.1.2"
+                }
+            }
+        ],
+        "features":[
+            "button.home"
+        ],
+        "internal_names": ["N90AP", "N90bAP", "N92AP"],
+        "a_numbers": ["A1332", "A1349"],
+        "ids": ["iPhone3,1", "iPhone3,2", "iPhone3,3"]
+    },
+    {
+        "name": "iPhone 4S",
+        "year": 2011,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a5"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "5.0",
+                    "max": "9.3.6"
+                }
+            }
+        ],
+        "features":[
+            "button.home"
+        ],
+        "internal_names": ["N94AP"],
+        "a_numbers": ["A1387", "A1431"],
+        "ids": ["iPhone4,1"]
+    },
+    {
+        "name": "iPhone 5",
+        "year": 2012,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a6"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "6.0",
+                    "max": "10.3.4"
+                }
+            }
+        ],
+        "features":[
+            "button.home"
+        ],
+        "internal_names": ["N41AP", "N42AP"],
+        "a_numbers": ["A1428", "A1429", "A1442"],
+        "ids": ["iPhone5,1", "iPhone5,2"]
+    },
+    {
+        "name": "iPhone 5c",
+        "year": 2013,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a6"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "7.0",
+                    "max": "10.3.4"
+                }
+            }
+        ],
+        "features":[
+            "button.home"
+        ],
+        "internal_names": ["N48AP", "N49AP"],
+        "a_numbers": ["A1456", "A1532", "A1507", "A1516", "A1526", "A1529"],
+        "ids": ["iPhone5,3", "iPhone5,4"]
+    },
+    {
+        "name": "iPhone 5S",
+        "year": 2013,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a7"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "7.0",
+                    "max": "12.5.7"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["N51AP", "N53AP"],
+        "a_numbers": ["A1453", "A1533", "A1457", "A1518", "A1528", "A1530"],
+        "ids": ["iPhone6,1", "iPhone6,2"]
+    },
+    {
+        "name": "iPhone 6",
+        "year": 2014,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a8"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "8.0",
+                    "max": "12.5.7"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["N61AP"],
+        "a_numbers": ["A1549", "A1586", "A1589"],
+        "ids": ["iPhone7,2"]
+    },
+    {
+        "name": "iPhone 6 Plus",
+        "year": 2014,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a6"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "8.0",
+                    "max": "12.5.7"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["N56AP"],
+        "a_numbers": ["A1522", "A1524", "A1593"],
+        "ids": ["iPhone7,1"]
+    },
+    {
+        "name": "iPhone 6S",
+        "year": 2015,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a9"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "9.0",
+                    "max": "15.8.3"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["N71AP", "N71mAP"],
+        "a_numbers": ["A1633", "A1688", "A1691", "A1700"],
+        "ids": ["iPhone8,1"]
+    },
+    {
+        "name": "iPhone 6S Plus",
+        "year": 2015,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a9"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "9.0",
+                    "max": "15.8.3"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["N66AP", "N66mAP"],
+        "a_numbers": ["A1634", "A1687", "A1690", "A1699"],
+        "ids": ["iPhone8,2"]
+    },
+    {
+        "name": "iPhone SE",
+        "year": 2016,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a9"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "9.3",
+                    "max": "15.8.3"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["N69AP", "N69uAP"],
+        "a_numbers": ["A1662", "A1723", "A1724"],
+        "ids": ["iPhone8,4"]
+    },
+    {
+        "name": "iPhone 7",
+        "year": 2016,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a10"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "10.0",
+                    "max": "15.8.3"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["D10AP", "D101AP"],
+        "a_numbers": ["A1660", "A1779", "A1780", "A1778"],
+        "ids": ["iPhone9,1", "iPhone9,3"]
+    },
+    {
+        "name": "iPhone 7 Plus",
+        "year": 2016,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a10"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "10.0",
+                    "max": "15.8.3"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["D11AP", "D111AP"],
+        "a_numbers": ["A1661", "A1785", "A1786", "A1784"],
+        "ids": ["iPhone9,2", "iPhone9,4"]
+    },
+    {
+        "name": "iPhone 8",
+        "year": 2017,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a11"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "11.0",
+                    "max": "16.7.10"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["D20AP", "D201AP"],
+        "a_numbers": ["A1863", "A1906", "A1907", "A1905"],
+        "ids": ["iPhone10,1", "iPhone10,4"]
+    },
+    {
+        "name": "iPhone 8 Plus",
+        "year": 2017,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a11"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "11.0",
+                    "max": "16.7.10"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["D21AP", "D211AP"],
+        "a_numbers": ["A1864", "A1898", "A1899", "A1897"],
+        "ids": ["iPhone10,2", "iPhone10,5"]
+    },
+    {
+        "name": "iPhone X",
+        "year": 2017,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a11"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "11.0.1",
+                    "max": "16.7.10"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D22AP", "D221AP"],
+        "a_numbers": ["A1865", "A1902", "A1901"],
+        "ids": ["iPhone10,3", "iPhone10,6"]
+    },
+    {
+        "name": "iPhone XR",
+        "year": 2018,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a12"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "12.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["N841AP"],
+        "a_numbers": ["A1984", "A2105", "A2106", "A2108"],
+        "ids": ["iPhone11,8"]
+    },
+    {
+        "name": "iPhone XS",
+        "year": 2018,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a12"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "12.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D321AP"],
+        "a_numbers": ["A1920", "A2097", "A2098", "A2100"],
+        "ids": ["iPhone11,2"]
+    },
+    {
+        "name": "iPhone XS Max",
+        "year": 2018,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a12"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "12.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D331pAP", "D331AP"],
+        "a_numbers": ["A1921", "A2101", "A2102", "A2104", "A2103"],
+        "ids": ["iPhone11,4", "iPhone11,6"]
+    },
+    {
+        "name": "iPhone 11",
+        "year": 2019,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a13"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "13.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["N104AP"],
+        "a_numbers": ["A2111", "A2221", "A2223"],
+        "ids": ["iPhone12,1"]
+    },
+    {
+        "name": "iPhone 11 Pro",
+        "year": 2019,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a13"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "13.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D421AP"],
+        "a_numbers": ["A2160", "A2215", "A2217"],
+        "ids": ["iPhone12,3"]
+    },
+    {
+        "name": "iPhone 11 Pro Max",
+        "year": 2019,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a13"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "13.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D431AP"],
+        "a_numbers": ["A2161", "A2220", "A2218"],
+        "ids": ["iPhone12,5"]
+    },
+    {
+        "name": "iPhone SE",
+        "gen_name": "iPhone SE (2nd Gen)",
+        "year": 2020,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a13"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "13.4"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["D79AP"],
+        "a_numbers": ["A2275", "A2296", "A2298"],
+        "ids": ["iPhone12,8"]
+    },
+    {
+        "name": "iPhone 12",
+        "year": 2020,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a14"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "14.1"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D53gAP"],
+        "a_numbers": ["A2172", "A2402", "A2404", "A2403"],
+        "ids": ["iPhone13,2"]
+    },
+    {
+        "name": "iPhone 12 mini",
+        "year": 2020,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a14"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "14.1"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D52gAP"],
+        "a_numbers": ["A2176", "A2398", "A2400", "A2399"],
+        "ids": ["iPhone13,1"]
+    },
+    {
+        "name": "iPhone 12 Pro",
+        "year": 2020,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a14"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "14.1"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D53pAP"],
+        "a_numbers": ["A2341", "A2406", "A2407", "A2408"],
+        "ids": ["iPhone13,3"]
+    },
+    {
+        "name": "iPhone 12 Pro Max",
+        "year": 2020,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a14"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "14.1"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D54pAP"],
+        "a_numbers": ["A2342", "A2410", "A2411", "A2412"],
+        "ids": ["iPhone13,4"]
+    },
+    {
+        "name": "iPhone 13",
+        "year": 2021,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "15.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D17AP"],
+        "a_numbers": ["A2482", "A2631", "A2634", "A2635", "A2633"],
+        "ids": ["iPhone14,5"]
+    },
+    {
+        "name": "iPhone 13 mini",
+        "year": 2021,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "15.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D16AP"],
+        "a_numbers": ["A2481", "A2626", "A2629", "A2630", "A2628"],
+        "ids": ["iPhone14,4"]
+    },
+    {
+        "name": "iPhone 13 Pro",
+        "year": 2021,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "15.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.pro-motion",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D63AP"],
+        "a_numbers": ["A2483", "A2636", "A2639", "A2640", "A2638"],
+        "ids": ["iPhone14,2"]
+    },
+    {
+        "name": "iPhone 13 Pro Max",
+        "year": 2021,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "15.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.pro-motion",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D64AP"],
+        "a_numbers": ["A2484", "A2641", "A2644", "A2645", "A2643"],
+        "ids": ["iPhone14,3"]
+    },
+    {
+        "name": "iPhone SE",
+        "gen_name": "iPhone SE (3rd Gen)",
+        "year": 2022,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "15.4"
+                }
+            }
+        ],
+        "features":[
+            "button.home",
+            "id.touch"
+        ],
+        "internal_names": ["D49AP"],
+        "a_numbers": ["A2595", "A2782", "A2783", "A2784", "A2785"],
+        "ids": ["iPhone14,6"]
+    },
+    {
+        "name": "iPhone 14",
+        "year": 2022,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "16.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D27AP"],
+        "a_numbers": ["A2649", "A2881", "A2882", "A2883", "A2884"],
+        "ids": ["iPhone14,7"]
+    },
+    {
+        "name": "iPhone 14 Plus",
+        "year": 2022,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "16.0"
+                }
+            }
+        ],
+        "features":[
+            "display.fluid",
+            "display.notch",
+            "id.face"
+        ],
+        "internal_names": ["D28AP"],
+        "a_numbers": ["A2632", "A2885", "A2886", "A2887", "A2888"],
+        "ids": ["iPhone14,8"]
+    },
+    {
+        "name": "iPhone 14 Pro",
+        "year": 2022,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a16"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "16.0"
+                }
+            }
+        ],
+        "features":[
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face"
+        ],
+        "internal_names": ["D73AP"],
+        "a_numbers": ["A2650", "A2889", "A2890", "A2891", "A2892"],
+        "ids": ["iPhone15,2"]
+    },
+    {
+        "name": "iPhone 14 Pro Max",
+        "year": 2022,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a16"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "16.0"
+                }
+            }
+        ],
+        "features":[
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face"
+        ],
+        "internal_names": ["D74AP"],
+        "a_numbers": ["A2651", "A2893", "A2894", "A2895", "A2896"],
+        "ids": ["iPhone15,3"]
+    },
+    {
+        "name": "iPhone 15",
+        "year": 2023,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a16"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "17.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "display.dynamic-island",
+            "display.fluid",
+            "id.face"
+        ],
+        "internal_names": ["D37AP"],
+        "a_numbers": ["A2846", "A3089", "A3090", "A3092"],
+        "ids": ["iPhone15,4"]
+    },
+    {
+        "name": "iPhone 15 Plus",
+        "year": 2023,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a16"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "17.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "display.dynamic-island",
+            "display.fluid",
+            "id.face"
+        ],
+        "internal_names": ["D38AP"],
+        "a_numbers": ["A2847", "A3093", "A3094", "A3096"],
+        "ids": ["iPhone15,5"]
+    },
+    {
+        "name": "iPhone 15 Pro",
+        "year": 2023,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a17pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "17.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["D83AP"],
+        "a_numbers": ["A2848", "A3101", "A3102", "A3104"],
+        "ids": ["iPhone16,1"]
+    },
+    {
+        "name": "iPhone 15 Pro Max",
+        "year": 2023,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a17pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "17.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["D84AP"],
+        "a_numbers": ["A2849", "A3105", "A3106", "A3108"],
+        "ids": ["iPhone16,2"]
+    },
+    {
+        "name": "iPhone 16",
+        "year": 2024,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a18"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "18.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "button.camera",
+            "display.dynamic-island",
+            "display.fluid",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["D47AP"],
+        "a_numbers": ["A3081", "A3286", "A3287", "A3288"],
+        "ids": ["iPhone17,3"]
+    },
+    {
+        "name": "iPhone 16 Plus",
+        "year": 2024,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a18"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "18.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "button.camera",
+            "display.dynamic-island",
+            "display.fluid",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["D48AP"],
+        "a_numbers": ["A3082", "A3289", "A3290", "A3291"],
+        "ids": ["iPhone17,4"]
+    },
+    {
+        "name": "iPhone 16 Pro",
+        "year": 2024,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a18pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "18.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["D93AP"],
+        "a_numbers": ["A3083", "A3292", "A3293", "A3294"],
+        "ids": ["iPhone17,1"]
+    },
+    {
+        "name": "iPhone 16 Pro Max",
+        "year": 2024,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a18pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "18.0"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["D94AP"],
+        "a_numbers": ["A3084", "A3295", "A3296", "A3297"],
+        "ids": ["iPhone17,2"]
+    },
+    {
+        "name": "iPhone 16e",
+        "year": 2025,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a18"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "18.3"
+                }
+            }
+        ],
+        "features":[
+            "button.action",
+            "display.fluid",
+            "display.notch",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["V59AP"],
+        "a_numbers": ["A3212", "A3408", "A3409", "A3410"],
+        "ids": ["iPhone17,5"]
+    }
+]

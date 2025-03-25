@@ -1,0 +1,10 @@
+{
+    "visionos": {
+        "id": "visionos",
+        "name": "visionOS",
+        "version": {
+            "min": "1.0",
+            "max": "2.3.2"
+        }
+    }
+}

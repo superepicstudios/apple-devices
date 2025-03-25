@@ -1,0 +1,18 @@
+{
+    "m1": {
+        "id": "m1",
+        "name": "Apple M1"
+    },
+    "m2": {
+        "id": "m2",
+        "name": "Apple M2"
+    },
+    "m3": {
+        "id": "m3",
+        "name": "Apple M3"
+    },
+    "m4": {
+        "id": "m4",
+        "name": "Apple M4"
+    }
+}

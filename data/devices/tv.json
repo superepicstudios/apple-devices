@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Apple TV",
+        "year": 2007,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/intel.json#/pm1"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/sw",
+                "device_version": {
+                    "min": "1.0",
+                    "max": "3.0.2"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["iTV"],
+        "a_numbers": ["A1218"],
+        "ids": ["AppleTV1,1"]
+    },
+    {
+        "name": "Apple TV",
+        "gen_name": "Apple TV (2nd Gen)",
+        "year": 2010,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a4"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/sw",
+                "device_version": {
+                    "min": "4.0",
+                    "max": "6.2.1"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["K66AP"],
+        "a_numbers": ["A1378"],
+        "ids": ["AppleTV2,1"]
+    },
+    {
+        "name": "Apple TV",
+        "gen_name": "Apple TV (3rd Gen)",
+        "year": 2012,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a5"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/sw",
+                "device_version": {
+                    "min": "5.0",
+                    "max": "7.9"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["J33AP", "J33IAP"],
+        "a_numbers": ["A1427", "A1469"],
+        "ids": ["AppleTV3,1", "AppleTV3,2"]
+    },
+    {
+        "name": "Apple TV HD",
+        "year": 2015,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a8"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/tvos",
+                "device_version": {
+                    "min": "9.0"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["J42dAP"],
+        "a_numbers": ["A1625"],
+        "ids": ["AppleTV5,3"]
+    },
+    {
+        "name": "Apple TV 4K",
+        "year": 2017,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a10x"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/tvos",
+                "device_version": {
+                    "min": "11.0"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["J105aAP"],
+        "a_numbers": ["A1842"],
+        "ids": ["AppleTV6,2"]
+    },
+    {
+        "name": "Apple TV 4K",
+        "gen_name": "Apple TV 4K (2nd Gen)",
+        "year": 2021,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a12"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/tvos",
+                "device_version": {
+                    "min": "14.5"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["J305AP"],
+        "a_numbers": ["A2169"],
+        "ids": ["AppleTV11,1"]
+    },
+    {
+        "name": "Apple TV 4K",
+        "gen_name": "Apple TV 4K (3rd Gen)",
+        "year": 2022,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a15"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/tvos",
+                "device_version": {
+                    "min": "16.0"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["J255AP"],
+        "a_numbers": ["A2737", "A2843"],
+        "ids": ["AppleTV14,1"]
+    }
+]

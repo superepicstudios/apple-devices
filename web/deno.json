@@ -1,0 +1,28 @@
+{
+    "workspace": [
+        "apps/api",
+        "apps/www",
+        "pkgs/types",
+        "pkgs/utils"
+    ],
+    "tasks": {
+        "env": "export TZ=UTC && NODE_ENV=dev",
+        "api": "deno task --cwd apps/api start",
+        "www": "deno task --cwd apps/www start"
+    },
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "lint": {
+        "rules": {
+            "exclude": [
+                "no-namespace",
+                "no-explicit-any",
+                "require-await"
+            ]
+        }
+    },
+    "nodeModulesDir": "auto",
+    "unstable": ["detect-cjs"]
+}

@@ -1,0 +1,69 @@
+[
+    {
+        "name": "HomePod",
+        "year": 2018,
+        "family": {
+            "$ref": "../family.json#/homepod"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a8"
+        },
+        "software": [
+            {
+                "$ref": "../software/audioos.json#/audioos",
+                "device_version": {
+                    "min": "11.0.2"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["B238AP", "B238aAP"],
+        "a_numbers": ["A1639"],
+        "ids": ["AudioAccessory1,1", "AudioAccessory1,2"]
+    },
+    {
+        "name": "HomePod mini",
+        "year": 2020,
+        "family": {
+            "$ref": "../family.json#/homepod"
+        },
+        "chip": {
+            "$ref": "../chips/s.json#/s5"
+        },
+        "software": [
+            {
+                "$ref": "../software/audioos.json#/audioos",
+                "device_version": {
+                    "min": "14.1"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["B520AP"],
+        "a_numbers": ["A2374"],
+        "ids": ["AudioAccessory5,1"]
+    },
+    {
+        "name": "HomePod",
+        "gen_name": "HomePod (2nd Gen)",
+        "year": 2023,
+        "family": {
+            "$ref": "../family.json#/homepod"
+        },
+        "chip": {
+            "$ref": "../chips/s.json#/s7"
+        },
+        "software": [
+            {
+                "$ref": "../software/audioos.json#/audioos",
+                "device_version": {
+                    "min": "16.0"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["B620AP"],
+        "a_numbers": ["A2825"],
+        "ids": ["AudioAccessory6,1"]
+    }
+]

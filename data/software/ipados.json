@@ -1,0 +1,10 @@
+{
+    "ipados": {
+        "id": "ipados",
+        "name": "iPadOS",
+        "version": {
+            "min": "13.1",
+            "max": "18.3.2"
+        }
+    }
+}

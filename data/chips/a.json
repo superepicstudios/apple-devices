@@ -1,0 +1,94 @@
+{
+    "a4": {
+        "id": "a4",
+        "name": "Apple A4"
+    },
+    "a5": {
+        "id": "a5",
+        "name": "Apple A5"
+    },
+    "a5x": {
+        "id": "a5x",
+        "name": "Apple A5X"
+    },
+    "a6": {
+        "id": "a6",
+        "name": "Apple A6"
+    },
+    "a6x": {
+        "id": "a6x",
+        "name": "Apple A6X"
+    },
+    "a7": {
+        "id": "a7",
+        "name": "Apple A7"
+    },
+    "a8": {
+        "id": "a8",
+        "name": "Apple A8"
+    },
+    "a8x": {
+        "id": "a8x",
+        "name": "Apple A8X"
+    },
+    "a9": {
+        "id": "a9",
+        "name": "Apple A9"
+    },
+    "a9x": {
+        "id": "a9x",
+        "name": "Apple A9X"
+    },
+    "a10": {
+        "id": "a10",
+        "name": "Apple A10 Fusion"
+    },
+    "a10x": {
+        "id": "a10x",
+        "name": "Apple A10X Fusion"
+    },
+    "a11": {
+        "id": "a11",
+        "name": "Apple A11 Bionic"
+    },
+    "a12": {
+        "id": "a12",
+        "name": "Apple A12 Bionic"
+    },
+    "a12x": {
+        "id": "a12x",
+        "name": "Apple A12X Bionic"
+    },
+    "a12z": {
+        "id": "a12z",
+        "name": "Apple A12Z Bionic"
+    },
+    "a13": {
+        "id": "a13",
+        "name": "Apple A13 Bionic"
+    },
+    "a14": {
+        "id": "a14",
+        "name": "Apple A14 Bionic"
+    },
+    "a15": {
+        "id": "a15",
+        "name": "Apple A15 Bionic"
+    },
+    "a16": {
+        "id": "a16",
+        "name": "Apple A16 Bionic"
+    },
+    "a17pro": {
+        "id": "a17pro",
+        "name": "Apple A17 Pro"
+    },
+    "a18": {
+        "id": "a18",
+        "name": "Apple A18"
+    },
+    "a18pro": {
+        "id": "a18pro",
+        "name": "Apple A18 Pro"
+    }
+}

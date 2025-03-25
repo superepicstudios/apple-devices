@@ -1,0 +1,18 @@
+{
+    "iphoneos": {
+        "id": "iphoneos",
+        "name": "iPhone OS",
+        "version": {
+            "min": "1.0",
+            "max": "3.2.2"
+        }
+    },
+    "ios": {
+        "id": "ios",
+        "name": "iOS",
+        "version": {
+            "min": "4.0",
+            "max": "18.3.2"
+        }
+    }
+}

@@ -1,0 +1,974 @@
+# Devices → iPhone
+
+## iPhone
+- **Marketing Name**: `iPhone`
+- **Family**: `iPhone`
+- **Year**: `2007`
+- **Chip**: `APL0098`
+- **Software**: `iPhone OS` (_1.0...3.2.2_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `M68AP`
+- **A Numbers**
+  -  `A1203`
+- **Identifiers**
+  -  `iPhone1,1`
+
+## iPhone 3G
+- **Marketing Name**: `iPhone 3G`
+- **Family**: `iPhone`
+- **Year**: `2008`
+- **Chip**: `APL0098`
+- **Software**
+  - `iPhone OS` (_2.0...3.2.2_)
+  - `iOS` (_4.0...4.2.1_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `N82AP`
+- **A Numbers**
+  -  `A1241`
+  -  `A1324`
+- **Identifiers**
+  -  `iPhone1,2`
+
+## iPhone 3GS
+- **Marketing Name**: `iPhone 3GS`
+- **Family**: `iPhone`
+- **Year**: `2009`
+- **Chip**: `APL0298`
+- **Software**
+  - `iPhone OS` (_3.0...3.2.2_)
+  - `iOS` (_4.0...6.1.6_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `N88AP`
+- **A Numbers**
+  -  `A1303`
+  -  `A1325`
+- **Identifiers**
+  -  `iPhone2,1`
+
+## iPhone 4
+- **Marketing Name**: `iPhone 4`
+- **Family**: `iPhone`
+- **Year**: `2010`
+- **Chip**: `Apple A4`
+- **Software**: `iOS` (_4.0...7.1.2_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `N90AP`
+  -  `N90bAP`
+  -  `N92AP`
+- **A Numbers**
+  -  `A1332`
+  -  `A1349`
+- **Identifiers**
+  -  `iPhone3,1`
+  -  `iPhone3,2`
+  -  `iPhone3,3`
+
+## iPhone 4S
+- **Marketing Name**: `iPhone 4S`
+- **Family**: `iPhone`
+- **Year**: `2011`
+- **Chip**: `Apple A5`
+- **Software**: `iOS` (_5.0...9.3.6_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `N94AP`
+- **A Numbers**
+  -  `A1387`
+  -  `A1431`
+- **Identifiers**
+  -  `iPhone4,1`
+
+## iPhone 5
+- **Marketing Name**: `iPhone 5`
+- **Family**: `iPhone`
+- **Year**: `2012`
+- **Chip**: `Apple A6`
+- **Software**: `iOS` (_6.0...10.3.4_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `N41AP`
+  -  `N42AP`
+- **A Numbers**
+  -  `A1428`
+  -  `A1429`
+  -  `A1442`
+- **Identifiers**
+  -  `iPhone5,1`
+  -  `iPhone5,2`
+
+## iPhone 5c
+- **Marketing Name**: `iPhone 5c`
+- **Family**: `iPhone`
+- **Year**: `2013`
+- **Chip**: `Apple A6`
+- **Software**: `iOS` (_7.0...10.3.4_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `N48AP`
+  -  `N49AP`
+- **A Numbers**
+  -  `A1456`
+  -  `A1532`
+  -  `A1507`
+  -  `A1516`
+  -  `A1526`
+  -  `A1529`
+- **Identifiers**
+  -  `iPhone5,3`
+  -  `iPhone5,4`
+
+## iPhone 5S
+- **Marketing Name**: `iPhone 5S`
+- **Family**: `iPhone`
+- **Year**: `2013`
+- **Chip**: `Apple A7`
+- **Software**: `iOS` (_7.0...12.5.7_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `N51AP`
+  -  `N53AP`
+- **A Numbers**
+  -  `A1453`
+  -  `A1533`
+  -  `A1457`
+  -  `A1518`
+  -  `A1528`
+  -  `A1530`
+- **Identifiers**
+  -  `iPhone6,1`
+  -  `iPhone6,2`
+
+## iPhone 6
+- **Marketing Name**: `iPhone 6`
+- **Family**: `iPhone`
+- **Year**: `2014`
+- **Chip**: `Apple A8`
+- **Software**: `iOS` (_8.0...12.5.7_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `N61AP`
+- **A Numbers**
+  -  `A1549`
+  -  `A1586`
+  -  `A1589`
+- **Identifiers**
+  -  `iPhone7,2`
+
+## iPhone 6 Plus
+- **Marketing Name**: `iPhone 6 Plus`
+- **Family**: `iPhone`
+- **Year**: `2014`
+- **Chip**: `Apple A6`
+- **Software**: `iOS` (_8.0...12.5.7_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `N56AP`
+- **A Numbers**
+  -  `A1522`
+  -  `A1524`
+  -  `A1593`
+- **Identifiers**
+  -  `iPhone7,1`
+
+## iPhone 6S
+- **Marketing Name**: `iPhone 6S`
+- **Family**: `iPhone`
+- **Year**: `2015`
+- **Chip**: `Apple A9`
+- **Software**: `iOS` (_9.0...15.8.3_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `N71AP`
+  -  `N71mAP`
+- **A Numbers**
+  -  `A1633`
+  -  `A1688`
+  -  `A1691`
+  -  `A1700`
+- **Identifiers**
+  -  `iPhone8,1`
+
+## iPhone 6S Plus
+- **Marketing Name**: `iPhone 6S Plus`
+- **Family**: `iPhone`
+- **Year**: `2015`
+- **Chip**: `Apple A9`
+- **Software**: `iOS` (_9.0...15.8.3_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `N66AP`
+  -  `N66mAP`
+- **A Numbers**
+  -  `A1634`
+  -  `A1687`
+  -  `A1690`
+  -  `A1699`
+- **Identifiers**
+  -  `iPhone8,2`
+
+## iPhone SE
+- **Marketing Name**: `iPhone SE`
+- **Family**: `iPhone`
+- **Year**: `2016`
+- **Chip**: `Apple A9`
+- **Software**: `iOS` (_9.3...15.8.3_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `N69AP`
+  -  `N69uAP`
+- **A Numbers**
+  -  `A1662`
+  -  `A1723`
+  -  `A1724`
+- **Identifiers**
+  -  `iPhone8,4`
+
+## iPhone 7
+- **Marketing Name**: `iPhone 7`
+- **Family**: `iPhone`
+- **Year**: `2016`
+- **Chip**: `Apple A10 Fusion`
+- **Software**: `iOS` (_10.0...15.8.3_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `D10AP`
+  -  `D101AP`
+- **A Numbers**
+  -  `A1660`
+  -  `A1779`
+  -  `A1780`
+  -  `A1778`
+- **Identifiers**
+  -  `iPhone9,1`
+  -  `iPhone9,3`
+
+## iPhone 7 Plus
+- **Marketing Name**: `iPhone 7 Plus`
+- **Family**: `iPhone`
+- **Year**: `2016`
+- **Chip**: `Apple A10 Fusion`
+- **Software**: `iOS` (_10.0...15.8.3_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `D11AP`
+  -  `D111AP`
+- **A Numbers**
+  -  `A1661`
+  -  `A1785`
+  -  `A1786`
+  -  `A1784`
+- **Identifiers**
+  -  `iPhone9,2`
+  -  `iPhone9,4`
+
+## iPhone 8
+- **Marketing Name**: `iPhone 8`
+- **Family**: `iPhone`
+- **Year**: `2017`
+- **Chip**: `Apple A11 Bionic`
+- **Software**: `iOS` (_11.0...16.7.10_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `D20AP`
+  -  `D201AP`
+- **A Numbers**
+  -  `A1863`
+  -  `A1906`
+  -  `A1907`
+  -  `A1905`
+- **Identifiers**
+  -  `iPhone10,1`
+  -  `iPhone10,4`
+
+## iPhone 8 Plus
+- **Marketing Name**: `iPhone 8 Plus`
+- **Family**: `iPhone`
+- **Year**: `2017`
+- **Chip**: `Apple A11 Bionic`
+- **Software**: `iOS` (_11.0...16.7.10_)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `D21AP`
+  -  `D211AP`
+- **A Numbers**
+  -  `A1864`
+  -  `A1898`
+  -  `A1899`
+  -  `A1897`
+- **Identifiers**
+  -  `iPhone10,2`
+  -  `iPhone10,5`
+
+## iPhone X
+- **Marketing Name**: `iPhone X`
+- **Family**: `iPhone`
+- **Year**: `2017`
+- **Chip**: `Apple A11 Bionic`
+- **Software**: `iOS` (_11.0.1...16.7.10_)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D22AP`
+  -  `D221AP`
+- **A Numbers**
+  -  `A1865`
+  -  `A1902`
+  -  `A1901`
+- **Identifiers**
+  -  `iPhone10,3`
+  -  `iPhone10,6`
+
+## iPhone XR
+- **Marketing Name**: `iPhone XR`
+- **Family**: `iPhone`
+- **Year**: `2018`
+- **Chip**: `Apple A12 Bionic`
+- **Software**: `iOS` (_12.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `N841AP`
+- **A Numbers**
+  -  `A1984`
+  -  `A2105`
+  -  `A2106`
+  -  `A2108`
+- **Identifiers**
+  -  `iPhone11,8`
+
+## iPhone XS
+- **Marketing Name**: `iPhone XS`
+- **Family**: `iPhone`
+- **Year**: `2018`
+- **Chip**: `Apple A12 Bionic`
+- **Software**: `iOS` (_12.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D321AP`
+- **A Numbers**
+  -  `A1920`
+  -  `A2097`
+  -  `A2098`
+  -  `A2100`
+- **Identifiers**
+  -  `iPhone11,2`
+
+## iPhone XS Max
+- **Marketing Name**: `iPhone XS Max`
+- **Family**: `iPhone`
+- **Year**: `2018`
+- **Chip**: `Apple A12 Bionic`
+- **Software**: `iOS` (_12.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D331pAP`
+  -  `D331AP`
+- **A Numbers**
+  -  `A1921`
+  -  `A2101`
+  -  `A2102`
+  -  `A2104`
+  -  `A2103`
+- **Identifiers**
+  -  `iPhone11,4`
+  -  `iPhone11,6`
+
+## iPhone 11
+- **Marketing Name**: `iPhone 11`
+- **Family**: `iPhone`
+- **Year**: `2019`
+- **Chip**: `Apple A13 Bionic`
+- **Software**: `iOS` (_13.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `N104AP`
+- **A Numbers**
+  -  `A2111`
+  -  `A2221`
+  -  `A2223`
+- **Identifiers**
+  -  `iPhone12,1`
+
+## iPhone 11 Pro
+- **Marketing Name**: `iPhone 11 Pro`
+- **Family**: `iPhone`
+- **Year**: `2019`
+- **Chip**: `Apple A13 Bionic`
+- **Software**: `iOS` (_13.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D421AP`
+- **A Numbers**
+  -  `A2160`
+  -  `A2215`
+  -  `A2217`
+- **Identifiers**
+  -  `iPhone12,3`
+
+## iPhone 11 Pro Max
+- **Marketing Name**: `iPhone 11 Pro Max`
+- **Family**: `iPhone`
+- **Year**: `2019`
+- **Chip**: `Apple A13 Bionic`
+- **Software**: `iOS` (_13.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D431AP`
+- **A Numbers**
+  -  `A2161`
+  -  `A2220`
+  -  `A2218`
+- **Identifiers**
+  -  `iPhone12,5`
+
+## iPhone SE (2nd Gen)
+- **Marketing Name**: `iPhone SE`
+- **Generational Name**: `iPhone SE (2nd Gen)`
+- **Family**: `iPhone`
+- **Year**: `2020`
+- **Chip**: `Apple A13 Bionic`
+- **Software**: `iOS` (_13.4..._)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `D79AP`
+- **A Numbers**
+  -  `A2275`
+  -  `A2296`
+  -  `A2298`
+- **Identifiers**
+  -  `iPhone12,8`
+
+## iPhone 12
+- **Marketing Name**: `iPhone 12`
+- **Family**: `iPhone`
+- **Year**: `2020`
+- **Chip**: `Apple A14 Bionic`
+- **Software**: `iOS` (_14.1..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D53gAP`
+- **A Numbers**
+  -  `A2172`
+  -  `A2402`
+  -  `A2404`
+  -  `A2403`
+- **Identifiers**
+  -  `iPhone13,2`
+
+## iPhone 12 mini
+- **Marketing Name**: `iPhone 12 mini`
+- **Family**: `iPhone`
+- **Year**: `2020`
+- **Chip**: `Apple A14 Bionic`
+- **Software**: `iOS` (_14.1..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D52gAP`
+- **A Numbers**
+  -  `A2176`
+  -  `A2398`
+  -  `A2400`
+  -  `A2399`
+- **Identifiers**
+  -  `iPhone13,1`
+
+## iPhone 12 Pro
+- **Marketing Name**: `iPhone 12 Pro`
+- **Family**: `iPhone`
+- **Year**: `2020`
+- **Chip**: `Apple A14 Bionic`
+- **Software**: `iOS` (_14.1..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D53pAP`
+- **A Numbers**
+  -  `A2341`
+  -  `A2406`
+  -  `A2407`
+  -  `A2408`
+- **Identifiers**
+  -  `iPhone13,3`
+
+## iPhone 12 Pro Max
+- **Marketing Name**: `iPhone 12 Pro Max`
+- **Family**: `iPhone`
+- **Year**: `2020`
+- **Chip**: `Apple A14 Bionic`
+- **Software**: `iOS` (_14.1..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D54pAP`
+- **A Numbers**
+  -  `A2342`
+  -  `A2410`
+  -  `A2411`
+  -  `A2412`
+- **Identifiers**
+  -  `iPhone13,4`
+
+## iPhone 13
+- **Marketing Name**: `iPhone 13`
+- **Family**: `iPhone`
+- **Year**: `2021`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iOS` (_15.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D17AP`
+- **A Numbers**
+  -  `A2482`
+  -  `A2631`
+  -  `A2634`
+  -  `A2635`
+  -  `A2633`
+- **Identifiers**
+  -  `iPhone14,5`
+
+## iPhone 13 mini
+- **Marketing Name**: `iPhone 13 mini`
+- **Family**: `iPhone`
+- **Year**: `2021`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iOS` (_15.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D16AP`
+- **A Numbers**
+  -  `A2481`
+  -  `A2626`
+  -  `A2629`
+  -  `A2630`
+  -  `A2628`
+- **Identifiers**
+  -  `iPhone14,4`
+
+## iPhone 13 Pro
+- **Marketing Name**: `iPhone 13 Pro`
+- **Family**: `iPhone`
+- **Year**: `2021`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iOS` (_15.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D63AP`
+- **A Numbers**
+  -  `A2483`
+  -  `A2636`
+  -  `A2639`
+  -  `A2640`
+  -  `A2638`
+- **Identifiers**
+  -  `iPhone14,2`
+
+## iPhone 13 Pro Max
+- **Marketing Name**: `iPhone 13 Pro Max`
+- **Family**: `iPhone`
+- **Year**: `2021`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iOS` (_15.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D64AP`
+- **A Numbers**
+  -  `A2484`
+  -  `A2641`
+  -  `A2644`
+  -  `A2645`
+  -  `A2643`
+- **Identifiers**
+  -  `iPhone14,3`
+
+## iPhone SE (3rd Gen)
+- **Marketing Name**: `iPhone SE`
+- **Generational Name**: `iPhone SE (3rd Gen)`
+- **Family**: `iPhone`
+- **Year**: `2022`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iOS` (_15.4..._)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `D49AP`
+- **A Numbers**
+  -  `A2595`
+  -  `A2782`
+  -  `A2783`
+  -  `A2784`
+  -  `A2785`
+- **Identifiers**
+  -  `iPhone14,6`
+
+## iPhone 14
+- **Marketing Name**: `iPhone 14`
+- **Family**: `iPhone`
+- **Year**: `2022`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iOS` (_16.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D27AP`
+- **A Numbers**
+  -  `A2649`
+  -  `A2881`
+  -  `A2882`
+  -  `A2883`
+  -  `A2884`
+- **Identifiers**
+  -  `iPhone14,7`
+
+## iPhone 14 Plus
+- **Marketing Name**: `iPhone 14 Plus`
+- **Family**: `iPhone`
+- **Year**: `2022`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iOS` (_16.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+- **Internal Names**
+  -  `D28AP`
+- **A Numbers**
+  -  `A2632`
+  -  `A2885`
+  -  `A2886`
+  -  `A2887`
+  -  `A2888`
+- **Identifiers**
+  -  `iPhone14,8`
+
+## iPhone 14 Pro
+- **Marketing Name**: `iPhone 14 Pro`
+- **Family**: `iPhone`
+- **Year**: `2022`
+- **Chip**: `Apple A16 Bionic`
+- **Software**: `iOS` (_16.0..._)
+- **Features**
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+- **Internal Names**
+  -  `D73AP`
+- **A Numbers**
+  -  `A2650`
+  -  `A2889`
+  -  `A2890`
+  -  `A2891`
+  -  `A2892`
+- **Identifiers**
+  -  `iPhone15,2`
+
+## iPhone 14 Pro Max
+- **Marketing Name**: `iPhone 14 Pro Max`
+- **Family**: `iPhone`
+- **Year**: `2022`
+- **Chip**: `Apple A16 Bionic`
+- **Software**: `iOS` (_16.0..._)
+- **Features**
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+- **Internal Names**
+  -  `D74AP`
+- **A Numbers**
+  -  `A2651`
+  -  `A2893`
+  -  `A2894`
+  -  `A2895`
+  -  `A2896`
+- **Identifiers**
+  -  `iPhone15,3`
+
+## iPhone 15
+- **Marketing Name**: `iPhone 15`
+- **Family**: `iPhone`
+- **Year**: `2023`
+- **Chip**: `Apple A16 Bionic`
+- **Software**: `iOS` (_17.0..._)
+- **Features**
+  -  `button.action`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `id.face`
+- **Internal Names**
+  -  `D37AP`
+- **A Numbers**
+  -  `A2846`
+  -  `A3089`
+  -  `A3090`
+  -  `A3092`
+- **Identifiers**
+  -  `iPhone15,4`
+
+## iPhone 15 Plus
+- **Marketing Name**: `iPhone 15 Plus`
+- **Family**: `iPhone`
+- **Year**: `2023`
+- **Chip**: `Apple A16 Bionic`
+- **Software**: `iOS` (_17.0..._)
+- **Features**
+  -  `button.action`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `id.face`
+- **Internal Names**
+  -  `D38AP`
+- **A Numbers**
+  -  `A2847`
+  -  `A3093`
+  -  `A3094`
+  -  `A3096`
+- **Identifiers**
+  -  `iPhone15,5`
+
+## iPhone 15 Pro
+- **Marketing Name**: `iPhone 15 Pro`
+- **Family**: `iPhone`
+- **Year**: `2023`
+- **Chip**: `Apple A17 Pro`
+- **Software**: `iOS` (_17.0..._)
+- **Features**
+  -  `button.action`
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `D83AP`
+- **A Numbers**
+  -  `A2848`
+  -  `A3101`
+  -  `A3102`
+  -  `A3104`
+- **Identifiers**
+  -  `iPhone16,1`
+
+## iPhone 15 Pro Max
+- **Marketing Name**: `iPhone 15 Pro Max`
+- **Family**: `iPhone`
+- **Year**: `2023`
+- **Chip**: `Apple A17 Pro`
+- **Software**: `iOS` (_17.0..._)
+- **Features**
+  -  `button.action`
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `D84AP`
+- **A Numbers**
+  -  `A2849`
+  -  `A3105`
+  -  `A3106`
+  -  `A3108`
+- **Identifiers**
+  -  `iPhone16,2`
+
+## iPhone 16
+- **Marketing Name**: `iPhone 16`
+- **Family**: `iPhone`
+- **Year**: `2024`
+- **Chip**: `Apple A18`
+- **Software**: `iOS` (_18.0..._)
+- **Features**
+  -  `button.action`
+  -  `button.camera`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `D47AP`
+- **A Numbers**
+  -  `A3081`
+  -  `A3286`
+  -  `A3287`
+  -  `A3288`
+- **Identifiers**
+  -  `iPhone17,3`
+
+## iPhone 16 Plus
+- **Marketing Name**: `iPhone 16 Plus`
+- **Family**: `iPhone`
+- **Year**: `2024`
+- **Chip**: `Apple A18`
+- **Software**: `iOS` (_18.0..._)
+- **Features**
+  -  `button.action`
+  -  `button.camera`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `D48AP`
+- **A Numbers**
+  -  `A3082`
+  -  `A3289`
+  -  `A3290`
+  -  `A3291`
+- **Identifiers**
+  -  `iPhone17,4`
+
+## iPhone 16 Pro
+- **Marketing Name**: `iPhone 16 Pro`
+- **Family**: `iPhone`
+- **Year**: `2024`
+- **Chip**: `Apple A18 Pro`
+- **Software**: `iOS` (_18.0..._)
+- **Features**
+  -  `button.action`
+  -  `button.camera`
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `D93AP`
+- **A Numbers**
+  -  `A3083`
+  -  `A3292`
+  -  `A3293`
+  -  `A3294`
+- **Identifiers**
+  -  `iPhone17,1`
+
+## iPhone 16 Pro Max
+- **Marketing Name**: `iPhone 16 Pro Max`
+- **Family**: `iPhone`
+- **Year**: `2024`
+- **Chip**: `Apple A18 Pro`
+- **Software**: `iOS` (_18.0..._)
+- **Features**
+  -  `button.action`
+  -  `button.camera`
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `D94AP`
+- **A Numbers**
+  -  `A3084`
+  -  `A3295`
+  -  `A3296`
+  -  `A3297`
+- **Identifiers**
+  -  `iPhone17,2`
+
+## iPhone 16e
+- **Marketing Name**: `iPhone 16e`
+- **Family**: `iPhone`
+- **Year**: `2025`
+- **Chip**: `Apple A18`
+- **Software**: `iOS` (_18.3..._)
+- **Features**
+  -  `button.action`
+  -  `display.fluid`
+  -  `display.notch`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `V59AP`
+- **A Numbers**
+  -  `A3212`
+  -  `A3408`
+  -  `A3409`
+  -  `A3410`
+- **Identifiers**
+  -  `iPhone17,5`

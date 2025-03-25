@@ -1,0 +1,197 @@
+[
+    {
+        "name": "iPod touch",
+        "year": 2007,
+        "family": {
+            "$ref": "../family.json#/ipod"
+        },
+        "chip": {
+            "$ref": "../chips/apl.json#/98"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/iphoneos",
+                "device_version": {
+                    "min": "1.1",
+                    "max": "3.1.3"
+                }
+            }
+        ],
+        "features": [
+            "button.home"
+        ],
+        "internal_names": ["N45AP"],
+        "a_numbers": ["A1213"],
+        "ids": ["iPod1,1"]
+    },
+    {
+        "name": "iPod touch",
+        "gen_name": "iPod touch (2nd Gen)",
+        "year": 2008,
+        "family": {
+            "$ref": "../family.json#/ipod"
+        },
+        "chip": {
+            "$ref": "../chips/apl.json#/278"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/iphoneos",
+                "device_version": {
+                    "min": "2.1.1",
+                    "max": "3.2.2"
+                }
+            },
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "4.0",
+                    "max": "4.2.1"
+                }
+            }
+        ],
+        "features": [
+            "button.home"
+        ],
+        "internal_names": ["N72AP"],
+        "a_numbers": ["A1288", "A1319"],
+        "ids": ["iPod2,1"]
+    },
+    {
+        "name": "iPod touch",
+        "gen_name": "iPod touch (3rd Gen)",
+        "year": 2009,
+        "family": {
+            "$ref": "../family.json#/ipod"
+        },
+        "chip": {
+            "$ref": "../chips/apl.json#/2298"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/iphoneos",
+                "device_version": {
+                    "min": "3.1.1",
+                    "max": "3.2.2"
+                }
+            },
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "4.0",
+                    "max": "5.1.1"
+                }
+            }
+        ],
+        "features": [
+            "button.home"
+        ],
+        "internal_names": ["N18AP"],
+        "a_numbers": ["A1318"],
+        "ids": ["iPod3,1"]
+    },
+    {
+        "name": "iPod touch",
+        "gen_name": "iPod touch (4th Gen)",
+        "year": 2010,
+        "family": {
+            "$ref": "../family.json#/ipod"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a4"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "4.1",
+                    "max": "6.1.6"
+                }
+            }
+        ],
+        "features": [
+            "button.home"
+        ],
+        "internal_names": ["N81AP"],
+        "a_numbers": ["A1367"],
+        "ids": ["iPod4,1"]
+    },
+    {
+        "name": "iPod touch",
+        "gen_name": "iPod touch (5th Gen)",
+        "year": 2012,
+        "family": {
+            "$ref": "../family.json#/ipod"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a5"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "6.0",
+                    "max": "9.3.5"
+                }
+            }
+        ],
+        "features": [
+            "button.home"
+        ],
+        "internal_names": ["N78AP"],
+        "a_numbers": ["A1421"],
+        "ids": ["iPod5,1"]
+    },
+    {
+        "name": "iPod touch",
+        "gen_name": "iPod touch (6th Gen)",
+        "year": 2015,
+        "family": {
+            "$ref": "../family.json#/ipod"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a8"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "8.4",
+                    "max": "12.5.7"
+                }
+            }
+        ],
+        "features": [
+            "button.home"
+        ],
+        "internal_names": ["N102AP"],
+        "a_numbers": ["A1574"],
+        "ids": ["iPod7,1"]
+    },
+    {
+        "name": "iPod touch",
+        "gen_name": "iPod touch (7th Gen)",
+        "year": 2019,
+        "family": {
+            "$ref": "../family.json#/ipod"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a10"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "12.3",
+                    "max": "15.8.3"
+                }
+            }
+        ],
+        "features": [
+            "button.home"
+        ],
+        "internal_names": ["N112AP"],
+        "a_numbers": ["A2178"],
+        "ids": ["iPod9,1"]
+    }
+]

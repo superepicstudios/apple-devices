@@ -1,0 +1,10 @@
+{
+    "fw": {
+        "id": "airtag_fw",
+        "name": "AirTag Firmware",
+        "version": {
+            "min": "1.0.225",
+            "max": "2.0.73"
+        }
+    }
+}

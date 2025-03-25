@@ -1,0 +1,10 @@
+{
+    "watchos": {
+        "id": "watchos",
+        "name": "watchOS",
+        "version": {
+            "min": "1.0",
+            "max": "11.3.1"
+        }
+    }
+}

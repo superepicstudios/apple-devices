@@ -1,0 +1,24 @@
+[
+    {
+        "name": "AirTag",
+        "year": 2021,
+        "family": {
+            "$ref": "../family.json#/airtag"
+        },
+        "chip": {
+            "$ref": "../chips/u.json#/u1"
+        },
+        "software": [
+            {
+                "$ref": "../software/airtag.json#/fw",
+                "device_version": {
+                    "min": "1.0.225"
+                }
+            }
+        ],
+        "features": [],
+        "internal_names": ["B389AP"],
+        "a_numbers": ["A2187"],
+        "ids": ["AirTag1,1"]
+    }
+]

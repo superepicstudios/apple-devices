@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "description": "Apple Device API",
+    "author": "Super Epic Studios, LLC",
+    "tasks": {
+        "env": "export TZ=UTC && NODE_ENV=dev",
+        "start": {
+            "command": "deno run -A --watch src/main.ts",
+            "dependencies": ["env"]
+        },
+        "start2": "deno run -A src/main.ts"
+    },
+    "imports": {
+        "@nestjs/common": "npm:@nestjs/common@^11.0.11",
+        "@nestjs/core": "npm:@nestjs/core@^11.0.11",
+        "@nestjs/platform-express": "npm:@nestjs/platform-express@^11.0.11",
+        "@nestjs/swagger": "npm:@nestjs/swagger@^11.0.6",
+        "@nestjs/testing": "npm:@nestjs/testing@^11.0.11",
+        "@std/dotenv": "jsr:@std/dotenv@^0.225.3",
+        "@std/fmt": "jsr:@std/fmt@^1.0.5",
+        "@stdext/crypto": "jsr:@stdext/crypto@^0.1.0",
+        "@std/expect": "jsr:@std/expect@^1.0.13",
+        "@zilla/logger": "jsr:@zilla/logger@^1.0.1",
+        "class-transformer": "npm:class-transformer@^0.5.1",
+        "class-validator": "npm:class-validator@^0.14.1",
+        "date-fns": "npm:date-fns@^4.1.0",
+        "express": "npm:express@^4.21.2",
+        "is-what": "npm:is-what@^5.2.0",
+        "joi": "npm:joi@^17.13.3"
+    }
+}

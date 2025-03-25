@@ -1,0 +1,925 @@
+# Devices → iPad
+
+## iPad
+- **Marketing Name**: `iPad`
+- **Family**: `iPad`
+- **Year**: `2010`
+- **Chip**: `Apple A4`
+- **Software**
+  - `iPhone OS` (_3.2...3.2.2_)
+  - `iOS` (_4.0...5.1.1_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `K48AP`
+- **A Numbers**
+  -  `A1219`
+  -  `A1337`
+- **Identifiers**
+  -  `iPad1,1`
+  -  `iPad1,2`
+
+## iPad 2
+- **Marketing Name**: `iPad 2`
+- **Family**: `iPad`
+- **Year**: `2011`
+- **Chip**: `Apple A5`
+- **Software**: `iOS` (_4.3...9.3.6_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `K93AP`
+  -  `K94AP`
+  -  `K95AP`
+  -  `K93AAP`
+- **A Numbers**
+  -  `A1395`
+  -  `A1396`
+  -  `A1397`
+  -  `A1395`
+- **Identifiers**
+  -  `iPad2,1`
+  -  `iPad2,2`
+  -  `iPad2,3`
+  -  `iPad2,4`
+
+## iPad (3rd Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (3rd Gen)`
+- **Family**: `iPad`
+- **Year**: `2012`
+- **Chip**: `Apple A5X`
+- **Software**: `iOS` (_5.1...9.3.5_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J1AP`
+  -  `J2AP`
+  -  `J2AAP`
+- **A Numbers**
+  -  `A1416`
+  -  `A1403`
+  -  `A1430`
+- **Identifiers**
+  -  `iPad3,1`
+  -  `iPad3,2`
+  -  `iPad3,3`
+
+## iPad mini
+- **Marketing Name**: `iPad mini`
+- **Family**: `iPad`
+- **Year**: `2012`
+- **Chip**: `Apple A5`
+- **Software**: `iOS` (_6.0...9.3.5_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `P105AP`
+  -  `P106AP`
+  -  `P107AP`
+- **A Numbers**
+  -  `A1432`
+  -  `A1454`
+  -  `A1455`
+- **Identifiers**
+  -  `iPad2,5`
+  -  `iPad2,6`
+  -  `iPad2,7`
+
+## iPad (4th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (4th Gen)`
+- **Family**: `iPad`
+- **Year**: `2012`
+- **Chip**: `Apple A6X`
+- **Software**: `iOS` (_6.0...10.3.3_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `P101AP`
+  -  `P102AP`
+  -  `P103AP`
+- **A Numbers**
+  -  `A1458`
+  -  `A1459`
+  -  `A1460`
+- **Identifiers**
+  -  `iPad3,4`
+  -  `iPad3,5`
+  -  `iPad3,6`
+
+## iPad Air
+- **Marketing Name**: `iPad Air`
+- **Family**: `iPad`
+- **Year**: `2013`
+- **Chip**: `Apple A7`
+- **Software**: `iOS` (_7.0.3...12.5.7_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J71AP`
+  -  `J72AP`
+  -  `J73AP`
+- **A Numbers**
+  -  `A1474`
+  -  `A1475`
+  -  `A1476`
+- **Identifiers**
+  -  `iPad4,1`
+  -  `iPad4,2`
+  -  `iPad4,3`
+
+## iPad mini 2
+- **Marketing Name**: `iPad mini 2`
+- **Family**: `iPad`
+- **Year**: `2013`
+- **Chip**: `Apple A7`
+- **Software**: `iOS` (_7.0.3...12.5.7_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J85AP`
+  -  `J86AP`
+  -  `J87AP`
+- **A Numbers**
+  -  `A1489`
+  -  `A1490`
+  -  `A1491`
+- **Identifiers**
+  -  `iPad4,4`
+  -  `iPad4,5`
+  -  `iPad4,6`
+
+## iPad mini 3
+- **Marketing Name**: `iPad mini 3`
+- **Family**: `iPad`
+- **Year**: `2014`
+- **Chip**: `Apple A7`
+- **Software**: `iOS` (_8.1...12.5.7_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J85mAP`
+  -  `J86mAP`
+  -  `J87mAP`
+- **A Numbers**
+  -  `A1599`
+  -  `A1600`
+  -  `A1601`
+- **Identifiers**
+  -  `iPad4,7`
+  -  `iPad4,8`
+  -  `iPad4,9`
+
+## iPad Air 2
+- **Marketing Name**: `iPad Air 2`
+- **Family**: `iPad`
+- **Year**: `2014`
+- **Chip**: `Apple A8X`
+- **Software**
+  - `iOS` (_8.1...13.0_)
+  - `iPadOS` (_13.1...15.8.3_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J81AP`
+  -  `J82AP`
+- **A Numbers**
+  -  `A1566`
+  -  `A1567`
+- **Identifiers**
+  -  `iPad5,3`
+  -  `iPad5,4`
+
+## iPad mini 4
+- **Marketing Name**: `iPad mini 4`
+- **Family**: `iPad`
+- **Year**: `2015`
+- **Chip**: `Apple A8`
+- **Software**
+  - `iOS` (_9.0...13.0_)
+  - `iPadOS` (_13.1...15.8.3_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J96AP`
+  -  `J97AP`
+- **A Numbers**
+  -  `A1538`
+  -  `A1550`
+- **Identifiers**
+  -  `iPad5,1`
+  -  `iPad5,2`
+
+## iPad Pro (12.9-inch)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (12.9-inch)`
+- **Family**: `iPad`
+- **Year**: `2015`
+- **Chip**: `Apple A9X`
+- **Software**
+  - `iOS` (_9.1...13.0_)
+  - `iPadOS` (_13.1...16.7.10_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J98aAP`
+  -  `J99aAP`
+- **A Numbers**
+  -  `A1584`
+  -  `A1652`
+- **Identifiers**
+  -  `iPad6,7`
+  -  `iPad6,8`
+
+## iPad Pro (9.7-inch)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (9.7-inch)`
+- **Family**: `iPad`
+- **Year**: `2016`
+- **Chip**: `Apple A9X`
+- **Software**
+  - `iOS` (_9.3...13.0_)
+  - `iPadOS` (_13.1...16.7.10_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J127AP`
+  -  `J128AP`
+- **A Numbers**
+  -  `A1673`
+  -  `A1674`
+  -  `A1675`
+- **Identifiers**
+  -  `iPad6,3`
+  -  `iPad6,4`
+
+## iPad (5th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (5th Gen)`
+- **Family**: `iPad`
+- **Year**: `2017`
+- **Chip**: `Apple A9`
+- **Software**
+  - `iOS` (_10.3...13.0_)
+  - `iPadOS` (_13.1...16.7.10_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J71sAP`
+  -  `J71tAP`
+  -  `J72sAP`
+  -  `J72tAP`
+- **A Numbers**
+  -  `A1822`
+  -  `A1823`
+- **Identifiers**
+  -  `iPad6,11`
+  -  `iPad6,12`
+
+## iPad Pro (12.9-inch) (2nd Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (12.9-inch) (2nd Gen)`
+- **Family**: `iPad`
+- **Year**: `2017`
+- **Chip**: `Apple A10X Fusion`
+- **Software**
+  - `iOS` (_10.3...13.0_)
+  - `iPadOS` (_13.1...17.7.5_)
+- **Features**
+  -  `button.home`
+  -  `display.pro-motion`
+- **Internal Names**
+  -  `J120AP`
+  -  `J121AP`
+- **A Numbers**
+  -  `A1670`
+  -  `A1671`
+  -  `A1821`
+- **Identifiers**
+  -  `iPad7,1`
+  -  `iPad7,2`
+
+## iPad Pro (10.5-inch)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (10.5-inch)`
+- **Family**: `iPad`
+- **Year**: `2017`
+- **Chip**: `Apple A10X Fusion`
+- **Software**
+  - `iOS` (_10.3...13.0_)
+  - `iPadOS` (_13.1...17.7.5_)
+- **Features**
+  -  `button.home`
+  -  `display.pro-motion`
+- **Internal Names**
+  -  `J207AP`
+  -  `J208AP`
+- **A Numbers**
+  -  `A1701`
+  -  `A1709`
+- **Identifiers**
+  -  `iPad7,3`
+  -  `iPad7,4`
+
+## iPad (6th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (6th Gen)`
+- **Family**: `iPad`
+- **Year**: `2018`
+- **Chip**: `Apple A10 Fusion`
+- **Software**
+  - `iOS` (_11.3...13.0_)
+  - `iPadOS` (_13.1...17.7.5_)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J71bAP`
+  -  `J72bAP`
+- **A Numbers**
+  -  `A1893`
+  -  `A1954`
+- **Identifiers**
+  -  `iPad7,5`
+  -  `iPad7,6`
+
+## iPad Pro (11-inch)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (11-inch)`
+- **Family**: `iPad`
+- **Year**: `2018`
+- **Chip**: `Apple A12Z Bionic`
+- **Software**
+  - `iOS` (_12.1...13.0_)
+  - `iPadOS` (_13.1..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+- **Internal Names**
+  -  `J317AP`
+  -  `J317xAP`
+  -  `J318AP`
+  -  `J318xAP`
+- **A Numbers**
+  -  `A1980`
+  -  `A1934`
+  -  `A1979`
+  -  `A2013`
+- **Identifiers**
+  -  `iPad8,1`
+  -  `iPad8,2`
+  -  `iPad8,3`
+  -  `iPad8,4`
+
+## iPad Pro (12.9-inch) (3rd Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (12.9-inch) (3rd Gen)`
+- **Family**: `iPad`
+- **Year**: `2018`
+- **Chip**: `Apple A12Z Bionic`
+- **Software**
+  - `iOS` (_12.1...13.0_)
+  - `iPadOS` (_13.1..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+- **Internal Names**
+  -  `J320AP`
+  -  `J320xAP`
+  -  `J321AP`
+  -  `J321xAP`
+- **A Numbers**
+  -  `A1876`
+  -  `A1895`
+  -  `A1983`
+  -  `A2014`
+- **Identifiers**
+  -  `iPad8,5`
+  -  `iPad8,6`
+  -  `iPad8,7`
+  -  `iPad8,8`
+
+## iPad (7th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (7th Gen)`
+- **Family**: `iPad`
+- **Year**: `2019`
+- **Chip**: `Apple A10 Fusion`
+- **Software**: `iPadOS` (_13.1..._)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J171AP`
+  -  `J172AP`
+- **A Numbers**
+  -  `A2197`
+  -  `A2198`
+  -  `A2200`
+- **Identifiers**
+  -  `iPad7,11`
+  -  `iPad7,12`
+
+## iPad mini (5th Gen)
+- **Marketing Name**: `iPad mini`
+- **Generational Name**: `iPad mini (5th Gen)`
+- **Family**: `iPad`
+- **Year**: `2019`
+- **Chip**: `Apple A12 Bionic`
+- **Software**
+  - `iOS` (_12.2...13.0_)
+  - `iPadOS` (_13.1..._)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J210AP`
+  -  `J211AP`
+- **A Numbers**
+  -  `A2133`
+  -  `A2124`
+  -  `A2125`
+  -  `A2126`
+- **Identifiers**
+  -  `iPad11,1`
+  -  `iPad11,2`
+
+## iPad Air (3rd Gen)
+- **Marketing Name**: `iPad Air`
+- **Generational Name**: `iPad Air (3rd Gen)`
+- **Family**: `iPad`
+- **Year**: `2019`
+- **Chip**: `Apple A12 Bionic`
+- **Software**
+  - `iOS` (_12.2...13.0_)
+  - `iPadOS` (_13.1..._)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J217AP`
+  -  `J218AP`
+- **A Numbers**
+  -  `A2152`
+  -  `A2123`
+  -  `A2153`
+  -  `A2154`
+- **Identifiers**
+  -  `iPad11,3`
+  -  `iPad11,4`
+
+## iPad Pro (11-inch) (2nd Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (11-inch) (2nd Gen)`
+- **Family**: `iPad`
+- **Year**: `2020`
+- **Chip**: `Apple A12Z Bionic`
+- **Software**: `iPadOS` (_13.4..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+- **Internal Names**
+  -  `J417AP`
+  -  `J418AP`
+- **A Numbers**
+  -  `A2228`
+  -  `A2068`
+  -  `A2230`
+  -  `A2231`
+- **Identifiers**
+  -  `iPad8,9`
+  -  `iPad8,10`
+
+## iPad Pro (12.9-inch) (4th Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (12.9-inch) (4th Gen)`
+- **Family**: `iPad`
+- **Year**: `2020`
+- **Chip**: `Apple A12Z Bionic`
+- **Software**: `iPadOS` (_13.4..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+- **Internal Names**
+  -  `J420AP`
+  -  `J421AP`
+- **A Numbers**
+  -  `A2229`
+  -  `A2069`
+  -  `A2232`
+  -  `A2233`
+- **Identifiers**
+  -  `iPad8,11`
+  -  `iPad8,12`
+
+## iPad (8th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (8th Gen)`
+- **Family**: `iPad`
+- **Year**: `2020`
+- **Chip**: `Apple A12 Bionic`
+- **Software**: `iPadOS` (_14.0..._)
+- **Features**
+  -  `button.home`
+- **Internal Names**
+  -  `J171aAP`
+  -  `J172aAP`
+- **A Numbers**
+  -  `A2270`
+  -  `A2428`
+  -  `A2429`
+  -  `A2430`
+- **Identifiers**
+  -  `iPad11,6`
+  -  `iPad11,7`
+
+## iPad Air (4th Gen)
+- **Marketing Name**: `iPad Air`
+- **Generational Name**: `iPad Air (4th Gen)`
+- **Family**: `iPad`
+- **Year**: `2020`
+- **Chip**: `Apple A14 Bionic`
+- **Software**: `iPadOS` (_14.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+- **Internal Names**
+  -  `J307AP`
+  -  `J308AP`
+- **A Numbers**
+  -  `A2316`
+  -  `A2324`
+  -  `A2325`
+  -  `A2072`
+- **Identifiers**
+  -  `iPad13,1`
+  -  `iPad13,2`
+
+## iPad Pro (11-inch) (3rd Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (11-inch) (3rd Gen)`
+- **Family**: `iPad`
+- **Year**: `2021`
+- **Chip**: `Apple M1`
+- **Software**: `iPadOS` (_14.5..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J517AP`
+  -  `J517xAP`
+  -  `J518AP`
+  -  `J518xAP`
+- **A Numbers**
+  -  `A2301`
+  -  `A2377`
+  -  `A2459`
+  -  `A2460`
+- **Identifiers**
+  -  `iPad13,4`
+  -  `iPad13,5`
+  -  `iPad13,6`
+  -  `iPad13,7`
+
+## iPad Pro (12.9-inch) (5th Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (12.9-inch) (5th Gen)`
+- **Family**: `iPad`
+- **Year**: `2021`
+- **Chip**: `Apple M1`
+- **Software**: `iPadOS` (_14.5..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J522AP`
+  -  `J522xAP`
+  -  `J523AP`
+  -  `J523xAP`
+- **A Numbers**
+  -  `A2378`
+  -  `A2379`
+  -  `A2461`
+  -  `A2462`
+- **Identifiers**
+  -  `iPad13,8`
+  -  `iPad13,9`
+  -  `iPad13,10`
+  -  `iPad13,11`
+
+## iPad (9th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (9th Gen)`
+- **Family**: `iPad`
+- **Year**: `2021`
+- **Chip**: `Apple A13 Bionic`
+- **Software**: `iPadOS` (_15.0..._)
+- **Features**
+  -  `button.home`
+  -  `id.touch`
+- **Internal Names**
+  -  `J181AP`
+  -  `J182AP`
+- **A Numbers**
+  -  `A2602`
+  -  `A2603`
+  -  `A2604`
+  -  `A2605`
+- **Identifiers**
+  -  `iPad12,1`
+  -  `iPad12,2`
+
+## iPad mini (6th Gen)
+- **Marketing Name**: `iPad mini`
+- **Generational Name**: `iPad mini (6th Gen)`
+- **Family**: `iPad`
+- **Year**: `2021`
+- **Chip**: `Apple A15 Bionic`
+- **Software**: `iPadOS` (_15.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+- **Internal Names**
+  -  `J310AP`
+  -  `J311AP`
+- **A Numbers**
+  -  `A2567`
+  -  `A2568`
+  -  `A2569`
+- **Identifiers**
+  -  `iPad14,1`
+  -  `iPad14,2`
+
+## iPad Air (5th Gen)
+- **Marketing Name**: `iPad Air`
+- **Generational Name**: `iPad Air (5th Gen)`
+- **Family**: `iPad`
+- **Year**: `2022`
+- **Chip**: `Apple M1`
+- **Software**: `iPadOS` (_15.4..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `intelligence`
+- **Internal Names**
+  -  `J407AP`
+  -  `J408AP`
+- **A Numbers**
+  -  `A2588`
+  -  `A2589`
+  -  `A2591`
+- **Identifiers**
+  -  `iPad13,16`
+  -  `iPad13,17`
+
+## iPad (10th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (10th Gen)`
+- **Family**: `iPad`
+- **Year**: `2022`
+- **Chip**: `Apple A14 Bionic`
+- **Software**: `iPadOS` (_16.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+- **Internal Names**
+  -  `J271AP`
+  -  `J272AP`
+- **A Numbers**
+  -  `A2696`
+  -  `A2757`
+  -  `A2777`
+  -  `A3162`
+- **Identifiers**
+  -  `iPad13,18`
+  -  `iPad13,19`
+
+## iPad Pro (11-inch) (4th Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (11-inch) (4th Gen)`
+- **Family**: `iPad`
+- **Year**: `2022`
+- **Chip**: `Apple M2`
+- **Software**: `iPadOS` (_16.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J617AP`
+  -  `J618AP`
+- **A Numbers**
+  -  `A2435`
+  -  `A2759`
+  -  `A2761`
+  -  `A2762`
+- **Identifiers**
+  -  `iPad14,3`
+  -  `iPad14,4`
+
+## iPad Pro (12.9-inch) (6th Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (12.9-inch) (6th Gen)`
+- **Family**: `iPad`
+- **Year**: `2022`
+- **Chip**: `Apple M2`
+- **Software**: `iPadOS` (_16.0..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J620AP`
+  -  `J621AP`
+- **A Numbers**
+  -  `A2436`
+  -  `A2437`
+  -  `A2764`
+  -  `A2766`
+- **Identifiers**
+  -  `iPad14,5`
+  -  `iPad14,6`
+
+## iPad Air (11-inch)
+- **Marketing Name**: `iPad Air`
+- **Generational Name**: `iPad Air (11-inch)`
+- **Family**: `iPad`
+- **Year**: `2024`
+- **Chip**: `Apple M2`
+- **Software**: `iPadOS` (_17.4..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `intelligence`
+- **Internal Names**
+  -  `J507AP`
+  -  `J508AP`
+- **A Numbers**
+  -  `A2902`
+  -  `A2903`
+  -  `A2904`
+- **Identifiers**
+  -  `iPad14,8`
+  -  `iPad14,9`
+
+## iPad Air (13-inch)
+- **Marketing Name**: `iPad Air`
+- **Generational Name**: `iPad Air (13-inch)`
+- **Family**: `iPad`
+- **Year**: `2024`
+- **Chip**: `Apple M2`
+- **Software**: `iPadOS` (_17.4..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `intelligence`
+- **Internal Names**
+  -  `J537AP`
+  -  `J538AP`
+- **A Numbers**
+  -  `A2898`
+  -  `A2899`
+  -  `A2900`
+- **Identifiers**
+  -  `iPad14,10`
+  -  `iPad14,11`
+
+## iPad mini (7th Gen)
+- **Marketing Name**: `iPad mini`
+- **Generational Name**: `iPad mini (7th Gen)`
+- **Family**: `iPad`
+- **Year**: `2024`
+- **Chip**: `Apple A17 Pro`
+- **Software**: `iPadOS` (_18.0.1..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `intelligence`
+- **Internal Names**
+  -  `J410AP`
+  -  `J411AP`
+- **A Numbers**
+  -  `A2993`
+  -  `A2995`
+  -  `A2996`
+- **Identifiers**
+  -  `iPad16,1`
+  -  `iPad16,2`
+
+## iPad Pro (11-inch) (5th Gen)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (11-inch) (5th Gen)`
+- **Family**: `iPad`
+- **Year**: `2024`
+- **Chip**: `Apple M4`
+- **Software**: `iPadOS` (_17.4..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J717AP`
+  -  `J718AP`
+- **A Numbers**
+  -  `A2836`
+  -  `A2837`
+  -  `A3006`
+- **Identifiers**
+  -  `iPad16,3`
+  -  `iPad16,4`
+
+## iPad Pro (13-inch)
+- **Marketing Name**: `iPad Pro`
+- **Generational Name**: `iPad Pro (13-inch)`
+- **Family**: `iPad`
+- **Year**: `2024`
+- **Chip**: `Apple M4`
+- **Software**: `iPadOS` (_17.4..._)
+- **Features**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J720AP`
+  -  `J721AP`
+- **A Numbers**
+  -  `A2925`
+  -  `A2926`
+  -  `A3007`
+- **Identifiers**
+  -  `iPad16,5`
+  -  `iPad16,6`
+
+## iPad Air (11-inch) (2nd Gen)
+- **Marketing Name**: `iPad Air`
+- **Generational Name**: `iPad Air (11-inch) (2nd Gen)`
+- **Family**: `iPad`
+- **Year**: `2025`
+- **Chip**: `Apple M3`
+- **Software**: `iPadOS` (_18.3.2..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `intelligence`
+- **Internal Names**
+  -  `J607AP`
+  -  `J608AP`
+- **A Numbers**
+  -  `A3266`
+  -  `A3267`
+  -  `A3270`
+- **Identifiers**
+  -  `iPad15,3`
+  -  `iPad15,4`
+
+## iPad Air (13-inch) (2nd Gen)
+- **Marketing Name**: `iPad Air`
+- **Generational Name**: `iPad Air (13-inch) (2nd Gen)`
+- **Family**: `iPad`
+- **Year**: `2025`
+- **Chip**: `Apple M3`
+- **Software**: `iPadOS` (_18.3.2..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `intelligence`
+- **Internal Names**
+  -  `J637AP`
+  -  `J638AP`
+- **A Numbers**
+  -  `A3268`
+  -  `A3269`
+  -  `A3271`
+- **Identifiers**
+  -  `iPad15,5`
+  -  `iPad15,6`
+
+## iPad (11th Gen)
+- **Marketing Name**: `iPad`
+- **Generational Name**: `iPad (11th Gen)`
+- **Family**: `iPad`
+- **Year**: `2025`
+- **Chip**: `Apple A16 Bionic`
+- **Software**: `iPadOS` (_18.3.2..._)
+- **Features**
+  -  `display.fluid`
+  -  `id.touch`
+- **Internal Names**
+  -  `J481AP`
+  -  `J482AP`
+- **A Numbers**
+  -  `A3354`
+  -  `A3355`
+  -  `A3356`
+- **Identifiers**
+  -  `iPad15,7`
+  -  `iPad15,8`

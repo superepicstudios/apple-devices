@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Apple Vision Pro",
+        "year": 2024,
+        "family": {
+            "$ref": "../family.json#/vision"
+        },
+        "chip": {
+            "$ref": "../chips/m.json#/m2"
+        },
+        "software": [
+            {
+                "$ref": "../software/visionos.json#/visionos",
+                "device_version": {
+                    "min": "1.0"
+                }
+            }
+        ],
+        "features": [
+            "id.optic",
+            "intelligence"
+        ],
+        "internal_names": ["N301AP"],
+        "a_numbers": ["A2117"],
+        "ids": ["RealityDevice14,1"]
+    }
+]

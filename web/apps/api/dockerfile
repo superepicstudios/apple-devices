@@ -1,0 +1,41 @@
+# FROM denoland/deno:alpine AS build
+# WORKDIR /app
+# COPY ./deno.json .
+# COPY ./pkgs ./pkgs
+# COPY ./apps/api ./apps/api
+# COPY ./apps/www ./apps/www
+# RUN deno install --entrypoint ./apps/api/src/main.ts
+# RUN deno cache ./apps/api/src/main.ts
+
+# FROM denoland/deno AS run
+# WORKDIR /app
+# USER deno
+
+# # Really need to find a way to not copy
+# # everything (including the www app)
+# #
+# COPY --from=build /app .
+# #
+# # COPY --from=build /app/deno.json .
+# # COPY --from=build /app/pkgs ./pkgs
+# # COPY --from=build /app/apps/api ./apps/api
+
+# EXPOSE 3000
+# CMD ["ls", "-al"]
+# # CMD ["deno", "run", "-A", "./apps/api/src/main.ts"]
+
+FROM denoland/deno:alpine AS build
+WORKDIR /app
+USER deno
+COPY . .
+RUN deno install
+RUN deno cache /app/apps/api/src/main.ts
+
+FROM denoland/deno:alpine AS run
+WORKDIR /app
+USER deno
+COPY --from=build /app .
+WORKDIR /app/apps/api
+EXPOSE 3000
+CMD ["ls", "-al"]
+# CMD ["deno", "task", "start2"]
