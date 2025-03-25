@@ -1,27 +1,18 @@
 # 📱 Apple Devices
 
-TODO: Overview
+Tired of searching the web for stupid device identifiers? Join the club. 🙄
+This is a collection of up-to-date Apple device information, metadata, and most importantly - model numbers & identifiers.
+No more diving through wiki articles & gists trying to find that one bit of device info, it's all here! 🎉
 
 ## References
 
 - https://theapplewiki.com/wiki/Models
-- https://theapplewiki.com/wiki/List_of_{DEVICE}
+- https://theapplewiki.com/wiki/List_of_{DEVICE}s
 - https://en.wikipedia.org/wiki/{DEVICE}
 
 ## Notes
 
-### Latest Software Versions
-
-- AirPod FW: 7.1.20
-- AirTag FW: 2.0.73
-- audioOS: 18.3
-- iOS: 18.3.2
-- iPadOS: 18.3.2
-- tvOS: 18.2.1
-- visionOS: 2.3.1
-- watchOS: 11.3.1
-
-### iPhoneOS -> iOS transition devices:
+### iPhoneOS → iOS transition devices:
 
 - iPod touch (2nd Gen)
 - iPod touch (3rd Gen)
@@ -29,7 +20,7 @@ TODO: Overview
 - iPhone 3GS
 - iPad
 
-### iOS -> iPadOS transition devices:
+### iOS → iPadOS transition devices:
 
 - iPad Air 2
 - iPad mini 4
@@ -39,7 +30,7 @@ TODO: Overview
 - iPad Pro (12.9-inch) (2nd Gen)
 - iPad Pro (10.5-inch)
 - iPad (6th Gen)
-- iPad Pro (11-inch) [CURRENT]
-- iPad Pro (12.9-inch) (3rd Gen) [CURRENT]
-- iPad mini (5th Gen) [CURRENT]
-- iPad Air (3rd Gen) [CURRENT]
+- iPad Pro (11-inch) ⋅ _Current_
+- iPad Pro (12.9-inch) (3rd Gen) ⋅ _Current_
+- iPad mini (5th Gen) ⋅ _Current_
+- iPad Air (3rd Gen) ⋅ _Current_
