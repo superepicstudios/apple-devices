@@ -2,8 +2,8 @@ FROM denoland/deno:alpine AS build
 WORKDIR /app
 USER deno
 COPY . .
-RUN deno install --allow-scripts
-RUN deno cache /app/apps/api/src/main.ts
+RUN deno install --reload --lock=deno.lock --frozen=false --allow-scripts
+RUN deno cache ./apps/api/src/main.ts
 
 FROM denoland/deno:alpine AS run
 ENV NODE_ENV production
