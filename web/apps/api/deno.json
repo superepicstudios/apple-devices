@@ -1,14 +1,16 @@
 {
-    "version": "1.0.0",
     "description": "Apple Device API",
     "author": "Super Epic Studios, LLC",
     "tasks": {
-        "env": "export TZ=UTC && NODE_ENV=dev",
-        "start": {
-            "command": "deno run -A --watch src/main.ts",
-            "dependencies": ["env"]
+        "tz": "export TZ=UTC",
+        "dev": {
+            "dependencies": ["tz"],
+            "command": "NODE_ENV=dev && deno run -A --watch src/main.ts"
         },
-        "start-prod": "deno run -A src/main.ts"
+        "start": {
+            "dependencies": ["tz"],
+            "command": "deno run -A src/main.ts"
+        }
     },
     "imports": {
         "@nestjs/common": "npm:@nestjs/common@^11.0.11",

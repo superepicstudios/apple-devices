@@ -1,16 +1,18 @@
 {
-    "version": "1.0.0",
     "description": "Apple Device Frontend",
     "author": "Super Epic Studios, LLC",
     "tasks": {
-        "env": "export TZ=UTC && NODE_ENV=dev",
-        "start": {
-            "command": "vitepress dev .",
-            "dependencies": ["env"]
-        },
-        "start-prod": "vitepress dev .",
+        "tz": "export TZ=UTC",
         "build": "vitepress build",
-        "preview": "vitepress preview"
+        "preview": "vitepress preview",
+        "dev": {
+            "dependencies": ["tz"],
+            "command": "vitepress dev ."
+        },
+        "start": {
+            "dependencies": ["tz"],
+            "command": "vitepress dev ."
+        }
     },
     "imports": {
         "vitepress": "npm:vitepress@^1.6.3",

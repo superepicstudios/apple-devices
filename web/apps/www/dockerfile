@@ -2,13 +2,13 @@ FROM denoland/deno:alpine AS build
 WORKDIR /app
 USER deno
 COPY . .
-RUN deno install --reload --lock=deno.lock --frozen=false --allow-scripts
+RUN deno install --allow-scripts
 
 FROM denoland/deno:alpine AS run
-ENV NODE_ENV production
 WORKDIR /app
 USER deno
 COPY --from=build /app .
 WORKDIR /app/apps/www
 EXPOSE 5173
-CMD ["deno", "task", "start-prod"]
+ENV NODE_ENV production
+CMD ["deno", "task", "start"]

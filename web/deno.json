@@ -6,9 +6,8 @@
         "pkgs/utils"
     ],
     "tasks": {
-        "env": "export TZ=UTC && NODE_ENV=dev",
-        "api": "deno task --cwd apps/api start",
-        "www": "deno task --cwd apps/www start"
+        "api": "deno task --cwd apps/api dev",
+        "www": "deno task --cwd apps/www dev"
     },
     "compilerOptions": {
         "experimentalDecorators": true,
