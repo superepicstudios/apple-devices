@@ -44,3 +44,13 @@ jobs:
             ${{ matrix.image }}:latest
 
 # ${{ matrix.image }}:${{ github.ref_name }}
+
+
+#   # deploy:
+#   #   needs: image
+#   #   runs-on: ubuntu-latest
+#   #   steps:
+#   #     - name: Deploy
+#   #       uses: digitalocean/app_action/deploy@v2
+#   #       with:
+#   #         token: ${{ secrets.DIGITALOCEAN_TOKEN }}

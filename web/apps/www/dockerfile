@@ -1,11 +1,3 @@
-# FROM denoland/deno:alpine AS build
-# WORKDIR /app
-# COPY deno.json .
-# COPY deno.lock .
-# RUN deno install --allow-scripts
-# USER deno
-# COPY . .
-
 FROM denoland/deno:alpine AS build
 WORKDIR /app
 COPY . .
