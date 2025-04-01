@@ -6,7 +6,7 @@ name: Deploy (Frontend)
 
 on:
   push:
-    branches: [dev]
+    branches: [main]
 
 permissions:
   contents: read
@@ -34,7 +34,8 @@ jobs:
           push: true
           tags: |
             ghcr.io/superepicstudios/apple-devices-frontend:latest
-            ghcr.io/superepicstudios/apple-devices-frontend:${{ github.ref_name }}
+
+# ghcr.io/superepicstudios/apple-devices-frontend:${{ github.ref_name }}
   
   # deploy:
   #   needs: image
