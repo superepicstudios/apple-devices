@@ -1,17 +1,24 @@
+# FROM denoland/deno:alpine AS build
+# WORKDIR /app
+# COPY deno.json .
+# COPY deno.lock .
+# RUN deno install --allow-scripts
+# USER deno
+# COPY . .
+# RUN deno cache ./apps/api/src/main.ts
+
 FROM denoland/deno:alpine AS build
 WORKDIR /app
-COPY deno.json .
-COPY deno.lock .
+COPY . .
 RUN deno install --allow-scripts
 USER deno
-COPY . .
 RUN deno cache ./apps/api/src/main.ts
 
 FROM denoland/deno:alpine AS run
 WORKDIR /app
-USER deno
 COPY --from=build /app .
 WORKDIR /app/apps/api
+USER deno
 ENV NODE_ENV production
 EXPOSE 3000
 CMD ["deno", "task", "start"]

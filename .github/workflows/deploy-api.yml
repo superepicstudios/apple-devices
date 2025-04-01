@@ -34,7 +34,8 @@ jobs:
         id: publish
         uses: docker/build-push-action@v6.5.0
         with:
-          context: ./web/apps/api
+          context: ./web
+          file: ./apps/api/dockerfile
           push: true
           tags: |
             ghcr.io/superepicstudios/apple-devices-api:latest
