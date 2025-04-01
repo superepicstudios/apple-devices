@@ -1,52 +1,52 @@
-name: Deploy (Frontend)
+# name: Deploy (Frontend)
+
+# # on:
+# #   push:
+# #     tags: '[0-9]+.[0-9]+.[0-9]+*'
 
 # on:
 #   push:
-#     tags: '[0-9]+.[0-9]+.[0-9]+*'
+#     branches: [main]
 
-on:
-  push:
-    branches: [main]
+# permissions:
+#   contents: read
+#   packages: write
 
-permissions:
-  contents: read
-  packages: write
+# jobs:
 
-jobs:
+#   image:
+#     if: ${{ github.ref == 'refs/heads/main' }}
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
+#       - name: Authenticate
+#         uses: docker/login-action@v3.3.0
+#         with:
+#           registry: ghcr.io
+#           username: ${{ github.actor }}
+#           password: ${{ secrets.GITHUB_TOKEN }}
+#       - name: Setup Deno
+#         uses: denoland/setup-deno@v2
+#         with:
+#           deno-version: v2.x
+#       - name: Build & Publish
+#         id: publish
+#         uses: docker/build-push-action@v6.5.0
+#         with:
+#           context: '{{defaultContext}}:web'
+#           file: web/apps/www/dockerfile
+#           push: true
+#           tags: |
+#             ghcr.io/superepicstudios/apple-devices-frontend:latest
 
-  image:
-    if: ${{ github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Authenticate
-        uses: docker/login-action@v3.3.0
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
-      - name: Build & Publish
-        id: publish
-        uses: docker/build-push-action@v6.5.0
-        with:
-          context: '{{defaultContext}}:web'
-          file: web/apps/www/dockerfile
-          push: true
-          tags: |
-            ghcr.io/superepicstudios/apple-devices-frontend:latest
-
-# ghcr.io/superepicstudios/apple-devices-frontend:${{ github.ref_name }}
+# # ghcr.io/superepicstudios/apple-devices-frontend:${{ github.ref_name }}
   
-  # deploy:
-  #   needs: image
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Deploy
-  #       uses: digitalocean/app_action/deploy@v2
-  #       with:
-  #         token: ${{ secrets.DIGITALOCEAN_TOKEN }}
+#   # deploy:
+#   #   needs: image
+#   #   runs-on: ubuntu-latest
+#   #   steps:
+#   #     - name: Deploy
+#   #       uses: digitalocean/app_action/deploy@v2
+#   #       with:
+#   #         token: ${{ secrets.DIGITALOCEAN_TOKEN }}
