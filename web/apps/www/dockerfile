@@ -1,14 +1,16 @@
 FROM denoland/deno:alpine AS build
 WORKDIR /app
+COPY deno.json .
+COPY deno.lock .
+RUN deno install --allow-scripts
 USER deno
 COPY . .
-RUN deno install --allow-scripts
 
 FROM denoland/deno:alpine AS run
 WORKDIR /app
 USER deno
 COPY --from=build /app .
 WORKDIR /app/apps/www
-EXPOSE 5173
 ENV NODE_ENV production
+EXPOSE 5173
 CMD ["deno", "task", "start"]
