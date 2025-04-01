@@ -8,7 +8,7 @@
 - **Software**
   - `iPhone OS` (_3.2...3.2.2_)
   - `iOS` (_4.0...5.1.1_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `K48AP`
@@ -25,7 +25,7 @@
 - **Year**: `2011`
 - **Chip**: `Apple A5`
 - **Software**: `iOS` (_4.3...9.3.6_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `K93AP`
@@ -50,7 +50,7 @@
 - **Year**: `2012`
 - **Chip**: `Apple A5X`
 - **Software**: `iOS` (_5.1...9.3.5_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J1AP`
@@ -71,7 +71,7 @@
 - **Year**: `2012`
 - **Chip**: `Apple A5`
 - **Software**: `iOS` (_6.0...9.3.5_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `P105AP`
@@ -93,7 +93,7 @@
 - **Year**: `2012`
 - **Chip**: `Apple A6X`
 - **Software**: `iOS` (_6.0...10.3.3_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `P101AP`
@@ -114,7 +114,7 @@
 - **Year**: `2013`
 - **Chip**: `Apple A7`
 - **Software**: `iOS` (_7.0.3...12.5.7_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J71AP`
@@ -135,7 +135,7 @@
 - **Year**: `2013`
 - **Chip**: `Apple A7`
 - **Software**: `iOS` (_7.0.3...12.5.7_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J85AP`
@@ -156,7 +156,7 @@
 - **Year**: `2014`
 - **Chip**: `Apple A7`
 - **Software**: `iOS` (_8.1...12.5.7_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J85mAP`
@@ -179,7 +179,7 @@
 - **Software**
   - `iOS` (_8.1...13.0_)
   - `iPadOS` (_13.1...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J81AP`
@@ -199,7 +199,7 @@
 - **Software**
   - `iOS` (_9.0...13.0_)
   - `iPadOS` (_13.1...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J96AP`
@@ -220,7 +220,7 @@
 - **Software**
   - `iOS` (_9.1...13.0_)
   - `iPadOS` (_13.1...16.7.10_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J98aAP`
@@ -241,7 +241,7 @@
 - **Software**
   - `iOS` (_9.3...13.0_)
   - `iPadOS` (_13.1...16.7.10_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J127AP`
@@ -263,7 +263,7 @@
 - **Software**
   - `iOS` (_10.3...13.0_)
   - `iPadOS` (_13.1...16.7.10_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J71sAP`
@@ -286,7 +286,7 @@
 - **Software**
   - `iOS` (_10.3...13.0_)
   - `iPadOS` (_13.1...17.7.5_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `display.pro-motion`
 - **Internal Names**
@@ -309,7 +309,7 @@
 - **Software**
   - `iOS` (_10.3...13.0_)
   - `iPadOS` (_13.1...17.7.5_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `display.pro-motion`
 - **Internal Names**
@@ -331,7 +331,7 @@
 - **Software**
   - `iOS` (_11.3...13.0_)
   - `iPadOS` (_13.1...17.7.5_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J71bAP`
@@ -352,7 +352,7 @@
 - **Software**
   - `iOS` (_12.1...13.0_)
   - `iPadOS` (_13.1..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -381,7 +381,7 @@
 - **Software**
   - `iOS` (_12.1...13.0_)
   - `iPadOS` (_13.1..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -408,7 +408,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A10 Fusion`
 - **Software**: `iPadOS` (_13.1..._)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J171AP`
@@ -430,7 +430,7 @@
 - **Software**
   - `iOS` (_12.2...13.0_)
   - `iPadOS` (_13.1..._)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J210AP`
@@ -453,7 +453,7 @@
 - **Software**
   - `iOS` (_12.2...13.0_)
   - `iPadOS` (_13.1..._)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J217AP`
@@ -474,7 +474,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
 - **Software**: `iPadOS` (_13.4..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -497,7 +497,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
 - **Software**: `iPadOS` (_13.4..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -520,7 +520,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12 Bionic`
 - **Software**: `iPadOS` (_14.0..._)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `J171aAP`
@@ -541,7 +541,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**: `iPadOS` (_14.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
 - **Internal Names**
@@ -563,7 +563,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**: `iPadOS` (_14.5..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -591,7 +591,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**: `iPadOS` (_14.5..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -619,7 +619,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A13 Bionic`
 - **Software**: `iPadOS` (_15.0..._)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -641,7 +641,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iPadOS` (_15.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
 - **Internal Names**
@@ -662,7 +662,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M1`
 - **Software**: `iPadOS` (_15.4..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
   -  `intelligence`
@@ -684,7 +684,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A14 Bionic`
 - **Software**: `iPadOS` (_16.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
 - **Internal Names**
@@ -706,7 +706,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**: `iPadOS` (_16.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -730,7 +730,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**: `iPadOS` (_16.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -754,7 +754,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**: `iPadOS` (_17.4..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
   -  `intelligence`
@@ -776,7 +776,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**: `iPadOS` (_17.4..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
   -  `intelligence`
@@ -798,7 +798,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A17 Pro`
 - **Software**: `iPadOS` (_18.0.1..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
   -  `intelligence`
@@ -820,7 +820,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**: `iPadOS` (_17.4..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -843,7 +843,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**: `iPadOS` (_17.4..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
@@ -866,7 +866,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**: `iPadOS` (_18.3.2..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
   -  `intelligence`
@@ -888,7 +888,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**: `iPadOS` (_18.3.2..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
   -  `intelligence`
@@ -910,7 +910,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A16 Bionic`
 - **Software**: `iPadOS` (_18.3.2..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `id.touch`
 - **Internal Names**

@@ -107,7 +107,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple S5`
 - **Software**: `watchOS` (_6.0...10.6.1_)
-- **Features**
+- **Traits**
   -  `display.always-on`
 - **Internal Names**
   -  `N146sAP`
@@ -153,7 +153,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple S6`
 - **Software**: `watchOS` (_7.0..._)
-- **Features**
+- **Traits**
   -  `display.always-on`
 - **Internal Names**
   -  `N157sAP`
@@ -179,7 +179,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple S7`
 - **Software**: `watchOS` (_8.0..._)
-- **Features**
+- **Traits**
   -  `display.always-on`
 - **Internal Names**
   -  `N187sAP`
@@ -232,7 +232,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**: `watchOS` (_9.0..._)
-- **Features**
+- **Traits**
   -  `display.always-on`
 - **Internal Names**
   -  `N197sAP`
@@ -260,7 +260,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**: `watchOS` (_9.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `display.always-on`
 - **Internal Names**
@@ -278,7 +278,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**: `watchOS` (_10.0..._)
-- **Features**
+- **Traits**
   -  `display.always-on`
 - **Internal Names**
   -  `N207sAP`
@@ -305,7 +305,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**: `watchOS` (_11.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `display.always-on`
 - **Internal Names**
@@ -322,7 +322,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple S10`
 - **Software**: `watchOS` (_11.0..._)
-- **Features**
+- **Traits**
   -  `display.always-on`
 - **Internal Names**
   -  `N217sAP`

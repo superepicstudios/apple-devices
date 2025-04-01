@@ -26,7 +26,7 @@
             }
         }
     ],
-    "features": ["button.home"], ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Device's feature list
+    "traits": ["button.home"], ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Device's trait list
     "internal_names": ["J1AP", "J2AP", "J2AAP"], ⋅ Internal names
     "a_numbers": ["A1416", "A1403", "A1430"], ⋅⋅⋅⋅ A numbers
     "ids": ["iPad3,1", "iPad3,2", "iPad3,3"] ⋅⋅⋅⋅⋅ Identifiers
@@ -64,7 +64,7 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices/iphone1,1'
             }
         }
     ],
-    "features": [
+    "traits": [
         "button.home"
     ],
     "internal_names": ["M68AP"],
@@ -82,8 +82,8 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices/iphone1,1'
 
 - `family`: Filter devices by family
 - `year`: Filter devices by release year
-- `feature`: Filter devices by supported feature
-- `not-feature`: Filter devices by unsupported feature
+- `trait`: Filter devices by supported trait
+- `not-trait`: Filter devices by unsupported trait
 
 ::: code-group
 ```sh [Request]
@@ -113,7 +113,7 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices?family=iphone&year=20
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["M68AP"],
@@ -154,7 +154,7 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices?family=iphone&year=20
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N88AP"],

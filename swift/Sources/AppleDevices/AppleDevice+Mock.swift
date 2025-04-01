@@ -36,7 +36,7 @@ public extension AppleDevice {
                         max: nil
                     )
                 )],
-                features: [],
+                traits: [],
                 internalNames: ["M1234"],
                 aNumbers: ["AM1234"]
             ),

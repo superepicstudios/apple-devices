@@ -18,7 +18,7 @@ extension AppleDevice /* DeviceData */ {
         let family: Family
         let chip: Chip
         let software: [Software]
-        let features: [Feature]
+        let traits: [Trait]
         let internalNames: [String]
         let aNumbers: [String]
         
@@ -31,7 +31,7 @@ extension AppleDevice /* DeviceData */ {
             case family
             case chip
             case software
-            case features
+            case traits
             case internalNames = "internal_names"
             case aNumbers = "a_numbers"
                     
@@ -61,7 +61,7 @@ extension AppleDevice /* DeviceData */ {
                         max: nil
                     )
                 )],
-                features: [],
+                traits: [],
                 internalNames: ["U1234"],
                 aNumbers: ["AU1234"]
             )

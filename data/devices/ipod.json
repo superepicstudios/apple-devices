@@ -17,7 +17,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N45AP"],
@@ -50,7 +50,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N72AP"],
@@ -83,7 +83,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N18AP"],
@@ -109,7 +109,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N81AP"],
@@ -135,7 +135,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N78AP"],
@@ -161,7 +161,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N102AP"],
@@ -187,7 +187,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N112AP"],

@@ -15,16 +15,16 @@ export class DeviceController extends ControllerBase {
         
         @Query("family") families?: string | string[],
         @Query("year") years?: string | string[],
-        @Query("feature") features?: string | string[],
-        @Query("not-feature") notFeatures?: string | string[]
+        @Query("trait") traits?: string | string[],
+        @Query("not-trait") notTraits?: string | string[]
 
     ): DeviceResponse[] {
 
         return this.device.getDevices(
             families, 
             years,
-            features,
-            notFeatures
+            traits,
+            notTraits
         )
         .map(d => new DeviceResponse(d))
 

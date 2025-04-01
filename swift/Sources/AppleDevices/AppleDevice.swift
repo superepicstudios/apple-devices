@@ -8,8 +8,7 @@
 
 import Foundation
 
-/// An Apple device representation containing metadata,
-/// feature, & software information.
+/// An Apple device representation containing metadata, trait, & software information.
 public struct AppleDevice: Identifiable, Equatable, Sendable {
     
     private static let simulatorPrefix = "__sim_"
@@ -46,8 +45,8 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     /// The device's software.
     public var software: [Software] { self.data.software }
     
-    /// The device's features.
-    public var features: [Feature] { self.data.features }
+    /// The device's traits.
+    public var traits: [Trait] { self.data.traits }
     
     /// The device's internal names.
     public var internalNames: [String] { self.data.internalNames }

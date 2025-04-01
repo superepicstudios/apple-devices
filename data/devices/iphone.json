@@ -18,7 +18,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["M68AP"],
@@ -50,7 +50,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N82AP"],
@@ -82,7 +82,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N88AP"],
@@ -107,7 +107,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N90AP", "N90bAP", "N92AP"],
@@ -132,7 +132,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N94AP"],
@@ -157,7 +157,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N41AP", "N42AP"],
@@ -182,7 +182,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["N48AP", "N49AP"],
@@ -207,7 +207,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -233,7 +233,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -259,7 +259,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -285,7 +285,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -311,7 +311,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -337,7 +337,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -363,7 +363,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -389,7 +389,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -415,7 +415,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -441,7 +441,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -467,7 +467,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -493,7 +493,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -519,7 +519,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -545,7 +545,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -571,7 +571,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -597,7 +597,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -623,7 +623,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -650,7 +650,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -675,7 +675,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -701,7 +701,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -727,7 +727,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -753,7 +753,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -779,7 +779,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -805,7 +805,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -831,7 +831,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "display.notch",
@@ -858,7 +858,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "display.notch",
@@ -886,7 +886,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -911,7 +911,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -937,7 +937,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.notch",
             "id.face"
@@ -963,7 +963,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.always-on",
             "display.dynamic-island",
             "display.fluid",
@@ -991,7 +991,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.always-on",
             "display.dynamic-island",
             "display.fluid",
@@ -1019,7 +1019,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "display.dynamic-island",
             "display.fluid",
@@ -1046,7 +1046,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "display.dynamic-island",
             "display.fluid",
@@ -1073,7 +1073,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "display.always-on",
             "display.dynamic-island",
@@ -1103,7 +1103,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "display.always-on",
             "display.dynamic-island",
@@ -1133,7 +1133,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "button.camera",
             "display.dynamic-island",
@@ -1162,7 +1162,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "button.camera",
             "display.dynamic-island",
@@ -1191,7 +1191,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "button.camera",
             "display.always-on",
@@ -1222,7 +1222,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "button.camera",
             "display.always-on",
@@ -1253,7 +1253,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.action",
             "display.fluid",
             "display.notch",

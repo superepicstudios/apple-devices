@@ -96,5 +96,5 @@ let maxDevices = AppleDevice
     .withGenNamesContaining("Max")
 
 let aodDevices = AppleDevice
-    .withFeatures(.alwaysOnDisplay)
+    .withTraits(.alwaysOnDisplay)
 ```

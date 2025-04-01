@@ -23,7 +23,7 @@ export class DeviceResponse extends DtoBase {
     software: ISoftware[]
 
     @ApiProperty()
-    features: string[]
+    traits: string[]
 
     @ApiProperty()
     internal_names: string[]
@@ -44,7 +44,7 @@ export class DeviceResponse extends DtoBase {
         this.family = device.family
         this.chip = device.chip
         this.software = device.software
-        this.features = device.features
+        this.traits = device.traits
         this.internal_names = device.internal_names
         this.a_numbers = device.a_numbers
         this.ids = device.ids

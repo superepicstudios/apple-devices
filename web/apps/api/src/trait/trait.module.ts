@@ -1,9 +1,9 @@
 import { Module } from "@nestjs/common"
 import { DeviceModule } from "../device/device.module.ts"
-import { FeatureController } from "./controllers/feature.controller.ts"
+import { TraitController } from "./controllers/trait.controller.ts"
 
 @Module({
     imports: [DeviceModule],
-    controllers: [FeatureController]
+    controllers: [TraitController]
 })
-export class FeatureModule {}
+export class TraitModule {}

@@ -1,5 +1,5 @@
 //
-//  AppleDevice+Feature.swift
+//  AppleDevice+Trait.swift
 //  AppleDevices
 //
 //  Created by Mitch on 3/16/25.
@@ -7,45 +7,45 @@
 
 import Foundation
 
-public extension AppleDevice /* Feature */ {
+public extension AppleDevice /* Trait */ {
     
-    /// Representation of the various device features.
-    enum Feature: String, Codable, CaseIterable, Sendable {
+    /// Representation of the various device traits.
+    enum Trait: String, Codable, CaseIterable, Sendable {
         
-        /// An action button feature.
+        /// An action button trait.
         case actionButton     = "button.action"
         
-        /// A camera (control) button feature.
+        /// A camera (control) button trait.
         case cameraButton     = "button.camera"
         
-        /// A home button feature.
+        /// A home button trait.
         case homeButton       = "button.home"
         
-        /// An always-on display feature.
+        /// An always-on display trait.
         case alwaysOnDisplay  = "display.always-on"
         
-        /// A dynamic-island display feature.
+        /// A dynamic-island display trait.
         case dynamicIsland    = "display.dynamic-island"
         
-        /// A fluid (edge-to-edge) display feature.
+        /// A fluid (edge-to-edge) display trait.
         case fluidDisplay     = "display.fluid"
         
-        /// A notch (cutout) display feature.
+        /// A notch (cutout) display trait.
         case notch            = "display.notch"
         
-        /// A pro-motion display feature.
+        /// A pro-motion display trait.
         case proMotionDisplay = "display.pro-motion"
         
-        /// A FaceID feature.
+        /// A FaceID trait.
         case faceId           = "id.face"
         
-        /// An OpticID feature.
+        /// An OpticID trait.
         case opticId          = "id.optic"
         
-        /// A TouchID feature.
+        /// A TouchID trait.
         case touchId          = "id.touch"
         
-        /// An intelligence (AI) feature.
+        /// An intelligence (AI) trait.
         case intelligence
         
     }

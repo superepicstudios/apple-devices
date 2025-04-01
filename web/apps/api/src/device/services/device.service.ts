@@ -10,7 +10,7 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
     private families: string[] = []
     private chips: IChip[] = []
     private software: ISoftware[] = []
-    private features: string[] = []
+    private traits: string[] = []
     
     async onApplicationBootstrap() {
         this.loadData()
@@ -20,8 +20,8 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
         
         families?: string | string[], 
         years?: string | string[],
-        features?: string | string[],
-        notFeatures?: string | string[]
+        traits?: string | string[],
+        notTraits?: string | string[]
     
     ): IDevice[] {
 
@@ -47,27 +47,27 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
 
         }
 
-        if (features) {
+        if (traits) {
 
-            const sanitizedFeatures = Array.isArray(features) ? 
-                features.map(f => this.sanitizeFeature(f)) :
-                this.sanitizeFeature(features)
+            const sanitizedTraits = Array.isArray(traits) ? 
+                traits.map(f => this.sanitizeTrait(f)) :
+                this.sanitizeTrait(traits)
 
-            devices = Array.isArray(sanitizedFeatures) ?
-                devices.filter(d => sanitizedFeatures.every(f => d.features.includes(f))) :
-                devices.filter(d => d.features.includes(sanitizedFeatures))
+            devices = Array.isArray(sanitizedTraits) ?
+                devices.filter(d => sanitizedTraits.every(t => d.traits.includes(t))) :
+                devices.filter(d => d.traits.includes(sanitizedTraits))
 
         }
 
-        if (notFeatures) {
+        if (notTraits) {
 
-            const sanitizedNotFeatures = Array.isArray(notFeatures) ? 
-                notFeatures.map(f => this.sanitizeFeature(f)) :
-                this.sanitizeFeature(notFeatures)
+            const sanitizedNotTraits = Array.isArray(notTraits) ? 
+                notTraits.map(t => this.sanitizeTrait(t)) :
+                this.sanitizeTrait(notTraits)
 
-            devices = Array.isArray(sanitizedNotFeatures) ?
-                devices.filter(d => sanitizedNotFeatures.every(f => !d.features.includes(f))) :
-                devices.filter(d => !d.features.includes(sanitizedNotFeatures))
+            devices = Array.isArray(sanitizedNotTraits) ?
+                devices.filter(d => sanitizedNotTraits.every(t => !d.traits.includes(t))) :
+                devices.filter(d => !d.traits.includes(sanitizedNotTraits))
 
         }
 
@@ -119,8 +119,8 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
 
     }
 
-    getDeviceFeatures(): string[] {
-        return this.features.toSorted()
+    getDeviceTraits(): string[] {
+        return this.traits.toSorted()
     }
 
     // MARK: Private
@@ -162,10 +162,10 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
 
             }
 
-            for (const feature of device.features) {
+            for (const trait of device.traits) {
 
-                if (!this.features.includes(feature)) {
-                    this.features.push(feature)
+                if (!this.traits.includes(trait)) {
+                    this.traits.push(trait)
                 }
 
             }
@@ -176,7 +176,7 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
         this.logger.info(`Loaded ${this.families.length} family(s)`)
         this.logger.info(`Loaded ${this.chips.length} chip(s)`)
         this.logger.info(`Loaded ${this.software.length} software(s)`)
-        this.logger.info(`Loaded ${this.features.length} feature(s)`)
+        this.logger.info(`Loaded ${this.traits.length} trait(s)`)
 
     }
 
@@ -191,15 +191,8 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
 
     }
 
-    private sanitizeFeature(feature: string): string {
-        return feature.toLowerCase()
+    private sanitizeTrait(trait: string): string {
+        return trait.toLowerCase()
     }
-
-    private logAndThrowError(error: string) {
-
-        this.logger.error(error)
-        throw new Error(error)
-
-    }
-
+    
 }

@@ -14,7 +14,7 @@ public extension AppleDevice /* Helpers */ {
     var descriptiveName: String { self.genName ?? self.name }
     
     /// Flag indicating if the device has a fluid (edge-to-edge) display.
-    var hasFluidDisplay: Bool { hasFeatures(.fluidDisplay) }
+    var hasFluidDisplay: Bool { hasTraits(.fluidDisplay) }
         
     /// Flag indicating if the device has a compact (4.7" or smaller) display.
     var hasCompactDisplay: Bool {

@@ -6,7 +6,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**: `visionOS` (_1.0..._)
-- **Features**
+- **Traits**
   -  `id.optic`
   -  `intelligence`
 - **Internal Names**

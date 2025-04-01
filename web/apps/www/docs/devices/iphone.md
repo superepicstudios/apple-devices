@@ -6,7 +6,7 @@
 - **Year**: `2007`
 - **Chip**: `APL0098`
 - **Software**: `iPhone OS` (_1.0...3.2.2_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `M68AP`
@@ -23,7 +23,7 @@
 - **Software**
   - `iPhone OS` (_2.0...3.2.2_)
   - `iOS` (_4.0...4.2.1_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N82AP`
@@ -41,7 +41,7 @@
 - **Software**
   - `iPhone OS` (_3.0...3.2.2_)
   - `iOS` (_4.0...6.1.6_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N88AP`
@@ -57,7 +57,7 @@
 - **Year**: `2010`
 - **Chip**: `Apple A4`
 - **Software**: `iOS` (_4.0...7.1.2_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N90AP`
@@ -77,7 +77,7 @@
 - **Year**: `2011`
 - **Chip**: `Apple A5`
 - **Software**: `iOS` (_5.0...9.3.6_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N94AP`
@@ -93,7 +93,7 @@
 - **Year**: `2012`
 - **Chip**: `Apple A6`
 - **Software**: `iOS` (_6.0...10.3.4_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N41AP`
@@ -112,7 +112,7 @@
 - **Year**: `2013`
 - **Chip**: `Apple A6`
 - **Software**: `iOS` (_7.0...10.3.4_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N48AP`
@@ -134,7 +134,7 @@
 - **Year**: `2013`
 - **Chip**: `Apple A7`
 - **Software**: `iOS` (_7.0...12.5.7_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -157,7 +157,7 @@
 - **Year**: `2014`
 - **Chip**: `Apple A8`
 - **Software**: `iOS` (_8.0...12.5.7_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -175,7 +175,7 @@
 - **Year**: `2014`
 - **Chip**: `Apple A6`
 - **Software**: `iOS` (_8.0...12.5.7_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -193,7 +193,7 @@
 - **Year**: `2015`
 - **Chip**: `Apple A9`
 - **Software**: `iOS` (_9.0...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -213,7 +213,7 @@
 - **Year**: `2015`
 - **Chip**: `Apple A9`
 - **Software**: `iOS` (_9.0...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -233,7 +233,7 @@
 - **Year**: `2016`
 - **Chip**: `Apple A9`
 - **Software**: `iOS` (_9.3...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -252,7 +252,7 @@
 - **Year**: `2016`
 - **Chip**: `Apple A10 Fusion`
 - **Software**: `iOS` (_10.0...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -273,7 +273,7 @@
 - **Year**: `2016`
 - **Chip**: `Apple A10 Fusion`
 - **Software**: `iOS` (_10.0...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -294,7 +294,7 @@
 - **Year**: `2017`
 - **Chip**: `Apple A11 Bionic`
 - **Software**: `iOS` (_11.0...16.7.10_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -315,7 +315,7 @@
 - **Year**: `2017`
 - **Chip**: `Apple A11 Bionic`
 - **Software**: `iOS` (_11.0...16.7.10_)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -336,7 +336,7 @@
 - **Year**: `2017`
 - **Chip**: `Apple A11 Bionic`
 - **Software**: `iOS` (_11.0.1...16.7.10_)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -357,7 +357,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
 - **Software**: `iOS` (_12.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -377,7 +377,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
 - **Software**: `iOS` (_12.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -397,7 +397,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
 - **Software**: `iOS` (_12.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -420,7 +420,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**: `iOS` (_13.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -439,7 +439,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**: `iOS` (_13.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -458,7 +458,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**: `iOS` (_13.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -478,7 +478,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A13 Bionic`
 - **Software**: `iOS` (_13.4..._)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -496,7 +496,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**: `iOS` (_14.1..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -516,7 +516,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**: `iOS` (_14.1..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -536,7 +536,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**: `iOS` (_14.1..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -556,7 +556,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**: `iOS` (_14.1..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -576,7 +576,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iOS` (_15.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -597,7 +597,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iOS` (_15.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -618,7 +618,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iOS` (_15.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `display.notch`
@@ -640,7 +640,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iOS` (_15.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `display.notch`
@@ -663,7 +663,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iOS` (_15.4..._)
-- **Features**
+- **Traits**
   -  `button.home`
   -  `id.touch`
 - **Internal Names**
@@ -683,7 +683,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iOS` (_16.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -704,7 +704,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**: `iOS` (_16.0..._)
-- **Features**
+- **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
@@ -725,7 +725,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
 - **Software**: `iOS` (_16.0..._)
-- **Features**
+- **Traits**
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
@@ -748,7 +748,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
 - **Software**: `iOS` (_16.0..._)
-- **Features**
+- **Traits**
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
@@ -771,7 +771,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
 - **Software**: `iOS` (_17.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `display.dynamic-island`
   -  `display.fluid`
@@ -792,7 +792,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
 - **Software**: `iOS` (_17.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `display.dynamic-island`
   -  `display.fluid`
@@ -813,7 +813,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
 - **Software**: `iOS` (_17.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `display.always-on`
   -  `display.dynamic-island`
@@ -837,7 +837,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
 - **Software**: `iOS` (_17.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `display.always-on`
   -  `display.dynamic-island`
@@ -861,7 +861,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18`
 - **Software**: `iOS` (_18.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `button.camera`
   -  `display.dynamic-island`
@@ -884,7 +884,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18`
 - **Software**: `iOS` (_18.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `button.camera`
   -  `display.dynamic-island`
@@ -907,7 +907,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
 - **Software**: `iOS` (_18.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `button.camera`
   -  `display.always-on`
@@ -932,7 +932,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
 - **Software**: `iOS` (_18.0..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `button.camera`
   -  `display.always-on`
@@ -957,7 +957,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A18`
 - **Software**: `iOS` (_18.3..._)
-- **Features**
+- **Traits**
   -  `button.action`
   -  `display.fluid`
   -  `display.notch`

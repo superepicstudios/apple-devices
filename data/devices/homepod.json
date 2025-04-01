@@ -16,7 +16,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B238AP", "B238aAP"],
         "a_numbers": ["A1639"],
         "ids": ["AudioAccessory1,1", "AudioAccessory1,2"]
@@ -38,7 +38,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B520AP"],
         "a_numbers": ["A2374"],
         "ids": ["AudioAccessory5,1"]
@@ -61,7 +61,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B620AP"],
         "a_numbers": ["A2825"],
         "ids": ["AudioAccessory6,1"]

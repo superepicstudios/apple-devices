@@ -9,7 +9,7 @@ export interface IDevice {
     family: string
     chip: IChip
     software: ISoftware[]
-    features: string[]
+    traits: string[]
     internal_names: string[]
     a_numbers: string[]
     ids: string[]

@@ -16,7 +16,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "id.optic",
             "intelligence"
         ],

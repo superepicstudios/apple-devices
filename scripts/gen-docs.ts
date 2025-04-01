@@ -73,12 +73,12 @@ for (const family of sortedFamilyToDevicesMap.keys()) {
 
         }
 
-        if (device.features.length > 0) {
+        if (device.traits.length > 0) {
 
-            output += "- **Features**\n"
+            output += "- **Traits**\n"
 
-            for (const feature of device.features) {
-                output += `  -  \`${feature}\`\n`
+            for (const trait of device.traits) {
+                output += `  -  \`${trait}\`\n`
             }
 
         }

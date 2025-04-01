@@ -6,7 +6,7 @@
 - **Year**: `2007`
 - **Chip**: `APL0098`
 - **Software**: `iPhone OS` (_1.1...3.1.3_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N45AP`
@@ -24,7 +24,7 @@
 - **Software**
   - `iPhone OS` (_2.1.1...3.2.2_)
   - `iOS` (_4.0...4.2.1_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N72AP`
@@ -43,7 +43,7 @@
 - **Software**
   - `iPhone OS` (_3.1.1...3.2.2_)
   - `iOS` (_4.0...5.1.1_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N18AP`
@@ -59,7 +59,7 @@
 - **Year**: `2010`
 - **Chip**: `Apple A4`
 - **Software**: `iOS` (_4.1...6.1.6_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N81AP`
@@ -75,7 +75,7 @@
 - **Year**: `2012`
 - **Chip**: `Apple A5`
 - **Software**: `iOS` (_6.0...9.3.5_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N78AP`
@@ -91,7 +91,7 @@
 - **Year**: `2015`
 - **Chip**: `Apple A8`
 - **Software**: `iOS` (_8.4...12.5.7_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N102AP`
@@ -107,7 +107,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A10 Fusion`
 - **Software**: `iOS` (_12.3...15.8.3_)
-- **Features**
+- **Traits**
   -  `button.home`
 - **Internal Names**
   -  `N112AP`

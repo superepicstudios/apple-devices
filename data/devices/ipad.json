@@ -24,7 +24,7 @@
                 }
             }
         ],
-        "features":[
+        "traits":  [
             "button.home"
         ],
         "internal_names": ["K48AP"],
@@ -49,7 +49,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["K93AP", "K94AP", "K95AP", "K93AAP"],
@@ -75,7 +75,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J1AP", "J2AP", "J2AAP"],
@@ -100,7 +100,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["P105AP", "P106AP", "P107AP"],
@@ -126,7 +126,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["P101AP", "P102AP", "P103AP"],
@@ -151,7 +151,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J71AP", "J72AP", "J73AP"],
@@ -176,7 +176,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J85AP", "J86AP", "J87AP"],
@@ -201,7 +201,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J85mAP", "J86mAP", "J87mAP"],
@@ -233,7 +233,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J81AP", "J82AP"],
@@ -265,7 +265,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J96AP", "J97AP"],
@@ -298,7 +298,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J98aAP", "J99aAP"],
@@ -331,7 +331,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J127AP", "J128AP"],
@@ -364,7 +364,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J71sAP", "J71tAP", "J72sAP", "J72tAP"],
@@ -397,7 +397,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "display.pro-motion"
         ],
@@ -431,7 +431,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "display.pro-motion"
         ],
@@ -465,7 +465,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J71bAP", "J72bAP"],
@@ -497,7 +497,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face"
@@ -531,7 +531,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face"
@@ -558,7 +558,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J171AP", "J172AP"],
@@ -590,7 +590,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J210AP", "J211AP"],
@@ -622,7 +622,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J217AP", "J218AP"],
@@ -647,7 +647,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face"
@@ -674,7 +674,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face"
@@ -701,7 +701,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home"
         ],
         "internal_names": ["J171aAP", "J172aAP"],
@@ -726,7 +726,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch"
         ],
@@ -752,7 +752,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face",
@@ -780,7 +780,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face",
@@ -808,7 +808,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "button.home",
             "id.touch"
         ],
@@ -834,7 +834,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch"
         ],
@@ -860,7 +860,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch",
             "intelligence"
@@ -887,7 +887,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch"
         ],
@@ -913,7 +913,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face",
@@ -941,7 +941,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face",
@@ -969,7 +969,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch",
             "intelligence"
@@ -996,7 +996,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch",
             "intelligence"
@@ -1023,7 +1023,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch",
             "intelligence"
@@ -1050,7 +1050,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face",
@@ -1078,7 +1078,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "display.pro-motion",
             "id.face",
@@ -1106,7 +1106,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch",
             "intelligence"
@@ -1133,7 +1133,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch",
             "intelligence"
@@ -1160,7 +1160,7 @@
                 }
             }
         ],
-        "features":[
+        "traits": [
             "display.fluid",
             "id.touch"
         ],

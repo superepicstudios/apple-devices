@@ -1,12 +1,12 @@
-# Rest API → Features
+# Rest API → Traits
 
-## Get Device Features <Badge type="info" text="v1" />
+## Get Device Traits <Badge type="info" text="v1" />
 
-`https://api.fuckingappledevices.com/v1/features`
+`https://api.fuckingappledevices.com/v1/traits`
 
 ::: code-group
 ```sh [Request]
-curl -XGET 'https://api.fuckingappledevices.com/v1/features
+curl -XGET 'https://api.fuckingappledevices.com/v1/traits
 ```
 ```json [Response]
 [

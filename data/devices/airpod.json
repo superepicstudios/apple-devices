@@ -17,7 +17,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B188AP"],
         "a_numbers": ["A1722", "A1523", "A1602"],
         "ids": ["AirPods1,1", "Device1,8194"]
@@ -40,7 +40,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B288AP"],
         "a_numbers": ["A2031", "A2032", "A1602", "A1938"],
         "ids": ["AirPods1,2", "AirPods2,1"]
@@ -62,7 +62,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B298AP"],
         "a_numbers": ["A2083", "A2084", "A2190"],
         "ids": ["AirPodsPro1,1", "AirPods2,2", "iProd8,1", "Device1,8206"]
@@ -84,7 +84,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B515AP"],
         "a_numbers": ["A2096", "A3184"],
         "ids": ["AirPodsMax1,1", "iProd8,6", "Device1,8202", "Device1,8223"]
@@ -107,7 +107,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B388AP"],
         "a_numbers": ["A2564", "A2565", "A2897", "A2566"],
         "ids": ["AirPods1,3", "Audio2,1", "Device1,8211"]
@@ -130,7 +130,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B698AP"],
         "a_numbers": ["A2699", "A2698", "A2700", "A3047", "A3048", "A2968"],
         "ids": ["AirPodsPro1,2", "AirPodsPro2,1", "Device1,8212", "Device1,8228"]
@@ -152,7 +152,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["B768AP", "B768MAP", "B768EAP"],
         "a_numbers": ["A3053", "A3050", "A3058", "A3056", "A3055", "A3059"],
         "ids": ["AirPods1,4", "AirPods1,5", "AirPods3,2", "AirPods3,3", "Device1,8217", "Device1,8219"]

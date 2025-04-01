@@ -17,7 +17,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["N27aAP", "N28aAP"],
         "a_numbers": ["A1553", "A1554", "A1638"],
         "ids": ["Watch1,1", "Watch1,2"]
@@ -38,7 +38,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["N27dAP", "N28dAP"],
         "a_numbers": ["A1802", "A1803"],
         "ids": ["Watch2,6", "Watch2,7"]
@@ -59,7 +59,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["N74AP", "N75AP"],
         "a_numbers": ["A1757", "A1816", "A1758", "A1817"],
         "ids": ["Watch2,3", "Watch2,4"]
@@ -80,7 +80,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["N111sAP", "N111bAP", "N121sAP", "N121bAP"],
         "a_numbers": ["A1860", "A1889", "A1890", "A1861", "A1891", "A1892", "A1858", "A1859"],
         "ids": ["Watch3,1", "Watch3,2", "Watch3,3", "Watch3,4"]
@@ -101,7 +101,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["N131sAP", "N131bAP", "N141sAP", "N141bAP"],
         "a_numbers": ["A1977", "A1978", "A1975", "A2007", "A1976", "A2008"],
         "ids": ["Watch4,1", "Watch4,2", "Watch4,3", "Watch4,4"]
@@ -122,7 +122,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "display.always-on"
         ],
         "internal_names": ["N146sAP", "N146bAP"],
@@ -145,7 +145,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["N140sAP", "N140bAP", "N142sAP", "N142bAP"],
         "a_numbers": ["A2351", "A2352", "A2353", "A2355", "A2354", "A2356"],
         "ids": ["Watch5,9", "Watch5,10", "Watch5,11", "Watch5,12"]
@@ -165,7 +165,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "display.always-on"
         ],
         "internal_names": ["N157sAP", "N157bAP", "N158sAP", "N158bAP"],
@@ -187,7 +187,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "display.always-on"
         ],
         "internal_names": ["N187sAP", "N187bAP", "N188sAP", "N188bAP"],
@@ -210,7 +210,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["N143sAP", "N143bAP", "N149sAP", "N149bAP"],
         "a_numbers": ["A2722", "A2723", "A2725", "A2726", "A2855", "A2724", "A2727", "A2856"],
         "ids": ["Watch6,10", "Watch6,11", "Watch6,12", "Watch6,13"]
@@ -230,7 +230,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "display.always-on"
         ],
         "internal_names": ["N197sAP", "N197bAP", "N198sAP", "N198bAP"],
@@ -252,7 +252,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.action",
             "display.always-on"
         ],
@@ -275,7 +275,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "display.always-on"
         ],
         "internal_names": ["N207sAP", "N207bAP", "N208sAP", "N208bAP"],
@@ -298,7 +298,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "button.action",
             "display.always-on"
         ],
@@ -321,7 +321,7 @@
                 }
             }
         ],
-        "features": [
+        "traits": [
             "display.always-on"
         ],
         "internal_names": ["N217sAP", "N217bAP", "N218sAP", "N218bAP"],

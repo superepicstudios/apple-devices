@@ -17,7 +17,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["iTV"],
         "a_numbers": ["A1218"],
         "ids": ["AppleTV1,1"]
@@ -41,7 +41,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["K66AP"],
         "a_numbers": ["A1378"],
         "ids": ["AppleTV2,1"]
@@ -65,7 +65,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["J33AP", "J33IAP"],
         "a_numbers": ["A1427", "A1469"],
         "ids": ["AppleTV3,1", "AppleTV3,2"]
@@ -87,7 +87,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["J42dAP"],
         "a_numbers": ["A1625"],
         "ids": ["AppleTV5,3"]
@@ -109,7 +109,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["J105aAP"],
         "a_numbers": ["A1842"],
         "ids": ["AppleTV6,2"]
@@ -132,7 +132,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["J305AP"],
         "a_numbers": ["A2169"],
         "ids": ["AppleTV11,1"]
@@ -155,7 +155,7 @@
                 }
             }
         ],
-        "features": [],
+        "traits": [],
         "internal_names": ["J255AP"],
         "a_numbers": ["A2737", "A2843"],
         "ids": ["AppleTV14,1"]
