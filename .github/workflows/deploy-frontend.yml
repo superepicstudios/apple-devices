@@ -1,4 +1,4 @@
-name: Deploy (API)
+name: Deploy (Frontend)
 
 # on:
 #   push:
@@ -30,11 +30,11 @@ jobs:
         id: publish
         uses: docker/build-push-action@v6.5.0
         with:
-          context: ./web/apps/api
+          context: ./web/apps/www
           push: true
           tags: |
-            ghcr.io/superepicstudios/apple-devices-api:latest
-            ghcr.io/superepicstudios/apple-devices-api:${{ github.ref_name }}
+            ghcr.io/superepicstudios/apple-devices-frontend:latest
+            ghcr.io/superepicstudios/apple-devices-frontend:${{ github.ref_name }}
   
   # deploy:
   #   needs: image
