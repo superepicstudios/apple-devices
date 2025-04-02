@@ -51,3 +51,4 @@ jobs:
           IMAGE_TAG: ${{ github.ref_name }}
         with:
           token: ${{ secrets.DIGITALOCEAN_TOKEN }}
+          app_spec_location: .do/app.yml
