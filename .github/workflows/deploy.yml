@@ -11,7 +11,7 @@ permissions:
 jobs:
 
   publish-images:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.event.base_ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
