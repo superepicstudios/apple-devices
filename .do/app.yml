@@ -1,0 +1,18 @@
+name: apple-devices
+services:
+
+  - name: api
+    image:
+      registry_type: GHCR
+      registry_credentials: ${REGISTRY_USER}:${REGISTRY_TOKEN}
+      registry: superepicstudios
+      repository: apple-devices-api
+      tag: ${IMAGE_TAG}
+
+  - name: frontend
+    image:
+      registry_type: GHCR
+      registry_credentials: ${REGISTRY_USER}:${REGISTRY_TOKEN}
+      registry: superepicstudios
+      repository: apple-devices-frontend
+      tag: ${IMAGE_TAG}
