@@ -15,9 +15,11 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: ghcr.io/superepicstudios/apple-devices-api
+          - name: api
+            image: ghcr.io/superepicstudios/apple-devices-api
             dockerfile: web/apps/api/dockerfile
-          - image: ghcr.io/superepicstudios/apple-devices-frontend
+          - name: frontend
+            image: ghcr.io/superepicstudios/apple-devices-frontend
             dockerfile: web/apps/www/dockerfile
     steps:
       - name: Checkout
@@ -28,8 +30,8 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build & Publish
-        id: publish
+      - name: Build & Push
+        id: push
         uses: docker/build-push-action@v6.5.0
         with:
           context: .
@@ -38,6 +40,15 @@ jobs:
           tags: |
             ${{ matrix.image }}:latest
             ${{ matrix.image }}:${{ github.ref_name }}
+      - name: Digest
+        id: digest
+        run: |
+          name="${{ matrix.name }}"
+          digest="${{ steps.push.outputs.digest }}"
+          echo "${name}-digest=${digest}" >> "$GITHUB_OUTPUT"
+    outputs:
+      api-digest: ${{ steps.digest.outputs.api-digest }}
+      frontend-digest: ${{ steps.digest.outputs.frontend-digest }}
 
   deploy:
     needs: publish-images
@@ -48,7 +59,8 @@ jobs:
         env:
           REGISTRY_USER: ${{ github.actor }}
           REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          IMAGE_TAG: ${{ github.ref_name }}
+          API_DIGEST: ${{ needs.publish-images.outputs.api-digest }}
+          FRONTEND_DIGEST: ${{ needs.publish-images.outputs.frontend-digest }}
         with:
           token: ${{ secrets.DIGITALOCEAN_TOKEN }}
           app_spec_location: .do/app.yml
