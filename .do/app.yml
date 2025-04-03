@@ -5,10 +5,12 @@ features:
   - buildpack-stack=ubuntu-22
   
 alerts:
-  - rule: DEPLOYMENT_FAILED
-  - rule: DOMAIN_FAILED
-
-ingress: {}
+- rule: DEPLOYMENT_STARTED
+- rule: DEPLOYMENT_LIVE
+- rule: DEPLOYMENT_CANCELED
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+  disabled: true
 
 services:
 
