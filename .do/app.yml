@@ -1,4 +1,15 @@
 name: apple-devices
+region: sfo
+
+features:
+  - buildpack-stack=ubuntu-22
+  
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+
+ingress: {}
+
 services:
 
   - name: api
