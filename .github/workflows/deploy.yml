@@ -54,10 +54,8 @@ jobs:
     needs: publish-images
     runs-on: ubuntu-latest
     steps:
-      - name: Debug
-        run: |
-          pwd
-          ls -al
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Deploy
         uses: digitalocean/app_action/deploy@v2
         env:
