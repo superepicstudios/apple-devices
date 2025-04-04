@@ -8,18 +8,38 @@ permissions:
   contents: read
   packages: write
 
+env:
+  REGISTRY: ghcr.io
+  REGISTRY_TYPE: GHCR
+  REGISTRY_USER: ${{ github.actor }}
+  REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  REGISTRY_CREDS: $REGISTRY_USER:$REGISTRY_TOKEN
+  REPO: superepicstudios/apple-devices
+
 jobs:
 
+  env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Env Output
+        run: |
+          echo "REPO=${{ env.REPO }}" >> $GITHUB_OUTPUT
+          echo "REGISTRY=${{ env.REGISTRY }}" >> $GITHUB_OUTPUT
+    outputs:
+      REPO: ${{ env.REPO }}
+      REGISTRY: ${{ env.REGISTRY }}
+
   publish-images:
+    needs: env
     runs-on: ubuntu-latest
     strategy:
       matrix:
         include:
           - name: api
-            image: ghcr.io/superepicstudios/apple-devices-api
+            image: ${{ needs.env.outputs.REGISTRY }}/${{ needs.env.outputs.REPO }}-api
             dockerfile: web/apps/api/dockerfile
           - name: frontend
-            image: ghcr.io/superepicstudios/apple-devices-frontend
+            image: ${{ needs.env.outputs.REGISTRY }}/${{ needs.env.outputs.REPO }}-frontend
             dockerfile: web/apps/www/dockerfile
     steps:
       - name: Checkout
@@ -27,9 +47,9 @@ jobs:
       - name: Authenticate
         uses: docker/login-action@v3.3.0
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ${{ env.REGISTRY }}
+          username: ${{ env.REGISTRY_USER }}
+          password: ${{ env.REGISTRY_TOKEN }}
       - name: Build & Push
         id: push
         uses: docker/build-push-action@v6.5.0
@@ -43,9 +63,9 @@ jobs:
       - name: Digest
         id: digest
         run: |
-          name="${{ matrix.name }}"
-          digest="${{ steps.push.outputs.digest }}"
-          echo "${name}-digest=${digest}" >> "$GITHUB_OUTPUT"
+          NAME="${{ matrix.name }}"
+          DIGEST="${{ steps.push.outputs.digest }}"
+          echo "$NAME-digest=$DIGEST" >> $GITHUB_OUTPUT
     outputs:
       api-digest: ${{ steps.digest.outputs.api-digest }}
       frontend-digest: ${{ steps.digest.outputs.frontend-digest }}
@@ -59,8 +79,6 @@ jobs:
       - name: Deploy
         uses: digitalocean/app_action/deploy@v2
         env:
-          REGISTRY_USER: ${{ github.actor }}
-          REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_DIGEST: ${{ needs.publish-images.outputs.api-digest }}
           FRONTEND_DIGEST: ${{ needs.publish-images.outputs.frontend-digest }}
         with:
