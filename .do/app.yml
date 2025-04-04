@@ -15,7 +15,7 @@ alerts:
 domains:
   - domain: fuckingappledevices.com
     zone: fuckingappledevices.com
-    type: primary
+    type: PRIMARY
   - domain: api.fuckingappledevices.com
     zone: fuckingappledevices.com
 
