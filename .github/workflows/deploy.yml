@@ -66,3 +66,4 @@ jobs:
         with:
           token: ${{ secrets.DIGITALOCEAN_TOKEN }}
           app_spec_location: .do/app.yml
+          print_deploy_logs: true
