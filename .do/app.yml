@@ -12,15 +12,27 @@ alerts:
 - rule: DOMAIN_FAILED
   disabled: true
 
-services:
+domains:
+  - domain: fuckingappledevices.com
+    zone: fuckingappledevices.com
+    type: primary
+  - domain: api.fuckingappledevices.com
+    zone: fuckingappledevices.com
 
-  - name: api
-    image:
-      registry_type: GHCR
-      registry_credentials: ${REGISTRY_USER}:${REGISTRY_TOKEN}
-      registry: superepicstudios
-      repository: apple-devices
-      digest: ${API_DIGEST}
+ingress:
+  rules:
+    - component:
+        name: frontend
+      match:
+        path:
+          prefix: /
+    - component:
+        name: api
+      match:
+        path:
+          prefix: /api
+
+services:
 
   - name: frontend
     image:
@@ -29,3 +41,13 @@ services:
       registry: superepicstudios
       repository: apple-devices
       digest: ${FRONTEND_DIGEST}
+    # health_check: TODO
+
+  - name: api
+    image:
+      registry_type: GHCR
+      registry_credentials: ${REGISTRY_USER}:${REGISTRY_TOKEN}
+      registry: superepicstudios
+      repository: apple-devices
+      digest: ${API_DIGEST}
+    # health_check: TODO
