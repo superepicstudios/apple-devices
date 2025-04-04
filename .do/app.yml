@@ -36,18 +36,18 @@ services:
 
   - name: frontend
     image:
-      registry_type: GHCR
-      registry: ghcr.io
-      registry_credentials: ${REGISTRY_USER}:${REGISTRY_TOKEN}
-      repository: superepicstudios/apple-devices
-      digest: ${FRONTEND_DIGEST}
+      registry: $REGISTRY # ghcr.io
+      registry_type: $REGISTRY_TYPE # GHCR
+      registry_credentials: $REGISTRY_CREDS # username:token
+      repository: $REPO # superepicstudios/apple-devices
+      digest: $FRONTEND_DIGEST # sha...
     # health_check: TODO
 
   - name: api
     image:
-      registry_type: GHCR
-      registry: ghcr.io
-      registry_credentials: ${REGISTRY_USER}:${REGISTRY_TOKEN}
-      repository: superepicstudios/apple-devices
-      digest: ${API_DIGEST}
+      registry: $REGISTRY
+      registry_type: $REGISTRY_TYPE
+      registry_credentials: $REGISTRY_CREDS
+      repository: $REPO
+      digest: $API_DIGEST
     # health_check: TODO
