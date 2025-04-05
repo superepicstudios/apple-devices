@@ -13,7 +13,6 @@ env:
   REGISTRY_TYPE: GHCR
   REGISTRY_USER: ${{ github.actor }}
   REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  REGISTRY_CREDS: "${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}"
   REPO: superepicstudios/apple-devices
 
 jobs:
