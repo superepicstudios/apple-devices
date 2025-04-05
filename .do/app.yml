@@ -38,16 +38,14 @@ services:
     image:
       registry: $REGISTRY # ghcr.io
       registry_type: $REGISTRY_TYPE # GHCR
-      registry_credentials: $REGISTRY_CREDS # username:token
+      registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN" # username:token
       repository: $REPO # superepicstudios/apple-devices
       digest: $FRONTEND_DIGEST # sha...
-    # health_check: TODO
 
   - name: api
     image:
       registry: $REGISTRY
       registry_type: $REGISTRY_TYPE
-      registry_credentials: $REGISTRY_CREDS
+      registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN" # username:token
       repository: $REPO
       digest: $API_DIGEST
-    # health_check: TODO
