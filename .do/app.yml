@@ -36,16 +36,16 @@ services:
 
   - name: frontend
     image:
-      registry: $REGISTRY # ghcr.io
+      registry: superepicstudios # $REGISTRY # ghcr.io
       registry_type: $REGISTRY_TYPE # GHCR
       registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN" # username:token
-      repository: $REPO # superepicstudios/apple-devices
+      repository: apple-devices # $REPO # superepicstudios/apple-devices
       digest: $FRONTEND_DIGEST # sha...
 
   - name: api
     image:
-      registry: $REGISTRY
+      registry: superepicstudios # $REGISTRY
       registry_type: $REGISTRY_TYPE
       registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN" # username:token
-      repository: $REPO
+      repository: apple-devices # $REPO
       digest: $API_DIGEST
