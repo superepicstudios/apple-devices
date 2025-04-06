@@ -18,6 +18,7 @@ domains:
     type: PRIMARY
   - domain: api.fuckingappledevices.com
     zone: fuckingappledevices.com
+    type: ALIAS
 
 ingress:
   rules:
@@ -36,16 +37,18 @@ services:
 
   - name: frontend
     image:
-      registry: $NAMESPACE # superepicstudios
-      registry_type: $REGISTRY_TYPE # GHCR
-      registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN" # username:token
-      repository: "$REPO-frontend" # apple-devices-frontend
-      digest: $FRONTEND_DIGEST # sha256:...
+      registry: $NAMESPACE
+      registry_type: $REGISTRY_TYPE
+      registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN"
+      repository: "$REPO-frontend"
+      digest: $FRONTEND_DIGEST
+    http_port: 5173
 
   - name: api
     image:
       registry: $NAMESPACE
       registry_type: $REGISTRY_TYPE
       registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN"
-      repository: "$REPO-api" # apple-devices-api
+      repository: "$REPO-api"
       digest: $API_DIGEST
+    http_port: 3000
