@@ -1,15 +1,14 @@
 FROM denoland/deno:alpine AS build
 WORKDIR /app
+USER deno
 COPY . .
 RUN deno install --allow-scripts
-USER deno
 RUN deno cache ./apps/api/src/main.ts
 
 FROM denoland/deno:alpine AS run
 WORKDIR /app
 COPY --from=build /app .
-WORKDIR /app/apps/api
-USER deno
-ENV NODE_ENV production
+WORKDIR /app/web/apps/api
+ENV NODE_ENV=production
 EXPOSE 3000
 CMD ["deno", "task", "start"]

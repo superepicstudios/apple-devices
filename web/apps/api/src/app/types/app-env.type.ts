@@ -1,35 +1,29 @@
-import Joi from "joi"
+import { load as loadEnv } from "@std/dotenv"
+import { z } from "zod"
 
 export enum AppEnv {
 
-    DEV   = "dev",
-    PROD  = "prod"
+    DEV = "development",
+    PROD = "production"
 
 }
 
 export namespace AppEnv {
+    
+    let _env: z.infer<typeof AppEnvSchema> | undefined
 
-    export function current(): AppEnv {
+    export async function setup() {
 
-        const env = Deno.env
-            .get(AppEnvKey.APP_ENV) ?? AppEnvDefault.APP_ENV
-            .toLowerCase()
+        await loadEnv({
+            export: true
+        })
 
-        return AppEnv
-            .from(env)
+        env()
 
     }
 
-    export function from(str: string): AppEnv {
-
-        const env = str.toLowerCase()
-
-        if (env == "prod" || env == "production") {
-            return AppEnv.PROD
-        }
-
-        return AppEnv.DEV
-
+    export function current(): AppEnv {
+        return from(env().APP_ENV)
     }
 
     export function isProduction(): boolean {
@@ -40,142 +34,117 @@ export namespace AppEnv {
         return current() == AppEnv.DEV
     }
 
-    // App
+    // MARK: App
 
-    export function name(): string {
-        return Deno.env.get(AppEnvKey.APP_NAME) ?? AppEnvDefault.APP_NAME
+    export function name(): string { 
+        return "Apple Device API"
     }
 
-    export function description(): string | undefined {
-        return Deno.env.get(AppEnvKey.APP_DESC)
+    export function description(): string {
+        return "The Apple Device API"
     }
 
     export function version(): string {
-        return Deno.env.get(AppEnvKey.APP_VERSION) ?? AppEnvDefault.APP_VERSION
+        return env().APP_VERSION
     }
 
     export function url(): string {
-        return Deno.env.get(AppEnvKey.APP_URL) ?? AppEnvDefault.APP_URL
+        return env().APP_URL
     }
 
     export function port(): number {
-        return Number(Deno.env.get(AppEnvKey.APP_PORT) ?? AppEnvDefault.APP_PORT)
-    }
-
-    export function prefix(): string | undefined {
-        return Deno.env.get(AppEnvKey.APP_PREFIX)
+        return env().APP_PORT
     }
 
     export function formattedUrl(): string {
-
-        let pre = prefix()
-        let addr = `${url()}:${port().toString()}`
-
-        if (pre) {
-
-            if (pre.charAt(0) === "/") {
-                pre = pre.substring(1)
-            }
-
-            addr = `${addr}/${pre}`
-
-        }
-
-        return addr
-
+        return `${url()}:${port().toString()}`
     }
 
-    // Data
+    // MARK: Data
 
     export function familyFilePath(): string {
-        return Deno.env.get(AppEnvKey.FAMILY_FILE_PATH)!
+        return env().FAMILY_FILE_PATH
     }
 
     export function deviceDataDir(): string {
-        return Deno.env.get(AppEnvKey.DEVICE_DATA_DIR)!
+        return env().DEVICE_DATA_DIR
     }
 
     export function chipDataDir(): string {
-        return Deno.env.get(AppEnvKey.CHIP_DATA_DIR)!
+        return env().CHIP_DATA_DIR
     }
 
     export function softwareDataDir(): string {
-        return Deno.env.get(AppEnvKey.SOFTWARE_DATA_DIR)!
+        return env().SOFTWARE_DATA_DIR
+    }
+
+    // MARK: Private
+
+    function env(): z.infer<typeof AppEnvSchema> {
+
+        if (_env) {
+            return _env
+        }
+
+        _env = AppEnvSchema
+            .parse(Deno.env.toObject())
+
+        return _env
+
+    }
+
+    function from(str: string): AppEnv {
+
+        if (str == "p" || str == "prod" || str == "production") {
+            return AppEnv.PROD
+        }
+
+        return AppEnv.DEV
+
     }
 
 }
 
 // MARK: Schema
 
-export const AppEnvKey = {
-
-    APP_NAME: "APP_NAME",
-    APP_DESC: "APP_DESC",
-    APP_VERSION: "APP_VERSION",
-    APP_URL: "APP_URL",
-    APP_PORT: "APP_PORT",
-    APP_PREFIX: "APP_PREFIX",
-    APP_ENV: "APP_ENV",
-
-    FAMILY_FILE_PATH: "FAMILY_FILE_PATH",
-    DEVICE_DATA_DIR: "DEVICE_DATA_DIR",
-    CHIP_DATA_DIR: "CHIP_DATA_DIR",
-    SOFTWARE_DATA_DIR: "SOFTWARE_DATA_DIR"
-
-}
-
-const AppEnvDefault = {
-
-    APP_NAME: "Apple Device API",
-    APP_VERSION: "1.0.0",
-    APP_URL: "localhost",
-    APP_PORT: 3000,
-    APP_ENV: "dev",
-
-}
-
-export const AppEnvSchema = Joi.object({
+export const AppEnvSchema = z.object({
     
-    APP_NAME: Joi
+    APP_VERSION: z
         .string()
-        .default(AppEnvDefault.APP_NAME),
+        .default("0.0.0"),
 
-    APP_DESC: Joi
+    APP_URL: z
         .string()
-        .optional(),
+        .default("localhost"),
 
-    APP_VERSION: Joi
-        .string()
-        .default(AppEnvDefault.APP_VERSION),
-
-    APP_URL: Joi
-        .string()
-        .default(AppEnvDefault.APP_URL),
-
-    APP_PORT: Joi
+    APP_PORT: z
+        .coerce
         .number()
-        .default(AppEnvDefault.APP_PORT),
+        .default(3000),
 
-    APP_PREFIX: Joi
-        .string()
-        .optional(),
-
-    APP_ENV: Joi
-        .string()
-        .default(AppEnvDefault.APP_ENV),
+    APP_ENV: z
+        .enum([
+            "d", "dev", "development", 
+            "p", "prod", "production"
+        ])
+        .default("development"),
 
     // Data
 
-    FAMILY_FILE_PATH: Joi
-        .string(),
-
-    DEVICE_DATA_DIR: Joi
-        .string(),
-
-    CHIP_DATA_DIR: Joi
-        .string(),
-
-    SOFTWARE_DATA_DIR: Joi
+    FAMILY_FILE_PATH: z
         .string()
+        .default("../../../data/family.json"),
+
+    DEVICE_DATA_DIR: z
+        .string()
+        .default("../../../data/devices"),
+
+    CHIP_DATA_DIR: z
+        .string()
+        .default("../../../data/chips"),
+
+    SOFTWARE_DATA_DIR: z
+        .string()
+        .default("../../../data/software")
 
 })
