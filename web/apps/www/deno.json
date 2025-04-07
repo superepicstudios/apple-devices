@@ -4,14 +4,16 @@
     "tasks": {
         "tz": "export TZ=UTC",
         "build": "vitepress build",
-        "preview": "vitepress preview",
         "dev": {
             "dependencies": ["tz"],
-            "command": "vitepress dev ."
+            "command": "NODE_ENV=development && vitepress dev ."
         },
         "start": {
-            "dependencies": ["tz"],
-            "command": "vitepress dev ."
+            "dependencies": [
+                "tz", 
+                "build"
+            ],
+            "command": "vitepress preview --port 5173"
         }
     },
     "imports": {

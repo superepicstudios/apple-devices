@@ -1,21 +1,16 @@
 import { rainbow } from "@pkg/utils"
-import { load as loadEnv } from "@std/dotenv"
 import { blue, red, yellow } from "@std/fmt/colors"
 import { App } from "./app/app.ts"
 import { AppEnv } from "./app/types/app-env.type.ts"
-import { AppHostEnv } from "./app/types/app-host-env.type.ts"
+import { AppRuntimeEnv } from "./app/types/app-runtime-env.type.ts"
 import { AppLogger } from "./app/types/app-logger.type.ts"
 
 let app: App | undefined
-const isProduction = AppEnv.isProduction()
 
 async function main() {
 
+    await AppEnv.setup()
     AppLogger.setup()
-
-    await loadEnv({
-        export: true
-    })
 
     app = new App()
 
@@ -37,7 +32,7 @@ async function preboot() {
     // Use this function to do setup work that
     // is not dependent on other modules or services.
 
-    if (!isProduction) {
+    if (!AppEnv.isProduction()) {
         banner()
     }
 
@@ -73,7 +68,7 @@ function banner() {
 
     // App & Env
 
-    const hostEnv = AppHostEnv.current()
+    const runtimeEnv = AppRuntimeEnv.current()
     const appEnv = AppEnv.current()
     const appName = AppEnv.name()
     const appVersion = AppEnv.version()
@@ -81,7 +76,7 @@ function banner() {
 
     // Strings
 
-    const headerString   = `📱 ${blue(appName)}` + yellow(` @ ${appVersion}`) + red(" | ") + blue("app: ") + yellow(appEnv) + blue(", host: ") + yellow(hostEnv) + red(" | ") + yellow(appAddress)
+    const headerString   = `📱 ${blue(appName)}` + yellow(` @ ${appVersion}`) + red(" | ") + blue("app: ") + yellow(appEnv) + blue(", runtime: ") + yellow(runtimeEnv) + red(" | ") + yellow(appAddress)
 
     const strings = []
     strings.push(headerString)
