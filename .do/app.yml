@@ -16,6 +16,9 @@ domains:
   - domain: fuckingappledevices.com
     zone: fuckingappledevices.com
     type: PRIMARY
+  - domain: www.fuckingappledevices.com
+    type: ALIAS
+    zone: fuckingappledevices.com
   - domain: api.fuckingappledevices.com
     zone: fuckingappledevices.com
     type: ALIAS

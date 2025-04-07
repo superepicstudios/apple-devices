@@ -52,7 +52,7 @@ export default defineConfig({
                 items: [
                     { text: "Devices", link: "/devices.md" },
                     { text: "Families", link: "/families.md" },
-                    { text: "Features", link: "/features.md" },
+                    { text: "Traits", link: "/traits.md" },
                     { text: "Software", link: "/software.md" }
                 ]
             },
