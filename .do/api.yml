@@ -1,0 +1,20 @@
+name: apple-devices-api
+region: sfo
+
+features:
+  - buildpack-stack=ubuntu-22
+
+domains:
+  - domain: api.fuckingappledevices.com
+    zone: fuckingappledevices.com
+    type: PRIMARY
+
+services:
+  - name: api
+    image:
+      registry: $NAMESPACE
+      registry_type: $REGISTRY_TYPE
+      registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN"
+      repository: "$REPO-api"
+      digest: $API_DIGEST
+    http_port: 3000

@@ -1,0 +1,23 @@
+name: apple-devices-frontend
+region: sfo
+
+features:
+  - buildpack-stack=ubuntu-22
+
+domains:
+  - domain: fuckingappledevices.com
+    zone: fuckingappledevices.com
+    type: PRIMARY
+  - domain: www.fuckingappledevices.com
+    zone: fuckingappledevices.com
+    type: ALIAS
+
+services:
+  - name: frontend
+    image:
+      registry: $NAMESPACE
+      registry_type: $REGISTRY_TYPE
+      registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN"
+      repository: "$REPO-frontend"
+      digest: $FRONTEND_DIGEST
+    http_port: 5173
