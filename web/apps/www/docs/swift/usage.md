@@ -2,7 +2,7 @@
 
 ## Overview
 
-We also provide a tiny (but awesome) [SPM library](https://github.com/superepicstudios/apple-devices) for access to device data, right in your own apps. To use it, add a package dependency with the following url:
+We also provide a tiny (but awesome) [SPM library](https://github.com/superepicstudios/apple-devices/tree/main/swift) for access to device data, right in your own apps. To use it, add a package dependency with the following url:
 
 `https://github.com/superepicstudios/apple-devices`
 
