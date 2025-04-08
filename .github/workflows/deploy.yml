@@ -15,6 +15,7 @@ env:
   REGISTRY_TYPE: GHCR
   REGISTRY_USER: ${{ github.actor }}
   REGISTRY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  RELEASE_TAG: ${{ github.ref_name }}
 
 jobs:
 
@@ -61,7 +62,7 @@ jobs:
           push: true
           tags: |
             ${{ matrix.image }}:latest
-            ${{ matrix.image }}:${{ github.ref_name }}
+            ${{ matrix.image }}:${{ env.RELEASE_TAG }}
       - name: Digest
         id: digest
         run: |
