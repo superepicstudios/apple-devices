@@ -18,6 +18,9 @@ services:
       repository: "$REPO-api"
       digest: $API_DIGEST
     envs:
+      - key: APP_ENV
+        value: production
+        scope: RUN_TIME
       - key: APP_VERSION
         value: $RELEASE_TAG
         scope: RUN_TIME
