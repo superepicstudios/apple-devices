@@ -1,0 +1,24 @@
+{
+  "originHash" : "1e59ed81dc3f624be989086433b636ac51ed6f906575c14c622b2b93840c0ec1",
+  "pins" : [
+    {
+      "identity" : "semver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sersoft-gmbh/semver",
+      "state" : {
+        "revision" : "e6bb7b7b4df6065dfd99d3d6cf16dc1b2d99f087",
+        "version" : "5.2.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax",
+      "state" : {
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
