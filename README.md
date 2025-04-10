@@ -1,4 +1,4 @@
-# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.4.22-fde6cc.svg?labelColor=f78200)
+# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.4.23-fde6cc.svg?labelColor=f78200)
 
 Tired of searching the web for stupid device identifiers? Join the club. 🙄
 This is a collection of up-to-date Apple device information, metadata, and most importantly - model numbers & identifiers.
@@ -9,6 +9,7 @@ No more diving through wiki articles & gists trying to find that one bit of devi
 - https://theapplewiki.com/wiki/Models
 - https://theapplewiki.com/wiki/List_of_{DEVICE}s ⋅ _(i.e. https://theapplewiki.com/wiki/List_of_iPhones)_
 - https://en.wikipedia.org/wiki/{DEVICE} ⋅ _(i.e. https://en.wikipedia.org/wiki/iPhone)_
+- https://gist.github.com/adamawolf/3048717
 
 ## 📂 Structure
 

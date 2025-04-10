@@ -42,8 +42,15 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     /// The device's chip.
     public var chip: Chip { self.data.chip }
     
-    /// The device's software.
-    public var software: [Software] { self.data.software }
+    /// The device's software information.
+    public var software: DeviceSoftware {
+        
+        return .init(
+            supported: self.data.software,
+            current: self.currentSoftware
+        )
+        
+    }
     
     /// The device's traits.
     public var traits: [Trait] { self.data.traits }
@@ -58,6 +65,7 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     public let isSimulated: Bool
     
     private let data: DeviceData
+    private let currentSoftware: DeviceSoftware.Current?
     
     /// Initializes an Apple device using the current device.
     public init() {
@@ -75,9 +83,15 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
             )
             
         }
+        
+        let data = (try? Self.deviceData(for: identifier)) ?? .unknown(id: identifier)
                 
         self.init(
-            data: (try? Self.deviceData(for: identifier)) ?? .unknown(id: identifier),
+            data: data,
+            currentSoftware: .get(
+                deviceId: identifier,
+                supportedSoftware: data.software
+            ),
             simulated: simulated
         )
         
@@ -98,9 +112,11 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     // MARK: Private
     
     init(data: DeviceData,
+         currentSoftware: DeviceSoftware.Current? = nil,
          simulated: Bool = false) {
         
         self.data = data
+        self.currentSoftware = currentSoftware
         self.isSimulated = simulated
         
     }

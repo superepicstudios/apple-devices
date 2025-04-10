@@ -21,12 +21,26 @@ let package = Package(
         )
 
     ],
-    dependencies: [],
+    dependencies: [
+        
+        .package(
+            url: "https://github.com/sersoft-gmbh/semver",
+            from: "5.0.0"
+        )
+        
+    ],
     targets: [
 
         .target(
             name: "AppleDevices",
-            dependencies: [],
+            dependencies: [
+                
+                .product(
+                    name: "SemVer",
+                    package: "semver"
+                )
+                
+            ],
             path: "swift/Sources/AppleDevices",
             resources: [
                 .copy("Resources/data.json")
