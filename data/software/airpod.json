@@ -12,7 +12,7 @@
         "name": "AirPods Firmware",
         "version": {
             "min": "1.0",
-            "max": "7.1.20"
+            "max": "7.4"
         }
     }
 }
