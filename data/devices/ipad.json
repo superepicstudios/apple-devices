@@ -480,7 +480,7 @@
             "$ref": "../family.json#/ipad"
         },
         "chip": {
-            "$ref": "../chips/a.json#/a12z"
+            "$ref": "../chips/a.json#/a12x"
         },
         "software": [
             {
@@ -514,7 +514,7 @@
             "$ref": "../family.json#/ipad"
         },
         "chip": {
-            "$ref": "../chips/a.json#/a12z"
+            "$ref": "../chips/a.json#/a12x"
         },
         "software": [
             {
