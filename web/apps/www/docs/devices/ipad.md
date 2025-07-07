@@ -348,7 +348,7 @@
 - **Generational Name**: `iPad Pro (11-inch)`
 - **Family**: `iPad`
 - **Year**: `2018`
-- **Chip**: `Apple A12Z Bionic`
+- **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS` (_12.1...13.0_)
   - `iPadOS` (_13.1..._)
@@ -377,7 +377,7 @@
 - **Generational Name**: `iPad Pro (12.9-inch) (3rd Gen)`
 - **Family**: `iPad`
 - **Year**: `2018`
-- **Chip**: `Apple A12Z Bionic`
+- **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS` (_12.1...13.0_)
   - `iPadOS` (_13.1..._)

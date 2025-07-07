@@ -1,49 +1,43 @@
 {
-  "hash": "1c658878",
-  "configHash": "6594b638",
+  "hash": "bcaaf69e",
+  "configHash": "5d62b007",
   "lockfileHash": "e3b0c442",
-  "browserHash": "2cd0d007",
+  "browserHash": "f3236a90",
   "optimized": {
     "vue": {
       "src": "../../../../../node_modules/.deno/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a91398d5",
+      "fileHash": "4d10a69f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../../node_modules/.deno/@vue+devtools-api@7.7.2/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "38a58a7a",
+      "fileHash": "5ef7b4a9",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../../node_modules/.deno/@vueuse+core@12.7.0/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "1cc436db",
+      "fileHash": "79c643a4",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../../node_modules/.deno/@vueuse+integrations@12.7.0/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "db2b06ab",
+      "fileHash": "c3a5842c",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../../node_modules/.deno/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "4aed71ab",
+      "fileHash": "c71df827",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../../node_modules/.deno/minisearch@7.1.2/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "ed06c4a4",
-      "needsInterop": false
-    },
-    "@shikijs/vitepress-twoslash/client": {
-      "src": "../../../../../node_modules/.deno/@shikijs+vitepress-twoslash@3.1.0/node_modules/@shikijs/vitepress-twoslash/dist/client.mjs",
-      "file": "@shikijs_vitepress-twoslash_client.js",
-      "fileHash": "24aaeb81",
+      "fileHash": "e405d888",
       "needsInterop": false
     }
   },

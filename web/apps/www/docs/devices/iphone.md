@@ -173,7 +173,7 @@
 - **Marketing Name**: `iPhone 6 Plus`
 - **Family**: `iPhone`
 - **Year**: `2014`
-- **Chip**: `Apple A6`
+- **Chip**: `Apple A8`
 - **Software**: `iOS` (_8.0...12.5.7_)
 - **Traits**
   -  `button.home`
