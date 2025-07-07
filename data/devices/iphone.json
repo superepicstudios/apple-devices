@@ -248,7 +248,7 @@
             "$ref": "../family.json#/iphone"
         },
         "chip": {
-            "$ref": "../chips/a.json#/a6"
+            "$ref": "../chips/a.json#/a8"
         },
         "software": [
             {
