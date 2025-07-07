@@ -20,4 +20,8 @@ services:
       registry_credentials: "$REGISTRY_USER:$REGISTRY_TOKEN"
       repository: "$REPO-frontend"
       digest: $FRONTEND_DIGEST
+    envs:
+      - key: APP_VERSION
+        value: $RELEASE_TAG
+        scope: RUN_TIME
     http_port: 5173

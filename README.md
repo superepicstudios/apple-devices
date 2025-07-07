@@ -1,8 +1,8 @@
-# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.7.1-fde6cc.svg?labelColor=f78200)
+![Apple Devices](assets/hero.png)
 
-Tired of searching the web for stupid device identifiers? Join the club. 🙄
-This is a collection of up-to-date Apple device information, metadata, and most importantly - model numbers & identifiers.
-No more diving through wiki articles & gists trying to find that one bit of device info, it's all here! 🎉 [f***ckingappledevices.com](https://fuckingappledevices.com)
+# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.7.2-fbfaf4.svg?labelColor=313244)
+
+Tired of searching the web for stupid device identifiers? Join the club. 🙄 This is a collection of up-to-date Apple device information, metadata, and most importantly - model numbers & identifiers. No more diving through wiki articles & gists trying to find that one bit of device info, it's all here! 🎉 [f***ckingappledevices.com](https://fuckingappledevices.com)
 
 ## 📚 References
 
@@ -13,8 +13,7 @@ No more diving through wiki articles & gists trying to find that one bit of devi
 
 ## 📂 Structure
 
-This project is setup as a [monorepo](https://en.wikipedia.org/wiki/Monorepo) with the following components.
-Additional information can be found in each component's respective folder.
+This project is setup as a [monorepo](https://en.wikipedia.org/wiki/Monorepo) with the following components. Additional information can be found in each component's respective folder.
 
 - `web/apps/api` - Backend api
 - `web/apps/www` - Frontend website
@@ -22,9 +21,7 @@ Additional information can be found in each component's respective folder.
 
 ## 📦 Versioning
 
-This project (and components) use semantic versioning following a `year`-`month`-`revision` format.
-For example: `2025.1.0` (first version published in January 2025) or `2025.4.2` (3rd version published
-in April 2025).
+This project (and components) use semantic versioning following a `year`-`month`-`revision` format. For example: `2025.1.0` (first version published in January 2025) or `2025.4.2` (3rd version published in April 2025).
 
 ## 📝 Notes
 

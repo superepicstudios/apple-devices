@@ -11,11 +11,18 @@ export class HealthStatusResponse extends DtoBase {
     ]})
     status: HealthStatusType
 
-    constructor(status: HealthStatusType) {
-        
+    @ApiProperty()
+    version: string
+
+    constructor(
+        status: HealthStatusType, 
+        version: string
+    ) {
+
         super()
 
         this.status = status
+        this.version = version
 
     }
 

@@ -1,5 +1,9 @@
 import { defineConfig } from "vitepress"
 
+function version(): string {
+    return Deno.env.get("APP_VERSION") ?? "0.0.0"
+}
+
 export default defineConfig({
 
     title: "Fucking Apple Devices",
@@ -82,7 +86,7 @@ export default defineConfig({
         ],
 
         footer: {
-            copyright: "Copyright © 2025 Super Epic Studios, LLC<br><b>Made with ❤️ in Las Vegas</b><br>⭐️🍒🎰",
+            copyright: `Copyright © 2025 Super Epic Studios, LLC<br><b>Made with ❤️ in Las Vegas</b><br><b>${version()}</b><br>⭐️🍒🎰`,
         }
 
     },

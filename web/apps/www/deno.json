@@ -6,7 +6,7 @@
         "build": "vitepress build",
         "dev": {
             "dependencies": ["tz"],
-            "command": "NODE_ENV=development && vitepress dev ."
+            "command": "NODE_ENV=development vitepress dev ."
         },
         "start": {
             "dependencies": [
