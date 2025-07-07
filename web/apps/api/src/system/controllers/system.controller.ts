@@ -33,7 +33,8 @@ export class SystemController extends ControllerBase {
     async health(): Promise<HealthStatusResponse> {
 
         return new HealthStatusResponse(
-            await this.system.getHealthStatus()
+            await this.system.getHealthStatus(),
+            this.system.getVersion()
         )
     
     }

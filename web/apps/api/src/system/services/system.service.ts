@@ -9,4 +9,8 @@ export class SystemService extends ServiceBase {
         return HealthStatusType.HEALTHY
     }
 
+    getVersion(): string {
+        return Deno.env.get("APP_VERSION") ?? "0.0.0"
+    }
+
 }

@@ -5,7 +5,7 @@
         "tz": "export TZ=UTC",
         "dev": {
             "dependencies": ["tz"],
-            "command": "NODE_ENV=development && deno run -A --watch src/main.ts"
+            "command": "NODE_ENV=development deno run -A --watch src/main.ts"
         },
         "start": {
             "dependencies": ["tz"],
