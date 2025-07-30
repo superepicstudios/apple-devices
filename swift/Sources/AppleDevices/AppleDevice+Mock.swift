@@ -18,6 +18,7 @@ public extension AppleDevice {
                 identifiers: ["MockDevice1,1"],
                 name: "Mock Device",
                 genName: nil,
+//                gen: 1,
                 year: Calendar.current.component(.year, from: Date()),
                 family: .mock,
                 chip: .init(

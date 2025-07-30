@@ -14,6 +14,7 @@ extension AppleDevice /* DeviceData */ {
         let identifiers: [String]
         let name: String
         let genName: String?
+//        let gen: Int
         let year: Int
         let family: Family
         let chip: Chip
@@ -27,6 +28,7 @@ extension AppleDevice /* DeviceData */ {
             case identifiers = "ids"
             case name
             case genName = "gen_name"
+//            case gen
             case year
             case family
             case chip
@@ -43,6 +45,7 @@ extension AppleDevice /* DeviceData */ {
                 identifiers: [id],
                 name: "Unknown Device",
                 genName: nil,
+//                gen: -1,
                 year: Calendar.current.component(.year, from: Date()),
                 family: .unknown,
                 chip: .init(

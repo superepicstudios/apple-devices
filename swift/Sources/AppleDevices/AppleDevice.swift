@@ -39,6 +39,9 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     /// The device's family.
     public var family: Family { self.data.family }
     
+//    /// The device's generation.
+//    public var generation: Int { self.data.gen }
+    
     /// The device's chip.
     public var chip: Chip { self.data.chip }
     
