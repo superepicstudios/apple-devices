@@ -43,32 +43,23 @@ for (const family of sortedFamilyToDevicesMap.keys()) {
 
     for (const device of sortedFamilyToDevicesMap.get(family) ?? []) {
 
-        output += `## ${device.gen_name ?? device.name}\n`
-        output += `- **Marketing Name**: \`${device.name}\`\n`
+        output += `## ${uniqueDeviceName(device)}\n`
+        output += `- **Family**: \`${family}\`\n`
 
-        if (device.gen_name) {
-            output += `- **Generational Name**: \`${device.gen_name}\`\n`
+        if (device.variant) {
+            output += `- **Variant**: \`${device.variant}\`\n`
         }
 
-        output += `- **Family**: \`${family}\`\n`
+        output += `- **Generation**: \`${device.gen}\`\n`
         output += `- **Year**: \`${device.year}\`\n`
         output += `- **Chip**: \`${device.chip.name}\`\n`
 
         if (device.software.length > 0) {
 
-            if (device.software.length == 1) {
-                output += `- **Software**: ${stringForSoftware(device.software[0])}\n`
-            }
-            else {
+            output += "- **Software**\n"
 
-                // Multiple software
-
-                output += "- **Software**\n"
-
-                for (const software of device.software) {
-                    output += `  - ${stringForSoftware(software)}\n`
-                }
-
+            for (const software of device.software) {
+                output += `  - ${stringForSoftware(software)}\n`
             }
 
         }
@@ -139,23 +130,100 @@ console.log()
 
 // MARK: Functions
 
+function uniqueDeviceName(device: IDevice): string {
+
+    switch (device.family) {
+    case "iPhone":
+
+        // Don't include generation component
+        // for iPhone "X" devices
+
+        if ((device.gen == 11 || device.gen == 12) && device.traits.includes("display.fluid")) {
+            return variantDeviceName(device)
+        }
+
+        break
+
+    case "Apple_TV":
+
+        // "Apple TV 4K" has a number in its name, but it doesn't
+        // correlate to anything generational. We need to keep the
+        // generation component to uniquely identify these devices.
+
+        return fullDeviceName(device)
+
+    default: break
+    }
+
+    const stringContainsNumber = /\d/
+
+    if (stringContainsNumber.test(device.name)) {
+        return variantDeviceName(device)
+    }
+
+    return fullDeviceName(device)
+
+}
+
+function variantDeviceName(device: IDevice): string {
+
+    let name = device.name
+
+    if (device.variant) {
+        name += ` (${device.variant})`
+    }
+
+    return name
+
+}
+
+function fullDeviceName(device: IDevice): string {
+
+    let name = variantDeviceName(device)
+
+    if (device.gen > 1) {
+        name += ` (${ordinalString(device.gen)} Gen)`
+    }
+
+    return name
+
+}
+
 function stringForSoftware(software: ISoftware): string {
 
-    let output = `\`${software.name}\``
+    let output = software.name
 
     if (software.device_version) {
 
-        output += ` (_${software.device_version.min}...`
+        output += ` ${software.device_version.min} →`
 
         if (software.device_version.max) {
-            output += `${software.device_version.max}_)`
+            output += ` ${software.device_version.max}`
         }
-        else {
-            output += "_)"
+        else if (software.version.max) {
+            output += ` ${software.version.max}`
         }
 
     }
 
-    return output
+    return `\`${output}\``
+
+}
+
+function ordinalString(num: number): string {
+
+    let ordinal = "th"
+
+    if (num % 10 == 1 && num % 100 != 11) {
+        ordinal = "st"
+    }
+    else if (num % 10 == 2 && num % 100 != 12) {
+        ordinal = "nd"
+    }
+    else if (num % 10 == 3 && num % 100 != 13) {
+        ordinal = "rd"
+    }
+
+    return `${num}${ordinal}`
 
 }

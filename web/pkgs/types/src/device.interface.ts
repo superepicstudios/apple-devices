@@ -4,8 +4,9 @@ import type { IChip } from "./chip.interface.ts"
 export interface IDevice {
 
     name: string
-    gen_name?: string
+    variant?: string
     year: number
+    gen: number
     family: string
     chip: IChip
     software: ISoftware[]

@@ -2,6 +2,7 @@
     {
         "name": "iPad",
         "year": 2010,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -34,6 +35,7 @@
     {
         "name": "iPad 2",
         "year": 2011,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -58,7 +60,7 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (3rd Gen)",
+        "gen": 3,
         "year": 2012,
         "family": {
             "$ref": "../family.json#/ipad"
@@ -85,6 +87,7 @@
     {
         "name": "iPad mini",
         "year": 2012,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -109,8 +112,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (4th Gen)",
         "year": 2012,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -136,6 +139,7 @@
     {
         "name": "iPad Air",
         "year": 2013,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -161,6 +165,7 @@
     {
         "name": "iPad mini 2",
         "year": 2013,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -186,6 +191,7 @@
     {
         "name": "iPad mini 3",
         "year": 2014,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -211,6 +217,7 @@
     {
         "name": "iPad Air 2",
         "year": 2014,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -243,6 +250,7 @@
     {
         "name": "iPad mini 4",
         "year": 2015,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -274,8 +282,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (12.9-inch)",
+        "variant": "12.9-inch",
         "year": 2015,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -307,8 +316,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (9.7-inch)",
+        "variant": "9.7-inch",
         "year": 2016,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -340,8 +350,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (5th Gen)",
         "year": 2017,
+        "gen": 5,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -373,8 +383,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (12.9-inch) (2nd Gen)",
+        "variant": "12.9-inch",
         "year": 2017,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -407,8 +418,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (10.5-inch)",
+        "variant": "10.5-inch",
         "year": 2017,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -441,8 +453,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (6th Gen)",
         "year": 2018,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -474,8 +486,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (11-inch)",
+        "variant": "11-inch",
         "year": 2018,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -508,8 +521,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (12.9-inch) (3rd Gen)",
+        "variant": "12.9-inch",
         "year": 2018,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -542,8 +556,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (7th Gen)",
         "year": 2019,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -567,8 +581,8 @@
     },
     {
         "name": "iPad mini",
-        "gen_name": "iPad mini (5th Gen)",
         "year": 2019,
+        "gen": 5,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -599,8 +613,8 @@
     },
     {
         "name": "iPad Air",
-        "gen_name": "iPad Air (3rd Gen)",
         "year": 2019,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -631,8 +645,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (11-inch) (2nd Gen)",
+        "variant": "11-inch",
         "year": 2020,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -658,8 +673,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (12.9-inch) (4th Gen)",
+        "variant": "12.9-inch",
         "year": 2020,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -685,8 +701,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (8th Gen)",
         "year": 2020,
+        "gen": 8,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -710,8 +726,8 @@
     },
     {
         "name": "iPad Air",
-        "gen_name": "iPad Air (4th Gen)",
         "year": 2020,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -736,8 +752,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (11-inch) (3rd Gen)",
+        "variant": "11-inch",
         "year": 2021,
+        "gen": 5,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -764,8 +781,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (12.9-inch) (5th Gen)",
+        "variant": "12.9-inch",
         "year": 2021,
+        "gen": 5,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -792,8 +810,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (9th Gen)",
         "year": 2021,
+        "gen": 9,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -818,8 +836,8 @@
     },
     {
         "name": "iPad mini",
-        "gen_name": "iPad mini (6th Gen)",
         "year": 2021,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -844,8 +862,8 @@
     },
     {
         "name": "iPad Air",
-        "gen_name": "iPad Air (5th Gen)",
         "year": 2022,
+        "gen": 5,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -871,8 +889,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (10th Gen)",
         "year": 2022,
+        "gen": 10,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -897,8 +915,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (11-inch) (4th Gen)",
+        "variant": "11-inch",
         "year": 2022,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -925,8 +944,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (12.9-inch) (6th Gen)",
+        "variant": "12.9-inch",
         "year": 2022,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -953,8 +973,9 @@
     },
     {
         "name": "iPad Air",
-        "gen_name": "iPad Air (11-inch)",
+        "variant": "11-inch",
         "year": 2024,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -980,8 +1001,9 @@
     },
     {
         "name": "iPad Air",
-        "gen_name": "iPad Air (13-inch)",
+        "variant": "13-inch",
         "year": 2024,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -1007,8 +1029,8 @@
     },
     {
         "name": "iPad mini",
-        "gen_name": "iPad mini (7th Gen)",
         "year": 2024,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -1034,8 +1056,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (11-inch) (5th Gen)",
+        "variant": "11-inch",
         "year": 2024,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -1062,8 +1085,9 @@
     },
     {
         "name": "iPad Pro",
-        "gen_name": "iPad Pro (13-inch)",
+        "variant": "13-inch",
         "year": 2024,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -1090,8 +1114,9 @@
     },
     {
         "name": "iPad Air",
-        "gen_name": "iPad Air (11-inch) (2nd Gen)",
+        "variant": "11-inch",
         "year": 2025,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -1117,8 +1142,9 @@
     },
     {
         "name": "iPad Air",
-        "gen_name": "iPad Air (13-inch) (2nd Gen)",
+        "variant": "13-inch",
         "year": 2025,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/ipad"
         },
@@ -1144,8 +1170,8 @@
     },
     {
         "name": "iPad",
-        "gen_name": "iPad (11th Gen)",
         "year": 2025,
+        "gen": 11,
         "family": {
             "$ref": "../family.json#/ipad"
         },

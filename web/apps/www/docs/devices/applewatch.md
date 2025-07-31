@@ -1,11 +1,12 @@
 # Devices → Apple Watch
 
 ## Apple Watch
-- **Marketing Name**: `Apple Watch`
 - **Family**: `Apple_Watch`
+- **Generation**: `1`
 - **Year**: `2015`
 - **Chip**: `Apple S1`
-- **Software**: `watchOS` (_1.0...4.3.2_)
+- **Software**
+  - `watchOS 1.0 → 4.3.2`
 - **Internal Names**
   -  `N27aAP`
   -  `N28aAP`
@@ -18,11 +19,12 @@
   -  `Watch1,2`
 
 ## Apple Watch Series 1
-- **Marketing Name**: `Apple Watch Series 1`
 - **Family**: `Apple_Watch`
+- **Generation**: `2`
 - **Year**: `2016`
 - **Chip**: `Apple S1P`
-- **Software**: `watchOS` (_3.0...6.3_)
+- **Software**
+  - `watchOS 3.0 → 6.3`
 - **Internal Names**
   -  `N27dAP`
   -  `N28dAP`
@@ -34,11 +36,12 @@
   -  `Watch2,7`
 
 ## Apple Watch Series 2
-- **Marketing Name**: `Apple Watch Series 2`
 - **Family**: `Apple_Watch`
+- **Generation**: `2`
 - **Year**: `2016`
 - **Chip**: `Apple S2`
-- **Software**: `watchOS` (_3.0...6.3_)
+- **Software**
+  - `watchOS 3.0 → 6.3`
 - **Internal Names**
   -  `N74AP`
   -  `N75AP`
@@ -52,11 +55,12 @@
   -  `Watch2,4`
 
 ## Apple Watch Series 3
-- **Marketing Name**: `Apple Watch Series 3`
 - **Family**: `Apple_Watch`
+- **Generation**: `3`
 - **Year**: `2017`
 - **Chip**: `Apple S3`
-- **Software**: `watchOS` (_4.0...8.8.1_)
+- **Software**
+  - `watchOS 4.0 → 8.8.1`
 - **Internal Names**
   -  `N111sAP`
   -  `N111bAP`
@@ -78,11 +82,12 @@
   -  `Watch3,4`
 
 ## Apple Watch Series 4
-- **Marketing Name**: `Apple Watch Series 4`
 - **Family**: `Apple_Watch`
+- **Generation**: `4`
 - **Year**: `2018`
 - **Chip**: `Apple S4`
-- **Software**: `watchOS` (_5.0...10.6.1_)
+- **Software**
+  - `watchOS 5.0 → 10.6.1`
 - **Internal Names**
   -  `N131sAP`
   -  `N131bAP`
@@ -102,11 +107,12 @@
   -  `Watch4,4`
 
 ## Apple Watch Series 5
-- **Marketing Name**: `Apple Watch Series 5`
 - **Family**: `Apple_Watch`
+- **Generation**: `5`
 - **Year**: `2019`
 - **Chip**: `Apple S5`
-- **Software**: `watchOS` (_6.0...10.6.1_)
+- **Software**
+  - `watchOS 6.0 → 10.6.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -124,11 +130,12 @@
   -  `Watch5,4`
 
 ## Apple Watch SE
-- **Marketing Name**: `Apple Watch SE`
 - **Family**: `Apple_Watch`
+- **Generation**: `1`
 - **Year**: `2020`
 - **Chip**: `Apple S5`
-- **Software**: `watchOS` (_7.0...10.6.1_)
+- **Software**
+  - `watchOS 7.0 → 10.6.1`
 - **Internal Names**
   -  `N140sAP`
   -  `N140bAP`
@@ -148,11 +155,12 @@
   -  `Watch5,12`
 
 ## Apple Watch Series 6
-- **Marketing Name**: `Apple Watch Series 6`
 - **Family**: `Apple_Watch`
+- **Generation**: `6`
 - **Year**: `2020`
 - **Chip**: `Apple S6`
-- **Software**: `watchOS` (_7.0..._)
+- **Software**
+  - `watchOS 7.0 → 11.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -174,11 +182,12 @@
   -  `Watch6,4`
 
 ## Apple Watch Series 7
-- **Marketing Name**: `Apple Watch Series 7`
 - **Family**: `Apple_Watch`
+- **Generation**: `7`
 - **Year**: `2021`
 - **Chip**: `Apple S7`
-- **Software**: `watchOS` (_8.0..._)
+- **Software**
+  - `watchOS 8.0 → 11.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -200,12 +209,12 @@
   -  `Watch6,9`
 
 ## Apple Watch SE (2nd Gen)
-- **Marketing Name**: `Apple Watch SE`
-- **Generational Name**: `Apple Watch SE (2nd Gen)`
 - **Family**: `Apple_Watch`
+- **Generation**: `2`
 - **Year**: `2022`
 - **Chip**: `Apple S8`
-- **Software**: `watchOS` (_9.0..._)
+- **Software**
+  - `watchOS 9.0 → 11.6`
 - **Internal Names**
   -  `N143sAP`
   -  `N143bAP`
@@ -227,11 +236,12 @@
   -  `Watch6,13`
 
 ## Apple Watch Series 8
-- **Marketing Name**: `Apple Watch Series 8`
 - **Family**: `Apple_Watch`
+- **Generation**: `8`
 - **Year**: `2022`
 - **Chip**: `Apple S8`
-- **Software**: `watchOS` (_9.0..._)
+- **Software**
+  - `watchOS 9.0 → 11.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -255,11 +265,12 @@
   -  `Watch6,17`
 
 ## Apple Watch Ultra
-- **Marketing Name**: `Apple Watch Ultra`
 - **Family**: `Apple_Watch`
+- **Generation**: `1`
 - **Year**: `2022`
 - **Chip**: `Apple S8`
-- **Software**: `watchOS` (_9.0..._)
+- **Software**
+  - `watchOS 9.0 → 11.6`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -273,11 +284,12 @@
   -  `Watch6,18`
 
 ## Apple Watch Series 9
-- **Marketing Name**: `Apple Watch Series 9`
 - **Family**: `Apple_Watch`
+- **Generation**: `9`
 - **Year**: `2023`
 - **Chip**: `Apple S9`
-- **Software**: `watchOS` (_10.0..._)
+- **Software**
+  - `watchOS 10.0 → 11.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -299,12 +311,12 @@
   -  `Watch7,4`
 
 ## Apple Watch Ultra (2nd Gen)
-- **Marketing Name**: `Apple Watch Ultra`
-- **Generational Name**: `Apple Watch Ultra (2nd Gen)`
 - **Family**: `Apple_Watch`
+- **Generation**: `2`
 - **Year**: `2023`
 - **Chip**: `Apple S9`
-- **Software**: `watchOS` (_11.0..._)
+- **Software**
+  - `watchOS 11.0 → 11.6`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -317,11 +329,12 @@
   -  `Watch7,5`
 
 ## Apple Watch Series 10
-- **Marketing Name**: `Apple Watch Series 10`
 - **Family**: `Apple_Watch`
+- **Generation**: `10`
 - **Year**: `2024`
 - **Chip**: `Apple S10`
-- **Software**: `watchOS` (_11.0..._)
+- **Software**
+  - `watchOS 11.0 → 11.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**

@@ -1,11 +1,12 @@
 # Devices → Apple TV
 
 ## Apple TV
-- **Marketing Name**: `Apple TV`
 - **Family**: `Apple_TV`
+- **Generation**: `1`
 - **Year**: `2007`
 - **Chip**: `Intel Pentium M (1GHz)`
-- **Software**: `Apple TV Software` (_1.0...3.0.2_)
+- **Software**
+  - `Apple TV Software 1.0 → 3.0.2`
 - **Internal Names**
   -  `iTV`
 - **A Numbers**
@@ -14,12 +15,12 @@
   -  `AppleTV1,1`
 
 ## Apple TV (2nd Gen)
-- **Marketing Name**: `Apple TV`
-- **Generational Name**: `Apple TV (2nd Gen)`
 - **Family**: `Apple_TV`
+- **Generation**: `2`
 - **Year**: `2010`
 - **Chip**: `Apple A4`
-- **Software**: `Apple TV Software` (_4.0...6.2.1_)
+- **Software**
+  - `Apple TV Software 4.0 → 6.2.1`
 - **Internal Names**
   -  `K66AP`
 - **A Numbers**
@@ -28,12 +29,12 @@
   -  `AppleTV2,1`
 
 ## Apple TV (3rd Gen)
-- **Marketing Name**: `Apple TV`
-- **Generational Name**: `Apple TV (3rd Gen)`
 - **Family**: `Apple_TV`
+- **Generation**: `3`
 - **Year**: `2012`
 - **Chip**: `Apple A5`
-- **Software**: `Apple TV Software` (_5.0...7.9_)
+- **Software**
+  - `Apple TV Software 5.0 → 7.9`
 - **Internal Names**
   -  `J33AP`
   -  `J33IAP`
@@ -45,11 +46,12 @@
   -  `AppleTV3,2`
 
 ## Apple TV HD
-- **Marketing Name**: `Apple TV HD`
 - **Family**: `Apple_TV`
+- **Generation**: `1`
 - **Year**: `2015`
 - **Chip**: `Apple A8`
-- **Software**: `tvOS` (_9.0..._)
+- **Software**
+  - `tvOS 9.0 → 18.6`
 - **Internal Names**
   -  `J42dAP`
 - **A Numbers**
@@ -58,11 +60,12 @@
   -  `AppleTV5,3`
 
 ## Apple TV 4K
-- **Marketing Name**: `Apple TV 4K`
 - **Family**: `Apple_TV`
+- **Generation**: `1`
 - **Year**: `2017`
 - **Chip**: `Apple A10X Fusion`
-- **Software**: `tvOS` (_11.0..._)
+- **Software**
+  - `tvOS 11.0 → 18.6`
 - **Internal Names**
   -  `J105aAP`
 - **A Numbers**
@@ -71,12 +74,12 @@
   -  `AppleTV6,2`
 
 ## Apple TV 4K (2nd Gen)
-- **Marketing Name**: `Apple TV 4K`
-- **Generational Name**: `Apple TV 4K (2nd Gen)`
 - **Family**: `Apple_TV`
+- **Generation**: `2`
 - **Year**: `2021`
 - **Chip**: `Apple A12 Bionic`
-- **Software**: `tvOS` (_14.5..._)
+- **Software**
+  - `tvOS 14.5 → 18.6`
 - **Internal Names**
   -  `J305AP`
 - **A Numbers**
@@ -85,12 +88,12 @@
   -  `AppleTV11,1`
 
 ## Apple TV 4K (3rd Gen)
-- **Marketing Name**: `Apple TV 4K`
-- **Generational Name**: `Apple TV 4K (3rd Gen)`
 - **Family**: `Apple_TV`
+- **Generation**: `3`
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `tvOS` (_16.0..._)
+- **Software**
+  - `tvOS 16.0 → 18.6`
 - **Internal Names**
   -  `J255AP`
 - **A Numbers**

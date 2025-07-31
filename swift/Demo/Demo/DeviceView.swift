@@ -22,12 +22,16 @@ struct DeviceView: View {
             
             Section {
                 
-                rowView(title: "Name", value: self.device.name)
                 rowView(title: "Family", value: self.device.family.displayName)
-//                rowView(title: "Generation", value: "\(self.device.generation)")
+                                
+                if let variant = self.device.variant {
+                    rowView(title: "Variant", value: variant)
+                }
+                
+                rowView(title: "Generation", value: "\(self.device.generation)")
                 rowView(title: "Year", value: "\(self.device.year)")
                 rowView(title: "Chip", value: self.device.chip.name)
-                rowView(title: "Software", value: softwareString())
+                rowView(title: "Software", value: self.device.softwareRangeString())
 
             }
             
@@ -68,7 +72,7 @@ struct DeviceView: View {
             }
             
         }
-        .navigationTitle(device.descriptiveName)
+        .navigationTitle(self.device.name)
         
     }
     
@@ -106,31 +110,6 @@ struct DeviceView: View {
             
         }
         
-    }
-    
-    private func softwareString() -> String {
-        
-        let softwares = self.device.software.supported
-        
-        guard !softwares.isEmpty else {
-            return "???"
-        }
-        
-        var string = ""
-        
-        for idx in 0..<softwares.count {
-            
-            let sw = softwares[idx]
-            
-            string += "\(sw.name)"
-            
-            if idx != (softwares.count - 1) {
-                string += ", "
-            }
-            
-        }
-        
-        return string
     }
     
 }

@@ -3,6 +3,7 @@
     {
         "name": "iPhone",
         "year": 2007,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -28,6 +29,7 @@
     {
         "name": "iPhone 3G",
         "year": 2008,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -60,6 +62,7 @@
     {
         "name": "iPhone 3GS",
         "year": 2009,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -92,6 +95,7 @@
     {
         "name": "iPhone 4",
         "year": 2010,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -117,6 +121,7 @@
     {
         "name": "iPhone 4S",
         "year": 2011,
+        "gen": 5,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -142,6 +147,7 @@
     {
         "name": "iPhone 5",
         "year": 2012,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -167,6 +173,7 @@
     {
         "name": "iPhone 5c",
         "year": 2013,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -192,6 +199,7 @@
     {
         "name": "iPhone 5S",
         "year": 2013,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -218,6 +226,7 @@
     {
         "name": "iPhone 6",
         "year": 2014,
+        "gen": 8,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -244,6 +253,7 @@
     {
         "name": "iPhone 6 Plus",
         "year": 2014,
+        "gen": 8,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -270,6 +280,7 @@
     {
         "name": "iPhone 6S",
         "year": 2015,
+        "gen": 9,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -296,6 +307,7 @@
     {
         "name": "iPhone 6S Plus",
         "year": 2015,
+        "gen": 9,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -322,6 +334,7 @@
     {
         "name": "iPhone SE",
         "year": 2016,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -348,6 +361,7 @@
     {
         "name": "iPhone 7",
         "year": 2016,
+        "gen": 10,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -374,6 +388,7 @@
     {
         "name": "iPhone 7 Plus",
         "year": 2016,
+        "gen": 10,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -400,6 +415,7 @@
     {
         "name": "iPhone 8",
         "year": 2017,
+        "gen": 11,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -426,6 +442,7 @@
     {
         "name": "iPhone 8 Plus",
         "year": 2017,
+        "gen": 11,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -452,6 +469,7 @@
     {
         "name": "iPhone X",
         "year": 2017,
+        "gen": 11,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -479,6 +497,7 @@
     {
         "name": "iPhone XR",
         "year": 2018,
+        "gen": 12,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -505,6 +524,7 @@
     {
         "name": "iPhone XS",
         "year": 2018,
+        "gen": 12,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -531,6 +551,7 @@
     {
         "name": "iPhone XS Max",
         "year": 2018,
+        "gen": 12,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -557,6 +578,7 @@
     {
         "name": "iPhone 11",
         "year": 2019,
+        "gen": 13,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -583,6 +605,7 @@
     {
         "name": "iPhone 11 Pro",
         "year": 2019,
+        "gen": 13,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -609,6 +632,7 @@
     {
         "name": "iPhone 11 Pro Max",
         "year": 2019,
+        "gen": 13,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -634,8 +658,8 @@
     },
     {
         "name": "iPhone SE",
-        "gen_name": "iPhone SE (2nd Gen)",
         "year": 2020,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -661,6 +685,7 @@
     {
         "name": "iPhone 12",
         "year": 2020,
+        "gen": 14,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -687,6 +712,7 @@
     {
         "name": "iPhone 12 mini",
         "year": 2020,
+        "gen": 14,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -713,6 +739,7 @@
     {
         "name": "iPhone 12 Pro",
         "year": 2020,
+        "gen": 14,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -739,6 +766,7 @@
     {
         "name": "iPhone 12 Pro Max",
         "year": 2020,
+        "gen": 14,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -765,6 +793,7 @@
     {
         "name": "iPhone 13",
         "year": 2021,
+        "gen": 15,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -791,6 +820,7 @@
     {
         "name": "iPhone 13 mini",
         "year": 2021,
+        "gen": 15,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -817,6 +847,7 @@
     {
         "name": "iPhone 13 Pro",
         "year": 2021,
+        "gen": 15,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -844,6 +875,7 @@
     {
         "name": "iPhone 13 Pro Max",
         "year": 2021,
+        "gen": 15,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -870,8 +902,8 @@
     },
     {
         "name": "iPhone SE",
-        "gen_name": "iPhone SE (3rd Gen)",
         "year": 2022,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -897,6 +929,7 @@
     {
         "name": "iPhone 14",
         "year": 2022,
+        "gen": 16,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -923,6 +956,7 @@
     {
         "name": "iPhone 14 Plus",
         "year": 2022,
+        "gen": 16,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -949,6 +983,7 @@
     {
         "name": "iPhone 14 Pro",
         "year": 2022,
+        "gen": 16,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -977,6 +1012,7 @@
     {
         "name": "iPhone 14 Pro Max",
         "year": 2022,
+        "gen": 16,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1005,6 +1041,7 @@
     {
         "name": "iPhone 15",
         "year": 2023,
+        "gen": 17,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1032,6 +1069,7 @@
     {
         "name": "iPhone 15 Plus",
         "year": 2023,
+        "gen": 17,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1059,6 +1097,7 @@
     {
         "name": "iPhone 15 Pro",
         "year": 2023,
+        "gen": 17,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1089,6 +1128,7 @@
     {
         "name": "iPhone 15 Pro Max",
         "year": 2023,
+        "gen": 17,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1119,6 +1159,7 @@
     {
         "name": "iPhone 16",
         "year": 2024,
+        "gen": 18,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1148,6 +1189,7 @@
     {
         "name": "iPhone 16 Plus",
         "year": 2024,
+        "gen": 18,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1177,6 +1219,7 @@
     {
         "name": "iPhone 16 Pro",
         "year": 2024,
+        "gen": 18,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1208,6 +1251,7 @@
     {
         "name": "iPhone 16 Pro Max",
         "year": 2024,
+        "gen": 18,
         "family": {
             "$ref": "../family.json#/iphone"
         },
@@ -1239,6 +1283,7 @@
     {
         "name": "iPhone 16e",
         "year": 2025,
+        "gen": 18,
         "family": {
             "$ref": "../family.json#/iphone"
         },

@@ -9,6 +9,7 @@ Tired of searching the web for stupid device identifiers? Join the club. 🙄 Th
 - https://theapplewiki.com/wiki/Models
 - https://theapplewiki.com/wiki/List_of_{DEVICE}s ⋅ _(i.e. https://theapplewiki.com/wiki/List_of_iPhones)_
 - https://en.wikipedia.org/wiki/{DEVICE} ⋅ _(i.e. https://en.wikipedia.org/wiki/iPhone)_
+- https://apple.fandom.com/wiki/{DEVICE} ⋅ _(i.e. https://apple.fandom.com/wiki/iPhone)_
 - https://gist.github.com/adamawolf/3048717
 
 ## 📂 Structure

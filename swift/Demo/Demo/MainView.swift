@@ -62,15 +62,12 @@ struct MainView: View {
         } label: {
             
             HStack {
-
+                
                 if current {
-
-                    Text(device.descriptiveName)
-                        .bold()
-
+                    Text(device.uniqueName).bold()
                 }
                 else {
-                    Text(device.descriptiveName)
+                    Text(device.uniqueName)
                 }
 
                 Spacer()

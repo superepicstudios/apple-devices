@@ -2,6 +2,7 @@
     {
         "name": "iPod touch",
         "year": 2007,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/ipod"
         },
@@ -26,8 +27,8 @@
     },
     {
         "name": "iPod touch",
-        "gen_name": "iPod touch (2nd Gen)",
         "year": 2008,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/ipod"
         },
@@ -59,8 +60,8 @@
     },
     {
         "name": "iPod touch",
-        "gen_name": "iPod touch (3rd Gen)",
         "year": 2009,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/ipod"
         },
@@ -92,8 +93,8 @@
     },
     {
         "name": "iPod touch",
-        "gen_name": "iPod touch (4th Gen)",
         "year": 2010,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/ipod"
         },
@@ -118,8 +119,8 @@
     },
     {
         "name": "iPod touch",
-        "gen_name": "iPod touch (5th Gen)",
         "year": 2012,
+        "gen": 5,
         "family": {
             "$ref": "../family.json#/ipod"
         },
@@ -144,8 +145,8 @@
     },
     {
         "name": "iPod touch",
-        "gen_name": "iPod touch (6th Gen)",
         "year": 2015,
+        "gen": 6,
         "family": {
             "$ref": "../family.json#/ipod"
         },
@@ -170,8 +171,8 @@
     },
     {
         "name": "iPod touch",
-        "gen_name": "iPod touch (7th Gen)",
         "year": 2019,
+        "gen": 7,
         "family": {
             "$ref": "../family.json#/ipod"
         },

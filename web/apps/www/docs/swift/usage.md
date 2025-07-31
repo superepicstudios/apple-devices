@@ -11,7 +11,7 @@ Developing your own package and want to use this as a dependency? Just add a pac
 ```swift
 .package(
     url: "https://github.com/superepicstudios/apple-devices",
-    from: "2025.4.0"
+    from: "2025.7.0"
 )
 ```
 
@@ -92,8 +92,8 @@ let earlyPhones = AppleDevice.withIdentifiersContaining(
 let ipadsByName = AppleDevice
     .withNamesContaining("iPad")
 
-let maxDevices = AppleDevice
-    .withGenNamesContaining("Max")
+let firstGenDevices = AppleDevice
+    .withGenerationsContaining(1)
 
 let aodDevices = AppleDevice
     .withTraits(.alwaysOnDisplay)

@@ -18,7 +18,8 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
 
     getDevices(
         
-        families?: string | string[], 
+        families?: string | string[],
+        gens?: string | string[],
         years?: string | string[],
         traits?: string | string[],
         notTraits?: string | string[]
@@ -37,6 +38,14 @@ export class DeviceService extends ServiceBase implements OnApplicationBootstrap
                 devices.filter(d => sanitizedFamilies.includes(this.sanitizeFamily(d.family))) :
                 devices.filter(d => this.sanitizeFamily(d.family) == sanitizedFamilies)
             
+        }
+
+        if (gens) {
+            
+            devices = Array.isArray(gens) ?
+                devices.filter(d => gens.includes(d.gen.toString())) :
+                devices.filter(d => d.gen.toString() == gens)
+
         }
 
         if (years) {

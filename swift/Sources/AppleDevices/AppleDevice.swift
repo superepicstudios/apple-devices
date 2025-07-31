@@ -22,28 +22,39 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     }
         
     /// The device's identifiers.
-    public var identifiers: [String] { self.data.identifiers }
+    public var identifiers: [String] {
+        self.data.identifiers
+    }
     
     /// The device's marketing name.
-    public var name: String { self.data.name }
-    
-    /// The device's generational name.
-    ///
-    /// This is only available when a device has multiple revisions
-    /// with a generic marketing name. i.e. "iPad" → "iPad (11th Gen)".
-    public var genName: String? { self.data.genName }
-    
-    /// The device's release year.
-    public var year: Int { self.data.year }
+    public var name: String {
+        self.data.name
+    }
     
     /// The device's family.
-    public var family: Family { self.data.family }
+    public var family: Family {
+        self.data.family
+    }
     
-//    /// The device's generation.
-//    public var generation: Int { self.data.gen }
+    /// The device's variant.
+    public var variant: String? {
+        self.data.variant
+    }
+    
+    /// The device's generation number.
+    public var generation: Int {
+        self.data.gen
+    }
+    
+    /// The device's release year.
+    public var year: Int {
+        self.data.year
+    }
     
     /// The device's chip.
-    public var chip: Chip { self.data.chip }
+    public var chip: Chip {
+        self.data.chip
+    }
     
     /// The device's software information.
     public var software: DeviceSoftware {
@@ -56,13 +67,19 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     }
     
     /// The device's traits.
-    public var traits: [Trait] { self.data.traits }
+    public var traits: [Trait] {
+        self.data.traits
+    }
     
     /// The device's internal names.
-    public var internalNames: [String] { self.data.internalNames }
+    public var internalNames: [String] {
+        self.data.internalNames
+    }
     
     /// The device's "A" numbers.
-    public var aNumbers: [String] { self.data.aNumbers }
+    public var aNumbers: [String] {
+        self.data.aNumbers
+    }
     
     /// Flag indicating if this is a simulated device.
     public let isSimulated: Bool
