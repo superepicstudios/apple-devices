@@ -11,7 +11,7 @@ Developing your own package and want to use this as a dependency? Just add a pac
 ```swift
 .package(
     url: "https://github.com/superepicstudios/apple-devices",
-    from: "2025.7.0"
+    from: "2025.0.0"
 )
 ```
 

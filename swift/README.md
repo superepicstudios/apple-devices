@@ -15,9 +15,8 @@ Developing your own package and want to use this as a dependency? Just add a pac
 
 ```swift
 .package(
-    name: "AppleDevices",
     url: "https://github.com/superepicstudios/apple-devices",
-    .upToNextMajor(from: "2025.0.0")
+    from: "2025.0.0"
 )
 ```
 
