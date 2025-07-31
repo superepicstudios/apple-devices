@@ -1,11 +1,12 @@
 # Devices → AirPod
 
 ## AirPods
-- **Marketing Name**: `AirPods`
 - **Family**: `AirPod`
+- **Generation**: `1`
 - **Year**: `2016`
 - **Chip**: `Apple H1`
-- **Software**: `AirPods Firmware` (_3.3.1...6.8.8_)
+- **Software**
+  - `AirPods Firmware 3.3.1 → 6.8.8`
 - **Internal Names**
   -  `B188AP`
 - **A Numbers**
@@ -17,12 +18,12 @@
   -  `Device1,8194`
 
 ## AirPods (2nd Gen)
-- **Marketing Name**: `AirPods`
-- **Generational Name**: `AirPods (2nd Gen)`
 - **Family**: `AirPod`
+- **Generation**: `2`
 - **Year**: `2019`
 - **Chip**: `Apple H1`
-- **Software**: `AirPods Firmware` (_1.0..._)
+- **Software**
+  - `AirPods Firmware 1.0 → 7.4`
 - **Internal Names**
   -  `B288AP`
 - **A Numbers**
@@ -35,11 +36,12 @@
   -  `AirPods2,1`
 
 ## AirPods Pro
-- **Marketing Name**: `AirPods Pro`
 - **Family**: `AirPod`
+- **Generation**: `1`
 - **Year**: `2019`
 - **Chip**: `Apple H1`
-- **Software**: `AirPods Firmware` (_2.1..._)
+- **Software**
+  - `AirPods Firmware 2.1 → 7.4`
 - **Internal Names**
   -  `B298AP`
 - **A Numbers**
@@ -53,11 +55,12 @@
   -  `Device1,8206`
 
 ## AirPods Max
-- **Marketing Name**: `AirPods Max`
 - **Family**: `AirPod`
+- **Generation**: `1`
 - **Year**: `2020`
 - **Chip**: `Apple H1`
-- **Software**: `AirPods Firmware` (_3.2..._)
+- **Software**
+  - `AirPods Firmware 3.2 → 7.4`
 - **Internal Names**
   -  `B515AP`
 - **A Numbers**
@@ -70,12 +73,12 @@
   -  `Device1,8223`
 
 ## AirPods (3rd Gen)
-- **Marketing Name**: `AirPods`
-- **Generational Name**: `AirPods (3rd Gen)`
 - **Family**: `AirPod`
+- **Generation**: `3`
 - **Year**: `2021`
 - **Chip**: `Apple H1`
-- **Software**: `AirPods Firmware` (_4.1..._)
+- **Software**
+  - `AirPods Firmware 4.1 → 7.4`
 - **Internal Names**
   -  `B388AP`
 - **A Numbers**
@@ -89,12 +92,12 @@
   -  `Device1,8211`
 
 ## AirPods Pro (2nd Gen)
-- **Marketing Name**: `AirPods Pro`
-- **Generational Name**: `AirPods Pro (2nd Gen)`
 - **Family**: `AirPod`
+- **Generation**: `2`
 - **Year**: `2022`
 - **Chip**: `Apple H2`
-- **Software**: `AirPods Firmware` (_5.0.374..._)
+- **Software**
+  - `AirPods Firmware 5.0.374 → 7.4`
 - **Internal Names**
   -  `B698AP`
 - **A Numbers**
@@ -111,11 +114,12 @@
   -  `Device1,8228`
 
 ## AirPods 4
-- **Marketing Name**: `AirPods 4`
 - **Family**: `AirPod`
+- **Generation**: `4`
 - **Year**: `2024`
 - **Chip**: `Apple H2`
-- **Software**: `AirPods Firmware` (_7.0.291..._)
+- **Software**
+  - `AirPods Firmware 7.0.291 → 7.4`
 - **Internal Names**
   -  `B768AP`
   -  `B768MAP`

@@ -2,6 +2,7 @@
     {
         "name": "Apple TV",
         "year": 2007,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/tv"
         },
@@ -24,8 +25,8 @@
     },
     {
         "name": "Apple TV",
-        "gen_name": "Apple TV (2nd Gen)",
         "year": 2010,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/tv"
         },
@@ -48,8 +49,8 @@
     },
     {
         "name": "Apple TV",
-        "gen_name": "Apple TV (3rd Gen)",
         "year": 2012,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/tv"
         },
@@ -73,6 +74,7 @@
     {
         "name": "Apple TV HD",
         "year": 2015,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/tv"
         },
@@ -95,6 +97,7 @@
     {
         "name": "Apple TV 4K",
         "year": 2017,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/tv"
         },
@@ -116,8 +119,8 @@
     },
     {
         "name": "Apple TV 4K",
-        "gen_name": "Apple TV 4K (2nd Gen)",
         "year": 2021,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/tv"
         },
@@ -139,8 +142,8 @@
     },
     {
         "name": "Apple TV 4K",
-        "gen_name": "Apple TV 4K (3rd Gen)",
         "year": 2022,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/tv"
         },

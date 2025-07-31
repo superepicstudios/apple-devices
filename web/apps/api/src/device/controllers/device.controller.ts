@@ -14,6 +14,7 @@ export class DeviceController extends ControllerBase {
     getDevices(
         
         @Query("family") families?: string | string[],
+        @Query("gen") gens?: string | string[],
         @Query("year") years?: string | string[],
         @Query("trait") traits?: string | string[],
         @Query("not-trait") notTraits?: string | string[]
@@ -22,6 +23,7 @@ export class DeviceController extends ControllerBase {
 
         return this.device.getDevices(
             families, 
+            gens,
             years,
             traits,
             notTraits

@@ -1,11 +1,12 @@
 # Devices → iPhone
 
 ## iPhone
-- **Marketing Name**: `iPhone`
 - **Family**: `iPhone`
+- **Generation**: `1`
 - **Year**: `2007`
 - **Chip**: `APL0098`
-- **Software**: `iPhone OS` (_1.0...3.2.2_)
+- **Software**
+  - `iPhone OS 1.0 → 3.2.2`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -16,13 +17,13 @@
   -  `iPhone1,1`
 
 ## iPhone 3G
-- **Marketing Name**: `iPhone 3G`
 - **Family**: `iPhone`
+- **Generation**: `2`
 - **Year**: `2008`
 - **Chip**: `APL0098`
 - **Software**
-  - `iPhone OS` (_2.0...3.2.2_)
-  - `iOS` (_4.0...4.2.1_)
+  - `iPhone OS 2.0 → 3.2.2`
+  - `iOS 4.0 → 4.2.1`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -34,13 +35,13 @@
   -  `iPhone1,2`
 
 ## iPhone 3GS
-- **Marketing Name**: `iPhone 3GS`
 - **Family**: `iPhone`
+- **Generation**: `3`
 - **Year**: `2009`
 - **Chip**: `APL0298`
 - **Software**
-  - `iPhone OS` (_3.0...3.2.2_)
-  - `iOS` (_4.0...6.1.6_)
+  - `iPhone OS 3.0 → 3.2.2`
+  - `iOS 4.0 → 6.1.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -52,11 +53,12 @@
   -  `iPhone2,1`
 
 ## iPhone 4
-- **Marketing Name**: `iPhone 4`
 - **Family**: `iPhone`
+- **Generation**: `4`
 - **Year**: `2010`
 - **Chip**: `Apple A4`
-- **Software**: `iOS` (_4.0...7.1.2_)
+- **Software**
+  - `iOS 4.0 → 7.1.2`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -72,11 +74,12 @@
   -  `iPhone3,3`
 
 ## iPhone 4S
-- **Marketing Name**: `iPhone 4S`
 - **Family**: `iPhone`
+- **Generation**: `5`
 - **Year**: `2011`
 - **Chip**: `Apple A5`
-- **Software**: `iOS` (_5.0...9.3.6_)
+- **Software**
+  - `iOS 5.0 → 9.3.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -88,11 +91,12 @@
   -  `iPhone4,1`
 
 ## iPhone 5
-- **Marketing Name**: `iPhone 5`
 - **Family**: `iPhone`
+- **Generation**: `6`
 - **Year**: `2012`
 - **Chip**: `Apple A6`
-- **Software**: `iOS` (_6.0...10.3.4_)
+- **Software**
+  - `iOS 6.0 → 10.3.4`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -107,11 +111,12 @@
   -  `iPhone5,2`
 
 ## iPhone 5c
-- **Marketing Name**: `iPhone 5c`
 - **Family**: `iPhone`
+- **Generation**: `6`
 - **Year**: `2013`
 - **Chip**: `Apple A6`
-- **Software**: `iOS` (_7.0...10.3.4_)
+- **Software**
+  - `iOS 7.0 → 10.3.4`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -129,11 +134,12 @@
   -  `iPhone5,4`
 
 ## iPhone 5S
-- **Marketing Name**: `iPhone 5S`
 - **Family**: `iPhone`
+- **Generation**: `7`
 - **Year**: `2013`
 - **Chip**: `Apple A7`
-- **Software**: `iOS` (_7.0...12.5.7_)
+- **Software**
+  - `iOS 7.0 → 12.5.7`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -152,11 +158,12 @@
   -  `iPhone6,2`
 
 ## iPhone 6
-- **Marketing Name**: `iPhone 6`
 - **Family**: `iPhone`
+- **Generation**: `8`
 - **Year**: `2014`
 - **Chip**: `Apple A8`
-- **Software**: `iOS` (_8.0...12.5.7_)
+- **Software**
+  - `iOS 8.0 → 12.5.7`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -170,11 +177,12 @@
   -  `iPhone7,2`
 
 ## iPhone 6 Plus
-- **Marketing Name**: `iPhone 6 Plus`
 - **Family**: `iPhone`
+- **Generation**: `8`
 - **Year**: `2014`
 - **Chip**: `Apple A8`
-- **Software**: `iOS` (_8.0...12.5.7_)
+- **Software**
+  - `iOS 8.0 → 12.5.7`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -188,11 +196,12 @@
   -  `iPhone7,1`
 
 ## iPhone 6S
-- **Marketing Name**: `iPhone 6S`
 - **Family**: `iPhone`
+- **Generation**: `9`
 - **Year**: `2015`
 - **Chip**: `Apple A9`
-- **Software**: `iOS` (_9.0...15.8.3_)
+- **Software**
+  - `iOS 9.0 → 15.8.3`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -208,11 +217,12 @@
   -  `iPhone8,1`
 
 ## iPhone 6S Plus
-- **Marketing Name**: `iPhone 6S Plus`
 - **Family**: `iPhone`
+- **Generation**: `9`
 - **Year**: `2015`
 - **Chip**: `Apple A9`
-- **Software**: `iOS` (_9.0...15.8.3_)
+- **Software**
+  - `iOS 9.0 → 15.8.3`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -228,11 +238,12 @@
   -  `iPhone8,2`
 
 ## iPhone SE
-- **Marketing Name**: `iPhone SE`
 - **Family**: `iPhone`
+- **Generation**: `1`
 - **Year**: `2016`
 - **Chip**: `Apple A9`
-- **Software**: `iOS` (_9.3...15.8.3_)
+- **Software**
+  - `iOS 9.3 → 15.8.3`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -247,11 +258,12 @@
   -  `iPhone8,4`
 
 ## iPhone 7
-- **Marketing Name**: `iPhone 7`
 - **Family**: `iPhone`
+- **Generation**: `10`
 - **Year**: `2016`
 - **Chip**: `Apple A10 Fusion`
-- **Software**: `iOS` (_10.0...15.8.3_)
+- **Software**
+  - `iOS 10.0 → 15.8.3`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -268,11 +280,12 @@
   -  `iPhone9,3`
 
 ## iPhone 7 Plus
-- **Marketing Name**: `iPhone 7 Plus`
 - **Family**: `iPhone`
+- **Generation**: `10`
 - **Year**: `2016`
 - **Chip**: `Apple A10 Fusion`
-- **Software**: `iOS` (_10.0...15.8.3_)
+- **Software**
+  - `iOS 10.0 → 15.8.3`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -289,11 +302,12 @@
   -  `iPhone9,4`
 
 ## iPhone 8
-- **Marketing Name**: `iPhone 8`
 - **Family**: `iPhone`
+- **Generation**: `11`
 - **Year**: `2017`
 - **Chip**: `Apple A11 Bionic`
-- **Software**: `iOS` (_11.0...16.7.10_)
+- **Software**
+  - `iOS 11.0 → 16.7.10`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -310,11 +324,12 @@
   -  `iPhone10,4`
 
 ## iPhone 8 Plus
-- **Marketing Name**: `iPhone 8 Plus`
 - **Family**: `iPhone`
+- **Generation**: `11`
 - **Year**: `2017`
 - **Chip**: `Apple A11 Bionic`
-- **Software**: `iOS` (_11.0...16.7.10_)
+- **Software**
+  - `iOS 11.0 → 16.7.10`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -331,11 +346,12 @@
   -  `iPhone10,5`
 
 ## iPhone X
-- **Marketing Name**: `iPhone X`
 - **Family**: `iPhone`
+- **Generation**: `11`
 - **Year**: `2017`
 - **Chip**: `Apple A11 Bionic`
-- **Software**: `iOS` (_11.0.1...16.7.10_)
+- **Software**
+  - `iOS 11.0.1 → 16.7.10`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -352,11 +368,12 @@
   -  `iPhone10,6`
 
 ## iPhone XR
-- **Marketing Name**: `iPhone XR`
 - **Family**: `iPhone`
+- **Generation**: `12`
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
-- **Software**: `iOS` (_12.0..._)
+- **Software**
+  - `iOS 12.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -372,11 +389,12 @@
   -  `iPhone11,8`
 
 ## iPhone XS
-- **Marketing Name**: `iPhone XS`
 - **Family**: `iPhone`
+- **Generation**: `12`
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
-- **Software**: `iOS` (_12.0..._)
+- **Software**
+  - `iOS 12.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -392,11 +410,12 @@
   -  `iPhone11,2`
 
 ## iPhone XS Max
-- **Marketing Name**: `iPhone XS Max`
 - **Family**: `iPhone`
+- **Generation**: `12`
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
-- **Software**: `iOS` (_12.0..._)
+- **Software**
+  - `iOS 12.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -415,11 +434,12 @@
   -  `iPhone11,6`
 
 ## iPhone 11
-- **Marketing Name**: `iPhone 11`
 - **Family**: `iPhone`
+- **Generation**: `13`
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
-- **Software**: `iOS` (_13.0..._)
+- **Software**
+  - `iOS 13.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -434,11 +454,12 @@
   -  `iPhone12,1`
 
 ## iPhone 11 Pro
-- **Marketing Name**: `iPhone 11 Pro`
 - **Family**: `iPhone`
+- **Generation**: `13`
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
-- **Software**: `iOS` (_13.0..._)
+- **Software**
+  - `iOS 13.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -453,11 +474,12 @@
   -  `iPhone12,3`
 
 ## iPhone 11 Pro Max
-- **Marketing Name**: `iPhone 11 Pro Max`
 - **Family**: `iPhone`
+- **Generation**: `13`
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
-- **Software**: `iOS` (_13.0..._)
+- **Software**
+  - `iOS 13.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -472,12 +494,12 @@
   -  `iPhone12,5`
 
 ## iPhone SE (2nd Gen)
-- **Marketing Name**: `iPhone SE`
-- **Generational Name**: `iPhone SE (2nd Gen)`
 - **Family**: `iPhone`
+- **Generation**: `2`
 - **Year**: `2020`
 - **Chip**: `Apple A13 Bionic`
-- **Software**: `iOS` (_13.4..._)
+- **Software**
+  - `iOS 13.4 → 18.6`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -491,11 +513,12 @@
   -  `iPhone12,8`
 
 ## iPhone 12
-- **Marketing Name**: `iPhone 12`
 - **Family**: `iPhone`
+- **Generation**: `14`
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
-- **Software**: `iOS` (_14.1..._)
+- **Software**
+  - `iOS 14.1 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -511,11 +534,12 @@
   -  `iPhone13,2`
 
 ## iPhone 12 mini
-- **Marketing Name**: `iPhone 12 mini`
 - **Family**: `iPhone`
+- **Generation**: `14`
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
-- **Software**: `iOS` (_14.1..._)
+- **Software**
+  - `iOS 14.1 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -531,11 +555,12 @@
   -  `iPhone13,1`
 
 ## iPhone 12 Pro
-- **Marketing Name**: `iPhone 12 Pro`
 - **Family**: `iPhone`
+- **Generation**: `14`
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
-- **Software**: `iOS` (_14.1..._)
+- **Software**
+  - `iOS 14.1 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -551,11 +576,12 @@
   -  `iPhone13,3`
 
 ## iPhone 12 Pro Max
-- **Marketing Name**: `iPhone 12 Pro Max`
 - **Family**: `iPhone`
+- **Generation**: `14`
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
-- **Software**: `iOS` (_14.1..._)
+- **Software**
+  - `iOS 14.1 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -571,11 +597,12 @@
   -  `iPhone13,4`
 
 ## iPhone 13
-- **Marketing Name**: `iPhone 13`
 - **Family**: `iPhone`
+- **Generation**: `15`
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iOS` (_15.0..._)
+- **Software**
+  - `iOS 15.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -592,11 +619,12 @@
   -  `iPhone14,5`
 
 ## iPhone 13 mini
-- **Marketing Name**: `iPhone 13 mini`
 - **Family**: `iPhone`
+- **Generation**: `15`
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iOS` (_15.0..._)
+- **Software**
+  - `iOS 15.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -613,11 +641,12 @@
   -  `iPhone14,4`
 
 ## iPhone 13 Pro
-- **Marketing Name**: `iPhone 13 Pro`
 - **Family**: `iPhone`
+- **Generation**: `15`
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iOS` (_15.0..._)
+- **Software**
+  - `iOS 15.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -635,11 +664,12 @@
   -  `iPhone14,2`
 
 ## iPhone 13 Pro Max
-- **Marketing Name**: `iPhone 13 Pro Max`
 - **Family**: `iPhone`
+- **Generation**: `15`
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iOS` (_15.0..._)
+- **Software**
+  - `iOS 15.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -657,12 +687,12 @@
   -  `iPhone14,3`
 
 ## iPhone SE (3rd Gen)
-- **Marketing Name**: `iPhone SE`
-- **Generational Name**: `iPhone SE (3rd Gen)`
 - **Family**: `iPhone`
+- **Generation**: `3`
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iOS` (_15.4..._)
+- **Software**
+  - `iOS 15.4 → 18.6`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -678,11 +708,12 @@
   -  `iPhone14,6`
 
 ## iPhone 14
-- **Marketing Name**: `iPhone 14`
 - **Family**: `iPhone`
+- **Generation**: `16`
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iOS` (_16.0..._)
+- **Software**
+  - `iOS 16.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -699,11 +730,12 @@
   -  `iPhone14,7`
 
 ## iPhone 14 Plus
-- **Marketing Name**: `iPhone 14 Plus`
 - **Family**: `iPhone`
+- **Generation**: `16`
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iOS` (_16.0..._)
+- **Software**
+  - `iOS 16.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -720,11 +752,12 @@
   -  `iPhone14,8`
 
 ## iPhone 14 Pro
-- **Marketing Name**: `iPhone 14 Pro`
 - **Family**: `iPhone`
+- **Generation**: `16`
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
-- **Software**: `iOS` (_16.0..._)
+- **Software**
+  - `iOS 16.0 → 18.6`
 - **Traits**
   -  `display.always-on`
   -  `display.dynamic-island`
@@ -743,11 +776,12 @@
   -  `iPhone15,2`
 
 ## iPhone 14 Pro Max
-- **Marketing Name**: `iPhone 14 Pro Max`
 - **Family**: `iPhone`
+- **Generation**: `16`
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
-- **Software**: `iOS` (_16.0..._)
+- **Software**
+  - `iOS 16.0 → 18.6`
 - **Traits**
   -  `display.always-on`
   -  `display.dynamic-island`
@@ -766,11 +800,12 @@
   -  `iPhone15,3`
 
 ## iPhone 15
-- **Marketing Name**: `iPhone 15`
 - **Family**: `iPhone`
+- **Generation**: `17`
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
-- **Software**: `iOS` (_17.0..._)
+- **Software**
+  - `iOS 17.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `display.dynamic-island`
@@ -787,11 +822,12 @@
   -  `iPhone15,4`
 
 ## iPhone 15 Plus
-- **Marketing Name**: `iPhone 15 Plus`
 - **Family**: `iPhone`
+- **Generation**: `17`
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
-- **Software**: `iOS` (_17.0..._)
+- **Software**
+  - `iOS 17.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `display.dynamic-island`
@@ -808,11 +844,12 @@
   -  `iPhone15,5`
 
 ## iPhone 15 Pro
-- **Marketing Name**: `iPhone 15 Pro`
 - **Family**: `iPhone`
+- **Generation**: `17`
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
-- **Software**: `iOS` (_17.0..._)
+- **Software**
+  - `iOS 17.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -832,11 +869,12 @@
   -  `iPhone16,1`
 
 ## iPhone 15 Pro Max
-- **Marketing Name**: `iPhone 15 Pro Max`
 - **Family**: `iPhone`
+- **Generation**: `17`
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
-- **Software**: `iOS` (_17.0..._)
+- **Software**
+  - `iOS 17.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -856,11 +894,12 @@
   -  `iPhone16,2`
 
 ## iPhone 16
-- **Marketing Name**: `iPhone 16`
 - **Family**: `iPhone`
+- **Generation**: `18`
 - **Year**: `2024`
 - **Chip**: `Apple A18`
-- **Software**: `iOS` (_18.0..._)
+- **Software**
+  - `iOS 18.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -879,11 +918,12 @@
   -  `iPhone17,3`
 
 ## iPhone 16 Plus
-- **Marketing Name**: `iPhone 16 Plus`
 - **Family**: `iPhone`
+- **Generation**: `18`
 - **Year**: `2024`
 - **Chip**: `Apple A18`
-- **Software**: `iOS` (_18.0..._)
+- **Software**
+  - `iOS 18.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -902,11 +942,12 @@
   -  `iPhone17,4`
 
 ## iPhone 16 Pro
-- **Marketing Name**: `iPhone 16 Pro`
 - **Family**: `iPhone`
+- **Generation**: `18`
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
-- **Software**: `iOS` (_18.0..._)
+- **Software**
+  - `iOS 18.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -927,11 +968,12 @@
   -  `iPhone17,1`
 
 ## iPhone 16 Pro Max
-- **Marketing Name**: `iPhone 16 Pro Max`
 - **Family**: `iPhone`
+- **Generation**: `18`
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
-- **Software**: `iOS` (_18.0..._)
+- **Software**
+  - `iOS 18.0 → 18.6`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -952,11 +994,12 @@
   -  `iPhone17,2`
 
 ## iPhone 16e
-- **Marketing Name**: `iPhone 16e`
 - **Family**: `iPhone`
+- **Generation**: `18`
 - **Year**: `2025`
 - **Chip**: `Apple A18`
-- **Software**: `iOS` (_18.3..._)
+- **Software**
+  - `iOS 18.3 → 18.6`
 - **Traits**
   -  `button.action`
   -  `display.fluid`

@@ -4,11 +4,11 @@
 
 ```json
 {
-    "id": "iphoneos", ⋅⋅⋅⋅ Identifier
-    "name": "iPhone OS", ⋅ Marketing name
+    "id": "iphoneos", ⋅⋅⋅⋅⋅⋅ Identifier
+    "name": "iPhone OS", ⋅⋅⋅ Marketing name
     "version": {
-        "min": "1.0", ⋅⋅⋅⋅ Minimum (initial) version
-        "max": "3.2.2" ⋅⋅⋅ Maximum (current) version
+        "min": "1.0", ⋅⋅⋅⋅⋅⋅ Minimum (initial) version
+        "max": "3.2.2" ⋅⋅⋅⋅⋅ Maximum (current) version
     }
 }
 ```

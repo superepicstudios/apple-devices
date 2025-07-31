@@ -4,32 +4,33 @@
 
 ```json
 {
-    "name": "iPad", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Marketing name
-    "gen_name": "iPad (3rd Gen)", ⋅ Generational name (optional)
-    "year": 2012, ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Release year
-    "family": "iPad", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Family identifier
+    "name": "iPad Pro", ⋅⋅⋅⋅⋅⋅⋅ Marketing name
+    "family": "iPad", ⋅⋅⋅⋅⋅⋅⋅⋅⋅ Family identifier
+    "variant": "12.9-inch", ⋅⋅⋅ Variant name (optional)
+    "year": 2015, ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Release year
+    "gen": 1, ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Generation number
     "chip": {
-        "id": "a5x", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Chip identifier
-        "name": "Apple A5X" ⋅⋅⋅⋅⋅⋅⋅ Chip name
+        "id": "a9x", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Chip identifier
+        "name": "Apple A9X" ⋅⋅⋅ Chip name
     },
     "software": [
         {
-            "id": "ios", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Software identifier
-            "name": "iOS", ⋅⋅⋅⋅⋅⋅⋅⋅ Software name
+            "id": "ipados", ⋅⋅⋅⋅⋅⋅⋅⋅ Software identifier
+            "name": "iPadOS", ⋅⋅⋅⋅⋅⋅ Software name
             "version": {
-                "min": "4.0", ⋅⋅⋅⋅⋅ Software minimum (initial) version
-                "max": "18.3.2" ⋅⋅⋅ Software maximum (current) version
+                "min": "13.1", ⋅⋅⋅⋅⋅ Software minimum (initial) version
+                "max": "18.6" ⋅⋅⋅⋅⋅⋅ Software maximum (current) version
             },
             "device_version": {
-                "min": "5.1", ⋅⋅⋅⋅⋅ Device's minimum (initial) software version
-                "max": "9.3.5" ⋅⋅⋅⋅ Device's maximum software version (optional)
+                "min": "13.1", ⋅⋅⋅⋅⋅ Device minimum (initial) software version
+                "max": "16.7.10" ⋅⋅⋅ Device maximum software version (optional)
             }
         }
     ],
-    "traits": ["button.home"], ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Device's trait list
-    "internal_names": ["J1AP", "J2AP", "J2AAP"], ⋅ Internal names
-    "a_numbers": ["A1416", "A1403", "A1430"], ⋅⋅⋅⋅ A numbers
-    "ids": ["iPad3,1", "iPad3,2", "iPad3,3"] ⋅⋅⋅⋅⋅ Identifiers
+    "traits": ["button.home"], ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Device traits
+    "internal_names": ["J1AP", "J2AP", "J2AAP"], ⋅⋅⋅ Internal names
+    "a_numbers": ["A1416", "A1403", "A1430"], ⋅⋅⋅⋅⋅⋅ A numbers
+    "ids": ["iPad3,1", "iPad3,2", "iPad3,3"] ⋅⋅⋅⋅⋅⋅⋅ Identifiers
 }
 ```
 
@@ -44,8 +45,9 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices/iphone1,1'
 ```json [Response]
 {
     "name": "iPhone",
-    "year": 2007,
     "family": "iPhone",
+    "year": 2007,
+    "gen": 1,
     "chip": {
         "id": "apl0098",
         "name": "APL0098"
@@ -82,6 +84,7 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices/iphone1,1'
 
 - `family`: Filter devices by family
 - `year`: Filter devices by release year
+- `gen`: Filter devices by generation
 - `trait`: Filter devices by supported trait
 - `not-trait`: Filter devices by unsupported trait
 
@@ -93,15 +96,16 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices?family=iphone&year=20
 [
     {
         "name": "iPhone",
+        "family": "iPhone",
         "year": 2007,
-        "family": "IPHONE",
+        "gen": 1,
         "chip": {
             "id": "APL0098",
             "name": "APL0098"
         },
         "software": [
             {
-                "id": "IPHONEOS",
+                "id": "iphoneos",
                 "name": "iPhone OS",
                 "version": {
                     "min": "1.0",
@@ -122,15 +126,16 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices?family=iphone&year=20
     },
     {
         "name": "iPhone 3GS",
+        "family": "iPhone",
         "year": 2009,
-        "family": "IPHONE",
+        "gen": 3,
         "chip": {
             "id": "APL0298",
             "name": "APL0298"
         },
         "software": [
             {
-                "id": "IPHONEOS",
+                "id": "iphoneos",
                 "name": "iPhone OS",
                 "version": {
                     "min": "1.0",
@@ -142,7 +147,7 @@ curl -XGET 'https://api.fuckingappledevices.com/v1/devices?family=iphone&year=20
                 }
             },
             {
-                "id": "IOS",
+                "id": "ios",
                 "name": "iOS",
                 "version": {
                     "min": "4.0",

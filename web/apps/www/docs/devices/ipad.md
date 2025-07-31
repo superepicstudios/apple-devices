@@ -1,13 +1,13 @@
 # Devices → iPad
 
 ## iPad
-- **Marketing Name**: `iPad`
 - **Family**: `iPad`
+- **Generation**: `1`
 - **Year**: `2010`
 - **Chip**: `Apple A4`
 - **Software**
-  - `iPhone OS` (_3.2...3.2.2_)
-  - `iOS` (_4.0...5.1.1_)
+  - `iPhone OS 3.2 → 3.2.2`
+  - `iOS 4.0 → 5.1.1`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -20,11 +20,12 @@
   -  `iPad1,2`
 
 ## iPad 2
-- **Marketing Name**: `iPad 2`
 - **Family**: `iPad`
+- **Generation**: `2`
 - **Year**: `2011`
 - **Chip**: `Apple A5`
-- **Software**: `iOS` (_4.3...9.3.6_)
+- **Software**
+  - `iOS 4.3 → 9.3.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -44,12 +45,12 @@
   -  `iPad2,4`
 
 ## iPad (3rd Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (3rd Gen)`
 - **Family**: `iPad`
+- **Generation**: `3`
 - **Year**: `2012`
 - **Chip**: `Apple A5X`
-- **Software**: `iOS` (_5.1...9.3.5_)
+- **Software**
+  - `iOS 5.1 → 9.3.5`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -66,11 +67,12 @@
   -  `iPad3,3`
 
 ## iPad mini
-- **Marketing Name**: `iPad mini`
 - **Family**: `iPad`
+- **Generation**: `1`
 - **Year**: `2012`
 - **Chip**: `Apple A5`
-- **Software**: `iOS` (_6.0...9.3.5_)
+- **Software**
+  - `iOS 6.0 → 9.3.5`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -87,12 +89,12 @@
   -  `iPad2,7`
 
 ## iPad (4th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (4th Gen)`
 - **Family**: `iPad`
+- **Generation**: `4`
 - **Year**: `2012`
 - **Chip**: `Apple A6X`
-- **Software**: `iOS` (_6.0...10.3.3_)
+- **Software**
+  - `iOS 6.0 → 10.3.3`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -109,11 +111,12 @@
   -  `iPad3,6`
 
 ## iPad Air
-- **Marketing Name**: `iPad Air`
 - **Family**: `iPad`
+- **Generation**: `1`
 - **Year**: `2013`
 - **Chip**: `Apple A7`
-- **Software**: `iOS` (_7.0.3...12.5.7_)
+- **Software**
+  - `iOS 7.0.3 → 12.5.7`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -130,11 +133,12 @@
   -  `iPad4,3`
 
 ## iPad mini 2
-- **Marketing Name**: `iPad mini 2`
 - **Family**: `iPad`
+- **Generation**: `2`
 - **Year**: `2013`
 - **Chip**: `Apple A7`
-- **Software**: `iOS` (_7.0.3...12.5.7_)
+- **Software**
+  - `iOS 7.0.3 → 12.5.7`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -151,11 +155,12 @@
   -  `iPad4,6`
 
 ## iPad mini 3
-- **Marketing Name**: `iPad mini 3`
 - **Family**: `iPad`
+- **Generation**: `3`
 - **Year**: `2014`
 - **Chip**: `Apple A7`
-- **Software**: `iOS` (_8.1...12.5.7_)
+- **Software**
+  - `iOS 8.1 → 12.5.7`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -172,13 +177,13 @@
   -  `iPad4,9`
 
 ## iPad Air 2
-- **Marketing Name**: `iPad Air 2`
 - **Family**: `iPad`
+- **Generation**: `2`
 - **Year**: `2014`
 - **Chip**: `Apple A8X`
 - **Software**
-  - `iOS` (_8.1...13.0_)
-  - `iPadOS` (_13.1...15.8.3_)
+  - `iOS 8.1 → 13.0`
+  - `iPadOS 13.1 → 15.8.3`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -192,13 +197,13 @@
   -  `iPad5,4`
 
 ## iPad mini 4
-- **Marketing Name**: `iPad mini 4`
 - **Family**: `iPad`
+- **Generation**: `4`
 - **Year**: `2015`
 - **Chip**: `Apple A8`
 - **Software**
-  - `iOS` (_9.0...13.0_)
-  - `iPadOS` (_13.1...15.8.3_)
+  - `iOS 9.0 → 13.0`
+  - `iPadOS 13.1 → 15.8.3`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -212,14 +217,14 @@
   -  `iPad5,2`
 
 ## iPad Pro (12.9-inch)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (12.9-inch)`
 - **Family**: `iPad`
+- **Variant**: `12.9-inch`
+- **Generation**: `1`
 - **Year**: `2015`
 - **Chip**: `Apple A9X`
 - **Software**
-  - `iOS` (_9.1...13.0_)
-  - `iPadOS` (_13.1...16.7.10_)
+  - `iOS 9.1 → 13.0`
+  - `iPadOS 13.1 → 16.7.10`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -233,14 +238,14 @@
   -  `iPad6,8`
 
 ## iPad Pro (9.7-inch)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (9.7-inch)`
 - **Family**: `iPad`
+- **Variant**: `9.7-inch`
+- **Generation**: `1`
 - **Year**: `2016`
 - **Chip**: `Apple A9X`
 - **Software**
-  - `iOS` (_9.3...13.0_)
-  - `iPadOS` (_13.1...16.7.10_)
+  - `iOS 9.3 → 13.0`
+  - `iPadOS 13.1 → 16.7.10`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -255,14 +260,13 @@
   -  `iPad6,4`
 
 ## iPad (5th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (5th Gen)`
 - **Family**: `iPad`
+- **Generation**: `5`
 - **Year**: `2017`
 - **Chip**: `Apple A9`
 - **Software**
-  - `iOS` (_10.3...13.0_)
-  - `iPadOS` (_13.1...16.7.10_)
+  - `iOS 10.3 → 13.0`
+  - `iPadOS 13.1 → 16.7.10`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -278,14 +282,14 @@
   -  `iPad6,12`
 
 ## iPad Pro (12.9-inch) (2nd Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (12.9-inch) (2nd Gen)`
 - **Family**: `iPad`
+- **Variant**: `12.9-inch`
+- **Generation**: `2`
 - **Year**: `2017`
 - **Chip**: `Apple A10X Fusion`
 - **Software**
-  - `iOS` (_10.3...13.0_)
-  - `iPadOS` (_13.1...17.7.5_)
+  - `iOS 10.3 → 13.0`
+  - `iPadOS 13.1 → 17.7.5`
 - **Traits**
   -  `button.home`
   -  `display.pro-motion`
@@ -300,15 +304,15 @@
   -  `iPad7,1`
   -  `iPad7,2`
 
-## iPad Pro (10.5-inch)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (10.5-inch)`
+## iPad Pro (10.5-inch) (2nd Gen)
 - **Family**: `iPad`
+- **Variant**: `10.5-inch`
+- **Generation**: `2`
 - **Year**: `2017`
 - **Chip**: `Apple A10X Fusion`
 - **Software**
-  - `iOS` (_10.3...13.0_)
-  - `iPadOS` (_13.1...17.7.5_)
+  - `iOS 10.3 → 13.0`
+  - `iPadOS 13.1 → 17.7.5`
 - **Traits**
   -  `button.home`
   -  `display.pro-motion`
@@ -323,14 +327,13 @@
   -  `iPad7,4`
 
 ## iPad (6th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (6th Gen)`
 - **Family**: `iPad`
+- **Generation**: `6`
 - **Year**: `2018`
 - **Chip**: `Apple A10 Fusion`
 - **Software**
-  - `iOS` (_11.3...13.0_)
-  - `iPadOS` (_13.1...17.7.5_)
+  - `iOS 11.3 → 13.0`
+  - `iPadOS 13.1 → 17.7.5`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -343,15 +346,15 @@
   -  `iPad7,5`
   -  `iPad7,6`
 
-## iPad Pro (11-inch)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (11-inch)`
+## iPad Pro (11-inch) (3rd Gen)
 - **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `3`
 - **Year**: `2018`
 - **Chip**: `Apple A12X Bionic`
 - **Software**
-  - `iOS` (_12.1...13.0_)
-  - `iPadOS` (_13.1..._)
+  - `iOS 12.1 → 13.0`
+  - `iPadOS 13.1 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -373,14 +376,14 @@
   -  `iPad8,4`
 
 ## iPad Pro (12.9-inch) (3rd Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (12.9-inch) (3rd Gen)`
 - **Family**: `iPad`
+- **Variant**: `12.9-inch`
+- **Generation**: `3`
 - **Year**: `2018`
 - **Chip**: `Apple A12X Bionic`
 - **Software**
-  - `iOS` (_12.1...13.0_)
-  - `iPadOS` (_13.1..._)
+  - `iOS 12.1 → 13.0`
+  - `iPadOS 13.1 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -402,12 +405,12 @@
   -  `iPad8,8`
 
 ## iPad (7th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (7th Gen)`
 - **Family**: `iPad`
+- **Generation**: `7`
 - **Year**: `2019`
 - **Chip**: `Apple A10 Fusion`
-- **Software**: `iPadOS` (_13.1..._)
+- **Software**
+  - `iPadOS 13.1 → 18.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -422,14 +425,13 @@
   -  `iPad7,12`
 
 ## iPad mini (5th Gen)
-- **Marketing Name**: `iPad mini`
-- **Generational Name**: `iPad mini (5th Gen)`
 - **Family**: `iPad`
+- **Generation**: `5`
 - **Year**: `2019`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `iOS` (_12.2...13.0_)
-  - `iPadOS` (_13.1..._)
+  - `iOS 12.2 → 13.0`
+  - `iPadOS 13.1 → 18.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -445,14 +447,13 @@
   -  `iPad11,2`
 
 ## iPad Air (3rd Gen)
-- **Marketing Name**: `iPad Air`
-- **Generational Name**: `iPad Air (3rd Gen)`
 - **Family**: `iPad`
+- **Generation**: `3`
 - **Year**: `2019`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `iOS` (_12.2...13.0_)
-  - `iPadOS` (_13.1..._)
+  - `iOS 12.2 → 13.0`
+  - `iPadOS 13.1 → 18.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -467,13 +468,14 @@
   -  `iPad11,3`
   -  `iPad11,4`
 
-## iPad Pro (11-inch) (2nd Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (11-inch) (2nd Gen)`
+## iPad Pro (11-inch) (4th Gen)
 - **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `4`
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
-- **Software**: `iPadOS` (_13.4..._)
+- **Software**
+  - `iPadOS 13.4 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -491,12 +493,13 @@
   -  `iPad8,10`
 
 ## iPad Pro (12.9-inch) (4th Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (12.9-inch) (4th Gen)`
 - **Family**: `iPad`
+- **Variant**: `12.9-inch`
+- **Generation**: `4`
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
-- **Software**: `iPadOS` (_13.4..._)
+- **Software**
+  - `iPadOS 13.4 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -514,12 +517,12 @@
   -  `iPad8,12`
 
 ## iPad (8th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (8th Gen)`
 - **Family**: `iPad`
+- **Generation**: `8`
 - **Year**: `2020`
 - **Chip**: `Apple A12 Bionic`
-- **Software**: `iPadOS` (_14.0..._)
+- **Software**
+  - `iPadOS 14.0 → 18.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -535,12 +538,12 @@
   -  `iPad11,7`
 
 ## iPad Air (4th Gen)
-- **Marketing Name**: `iPad Air`
-- **Generational Name**: `iPad Air (4th Gen)`
 - **Family**: `iPad`
+- **Generation**: `4`
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
-- **Software**: `iPadOS` (_14.0..._)
+- **Software**
+  - `iPadOS 14.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -556,13 +559,14 @@
   -  `iPad13,1`
   -  `iPad13,2`
 
-## iPad Pro (11-inch) (3rd Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (11-inch) (3rd Gen)`
+## iPad Pro (11-inch) (5th Gen)
 - **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `5`
 - **Year**: `2021`
 - **Chip**: `Apple M1`
-- **Software**: `iPadOS` (_14.5..._)
+- **Software**
+  - `iPadOS 14.5 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -585,12 +589,13 @@
   -  `iPad13,7`
 
 ## iPad Pro (12.9-inch) (5th Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (12.9-inch) (5th Gen)`
 - **Family**: `iPad`
+- **Variant**: `12.9-inch`
+- **Generation**: `5`
 - **Year**: `2021`
 - **Chip**: `Apple M1`
-- **Software**: `iPadOS` (_14.5..._)
+- **Software**
+  - `iPadOS 14.5 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -613,12 +618,12 @@
   -  `iPad13,11`
 
 ## iPad (9th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (9th Gen)`
 - **Family**: `iPad`
+- **Generation**: `9`
 - **Year**: `2021`
 - **Chip**: `Apple A13 Bionic`
-- **Software**: `iPadOS` (_15.0..._)
+- **Software**
+  - `iPadOS 15.0 → 18.6`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -635,12 +640,12 @@
   -  `iPad12,2`
 
 ## iPad mini (6th Gen)
-- **Marketing Name**: `iPad mini`
-- **Generational Name**: `iPad mini (6th Gen)`
 - **Family**: `iPad`
+- **Generation**: `6`
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
-- **Software**: `iPadOS` (_15.0..._)
+- **Software**
+  - `iPadOS 15.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -656,12 +661,12 @@
   -  `iPad14,2`
 
 ## iPad Air (5th Gen)
-- **Marketing Name**: `iPad Air`
-- **Generational Name**: `iPad Air (5th Gen)`
 - **Family**: `iPad`
+- **Generation**: `5`
 - **Year**: `2022`
 - **Chip**: `Apple M1`
-- **Software**: `iPadOS` (_15.4..._)
+- **Software**
+  - `iPadOS 15.4 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -678,12 +683,12 @@
   -  `iPad13,17`
 
 ## iPad (10th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (10th Gen)`
 - **Family**: `iPad`
+- **Generation**: `10`
 - **Year**: `2022`
 - **Chip**: `Apple A14 Bionic`
-- **Software**: `iPadOS` (_16.0..._)
+- **Software**
+  - `iPadOS 16.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -699,13 +704,14 @@
   -  `iPad13,18`
   -  `iPad13,19`
 
-## iPad Pro (11-inch) (4th Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (11-inch) (4th Gen)`
+## iPad Pro (11-inch) (6th Gen)
 - **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `6`
 - **Year**: `2022`
 - **Chip**: `Apple M2`
-- **Software**: `iPadOS` (_16.0..._)
+- **Software**
+  - `iPadOS 16.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -724,12 +730,13 @@
   -  `iPad14,4`
 
 ## iPad Pro (12.9-inch) (6th Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (12.9-inch) (6th Gen)`
 - **Family**: `iPad`
+- **Variant**: `12.9-inch`
+- **Generation**: `6`
 - **Year**: `2022`
 - **Chip**: `Apple M2`
-- **Software**: `iPadOS` (_16.0..._)
+- **Software**
+  - `iPadOS 16.0 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -747,13 +754,14 @@
   -  `iPad14,5`
   -  `iPad14,6`
 
-## iPad Air (11-inch)
-- **Marketing Name**: `iPad Air`
-- **Generational Name**: `iPad Air (11-inch)`
+## iPad Air (11-inch) (6th Gen)
 - **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `6`
 - **Year**: `2024`
 - **Chip**: `Apple M2`
-- **Software**: `iPadOS` (_17.4..._)
+- **Software**
+  - `iPadOS 17.4 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -769,13 +777,14 @@
   -  `iPad14,8`
   -  `iPad14,9`
 
-## iPad Air (13-inch)
-- **Marketing Name**: `iPad Air`
-- **Generational Name**: `iPad Air (13-inch)`
+## iPad Air (13-inch) (6th Gen)
 - **Family**: `iPad`
+- **Variant**: `13-inch`
+- **Generation**: `6`
 - **Year**: `2024`
 - **Chip**: `Apple M2`
-- **Software**: `iPadOS` (_17.4..._)
+- **Software**
+  - `iPadOS 17.4 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -792,12 +801,12 @@
   -  `iPad14,11`
 
 ## iPad mini (7th Gen)
-- **Marketing Name**: `iPad mini`
-- **Generational Name**: `iPad mini (7th Gen)`
 - **Family**: `iPad`
+- **Generation**: `7`
 - **Year**: `2024`
 - **Chip**: `Apple A17 Pro`
-- **Software**: `iPadOS` (_18.0.1..._)
+- **Software**
+  - `iPadOS 18.0.1 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -813,13 +822,14 @@
   -  `iPad16,1`
   -  `iPad16,2`
 
-## iPad Pro (11-inch) (5th Gen)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (11-inch) (5th Gen)`
+## iPad Pro (11-inch) (7th Gen)
 - **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `7`
 - **Year**: `2024`
 - **Chip**: `Apple M4`
-- **Software**: `iPadOS` (_17.4..._)
+- **Software**
+  - `iPadOS 17.4 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -836,13 +846,14 @@
   -  `iPad16,3`
   -  `iPad16,4`
 
-## iPad Pro (13-inch)
-- **Marketing Name**: `iPad Pro`
-- **Generational Name**: `iPad Pro (13-inch)`
+## iPad Pro (13-inch) (7th Gen)
 - **Family**: `iPad`
+- **Variant**: `13-inch`
+- **Generation**: `7`
 - **Year**: `2024`
 - **Chip**: `Apple M4`
-- **Software**: `iPadOS` (_17.4..._)
+- **Software**
+  - `iPadOS 17.4 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -859,13 +870,14 @@
   -  `iPad16,5`
   -  `iPad16,6`
 
-## iPad Air (11-inch) (2nd Gen)
-- **Marketing Name**: `iPad Air`
-- **Generational Name**: `iPad Air (11-inch) (2nd Gen)`
+## iPad Air (11-inch) (7th Gen)
 - **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `7`
 - **Year**: `2025`
 - **Chip**: `Apple M3`
-- **Software**: `iPadOS` (_18.3.2..._)
+- **Software**
+  - `iPadOS 18.3.2 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -881,13 +893,14 @@
   -  `iPad15,3`
   -  `iPad15,4`
 
-## iPad Air (13-inch) (2nd Gen)
-- **Marketing Name**: `iPad Air`
-- **Generational Name**: `iPad Air (13-inch) (2nd Gen)`
+## iPad Air (13-inch) (7th Gen)
 - **Family**: `iPad`
+- **Variant**: `13-inch`
+- **Generation**: `7`
 - **Year**: `2025`
 - **Chip**: `Apple M3`
-- **Software**: `iPadOS` (_18.3.2..._)
+- **Software**
+  - `iPadOS 18.3.2 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -904,12 +917,12 @@
   -  `iPad15,6`
 
 ## iPad (11th Gen)
-- **Marketing Name**: `iPad`
-- **Generational Name**: `iPad (11th Gen)`
 - **Family**: `iPad`
+- **Generation**: `11`
 - **Year**: `2025`
 - **Chip**: `Apple A16 Bionic`
-- **Software**: `iPadOS` (_18.3.2..._)
+- **Software**
+  - `iPadOS 18.3.2 → 18.6`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`

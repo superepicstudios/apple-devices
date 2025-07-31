@@ -11,6 +11,8 @@ import SwiftUI
 
 struct MainView: View {
     
+    @State private var current = AppleDevice()
+    
     var body: some View {
                 
         Form {
@@ -18,8 +20,12 @@ struct MainView: View {
             Section("Current") {
                 
                 deviceView(
-                    AppleDevice(),
-                    bold: true
+                    self.current,
+                    current: true
+                )
+                
+                simulatedView(
+                    self.current
                 )
                 
             }
@@ -43,31 +49,56 @@ struct MainView: View {
         
     }
     
-    private func deviceView(_ device: AppleDevice,
-                            bold: Bool = false) -> some View {
+    @ViewBuilder
+    private func deviceView(
+        _ device: AppleDevice,
+        current: Bool = false
+    ) -> some View {
         
-        HStack {
+        NavigationLink {
             
-            if bold {
+            DeviceView(device)
+            
+        } label: {
+            
+            HStack {
                 
-                Text(device.descriptiveName)
-                    .bold()
+                if current {
+                    Text(device.uniqueName).bold()
+                }
+                else {
+                    Text(device.uniqueName)
+                }
+
+                Spacer()
+                
+                Text(verbatim: "\(device.year)")
+                    .foregroundStyle(.secondary)
 
             }
-            else {
-                Text(device.descriptiveName)
-            }
-            
-            Spacer()
-            
-            Text(verbatim: "\(device.year)")
-                .italic()
-                .foregroundStyle(.secondary)
             
         }
         
     }
     
+    @ViewBuilder
+    private func simulatedView(_ device: AppleDevice) -> some View {
+        
+        HStack {
+            
+            Text("Simulated")
+                .bold()
+            
+            Spacer()
+            
+            Text("\(device.isSimulated)".capitalized)
+                .foregroundStyle(.secondary)
+                        
+        }
+        
+    }
+    
+    @ViewBuilder
     private func footerView() -> some View {
         
         HStack {

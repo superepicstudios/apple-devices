@@ -43,8 +43,10 @@ public extension AppleDevice /* Device Software */ {
 
 extension AppleDevice.DeviceSoftware.Current {
     
-    static func get(deviceId: String,
-                    supportedSoftware: [AppleDevice.Software]) -> Self {
+    static func get(
+        deviceId: String,
+        supportedSoftware: [AppleDevice.Software]
+    ) -> Self {
         
         let osVersion = Version(os: ProcessInfo().operatingSystemVersion)
         let osVersionString = osVersion.versionString(formattedWith: .dropPatchIfZero)

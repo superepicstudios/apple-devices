@@ -13,9 +13,10 @@ extension AppleDevice /* DeviceData */ {
         
         let identifiers: [String]
         let name: String
-        let genName: String?
-        let year: Int
         let family: Family
+        let variant: String?
+        let gen: Int
+        let year: Int
         let chip: Chip
         let software: [Software]
         let traits: [Trait]
@@ -26,9 +27,10 @@ extension AppleDevice /* DeviceData */ {
             
             case identifiers = "ids"
             case name
-            case genName = "gen_name"
-            case year
             case family
+            case variant
+            case gen
+            case year
             case chip
             case software
             case traits
@@ -42,9 +44,10 @@ extension AppleDevice /* DeviceData */ {
             return .init(
                 identifiers: [id],
                 name: "Unknown Device",
-                genName: nil,
-                year: Calendar.current.component(.year, from: Date()),
                 family: .unknown,
+                variant: nil,
+                gen: 0,
+                year: Calendar.current.component(.year, from: Date()),
                 chip: .init(
                     id: "unk",
                     name: "Unknown Chip"

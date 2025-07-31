@@ -2,6 +2,7 @@
     {
         "name": "AirTag",
         "year": 2021,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/airtag"
         },

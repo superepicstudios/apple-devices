@@ -2,6 +2,7 @@
     {
         "name": "HomePod",
         "year": 2018,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/homepod"
         },
@@ -24,6 +25,7 @@
     {
         "name": "HomePod mini",
         "year": 2020,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/homepod"
         },
@@ -45,8 +47,8 @@
     },
     {
         "name": "HomePod",
-        "gen_name": "HomePod (2nd Gen)",
         "year": 2023,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/homepod"
         },

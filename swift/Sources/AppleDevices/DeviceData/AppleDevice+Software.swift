@@ -16,10 +16,10 @@ public extension AppleDevice /* Software */ {
         public struct Version: Codable, Sendable {
             
             /// The software's minimum version.
-            let min: String
+            public let min: String
             
             /// The software's maximum version.
-            let max: String?
+            public let max: String?
             
         }
         

@@ -1,11 +1,12 @@
 # Devices → iPod
 
 ## iPod touch
-- **Marketing Name**: `iPod touch`
 - **Family**: `iPod`
+- **Generation**: `1`
 - **Year**: `2007`
 - **Chip**: `APL0098`
-- **Software**: `iPhone OS` (_1.1...3.1.3_)
+- **Software**
+  - `iPhone OS 1.1 → 3.1.3`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -16,14 +17,13 @@
   -  `iPod1,1`
 
 ## iPod touch (2nd Gen)
-- **Marketing Name**: `iPod touch`
-- **Generational Name**: `iPod touch (2nd Gen)`
 - **Family**: `iPod`
+- **Generation**: `2`
 - **Year**: `2008`
 - **Chip**: `APL0278`
 - **Software**
-  - `iPhone OS` (_2.1.1...3.2.2_)
-  - `iOS` (_4.0...4.2.1_)
+  - `iPhone OS 2.1.1 → 3.2.2`
+  - `iOS 4.0 → 4.2.1`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -35,14 +35,13 @@
   -  `iPod2,1`
 
 ## iPod touch (3rd Gen)
-- **Marketing Name**: `iPod touch`
-- **Generational Name**: `iPod touch (3rd Gen)`
 - **Family**: `iPod`
+- **Generation**: `3`
 - **Year**: `2009`
 - **Chip**: `APL2298`
 - **Software**
-  - `iPhone OS` (_3.1.1...3.2.2_)
-  - `iOS` (_4.0...5.1.1_)
+  - `iPhone OS 3.1.1 → 3.2.2`
+  - `iOS 4.0 → 5.1.1`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -53,12 +52,12 @@
   -  `iPod3,1`
 
 ## iPod touch (4th Gen)
-- **Marketing Name**: `iPod touch`
-- **Generational Name**: `iPod touch (4th Gen)`
 - **Family**: `iPod`
+- **Generation**: `4`
 - **Year**: `2010`
 - **Chip**: `Apple A4`
-- **Software**: `iOS` (_4.1...6.1.6_)
+- **Software**
+  - `iOS 4.1 → 6.1.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -69,12 +68,12 @@
   -  `iPod4,1`
 
 ## iPod touch (5th Gen)
-- **Marketing Name**: `iPod touch`
-- **Generational Name**: `iPod touch (5th Gen)`
 - **Family**: `iPod`
+- **Generation**: `5`
 - **Year**: `2012`
 - **Chip**: `Apple A5`
-- **Software**: `iOS` (_6.0...9.3.5_)
+- **Software**
+  - `iOS 6.0 → 9.3.5`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -85,12 +84,12 @@
   -  `iPod5,1`
 
 ## iPod touch (6th Gen)
-- **Marketing Name**: `iPod touch`
-- **Generational Name**: `iPod touch (6th Gen)`
 - **Family**: `iPod`
+- **Generation**: `6`
 - **Year**: `2015`
 - **Chip**: `Apple A8`
-- **Software**: `iOS` (_8.4...12.5.7_)
+- **Software**
+  - `iOS 8.4 → 12.5.7`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -101,12 +100,12 @@
   -  `iPod7,1`
 
 ## iPod touch (7th Gen)
-- **Marketing Name**: `iPod touch`
-- **Generational Name**: `iPod touch (7th Gen)`
 - **Family**: `iPod`
+- **Generation**: `7`
 - **Year**: `2019`
 - **Chip**: `Apple A10 Fusion`
-- **Software**: `iOS` (_12.3...15.8.3_)
+- **Software**
+  - `iOS 12.3 → 15.8.3`
 - **Traits**
   -  `button.home`
 - **Internal Names**

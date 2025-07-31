@@ -2,6 +2,7 @@
     {
         "name": "AirPods",
         "year": 2016,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/airpod"
         },
@@ -24,8 +25,8 @@
     },
     {
         "name": "AirPods",
-        "gen_name": "AirPods (2nd Gen)",
         "year": 2019,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/airpod"
         },
@@ -48,6 +49,7 @@
     {
         "name": "AirPods Pro",
         "year": 2019,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/airpod"
         },
@@ -70,6 +72,7 @@
     {
         "name": "AirPods Max",
         "year": 2020,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/airpod"
         },
@@ -91,8 +94,8 @@
     },
     {
         "name": "AirPods",
-        "gen_name": "AirPods (3rd Gen)",
         "year": 2021,
+        "gen": 3,
         "family": {
             "$ref": "../family.json#/airpod"
         },
@@ -114,8 +117,8 @@
     },
     {
         "name": "AirPods Pro",
-        "gen_name": "AirPods Pro (2nd Gen)",
         "year": 2022,
+        "gen": 2,
         "family": {
             "$ref": "../family.json#/airpod"
         },
@@ -138,6 +141,7 @@
     {
         "name": "AirPods 4",
         "year": 2024,
+        "gen": 4,
         "family": {
             "$ref": "../family.json#/airpod"
         },

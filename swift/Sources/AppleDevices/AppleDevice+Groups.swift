@@ -87,27 +87,23 @@ public extension AppleDevice /* Groups */ {
         
     }
     
-    /// Gets all devices with generational names containing a set of queries.
+    /// Gets all devices with generation numbers containing a set of queries.
     /// - parameter queries: A set of queries.
     /// - returns: An array of matching devices.
-    static func withGenNamesContaining(_ queries: String...) -> [AppleDevice] {
+    static func withGenerationsContaining(_ queries: Int...) -> [AppleDevice] {
         
         return self.all.filter { device in
-            
-            guard let genName = device.genName else {
-                return false
-            }
-            
+        
             for query in queries {
                 
-                if genName.contains(query) {
+                if device.generation == query {
                     return true
                 }
                 
             }
             
             return false
-                        
+            
         }
         
     }

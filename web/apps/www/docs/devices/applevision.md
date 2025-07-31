@@ -1,11 +1,12 @@
 # Devices → Apple Vision
 
 ## Apple Vision Pro
-- **Marketing Name**: `Apple Vision Pro`
 - **Family**: `Apple_Vision`
+- **Generation**: `1`
 - **Year**: `2024`
 - **Chip**: `Apple M2`
-- **Software**: `visionOS` (_1.0..._)
+- **Software**
+  - `visionOS 1.0 → 2.6`
 - **Traits**
   -  `id.optic`
   -  `intelligence`

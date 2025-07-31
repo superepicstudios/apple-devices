@@ -8,10 +8,13 @@ export class DeviceResponse extends DtoBase {
     name: string
 
     @ApiPropertyOptional()
-    gen_name?: string
+    variant?: string
 
     @ApiProperty()
     year: number
+
+    @ApiProperty()
+    gen: number
 
     @ApiProperty()
     family: string
@@ -39,8 +42,9 @@ export class DeviceResponse extends DtoBase {
         super()
 
         this.name = device.name
-        this.gen_name = device.gen_name
+        this.variant = device.variant
         this.year = device.year
+        this.gen = device.gen
         this.family = device.family
         this.chip = device.chip
         this.software = device.software

@@ -2,6 +2,7 @@
     {
         "name": "Apple Vision Pro",
         "year": 2024,
+        "gen": 1,
         "family": {
             "$ref": "../family.json#/vision"
         },
