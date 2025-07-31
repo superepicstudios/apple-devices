@@ -1,6 +1,6 @@
 ![Apple Devices](assets/hero.png)
 
-# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.7.4-fbfaf4.svg?labelColor=313244)
+# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.7.5-fbfaf4.svg?labelColor=313244)
 
 Tired of searching the web for stupid device identifiers? Join the club. 🙄 This is a collection of up-to-date Apple device information, metadata, and most importantly - model numbers & identifiers. No more diving through wiki articles & gists trying to find that one bit of device info, it's all here! 🎉 [f***ckingappledevices.com](https://fuckingappledevices.com)
 
