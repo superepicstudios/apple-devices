@@ -3,11 +3,9 @@ WORKDIR /app
 USER deno
 COPY . .
 RUN deno install --allow-scripts
+CMD ["deno", "task", "build"]
 
-FROM denoland/deno:alpine AS run
+FROM busybox:stable AS run
 WORKDIR /app
-COPY --from=build /app .
-WORKDIR /app/web/apps/www
-ENV NODE_ENV=production
-EXPOSE 5173
-CMD ["deno", "task", "start"]
+COPY --from=build /app/web/apps/www/.vitepress/dist .
+CMD ["busybox", "httpd", "-f", "-v", "-p", "5173"]
