@@ -145,6 +145,10 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
+# vitepress
+**/.vitepress/dist
+**/.vitepress/cache
+
 # vuepress build output
 .vuepress/dist
 
