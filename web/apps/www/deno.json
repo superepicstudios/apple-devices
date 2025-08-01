@@ -13,11 +13,11 @@
                 "tz", 
                 "build"
             ],
-            "command": "vitepress preview --port 5173"
+            "command": "vitepress serve --port 5173"
         }
     },
     "imports": {
-        "vitepress": "npm:vitepress@2.0.0-alpha.9",
+        "vitepress": "npm:vitepress@^1.6.3",
         "vue": "npm:vue@^3.5.18"
     }
 }
