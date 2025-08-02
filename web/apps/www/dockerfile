@@ -1,9 +1,10 @@
 FROM denoland/deno:alpine AS build
 WORKDIR /app
-USER deno
 COPY . .
+WORKDIR /app/web
 RUN deno install --allow-scripts
-CMD ["deno", "task", "build"]
+WORKDIR /app/web/apps/www
+RUN deno task build
 
 FROM busybox:stable AS run
 RUN adduser -D www
