@@ -9,10 +9,7 @@
             "command": "NODE_ENV=development vitepress dev ."
         },
         "start": {
-            "dependencies": [
-                "tz", 
-                "build"
-            ],
+            "dependencies": ["tz", "build"],
             "command": "vitepress serve --port 5173"
         }
     },
