@@ -2029,6 +2029,7 @@
       },
       "apps/www": {
         "dependencies": [
+          "jsr:@std/dotenv@~0.225.5",
           "npm:vitepress@^1.6.3",
           "npm:vue@^3.5.18"
         ]

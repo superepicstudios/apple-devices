@@ -2,7 +2,7 @@ import type { ISoftware } from "./software.interface.ts"
 import type { IChip } from "./chip.interface.ts"
 
 export interface IDevice {
-
+    
     name: string
     variant?: string
     year: number
