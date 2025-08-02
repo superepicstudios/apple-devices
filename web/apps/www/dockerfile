@@ -6,6 +6,9 @@ RUN deno install --allow-scripts
 CMD ["deno", "task", "build"]
 
 FROM busybox:stable AS run
-WORKDIR /app
+RUN adduser -D www
+USER www
+WORKDIR /home/www/app
 COPY --from=build /app/web/apps/www/.vitepress/dist .
+EXPOSE 5173
 CMD ["busybox", "httpd", "-f", "-v", "-p", "5173"]
