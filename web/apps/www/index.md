@@ -1,5 +1,6 @@
 ---
 layout: home
+titleTemplate: Fucking Apple Devices
 
 head:
     - ["meta", { property: "og:description", content: "Fucking Apple Devices" }]

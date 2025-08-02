@@ -14,6 +14,7 @@
         }
     },
     "imports": {
+        "@std/dotenv": "jsr:@std/dotenv@^0.225.5",
         "vitepress": "npm:vitepress@^1.6.3",
         "vue": "npm:vue@^3.5.18"
     }

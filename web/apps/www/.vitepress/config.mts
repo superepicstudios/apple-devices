@@ -1,7 +1,14 @@
+import { load as loadEnv } from "@std/dotenv"
 import { defineConfig } from "vitepress"
 
-function version(): string {
+async function version(): Promise<string> {
+
+    await loadEnv({
+        export: true
+    })
+
     return Deno.env.get("APP_VERSION") ?? "0.0.0"
+
 }
 
 export default defineConfig({
@@ -86,7 +93,7 @@ export default defineConfig({
         ],
 
         footer: {
-            copyright: `Copyright © 2025 Super Epic Studios, LLC<br><b>Made with ❤️ in Las Vegas</b><br><b>${version()}</b><br>⭐️🍒🎰`,
+            copyright: `Copyright © 2025 Super Epic Studios, LLC<br><b>Made with ❤️ in Las Vegas</b><br><b>${await version()}</b><br>⭐️🍒🎰`,
         }
 
     },
