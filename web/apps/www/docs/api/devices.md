@@ -4,22 +4,22 @@
 
 ```json
 {
-    "name": "iPad Pro", ⋅⋅⋅⋅⋅⋅⋅ Marketing name
-    "family": "iPad", ⋅⋅⋅⋅⋅⋅⋅⋅⋅ Family identifier
+    "name": "iPad Pro", ⋅⋅⋅⋅⋅⋅⋅⋅ Marketing name
+    "family": "iPad", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Family identifier
     "variant": "12.9-inch", ⋅⋅⋅ Variant name (optional)
-    "year": 2015, ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Release year
-    "gen": 1, ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Generation number
+    "year": 2015, ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Release year
+    "gen": 1, ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ ⋅⋅⋅Generation number
     "chip": {
-        "id": "a9x", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Chip identifier
+        "id": "a9x", ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Chip identifier
         "name": "Apple A9X" ⋅⋅⋅ Chip name
     },
     "software": [
         {
-            "id": "ipados", ⋅⋅⋅⋅⋅⋅⋅⋅ Software identifier
-            "name": "iPadOS", ⋅⋅⋅⋅⋅⋅ Software name
+            "id": "ipados", ⋅⋅⋅⋅⋅ Software identifier
+            "name": "iPadOS", ⋅⋅⋅ Software name
             "version": {
-                "min": "13.1", ⋅⋅⋅⋅⋅ Software minimum (initial) version
-                "max": "18.6" ⋅⋅⋅⋅⋅⋅ Software maximum (current) version
+                "min": "13.1", ⋅⋅⋅⋅ Software minimum (initial) version
+                "max": "18.6.2" ⋅⋅⋅ Software maximum (current) version
             },
             "device_version": {
                 "min": "13.1", ⋅⋅⋅⋅⋅ Device minimum (initial) software version
@@ -27,10 +27,10 @@
             }
         }
     ],
-    "traits": ["button.home"], ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Device traits
+    "traits": ["button.home"], ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ Device traits
     "internal_names": ["J1AP", "J2AP", "J2AAP"], ⋅⋅⋅ Internal names
-    "a_numbers": ["A1416", "A1403", "A1430"], ⋅⋅⋅⋅⋅⋅ A numbers
-    "ids": ["iPad3,1", "iPad3,2", "iPad3,3"] ⋅⋅⋅⋅⋅⋅⋅ Identifiers
+    "a_numbers": ["A1416", "A1403", "A1430"], ⋅⋅⋅⋅⋅⋅⋅ A numbers
+    "ids": ["iPad3,1", "iPad3,2", "iPad3,3"] ⋅⋅⋅⋅⋅⋅⋅⋅ Identifiers
 }
 ```
 
