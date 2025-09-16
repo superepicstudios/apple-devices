@@ -568,7 +568,8 @@
             {
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
-                    "min": "13.1"
+                    "min": "13.1",
+                    "max": "18.6.2"
                 }
             }
         ],
