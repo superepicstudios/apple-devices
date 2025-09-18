@@ -124,7 +124,7 @@
         "ids": ["AirPods1,3", "Audio2,1", "Device1,8211"]
     },
     {
-        "name": "AirPods Pro",
+        "name": "AirPods Pro 2",
         "year": 2022,
         "gen": 2,
         "family": {
@@ -176,7 +176,7 @@
         "ids": ["AirPods1,4", "AirPods1,5", "AirPods3,2", "AirPods3,3", "Device1,8217", "Device1,8219"]
     },
     {
-        "name": "AirPods Pro",
+        "name": "AirPods Pro 3",
         "year": 2025,
         "gen": 3,
         "family": {
@@ -197,8 +197,8 @@
             "audio.anc",
             "audio.spatial"
         ],
-        "internal_names": ??? // B788AP, B747AP,
+        "internal_names": ["B788AP"],
         "a_numbers": ???,
-        "ids": ["AirPodsPro1,3", "Device1,8231"] ???
+        "ids": ["AirPodsPro1,3", "Device1,8231"]
     }
 ]

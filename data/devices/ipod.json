@@ -184,7 +184,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "12.3",
-                    "max": "15.8.3"
+                    "max": "15.8.5"
                 }
             }
         ],
