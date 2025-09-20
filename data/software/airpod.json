@@ -11,8 +11,8 @@
         "id": "airpods_fw",
         "name": "AirPods Firmware",
         "version": {
-            "min": "1.0",
-            "max": "7.4"
+            "min": "2A364",
+            "max": "8A357"
         }
     }
 }
