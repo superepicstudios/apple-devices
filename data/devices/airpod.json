@@ -20,7 +20,7 @@
         ],
         "traits": [],
         "internal_names": ["B188AP"],
-        "a_numbers": ["A1722", "A1523", "A1602"],
+        "a_numbers": ["A1523", "A1722", "A1602", "A1938"],
         "ids": ["AirPods1,1", "Device1,8194"]
     },
     {
@@ -35,16 +35,23 @@
         },
         "software": [
             {
+                "$ref": "../software/airpod.json#/fw-legacy",
+                "device_version": {
+                    "min": "6.3.2",
+                    "max": "6.8.8"
+                }
+            },
+            {
                 "$ref": "../software/airpod.json#/fw",
                 "device_version": {
-                    "min": "1.0"
+                    "min": "2A364"
                 }
             }
         ],
         "traits": [],
         "internal_names": ["B288AP"],
         "a_numbers": ["A2031", "A2032", "A1602", "A1938"],
-        "ids": ["AirPods1,2", "AirPods2,1"]
+        "ids": ["AirPods1,2", "AirPods2,1", "Device1,8207"]
     },
     {
         "name": "AirPods Pro",
@@ -60,11 +67,14 @@
             {
                 "$ref": "../software/airpod.json#/fw",
                 "device_version": {
-                    "min": "2.1"
+                    "min": "2B576"
                 }
             }
         ],
-        "traits": [],
+        "traits": [
+            "audio.anc",
+            "audio.spatial"
+        ],
         "internal_names": ["B298AP"],
         "a_numbers": ["A2083", "A2084", "A2190"],
         "ids": ["AirPodsPro1,1", "AirPods2,2", "iProd8,1", "Device1,8206"]
@@ -83,14 +93,17 @@
             {
                 "$ref": "../software/airpod.json#/fw",
                 "device_version": {
-                    "min": "3.2"
+                    "min": "3C16"
                 }
             }
         ],
-        "traits": [],
+        "traits": [
+            "audio.anc",
+            "audio.spatial"
+        ],
         "internal_names": ["B515AP"],
         "a_numbers": ["A2096", "A3184"],
-        "ids": ["AirPodsMax1,1", "iProd8,6", "Device1,8202", "Device1,8223"]
+        "ids": ["AirPodsMax1,1", "AirPodsMax1,2", "iProd8,6", "Device1,8202", "Device1,8223"]
     },
     {
         "name": "AirPods",
@@ -106,17 +119,19 @@
             {
                 "$ref": "../software/airpod.json#/fw",
                 "device_version": {
-                    "min": "4.1"
+                    "min": "4B52"
                 }
             }
         ],
-        "traits": [],
+        "traits": [
+            "audio.spatial"
+        ],
         "internal_names": ["B388AP"],
         "a_numbers": ["A2564", "A2565", "A2897", "A2566"],
         "ids": ["AirPods1,3", "Audio2,1", "Device1,8211"]
     },
     {
-        "name": "AirPods Pro",
+        "name": "AirPods Pro 2",
         "year": 2022,
         "gen": 2,
         "family": {
@@ -129,14 +144,17 @@
             {
                 "$ref": "../software/airpod.json#/fw",
                 "device_version": {
-                    "min": "5.0.374"
+                    "min": "5A374"
                 }
             }
         ],
-        "traits": [],
+        "traits": [
+            "audio.anc",
+            "audio.spatial"
+        ],
         "internal_names": ["B698AP"],
-        "a_numbers": ["A2699", "A2698", "A2700", "A3047", "A3048", "A2968"],
-        "ids": ["AirPodsPro1,2", "AirPodsPro2,1", "Device1,8212", "Device1,8228"]
+        "a_numbers": ["A2931", "A2699", "A2698", "A3047", "A3048", "A3049", "A2700", "A2968"],
+        "ids": ["AirPodsPro1,2", "AirPods3,1", "Device1,8212", "Device1,8228"]
     },
     {
         "name": "AirPods 4",
@@ -152,13 +170,42 @@
             {
                 "$ref": "../software/airpod.json#/fw",
                 "device_version": {
-                    "min": "7.0.291"
+                    "min": "7A291"
                 }
             }
         ],
-        "traits": [],
+        "traits": [
+            "audio.anc",
+            "audio.spatial"
+        ],
         "internal_names": ["B768AP", "B768MAP", "B768EAP"],
-        "a_numbers": ["A3053", "A3050", "A3058", "A3056", "A3055", "A3059"],
+        "a_numbers": ["A3053", "A3050", "A3054", "A3056", "A3055", "A3057", "A3058", "A3059"],
         "ids": ["AirPods1,4", "AirPods1,5", "AirPods3,2", "AirPods3,3", "Device1,8217", "Device1,8219"]
+    },
+    {
+        "name": "AirPods Pro 3",
+        "year": 2025,
+        "gen": 3,
+        "family": {
+            "$ref": "../family.json#/airpod"
+        },
+        "chip": {
+            "$ref": "../chips/h.json#/h2"
+        },
+        "software": [
+            {
+                "$ref": "../software/airpod.json#/fw",
+                "device_version": {
+                    "min": "8A354"
+                }
+            }
+        ],
+        "traits": [
+            "audio.anc",
+            "audio.spatial"
+        ],
+        "internal_names": ["B788AP"],
+        "a_numbers": ["A3063", "A3064", "A3065", "A3122"],
+        "ids": ["AirPodsPro1,3", "Device1,8231"]
     }
 ]

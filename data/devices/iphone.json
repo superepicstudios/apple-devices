@@ -292,7 +292,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "9.0",
-                    "max": "15.8.3"
+                    "max": "15.8.5"
                 }
             }
         ],
@@ -319,7 +319,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "9.0",
-                    "max": "15.8.3"
+                    "max": "15.8.5"
                 }
             }
         ],
@@ -346,7 +346,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "9.3",
-                    "max": "15.8.3"
+                    "max": "15.8.5"
                 }
             }
         ],
@@ -373,7 +373,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "10.0",
-                    "max": "15.8.3"
+                    "max": "15.8.5"
                 }
             }
         ],
@@ -400,7 +400,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "10.0",
-                    "max": "15.8.3"
+                    "max": "15.8.5"
                 }
             }
         ],
@@ -427,7 +427,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "11.0",
-                    "max": "16.7.10"
+                    "max": "16.7.12"
                 }
             }
         ],
@@ -454,7 +454,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "11.0",
-                    "max": "16.7.10"
+                    "max": "16.7.12"
                 }
             }
         ],
@@ -481,7 +481,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "11.0.1",
-                    "max": "16.7.10"
+                    "max": "16.7.12"
                 }
             }
         ],
@@ -508,7 +508,8 @@
             {
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
-                    "min": "12.0"
+                    "min": "12.0",
+                    "max": "18.7"
                 }
             }
         ],
@@ -535,7 +536,8 @@
             {
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
-                    "min": "12.0"
+                    "min": "12.0",
+                    "max": "18.7"
                 }
             }
         ],
@@ -562,7 +564,8 @@
             {
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
-                    "min": "12.0"
+                    "min": "12.0",
+                    "max": "18.7"
                 }
             }
         ],
@@ -1308,5 +1311,133 @@
         "internal_names": ["V59AP"],
         "a_numbers": ["A3212", "A3408", "A3409", "A3410"],
         "ids": ["iPhone17,5"]
+    },
+    {
+        "name": "iPhone 17",
+        "year": 2025,
+        "gen": 19,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a19"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "26.0"
+                }
+            }
+        ],
+        "traits": [
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["V57AP"],
+        "a_numbers": ["A3258", "A3519", "A3520", "A3521"],
+        "ids": ["iPhone18,3"]
+    },
+    {
+        "name": "iPhone 17 Pro",
+        "year": 2025,
+        "gen": 19,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a19pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "26.0"
+                }
+            }
+        ],
+        "traits": [
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["V53AP"],
+        "a_numbers": ["A3256", "A3522", "A3523", "A3524"],
+        "ids": ["iPhone18,1"]
+    },
+    {
+        "name": "iPhone 17 Pro Max",
+        "year": 2025,
+        "gen": 19,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a19pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "26.0"
+                }
+            }
+        ],
+        "traits": [
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["V54AP"],
+        "a_numbers": ["A3257", "A3525", "A3526", "A3527"],
+        "ids": ["iPhone18,2"]
+    },
+    {
+        "name": "iPhone Air",
+        "year": 2025,
+        "gen": 19,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a19pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "26.0"
+                }
+            }
+        ],
+        "traits": [
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["D23AP"],
+        "a_numbers": ["A3260", "A3516", "A3517", "A3518"],
+        "ids": ["iPhone18,4"]
     }
 ]

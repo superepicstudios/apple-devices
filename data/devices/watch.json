@@ -204,7 +204,7 @@
         "ids": ["Watch6,6", "Watch6,7", "Watch6,8", "Watch6,9"]
     },
     {
-        "name": "Apple Watch SE",
+        "name": "Apple Watch SE 2",
         "family": "Apple_Watch",
         "year": 2022,
         "gen": 2,
@@ -295,7 +295,7 @@
         "ids": ["Watch7,1", "Watch7,2", "Watch7,3", "Watch7,4"]
     },
     {
-        "name": "Apple Watch Ultra",
+        "name": "Apple Watch Ultra 2",
         "family": "Apple_Watch",
         "year": 2023,
         "gen": 2,
@@ -340,5 +340,74 @@
         "internal_names": ["N217sAP", "N217bAP", "N218sAP", "N218bAP"],
         "a_numbers": ["A2997", "A2998", "A2999", "A3000", "A3001", "A3002", "A3003", "A3206"],
         "ids": ["Watch7,8", "Watch7,9", "Watch7,10", "Watch7,11"]
+    },
+    {
+        "name": "Apple Watch Series 11",
+        "family": "Apple_Watch",
+        "year": 2025,
+        "gen": 11,
+        "chip": {
+            "$ref": "../chips/s.json#/s10"
+        },
+        "software": [
+            {
+                "$ref": "../software/watchos.json#/watchos",
+                "device_version": {
+                    "min": "26.0"
+                }
+            }
+        ],
+        "traits": [
+            "display.always-on"
+        ],
+        "internal_names": ["N227sAP", "N227bAP", "N228sAP", "N228bAP"],
+        "a_numbers": ["A3331", "A3333", "A3450", "A3451", "A3335", "A3337", "A3452", "A3453"],
+        "ids": ["Watch7,17", "Watch7,18", "Watch7,19", "Watch7,20"]
+    },
+    {
+        "name": "Apple Watch SE",
+        "family": "Apple_Watch",
+        "year": 2025,
+        "gen": 3,
+        "chip": {
+            "$ref": "../chips/s.json#/s10"
+        },
+        "software": [
+            {
+                "$ref": "../software/watchos.json#/watchos",
+                "device_version": {
+                    "min": "26.0"
+                }
+            }
+        ],
+        "traits": [
+            "display.always-on"
+        ],
+        "internal_names": ["N243sAP", "N243bAP", "N244sAP", "N244bAP"],
+        "a_numbers": ["A3324", "A3325", "A3391", "A3392", "A3326", "A3327", "A3328", "A3329"],
+        "ids": ["Watch7,13", "Watch7,14", "Watch7,15", "Watch7,16"]
+    },
+    {
+        "name": "Apple Watch Ultra 3",
+        "family": "Apple_Watch",
+        "year": 2025,
+        "gen": 3,
+        "chip": {
+            "$ref": "../chips/s.json#/s10"
+        },
+        "software": [
+            {
+                "$ref": "../software/watchos.json#/watchos",
+                "device_version": {
+                    "min": "26.0"
+                }
+            }
+        ],
+        "traits": [
+            "display.always-on"
+        ],
+        "internal_names": ["N230AP"],
+        "a_numbers": ["A3281", "A3282"],
+        "ids": ["Watch7,12"]
     }
 ]
