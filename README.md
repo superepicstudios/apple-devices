@@ -7,6 +7,7 @@ Tired of searching the web for stupid device identifiers? Join the club. 🙄 Th
 ## 📚 References
 
 - Apple Support "Identify your {DEVICE}" ⋅ _(i.e. https://support.apple.com/en-us/108044)_
+- https://everymac.com/systems/apple/{DEVICE}/index-{DEVICE}-specs.html ⋅ _(i.e. https://everymac.com/systems/apple/iphone/index-iphone-specs.html)_
 - https://en.wikipedia.org/wiki/{DEVICE} ⋅ _(i.e. https://en.wikipedia.org/wiki/iPhone)_
 - https://theapplewiki.com/wiki/Models
 - https://theapplewiki.com/wiki/List_of_{DEVICE}s ⋅ _(i.e. https://theapplewiki.com/wiki/List_of_iPhones)_

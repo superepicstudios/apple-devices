@@ -160,7 +160,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple S6`
 - **Software**
-  - `watchOS 7.0 → 11.6.1`
+  - `watchOS 7.0 → 26.0`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -187,7 +187,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple S7`
 - **Software**
-  - `watchOS 8.0 → 11.6.1`
+  - `watchOS 8.0 → 26.0`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -208,13 +208,13 @@
   -  `Watch6,8`
   -  `Watch6,9`
 
-## Apple Watch SE (2nd Gen)
+## Apple Watch SE 2
 - **Family**: `Apple_Watch`
 - **Generation**: `2`
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 11.6.1`
+  - `watchOS 9.0 → 26.0`
 - **Internal Names**
   -  `N143sAP`
   -  `N143bAP`
@@ -241,7 +241,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 11.6.1`
+  - `watchOS 9.0 → 26.0`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -270,7 +270,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 11.6.1`
+  - `watchOS 9.0 → 26.0`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -289,7 +289,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 10.0 → 11.6.1`
+  - `watchOS 10.0 → 26.0`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -310,13 +310,13 @@
   -  `Watch7,3`
   -  `Watch7,4`
 
-## Apple Watch Ultra (2nd Gen)
+## Apple Watch Ultra 2
 - **Family**: `Apple_Watch`
 - **Generation**: `2`
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 11.0 → 11.6.1`
+  - `watchOS 11.0 → 26.0`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -334,7 +334,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 11.0 → 11.6.1`
+  - `watchOS 11.0 → 26.0`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -356,3 +356,78 @@
   -  `Watch7,9`
   -  `Watch7,10`
   -  `Watch7,11`
+
+## Apple Watch Series 11
+- **Family**: `Apple_Watch`
+- **Generation**: `11`
+- **Year**: `2025`
+- **Chip**: `Apple S10`
+- **Software**
+  - `watchOS 26.0 → 26.0`
+- **Traits**
+  -  `display.always-on`
+- **Internal Names**
+  -  `N227sAP`
+  -  `N227bAP`
+  -  `N228sAP`
+  -  `N228bAP`
+- **A Numbers**
+  -  `A3331`
+  -  `A3333`
+  -  `A3450`
+  -  `A3451`
+  -  `A3335`
+  -  `A3337`
+  -  `A3452`
+  -  `A3453`
+- **Identifiers**
+  -  `Watch7,17`
+  -  `Watch7,18`
+  -  `Watch7,19`
+  -  `Watch7,20`
+
+## Apple Watch SE (3rd Gen)
+- **Family**: `Apple_Watch`
+- **Generation**: `3`
+- **Year**: `2025`
+- **Chip**: `Apple S10`
+- **Software**
+  - `watchOS 26.0 → 26.0`
+- **Traits**
+  -  `display.always-on`
+- **Internal Names**
+  -  `N243sAP`
+  -  `N243bAP`
+  -  `N244sAP`
+  -  `N244bAP`
+- **A Numbers**
+  -  `A3324`
+  -  `A3325`
+  -  `A3391`
+  -  `A3392`
+  -  `A3326`
+  -  `A3327`
+  -  `A3328`
+  -  `A3329`
+- **Identifiers**
+  -  `Watch7,13`
+  -  `Watch7,14`
+  -  `Watch7,15`
+  -  `Watch7,16`
+
+## Apple Watch Ultra 3
+- **Family**: `Apple_Watch`
+- **Generation**: `3`
+- **Year**: `2025`
+- **Chip**: `Apple S10`
+- **Software**
+  - `watchOS 26.0 → 26.0`
+- **Traits**
+  -  `display.always-on`
+- **Internal Names**
+  -  `N230AP`
+- **A Numbers**
+  -  `A3281`
+  -  `A3282`
+- **Identifiers**
+  -  `Watch7,12`

@@ -105,7 +105,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A10 Fusion`
 - **Software**
-  - `iOS 12.3 → 15.8.3`
+  - `iOS 12.3 → 15.8.5`
 - **Traits**
   -  `button.home`
 - **Internal Names**
