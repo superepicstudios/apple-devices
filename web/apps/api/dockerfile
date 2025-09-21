@@ -1,11 +1,11 @@
 FROM denoland/deno:alpine AS build
 WORKDIR /app
-USER deno
 COPY . .
 RUN deno install --allow-scripts
-RUN deno cache ./apps/api/src/main.ts
+RUN deno cache ./web/apps/api/src/main.ts
 
 FROM denoland/deno:alpine AS run
+USER deno
 WORKDIR /app
 COPY --from=build /app .
 WORKDIR /app/web/apps/api
