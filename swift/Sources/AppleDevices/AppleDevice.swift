@@ -14,11 +14,11 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     private static let simulatorPrefix = "__sim_"
     
     public static func == (lhs: AppleDevice, rhs: AppleDevice) -> Bool {
-        return lhs.identifiers == rhs.identifiers
+        lhs.identifiers == rhs.identifiers
     }
     
     public var id: String {
-        return self.identifiers.joined(separator: "-")
+        self.identifiers.joined(separator: "-")
     }
         
     /// The device's identifiers.
@@ -59,7 +59,7 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     /// The device's software information.
     public var software: DeviceSoftware {
         
-        return .init(
+        .init(
             supported: self.data.software,
             current: self.currentSoftware
         )

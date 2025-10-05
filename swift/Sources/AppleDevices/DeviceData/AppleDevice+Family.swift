@@ -62,13 +62,13 @@ public extension AppleDevice /* Family */ {
         }
         
         public var id: String {
-            return self.rawValue
+            self.rawValue
         }
         
         /// The family's display name.
         public var displayName: String {
             
-            return self.rawValue.replacingOccurrences(
+            self.rawValue.replacingOccurrences(
                 of: "_",
                 with: " "
             )

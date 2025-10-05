@@ -15,9 +15,10 @@ public extension AppleDevice /* Groups */ {
 
         let datas = (try? deviceData()) ?? []
         
-        return datas
-            .map { AppleDevice(data: $0) }
-        
+        return datas.map {
+            AppleDevice(data: $0)
+        }
+
     }
     
     /// Gets all devices descending from a set of families.
@@ -123,31 +124,39 @@ public extension AppleDevice /* Groups */ {
     
     /// An array of iPad devices.
     static var ipads: [AppleDevice] {
-        return self.withFamilies(.ipad)
+        withFamilies(.ipad)
     }
     
     /// An array of iPhone devices.
     static var iphones: [AppleDevice] {
-        return self.withFamilies(.iphone)
+        withFamilies(.iphone)
     }
     
     /// An array of iPod devices.
     static var ipods: [AppleDevice] {
-        return self.withFamilies(.ipod)
+        withFamilies(.ipod)
     }
     
     /// Flag indicating if the device is a handheld.
-    var isHandheld: Bool { self.isPad || self.isPhone || self.isPod }
-    
+    var isHandheld: Bool {
+        self.isPad || self.isPhone || self.isPod
+    }
+
     /// Flag indicating if the device is an iPad.
-    var isPad: Bool { self.family == .ipad }
-    
+    var isPad: Bool {
+        self.family == .ipad
+    }
+
     /// Flag indicating if the device is an iPhone.
-    var isPhone: Bool { self.family == .iphone }
-    
+    var isPhone: Bool {
+        self.family == .iphone
+    }
+
     /// Flag indicating if the device is an iPod.
-    var isPod: Bool { self.family == .ipod }
-    
+    var isPod: Bool {
+        self.family == .ipod
+    }
+
     // MARK: Wearables
     
     /// An array of wearable devices.
@@ -163,31 +172,39 @@ public extension AppleDevice /* Groups */ {
     
     /// An array of AirPod devices.
     static var airpods: [AppleDevice] {
-        return self.withFamilies(.airpod)
+        withFamilies(.airpod)
     }
     
     /// An array of Apple Watch devices.
     static var appleWatches: [AppleDevice] {
-        return self.withFamilies(.watch)
+        withFamilies(.watch)
     }
     
     /// An array of Apple Vision devices.
     static var appleVisions: [AppleDevice] {
-        return self.withFamilies(.vision)
+        withFamilies(.vision)
     }
     
     /// Flag indicating if the device is a wearable.
-    var isWearable: Bool { self.isAirPod || self.isWatch || self.isVision }
-    
+    var isWearable: Bool {
+        self.isAirPod || self.isWatch || self.isVision
+    }
+
     /// Flag indicating if the device is an AirPod.
-    var isAirPod: Bool { self.family == .airpod }
-    
+    var isAirPod: Bool {
+        self.family == .airpod
+    }
+
     /// Flag indicating if the device is an Apple Watch.
-    var isWatch: Bool { self.family == .watch }
-    
+    var isWatch: Bool {
+        self.family == .watch
+    }
+
     /// Flag indicating if the device is an Apple Vision.
-    var isVision: Bool { self.family == .vision }
-    
+    var isVision: Bool {
+        self.family == .vision
+    }
+
     // MARK: Home Devices
     
     /// An array of home devices.
@@ -202,39 +219,49 @@ public extension AppleDevice /* Groups */ {
     
     /// An array of Apple TV devices.
     static var appleTvs: [AppleDevice] {
-        return self.withFamilies(.appletv)
+        withFamilies(.appletv)
     }
     
     /// An array of HomePod devices.
     static var homepods: [AppleDevice] {
-        return self.withFamilies(.homepod)
+        withFamilies(.homepod)
     }
     
     /// Flag indicating if the device is a home device.
-    var isHomeDevice: Bool { self.isTv || self.isHomePod }
-    
+    var isHomeDevice: Bool {
+        self.isTv || self.isHomePod
+    }
+
     /// Flag indicating if the device is an Apple TV.
-    var isTv: Bool { self.family == .appletv }
-    
+    var isTv: Bool {
+        self.family == .appletv
+    }
+
     /// Flag indicating if the device is a HomePod.
-    var isHomePod: Bool { self.family == .homepod }
-    
+    var isHomePod: Bool {
+        self.family == .homepod
+    }
+
     // MARK: Accessories
     
     /// An array of accessory devices.
     static var accessories: [AppleDevice] {
-        return self.airtags
+        self.airtags
     }
     
     /// An array of AirTag devices.
     static var airtags: [AppleDevice] {
-        return self.withFamilies(.airtag)
+        withFamilies(.airtag)
     }
     
     /// Flag indicating if the device is an accessory.
-    var isAccessory: Bool { self.isTag }
-    
+    var isAccessory: Bool {
+        self.isTag
+    }
+
     /// Flag indicating if the device is an AirTag.
-    var isTag: Bool { self.family == .airtag }
-    
+    var isTag: Bool {
+        self.family == .airtag
+    }
+
 }
