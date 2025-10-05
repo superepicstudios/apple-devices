@@ -509,7 +509,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "12.0",
-                    "max": "18.7"
+                    "max": "18.7.1"
                 }
             }
         ],
@@ -537,7 +537,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "12.0",
-                    "max": "18.7"
+                    "max": "18.7.1"
                 }
             }
         ],
@@ -565,7 +565,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "12.0",
-                    "max": "18.7"
+                    "max": "18.7.1"
                 }
             }
         ],

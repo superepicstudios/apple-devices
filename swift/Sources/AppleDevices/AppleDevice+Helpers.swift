@@ -66,12 +66,14 @@ extension AppleDevice /* Helpers */ {
         switch self.family {
         case .iphone:
             
-            // Drop generation for iPhone "X" devices.
-            
-            if (self.generation == 11 || self.generation == 12) && self.hasFluidDisplay {
+            // Drop generation for iPhone "X" & "Air" devices.
+
+            let generations = [11, 12, 19]
+
+            if generations.contains(self.generation) && self.hasFluidDisplay {
                 return name(with: .variant)
             }
-                        
+            
         case .appletv:
             
             // "Apple TV 4K" has a number in its name, but it doesn't
