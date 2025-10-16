@@ -24,5 +24,31 @@
         "internal_names": ["N301AP"],
         "a_numbers": ["A2117"],
         "ids": ["RealityDevice14,1"]
+    },
+    {
+        "name": "Apple Vision Pro",
+        "year": 2025,
+        "gen": 2,
+        "family": {
+            "$ref": "../family.json#/vision"
+        },
+        "chip": {
+            "$ref": "../chips/m.json#/m5"
+        },
+        "software": [
+            {
+                "$ref": "../software/visionos.json#/visionos",
+                "device_version": {
+                    "min": "26.0.1"
+                }
+            }
+        ],
+        "traits": [
+            "id.optic",
+            "intelligence"
+        ],
+        "internal_names": ["N301aAP"],
+        "a_numbers": ["A3416"],
+        "ids": ["RealityDevice17,1"]
     }
 ]

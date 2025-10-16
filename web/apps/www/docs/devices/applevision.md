@@ -16,3 +16,20 @@
   -  `A2117`
 - **Identifiers**
   -  `RealityDevice14,1`
+
+## Apple Vision Pro (2nd Gen)
+- **Family**: `Apple_Vision`
+- **Generation**: `2`
+- **Year**: `2025`
+- **Chip**: `Apple M5`
+- **Software**
+  - `visionOS 26.0.1 → 26.0.1`
+- **Traits**
+  -  `id.optic`
+  -  `intelligence`
+- **Internal Names**
+  -  `N301aAP`
+- **A Numbers**
+  -  `A3416`
+- **Identifiers**
+  -  `RealityDevice17,1`
