@@ -1194,5 +1194,63 @@
         "internal_names": ["J481AP", "J482AP"],
         "a_numbers": ["A3354", "A3355", "A3356"],
         "ids": ["iPad15,7", "iPad15,8"]
+    },
+    {
+        "name": "iPad Pro",
+        "variant": "11-inch",
+        "year": 2025,
+        "gen": 8,
+        "family": {
+            "$ref": "../family.json#/ipad"
+        },
+        "chip": {
+            "$ref": "../chips/m.json#/m5"
+        },
+        "software": [
+            {
+                "$ref": "../software/ipados.json#/ipados",
+                "device_version": {
+                    "min": "26.0.1"
+                }
+            }
+        ],
+        "traits": [
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["J817AP", "J818AP"],
+        "a_numbers": ["A3357", "A3358", "A3359"],
+        "ids": ["iPad17,1", "iPad17,2"]
+    },
+    {
+        "name": "iPad Pro",
+        "variant": "13-inch",
+        "year": 2025,
+        "gen": 8,
+        "family": {
+            "$ref": "../family.json#/ipad"
+        },
+        "chip": {
+            "$ref": "../chips/m.json#/m5"
+        },
+        "software": [
+            {
+                "$ref": "../software/ipados.json#/ipados",
+                "device_version": {
+                    "min": "26.0.1"
+                }
+            }
+        ],
+        "traits": [
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["J820AP", "J821AP"],
+        "a_numbers": ["A3360", "A3361", "A3362"],
+        "ids": ["iPad17,3", "iPad17,4"]
     }
 ]

@@ -936,3 +936,51 @@
 - **Identifiers**
   -  `iPad15,7`
   -  `iPad15,8`
+
+## iPad Pro (11-inch) (8th Gen)
+- **Family**: `iPad`
+- **Variant**: `11-inch`
+- **Generation**: `8`
+- **Year**: `2025`
+- **Chip**: `Apple M5`
+- **Software**
+  - `iPadOS 26.0.1 → 26.0.1`
+- **Traits**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J817AP`
+  -  `J818AP`
+- **A Numbers**
+  -  `A3357`
+  -  `A3358`
+  -  `A3359`
+- **Identifiers**
+  -  `iPad17,1`
+  -  `iPad17,2`
+
+## iPad Pro (13-inch) (8th Gen)
+- **Family**: `iPad`
+- **Variant**: `13-inch`
+- **Generation**: `8`
+- **Year**: `2025`
+- **Chip**: `Apple M5`
+- **Software**
+  - `iPadOS 26.0.1 → 26.0.1`
+- **Traits**
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+- **Internal Names**
+  -  `J820AP`
+  -  `J821AP`
+- **A Numbers**
+  -  `A3360`
+  -  `A3361`
+  -  `A3362`
+- **Identifiers**
+  -  `iPad17,3`
+  -  `iPad17,4`

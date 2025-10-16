@@ -14,5 +14,9 @@
     "m4": {
         "id": "m4",
         "name": "Apple M4"
+    },
+    "m5": {
+        "id": "m5",
+        "name": "Apple M5"
     }
 }

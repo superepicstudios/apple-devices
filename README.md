@@ -1,12 +1,13 @@
 ![Apple Devices](assets/hero.png)
 
-# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.10.0-fbfaf4.svg?labelColor=313244)
+# 📱 Apple Devices ⋅ ![Version](https://img.shields.io/badge/Version-2025.10.1-fbfaf4.svg?labelColor=313244)
 
 Tired of searching the web for stupid device identifiers? Join the club. 🙄 This is a collection of up-to-date Apple device information, metadata, and most importantly - model numbers & identifiers. No more diving through wiki articles & gists trying to find that one bit of device info, it's all here! 🎉 [f***ckingappledevices.com](https://fuckingappledevices.com)
 
 ## 📚 References
 
 - Apple Support "Identify your {DEVICE}" ⋅ _(i.e. https://support.apple.com/en-us/108044)_
+- https://appledb.dev
 - https://everymac.com/systems/apple/{DEVICE}/index-{DEVICE}-specs.html ⋅ _(i.e. https://everymac.com/systems/apple/iphone/index-iphone-specs.html)_
 - https://en.wikipedia.org/wiki/{DEVICE} ⋅ _(i.e. https://en.wikipedia.org/wiki/iPhone)_
 - https://theapplewiki.com/wiki/Models
