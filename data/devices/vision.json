@@ -39,7 +39,7 @@
             {
                 "$ref": "../software/visionos.json#/visionos",
                 "device_version": {
-                    "min": "26.0.1"
+                    "min": "26.0"
                 }
             }
         ],

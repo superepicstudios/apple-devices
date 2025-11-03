@@ -160,7 +160,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple S6`
 - **Software**
-  - `watchOS 7.0 → 26.0.2`
+  - `watchOS 7.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -187,7 +187,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple S7`
 - **Software**
-  - `watchOS 8.0 → 26.0.2`
+  - `watchOS 8.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -214,7 +214,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 26.0.2`
+  - `watchOS 9.0 → 26.1`
 - **Internal Names**
   -  `N143sAP`
   -  `N143bAP`
@@ -241,7 +241,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 26.0.2`
+  - `watchOS 9.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -270,7 +270,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 26.0.2`
+  - `watchOS 9.0 → 26.1`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -289,7 +289,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 10.0 → 26.0.2`
+  - `watchOS 10.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -316,7 +316,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 11.0 → 26.0.2`
+  - `watchOS 11.0 → 26.1`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -334,7 +334,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 11.0 → 26.0.2`
+  - `watchOS 11.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -363,7 +363,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 26.0.2`
+  - `watchOS 26.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -392,7 +392,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 26.0.2`
+  - `watchOS 26.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -421,7 +421,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 26.0.2`
+  - `watchOS 26.0 → 26.1`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
