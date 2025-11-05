@@ -373,7 +373,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `iOS 12.0 → 18.7.1`
+  - `iOS 12.0 → 18.7.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -394,7 +394,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `iOS 12.0 → 18.7.1`
+  - `iOS 12.0 → 18.7.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -415,7 +415,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `iOS 12.0 → 18.7.1`
+  - `iOS 12.0 → 18.7.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
