@@ -1,0 +1,183 @@
+# Devices → AirPods
+
+## AirPods
+- **Family**: `AirPods`
+- **Generation**: `1`
+- **Year**: `2016`
+- **Chip**: `Apple H1`
+- **Software**
+  - `AirPods Firmware (Legacy) 3.3.1 → 6.8.8`
+- **Internal Names**
+  -  `B188AP`
+- **A Numbers**
+  -  `A1523`
+  -  `A1722`
+  -  `A1602`
+  -  `A1938`
+- **Identifiers**
+  -  `AirPods1,1`
+  -  `Device1,8194`
+
+## AirPods (2nd Gen)
+- **Family**: `AirPods`
+- **Generation**: `2`
+- **Year**: `2019`
+- **Chip**: `Apple H1`
+- **Software**
+  - `AirPods Firmware (Legacy) 6.3.2 → 6.8.8`
+  - `AirPods Firmware 1.0+1A661 → 6.5+6F21`
+- **Internal Names**
+  -  `B288AP`
+- **A Numbers**
+  -  `A2031`
+  -  `A2032`
+  -  `A1602`
+  -  `A1938`
+- **Identifiers**
+  -  `AirPods1,2`
+  -  `AirPods2,1`
+  -  `Device1,8207`
+
+## AirPods Pro
+- **Family**: `AirPods`
+- **Generation**: `1`
+- **Year**: `2019`
+- **Chip**: `Apple H1`
+- **Software**
+  - `AirPods Firmware 2.1+2B576 → 6.5+6F21`
+- **Traits**
+  -  `audio.anc`
+  -  `audio.spatial`
+- **Internal Names**
+  -  `B298AP`
+- **A Numbers**
+  -  `A2083`
+  -  `A2084`
+  -  `A2190`
+- **Identifiers**
+  -  `AirPodsPro1,1`
+  -  `AirPods2,2`
+  -  `iProd8,1`
+  -  `Device1,8206`
+
+## AirPods Max
+- **Family**: `AirPods`
+- **Generation**: `1`
+- **Year**: `2020`
+- **Chip**: `Apple H1`
+- **Software**
+  - `AirPods Firmware 3.2+3C16 → 7.4+7E108`
+- **Traits**
+  -  `audio.anc`
+  -  `audio.spatial`
+- **Internal Names**
+  -  `B515AP`
+- **A Numbers**
+  -  `A2096`
+  -  `A3184`
+- **Identifiers**
+  -  `AirPodsMax1,1`
+  -  `AirPodsMax1,2`
+  -  `iProd8,6`
+  -  `Device1,8202`
+  -  `Device1,8223`
+
+## AirPods (3rd Gen)
+- **Family**: `AirPods`
+- **Generation**: `3`
+- **Year**: `2021`
+- **Chip**: `Apple H1`
+- **Software**
+  - `AirPods Firmware 4.1+4B52 → 6.5+6F21`
+- **Traits**
+  -  `audio.spatial`
+- **Internal Names**
+  -  `B388AP`
+- **A Numbers**
+  -  `A2564`
+  -  `A2565`
+  -  `A2897`
+  -  `A2566`
+- **Identifiers**
+  -  `AirPods1,3`
+  -  `Audio2,1`
+  -  `Device1,8211`
+
+## AirPods Pro 2
+- **Family**: `AirPods`
+- **Generation**: `2`
+- **Year**: `2022`
+- **Chip**: `Apple H2`
+- **Software**
+  - `AirPods Firmware 5.0+5A374 → 8.1+8B28`
+- **Traits**
+  -  `audio.anc`
+  -  `audio.spatial`
+- **Internal Names**
+  -  `B698AP`
+- **A Numbers**
+  -  `A2931`
+  -  `A2699`
+  -  `A2698`
+  -  `A3047`
+  -  `A3048`
+  -  `A3049`
+  -  `A2700`
+  -  `A2968`
+- **Identifiers**
+  -  `AirPodsPro1,2`
+  -  `AirPods3,1`
+  -  `Device1,8212`
+  -  `Device1,8228`
+
+## AirPods 4
+- **Family**: `AirPods`
+- **Generation**: `4`
+- **Year**: `2024`
+- **Chip**: `Apple H2`
+- **Software**
+  - `AirPods Firmware 7.0+7A291 → 8.1+8B21`
+- **Traits**
+  -  `audio.anc`
+  -  `audio.spatial`
+- **Internal Names**
+  -  `B768AP`
+  -  `B768MAP`
+  -  `B768EAP`
+- **A Numbers**
+  -  `A3053`
+  -  `A3050`
+  -  `A3054`
+  -  `A3056`
+  -  `A3055`
+  -  `A3057`
+  -  `A3058`
+  -  `A3059`
+- **Identifiers**
+  -  `AirPods1,4`
+  -  `AirPods1,5`
+  -  `AirPods3,2`
+  -  `AirPods3,3`
+  -  `Device1,8217`
+  -  `Device1,8219`
+
+## AirPods Pro 3
+- **Family**: `AirPods`
+- **Generation**: `3`
+- **Year**: `2025`
+- **Chip**: `Apple H2`
+- **Software**
+  - `AirPods Firmware 8.0+8A354 → 8.1+8B30`
+- **Traits**
+  -  `audio.anc`
+  -  `audio.spatial`
+- **Internal Names**
+  -  `B788AP`
+- **A Numbers**
+  -  `A3063`
+  -  `A3064`
+  -  `A3065`
+  -  `A3122`
+- **Identifiers**
+  -  `AirPodsPro1,3`
+  -  `Device1,8231`

@@ -1,18 +1,18 @@
 {
-    "fw-legacy": {
+    "airpods-fw-legacy": {
         "id": "airpods_fw_legacy",
-        "name": "AirPods Firmware",
+        "name": "AirPods Firmware (Legacy)",
         "version": {
             "min": "3.3.1",
             "max": "6.8.8"
         }
     },
-    "fw": {
+    "airpods-fw": {
         "id": "airpods_fw",
         "name": "AirPods Firmware",
         "version": {
-            "min": "2A364",
-            "max": "8A357"
+            "min": "1.0+1A661",
+            "max": "8.1+8B30"
         }
     }
 }

@@ -4,14 +4,14 @@
         "year": 2016,
         "gen": 1,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h1"
         },
         "software":[
             {
-                "$ref": "../software/airpod.json#/fw-legacy",
+                "$ref": "../software/airpods.json#/airpods-fw-legacy",
                 "device_version": {
                     "min": "3.3.1",
                     "max": "6.8.8"
@@ -28,23 +28,24 @@
         "year": 2019,
         "gen": 2,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h1"
         },
         "software": [
             {
-                "$ref": "../software/airpod.json#/fw-legacy",
+                "$ref": "../software/airpods.json#/airpods-fw-legacy",
                 "device_version": {
                     "min": "6.3.2",
                     "max": "6.8.8"
                 }
             },
             {
-                "$ref": "../software/airpod.json#/fw",
+                "$ref": "../software/airpods.json#/airpods-fw",
                 "device_version": {
-                    "min": "2A364"
+                    "min": "1.0+1A661",
+                    "max": "6.5+6F21"
                 }
             }
         ],
@@ -58,16 +59,17 @@
         "year": 2019,
         "gen": 1,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h1"
         },
         "software": [
             {
-                "$ref": "../software/airpod.json#/fw",
+                "$ref": "../software/airpods.json#/airpods-fw",
                 "device_version": {
-                    "min": "2B576"
+                    "min": "2.1+2B576",
+                    "max": "6.5+6F21"
                 }
             }
         ],
@@ -84,16 +86,17 @@
         "year": 2020,
         "gen": 1,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h1"
         },
         "software": [
             {
-                "$ref": "../software/airpod.json#/fw",
+                "$ref": "../software/airpods.json#/airpods-fw",
                 "device_version": {
-                    "min": "3C16"
+                    "min": "3.2+3C16",
+                    "max": "7.4+7E108"
                 }
             }
         ],
@@ -110,16 +113,17 @@
         "year": 2021,
         "gen": 3,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h1"
         },
         "software": [
             {
-                "$ref": "../software/airpod.json#/fw",
+                "$ref": "../software/airpods.json#/airpods-fw",
                 "device_version": {
-                    "min": "4B52"
+                    "min": "4.1+4B52",
+                    "max": "6.5+6F21"
                 }
             }
         ],
@@ -135,16 +139,17 @@
         "year": 2022,
         "gen": 2,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h2"
         },
         "software": [
             {
-                "$ref": "../software/airpod.json#/fw",
+                "$ref": "../software/airpods.json#/airpods-fw",
                 "device_version": {
-                    "min": "5A374"
+                    "min": "5.0+5A374",
+                    "max": "8.1+8B28"
                 }
             }
         ],
@@ -161,16 +166,17 @@
         "year": 2024,
         "gen": 4,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h2"
         },
         "software": [
             {
-                "$ref": "../software/airpod.json#/fw",
+                "$ref": "../software/airpods.json#/airpods-fw",
                 "device_version": {
-                    "min": "7A291"
+                    "min": "7.0+7A291",
+                    "max": "8.1+8B21"
                 }
             }
         ],
@@ -187,16 +193,17 @@
         "year": 2025,
         "gen": 3,
         "family": {
-            "$ref": "../family.json#/airpod"
+            "$ref": "../family.json#/airpods"
         },
         "chip": {
             "$ref": "../chips/h.json#/h2"
         },
         "software": [
             {
-                "$ref": "../software/airpod.json#/fw",
+                "$ref": "../software/airpods.json#/airpods-fw",
                 "device_version": {
-                    "min": "8A354"
+                    "min": "8.0+8A354",
+                    "max": "8.1+8B30"
                 }
             }
         ],

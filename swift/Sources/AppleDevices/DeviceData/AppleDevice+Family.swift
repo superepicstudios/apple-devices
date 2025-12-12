@@ -12,9 +12,9 @@ public extension AppleDevice /* Family */ {
     /// Representation of the various device families.
     enum Family: String, Identifiable, CaseIterable, Codable, Sendable {
         
-        /// An AirPod family.
-        case airpod  = "AirPod"
-        
+        /// An AirPods family.
+        case airpods  = "AirPods"
+
         /// An AirTag family.
         case airtag  = "AirTag"
         
@@ -48,7 +48,7 @@ public extension AppleDevice /* Family */ {
         public static var allCases: [Family] {
             
             return [
-                .airpod,
+                .airpods,
                 .airtag,
                 .appletv,
                 .vision,

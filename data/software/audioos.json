@@ -4,7 +4,7 @@
         "name": "audioOS",
         "version": {
             "min": "11.0.2",
-            "max": "26.1"
+            "max": "26.2"
         }
     }
 }
