@@ -31,7 +31,7 @@ struct DeviceView: View {
                 rowView(title: "Generation", value: "\(self.device.generation)")
                 rowView(title: "Year", value: "\(self.device.year)")
                 rowView(title: "Chip", value: self.device.chip.name)
-                rowView(title: "Software", value: self.device.softwareRangeString())
+                rowView(title: "Software", value: self.device.softwareRangeString(latestOnly: false))
 
             }
             

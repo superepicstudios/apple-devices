@@ -11,7 +11,7 @@
         },
         "software": [
             {
-                "$ref": "../software/airtag.json#/fw",
+                "$ref": "../software/airtag.json#/airtag-fw",
                 "device_version": {
                     "min": "1.0.225"
                 }

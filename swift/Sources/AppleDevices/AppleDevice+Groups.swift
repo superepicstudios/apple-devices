@@ -172,7 +172,7 @@ public extension AppleDevice /* Groups */ {
     
     /// An array of AirPod devices.
     static var airpods: [AppleDevice] {
-        withFamilies(.airpod)
+        withFamilies(.airpods)
     }
     
     /// An array of Apple Watch devices.
@@ -192,7 +192,7 @@ public extension AppleDevice /* Groups */ {
 
     /// Flag indicating if the device is an AirPod.
     var isAirPod: Bool {
-        self.family == .airpod
+        self.family == .airpods
     }
 
     /// Flag indicating if the device is an Apple Watch.
