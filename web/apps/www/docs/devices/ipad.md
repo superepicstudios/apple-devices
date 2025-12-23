@@ -410,7 +410,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A10 Fusion`
 - **Software**
-  - `iPadOS 13.1 → 18.7.2`
+  - `iPadOS 13.1 → 18.7.3`
 - **Traits**
   -  `button.home`
 - **Internal Names**
