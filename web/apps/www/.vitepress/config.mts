@@ -77,12 +77,13 @@ export default defineConfig({
             {
                 text: "See Also",
                 items: [
+                    { text: "NSDateFormatter", link: "https://nsdateformatter.com" },
                     { text: "Fucking Closure Syntax", link: "https://fuckingclosuresyntax.com" },
                     { text: "Fucking Block Syntax", link: "http://fuckingblocksyntax.com" },
                     { text: "Fucking Format Style", link: "https://fuckingformatstyle.com" },
                     { text: "Fucking If Case Let Syntax", link: "https://fuckingifcaseletsyntax.com" },
                     { text: "Fucking Multiple Trailing Closure Syntax", link: "https://www.fuckingmultipletrailingclosuresyntax.com" },
-                    { text: "NSDateFormatter", link: "https://nsdateformatter.com" }
+                    { text: "Fucking Approachable Concurrency", link: "https://fuckingapproachableswiftconcurrency.com" }
                 ]
             }
         ],
@@ -93,7 +94,7 @@ export default defineConfig({
         ],
 
         footer: {
-            copyright: `Copyright © 2025 Super Epic Studios, LLC<br><b>Made with ❤️ in Las Vegas</b><br><b>${await version()}</b><br>⭐️🍒🎰`,
+            copyright: `Copyright © 2026 Super Epic Studios, LLC<br><b>Made with ❤️ in Las Vegas</b><br><b>${await version()}</b><br>⭐️🍒🎰`,
         }
 
     },
