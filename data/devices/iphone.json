@@ -211,7 +211,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "7.0",
-                    "max": "12.5.7"
+                    "max": "12.5.8"
                 }
             }
         ],
@@ -238,7 +238,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "8.0",
-                    "max": "12.5.7"
+                    "max": "12.5.8"
                 }
             }
         ],
@@ -265,7 +265,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "8.0",
-                    "max": "12.5.7"
+                    "max": "12.5.8"
                 }
             }
         ],
@@ -292,7 +292,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "9.0",
-                    "max": "15.8.5"
+                    "max": "15.8.6"
                 }
             }
         ],
@@ -319,7 +319,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "9.0",
-                    "max": "15.8.5"
+                    "max": "15.8.6"
                 }
             }
         ],
@@ -346,7 +346,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "9.3",
-                    "max": "15.8.5"
+                    "max": "15.8.6"
                 }
             }
         ],
@@ -373,7 +373,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "10.0",
-                    "max": "15.8.5"
+                    "max": "15.8.6"
                 }
             }
         ],
@@ -400,7 +400,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "10.0",
-                    "max": "15.8.5"
+                    "max": "15.8.6"
                 }
             }
         ],
@@ -427,7 +427,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "11.0",
-                    "max": "16.7.12"
+                    "max": "16.7.13"
                 }
             }
         ],
@@ -454,7 +454,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "11.0",
-                    "max": "16.7.12"
+                    "max": "16.7.13"
                 }
             }
         ],
@@ -481,7 +481,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "11.0.1",
-                    "max": "16.7.12"
+                    "max": "16.7.13"
                 }
             }
         ],
@@ -509,7 +509,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "12.0",
-                    "max": "18.7.3"
+                    "max": "18.7.4"
                 }
             }
         ],
@@ -537,7 +537,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "12.0",
-                    "max": "18.7.3"
+                    "max": "18.7.4"
                 }
             }
         ],
@@ -565,7 +565,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "12.0",
-                    "max": "18.7.3"
+                    "max": "18.7.4"
                 }
             }
         ],

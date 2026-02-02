@@ -89,7 +89,7 @@
 - **Year**: `2015`
 - **Chip**: `Apple A8`
 - **Software**
-  - `iOS 8.4 → 12.5.7`
+  - `iOS 8.4 → 12.5.8`
 - **Traits**
   -  `button.home`
 - **Internal Names**
@@ -105,7 +105,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A10 Fusion`
 - **Software**
-  - `iOS 12.3 → 15.8.5`
+  - `iOS 12.3 → 15.8.6`
 - **Traits**
   -  `button.home`
 - **Internal Names**

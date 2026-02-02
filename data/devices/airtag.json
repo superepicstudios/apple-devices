@@ -21,5 +21,28 @@
         "internal_names": ["B389AP"],
         "a_numbers": ["A2187"],
         "ids": ["AirTag1,1"]
+    },
+    {
+        "name": "AirTag",
+        "year": 2026,
+        "gen": 2,
+        "family": {
+            "$ref": "../family.json#/airtag"
+        },
+        "chip": {
+            "$ref": "../chips/u.json#/u2"
+        },
+        "software": [
+            {
+                "$ref": "../software/airtag.json#/airtag-fw",
+                "device_version": {
+                    "min": "3.0.41"
+                }
+            }
+        ],
+        "traits": [],
+        "internal_names": ["B589AP"],
+        "a_numbers": ["A2937"],
+        "ids": ["AirTag2,1"]
     }
 ]
