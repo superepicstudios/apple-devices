@@ -151,7 +151,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "7.0.3",
-                    "max": "12.5.7"
+                    "max": "12.5.8"
                 }
             }
         ],
@@ -177,7 +177,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "7.0.3",
-                    "max": "12.5.7"
+                    "max": "12.5.8"
                 }
             }
         ],
@@ -203,7 +203,7 @@
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
                     "min": "8.1",
-                    "max": "12.5.7"
+                    "max": "12.5.8"
                 }
             }
         ],
@@ -236,7 +236,7 @@
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
                     "min": "13.1",
-                    "max": "15.8.5"
+                    "max": "15.8.6"
                 }
             }
         ],
@@ -269,7 +269,7 @@
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
                     "min": "13.1",
-                    "max": "15.8.5"
+                    "max": "15.8.6"
                 }
             }
         ],
@@ -303,7 +303,7 @@
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
                     "min": "13.1",
-                    "max": "16.7.12"
+                    "max": "16.7.13"
                 }
             }
         ],
@@ -337,7 +337,7 @@
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
                     "min": "13.1",
-                    "max": "16.7.12"
+                    "max": "16.7.13"
                 }
             }
         ],
@@ -370,7 +370,7 @@
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
                     "min": "13.1",
-                    "max": "16.7.12"
+                    "max": "16.7.13"
                 }
             }
         ],
@@ -569,7 +569,7 @@
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
                     "min": "13.1",
-                    "max": "18.7.3"
+                    "max": "18.7.4"
                 }
             }
         ],
