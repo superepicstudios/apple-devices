@@ -51,7 +51,7 @@
 - **Year**: `2015`
 - **Chip**: `Apple A8`
 - **Software**
-  - `tvOS 9.0 → 26.2`
+  - `tvOS 9.0 → 26.3`
 - **Internal Names**
   -  `J42dAP`
 - **A Numbers**
@@ -65,7 +65,7 @@
 - **Year**: `2017`
 - **Chip**: `Apple A10X Fusion`
 - **Software**
-  - `tvOS 11.0 → 26.2`
+  - `tvOS 11.0 → 26.3`
 - **Internal Names**
   -  `J105aAP`
 - **A Numbers**
@@ -79,7 +79,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `tvOS 14.5 → 26.2`
+  - `tvOS 14.5 → 26.3`
 - **Internal Names**
   -  `J305AP`
 - **A Numbers**
@@ -93,7 +93,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `tvOS 16.0 → 26.2`
+  - `tvOS 16.0 → 26.3`
 - **Internal Names**
   -  `J255AP`
 - **A Numbers**
