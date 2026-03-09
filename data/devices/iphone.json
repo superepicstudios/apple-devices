@@ -1409,6 +1409,35 @@
         "ids": ["iPhone18,2"]
     },
     {
+        "name": "iPhone 17e",
+        "year": 2025,
+        "gen": 19,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a19"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "26.3"
+                }
+            }
+        ],
+        "traits": [
+            "button.action",
+            "display.fluid",
+            "display.notch",
+            "id.face",
+            "intelligence"
+        ],
+        "internal_names": ["V159AP"],
+        "a_numbers": ["A3575", "A3634", "A3635"],
+        "ids": ["iPhone18,5"]
+    },
+    {
         "name": "iPhone Air",
         "year": 2025,
         "gen": 19,
