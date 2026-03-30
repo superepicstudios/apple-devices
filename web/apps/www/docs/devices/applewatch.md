@@ -423,6 +423,7 @@
 - **Software**
   - `watchOS 26.0 → 26.4`
 - **Traits**
+  -  `button.action`
   -  `display.always-on`
 - **Internal Names**
   -  `N230AP`
