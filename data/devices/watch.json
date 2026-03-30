@@ -404,6 +404,7 @@
             }
         ],
         "traits": [
+            "button.action",
             "display.always-on"
         ],
         "internal_names": ["N230AP"],
