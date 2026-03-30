@@ -208,7 +208,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J85mAP", "J86mAP", "J87mAP"],
         "a_numbers": ["A1599", "A1600", "A1601"],
@@ -241,7 +242,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J81AP", "J82AP"],
         "a_numbers": ["A1566", "A1567"],
@@ -274,7 +276,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J96AP", "J97AP"],
         "a_numbers": ["A1538", "A1550"],
@@ -308,7 +311,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J98aAP", "J99aAP"],
         "a_numbers": ["A1584", "A1652"],
@@ -342,7 +346,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J127AP", "J128AP"],
         "a_numbers": ["A1673", "A1674", "A1675"],
@@ -375,7 +380,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J71sAP", "J71tAP", "J72sAP", "J72tAP"],
         "a_numbers": ["A1822", "A1823"],
@@ -410,7 +416,8 @@
         ],
         "traits": [
             "button.home",
-            "display.pro-motion"
+            "display.pro-motion",
+            "id.touch"
         ],
         "internal_names": ["J120AP", "J121AP"],
         "a_numbers": ["A1670", "A1671", "A1821"],
@@ -445,7 +452,8 @@
         ],
         "traits": [
             "button.home",
-            "display.pro-motion"
+            "display.pro-motion",
+            "id.touch"
         ],
         "internal_names": ["J207AP", "J208AP"],
         "a_numbers": ["A1701", "A1709"],
@@ -478,7 +486,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J71bAP", "J72bAP"],
         "a_numbers": ["A1893", "A1954"],
@@ -574,7 +583,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J171AP", "J172AP"],
         "a_numbers": ["A2197", "A2198", "A2200"],
@@ -606,7 +616,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J210AP", "J211AP"],
         "a_numbers": ["A2133", "A2124", "A2125", "A2126"],
@@ -638,7 +649,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J217AP", "J218AP"],
         "a_numbers": ["A2152", "A2123", "A2153", "A2154"],
@@ -719,7 +731,8 @@
             }
         ],
         "traits": [
-            "button.home"
+            "button.home",
+            "id.touch"
         ],
         "internal_names": ["J171aAP", "J172aAP"],
         "a_numbers": ["A2270", "A2428", "A2429", "A2430"],
