@@ -1410,7 +1410,7 @@
     },
     {
         "name": "iPhone 17e",
-        "year": 2025,
+        "year": 2026,
         "gen": 19,
         "family": {
             "$ref": "../family.json#/iphone"
