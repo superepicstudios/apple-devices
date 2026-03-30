@@ -163,6 +163,7 @@
   - `iOS 8.1 → 12.5.8`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J85mAP`
   -  `J86mAP`
@@ -186,6 +187,7 @@
   - `iPadOS 13.1 → 15.8.6`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J81AP`
   -  `J82AP`
@@ -206,6 +208,7 @@
   - `iPadOS 13.1 → 15.8.6`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J96AP`
   -  `J97AP`
@@ -227,6 +230,7 @@
   - `iPadOS 13.1 → 16.7.13`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J98aAP`
   -  `J99aAP`
@@ -248,6 +252,7 @@
   - `iPadOS 13.1 → 16.7.13`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J127AP`
   -  `J128AP`
@@ -269,6 +274,7 @@
   - `iPadOS 13.1 → 16.7.13`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J71sAP`
   -  `J71tAP`
@@ -293,6 +299,7 @@
 - **Traits**
   -  `button.home`
   -  `display.pro-motion`
+  -  `id.touch`
 - **Internal Names**
   -  `J120AP`
   -  `J121AP`
@@ -316,6 +323,7 @@
 - **Traits**
   -  `button.home`
   -  `display.pro-motion`
+  -  `id.touch`
 - **Internal Names**
   -  `J207AP`
   -  `J208AP`
@@ -336,6 +344,7 @@
   - `iPadOS 13.1 → 17.7.5`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J71bAP`
   -  `J72bAP`
@@ -413,6 +422,7 @@
   - `iPadOS 13.1 → 18.7.4`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J171AP`
   -  `J172AP`
@@ -434,6 +444,7 @@
   - `iPadOS 13.1 → 26.4`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J210AP`
   -  `J211AP`
@@ -456,6 +467,7 @@
   - `iPadOS 13.1 → 26.4`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J217AP`
   -  `J218AP`
@@ -525,6 +537,7 @@
   - `iPadOS 14.0 → 26.4`
 - **Traits**
   -  `button.home`
+  -  `id.touch`
 - **Internal Names**
   -  `J171aAP`
   -  `J172aAP`

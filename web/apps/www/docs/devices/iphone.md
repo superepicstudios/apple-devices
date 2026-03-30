@@ -1097,7 +1097,7 @@
 ## iPhone 17e
 - **Family**: `iPhone`
 - **Generation**: `19`
-- **Year**: `2025`
+- **Year**: `2026`
 - **Chip**: `Apple A19`
 - **Software**
   - `iOS 26.3 → 26.4`
