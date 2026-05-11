@@ -6,7 +6,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple U1`
 - **Software**
-  - `AirTag Firmware 1.0.225 → 3.0.41`
+  - `AirTag Firmware 1.0.225 → 3.0.45`
 - **Internal Names**
   -  `B389AP`
 - **A Numbers**
@@ -20,7 +20,7 @@
 - **Year**: `2026`
 - **Chip**: `Apple U2`
 - **Software**
-  - `AirTag Firmware 3.0.41 → 3.0.41`
+  - `AirTag Firmware 3.0.41 → 3.0.45`
 - **Internal Names**
   -  `B589AP`
 - **A Numbers**

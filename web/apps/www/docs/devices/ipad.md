@@ -363,7 +363,7 @@
 - **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS 12.1 → 13.0`
-  - `iPadOS 13.1 → 26.4`
+  - `iPadOS 13.1 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -392,7 +392,7 @@
 - **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS 12.1 → 13.0`
-  - `iPadOS 13.1 → 26.4`
+  - `iPadOS 13.1 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -441,7 +441,7 @@
 - **Chip**: `Apple A12 Bionic`
 - **Software**
   - `iOS 12.2 → 13.0`
-  - `iPadOS 13.1 → 26.4`
+  - `iPadOS 13.1 → 26.5`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -464,7 +464,7 @@
 - **Chip**: `Apple A12 Bionic`
 - **Software**
   - `iOS 12.2 → 13.0`
-  - `iPadOS 13.1 → 26.4`
+  - `iPadOS 13.1 → 26.5`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -487,7 +487,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
 - **Software**
-  - `iPadOS 13.4 → 26.4`
+  - `iPadOS 13.4 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -511,7 +511,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
 - **Software**
-  - `iPadOS 13.4 → 26.4`
+  - `iPadOS 13.4 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -534,7 +534,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `iPadOS 14.0 → 26.4`
+  - `iPadOS 14.0 → 26.5`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -556,7 +556,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iPadOS 14.0 → 26.4`
+  - `iPadOS 14.0 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -579,7 +579,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 14.5 → 26.4`
+  - `iPadOS 14.5 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -608,7 +608,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 14.5 → 26.4`
+  - `iPadOS 14.5 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -636,7 +636,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iPadOS 15.0 → 26.4`
+  - `iPadOS 15.0 → 26.5`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -658,7 +658,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iPadOS 15.0 → 26.4`
+  - `iPadOS 15.0 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -679,7 +679,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 15.4 → 26.4`
+  - `iPadOS 15.4 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -701,7 +701,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iPadOS 16.0 → 26.4`
+  - `iPadOS 16.0 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -724,7 +724,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 16.0 → 26.4`
+  - `iPadOS 16.0 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -749,7 +749,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 16.0 → 26.4`
+  - `iPadOS 16.0 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -774,7 +774,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 17.4 → 26.4`
+  - `iPadOS 17.4 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -797,7 +797,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 17.4 → 26.4`
+  - `iPadOS 17.4 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -819,7 +819,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A17 Pro`
 - **Software**
-  - `iPadOS 18.0.1 → 26.4`
+  - `iPadOS 18.0.1 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -842,7 +842,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**
-  - `iPadOS 17.4 → 26.4`
+  - `iPadOS 17.4 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -866,7 +866,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**
-  - `iPadOS 17.4 → 26.4`
+  - `iPadOS 17.4 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -890,7 +890,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**
-  - `iPadOS 18.3.2 → 26.4`
+  - `iPadOS 18.3.2 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -913,7 +913,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**
-  - `iPadOS 18.3.2 → 26.4`
+  - `iPadOS 18.3.2 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -935,7 +935,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iPadOS 18.3.2 → 26.4`
+  - `iPadOS 18.3.2 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -957,7 +957,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `iPadOS 26.0 → 26.4`
+  - `iPadOS 26.0 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -981,7 +981,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `iPadOS 26.0 → 26.4`
+  - `iPadOS 26.0 → 26.5`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
