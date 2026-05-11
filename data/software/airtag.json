@@ -4,7 +4,7 @@
         "name": "AirTag Firmware",
         "version": {
             "min": "1.0.225",
-            "max": "3.0.41"
+            "max": "3.0.45"
         }
     }
 }

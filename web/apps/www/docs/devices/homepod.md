@@ -6,7 +6,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A8`
 - **Software**
-  - `audioOS 11.0.2 → 26.4`
+  - `audioOS 11.0.2 → 26.5`
 - **Internal Names**
   -  `B238AP`
   -  `B238aAP`
@@ -22,7 +22,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple S5`
 - **Software**
-  - `audioOS 14.1 → 26.4`
+  - `audioOS 14.1 → 26.5`
 - **Internal Names**
   -  `B520AP`
 - **A Numbers**
@@ -36,7 +36,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S7`
 - **Software**
-  - `audioOS 16.0 → 26.4`
+  - `audioOS 16.0 → 26.5`
 - **Internal Names**
   -  `B620AP`
 - **A Numbers**
