@@ -214,5 +214,31 @@
         "internal_names": ["B788AP"],
         "a_numbers": ["A3063", "A3064", "A3065", "A3122"],
         "ids": ["AirPodsPro1,3", "Device1,8231"]
+    },
+    {
+        "name": "AirPods 5",
+        "year": 2026,
+        "gen": 5,
+        "family": {
+            "$ref": "../family.json#/airpods"
+        },
+        "chip": {
+            "$ref": "../chips/h.json#/h2"
+        },
+        "software": [
+            {
+                "$ref": "../software/airpods.json#/airpods-fw",
+                "device_version": {
+                    "min": "8.1+8B21"
+                }
+            }
+        ],
+        "traits": [
+            "audio.anc",
+            "audio.spatial"
+        ],
+        "internal_names": [],
+        "a_numbers": [],
+        "ids": []
     }
 ]

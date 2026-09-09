@@ -98,5 +98,9 @@
     "a19pro": {
         "id": "a19pro",
         "name": "Apple A19 Pro"
+    },
+    "a20pro": {
+        "id": "a20pro",
+        "name": "Apple A20 Pro"
     }
 }
