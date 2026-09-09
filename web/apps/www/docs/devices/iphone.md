@@ -439,7 +439,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.0 → 26.6.1`
+  - `iOS 13.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -459,7 +459,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.0 → 26.6.1`
+  - `iOS 13.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -479,7 +479,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.0 → 26.6.1`
+  - `iOS 13.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -499,7 +499,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.4 → 26.6.1`
+  - `iOS 13.4 → 26.6.2`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -518,11 +518,12 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 26.6.1`
+  - `iOS 14.1 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D53gAP`
 - **A Numbers**
@@ -539,11 +540,12 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 26.6.1`
+  - `iOS 14.1 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D52gAP`
 - **A Numbers**
@@ -560,11 +562,12 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 26.6.1`
+  - `iOS 14.1 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D53pAP`
 - **A Numbers**
@@ -581,11 +584,12 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 26.6.1`
+  - `iOS 14.1 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D54pAP`
 - **A Numbers**
@@ -602,11 +606,12 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 26.6.1`
+  - `iOS 15.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D17AP`
 - **A Numbers**
@@ -624,11 +629,12 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 26.6.1`
+  - `iOS 15.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D16AP`
 - **A Numbers**
@@ -646,12 +652,13 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 26.6.1`
+  - `iOS 15.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D63AP`
 - **A Numbers**
@@ -669,12 +676,13 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 26.6.1`
+  - `iOS 15.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D64AP`
 - **A Numbers**
@@ -692,7 +700,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.4 → 26.6.1`
+  - `iOS 15.4 → 26.6.2`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -713,11 +721,12 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 16.0 → 26.6.1`
+  - `iOS 16.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D27AP`
 - **A Numbers**
@@ -735,11 +744,12 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 16.0 → 26.6.1`
+  - `iOS 16.0 → 26.6.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D28AP`
 - **A Numbers**
@@ -757,13 +767,14 @@
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 16.0 → 26.6.1`
+  - `iOS 16.0 → 26.6.2`
 - **Traits**
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D73AP`
 - **A Numbers**
@@ -781,13 +792,14 @@
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 16.0 → 26.6.1`
+  - `iOS 16.0 → 26.6.2`
 - **Traits**
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D74AP`
 - **A Numbers**
@@ -805,12 +817,13 @@
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 17.0 → 26.6.1`
+  - `iOS 17.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D37AP`
 - **A Numbers**
@@ -827,12 +840,13 @@
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 17.0 → 26.6.1`
+  - `iOS 17.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `id.face`
+  -  `magsafe`
 - **Internal Names**
   -  `D38AP`
 - **A Numbers**
@@ -849,7 +863,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
 - **Software**
-  - `iOS 17.0 → 26.6.1`
+  - `iOS 17.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -858,6 +872,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `D83AP`
 - **A Numbers**
@@ -874,7 +889,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
 - **Software**
-  - `iOS 17.0 → 26.6.1`
+  - `iOS 17.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -883,6 +898,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `D84AP`
 - **A Numbers**
@@ -899,7 +915,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18`
 - **Software**
-  - `iOS 18.0 → 26.6.1`
+  - `iOS 18.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -907,6 +923,7 @@
   -  `display.fluid`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `D47AP`
 - **A Numbers**
@@ -923,7 +940,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18`
 - **Software**
-  - `iOS 18.0 → 26.6.1`
+  - `iOS 18.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -931,6 +948,7 @@
   -  `display.fluid`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `D48AP`
 - **A Numbers**
@@ -947,7 +965,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
 - **Software**
-  - `iOS 18.0 → 26.6.1`
+  - `iOS 18.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -957,6 +975,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `D93AP`
 - **A Numbers**
@@ -973,7 +992,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
 - **Software**
-  - `iOS 18.0 → 26.6.1`
+  - `iOS 18.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -983,6 +1002,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `D94AP`
 - **A Numbers**
@@ -999,7 +1019,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A18`
 - **Software**
-  - `iOS 18.3 → 26.6.1`
+  - `iOS 18.3 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `display.fluid`
@@ -1022,7 +1042,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A19`
 - **Software**
-  - `iOS 26.0 → 26.6.1`
+  - `iOS 26.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1032,6 +1052,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `V57AP`
 - **A Numbers**
@@ -1048,7 +1069,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A19 Pro`
 - **Software**
-  - `iOS 26.0 → 26.6.1`
+  - `iOS 26.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1058,6 +1079,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `V53AP`
 - **A Numbers**
@@ -1074,7 +1096,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A19 Pro`
 - **Software**
-  - `iOS 26.0 → 26.6.1`
+  - `iOS 26.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1084,6 +1106,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `V54AP`
 - **A Numbers**
@@ -1100,13 +1123,14 @@
 - **Year**: `2026`
 - **Chip**: `Apple A19`
 - **Software**
-  - `iOS 26.3 → 26.6.1`
+  - `iOS 26.3 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `V159AP`
 - **A Numbers**
@@ -1116,13 +1140,13 @@
 - **Identifiers**
   -  `iPhone18,5`
 
-## iPhone Air (19th Gen)
+## iPhone Air
 - **Family**: `iPhone`
 - **Generation**: `19`
 - **Year**: `2025`
 - **Chip**: `Apple A19 Pro`
 - **Software**
-  - `iOS 26.0 → 26.6.1`
+  - `iOS 26.0 → 26.6.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1132,6 +1156,7 @@
   -  `display.pro-motion`
   -  `id.face`
   -  `intelligence`
+  -  `magsafe`
 - **Internal Names**
   -  `D23AP`
 - **A Numbers**
@@ -1141,3 +1166,57 @@
   -  `A3518`
 - **Identifiers**
   -  `iPhone18,4`
+
+## iPhone 18 Pro <Badge type="warning" text="Pre-Release" />
+- **Family**: `iPhone`
+- **Generation**: `20`
+- **Year**: `2026`
+- **Chip**: `Apple A20 Pro`
+- **Software**
+  - `iOS 27.0 → 26.6.2`
+- **Traits**
+  -  `button.action`
+  -  `button.camera`
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+  -  `magsafe`
+
+## iPhone 18 Pro Max <Badge type="warning" text="Pre-Release" />
+- **Family**: `iPhone`
+- **Generation**: `20`
+- **Year**: `2026`
+- **Chip**: `Apple A20 Pro`
+- **Software**
+  - `iOS 27.0 → 26.6.2`
+- **Traits**
+  -  `button.action`
+  -  `button.camera`
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.pro-motion`
+  -  `id.face`
+  -  `intelligence`
+  -  `magsafe`
+
+## iPhone Duo <Badge type="warning" text="Pre-Release" />
+- **Family**: `iPhone`
+- **Generation**: `20`
+- **Year**: `2026`
+- **Chip**: `Apple A20 Pro`
+- **Software**
+  - `iOS 27.0 → 26.6.2`
+- **Traits**
+  -  `button.camera`
+  -  `display.always-on`
+  -  `display.dynamic-island`
+  -  `display.fluid`
+  -  `display.foldable`
+  -  `display.pro-motion`
+  -  `id.touch`
+  -  `intelligence`
+  -  `magsafe`

@@ -43,7 +43,12 @@ for (const family of sortedFamilyToDevicesMap.keys()) {
 
     for (const device of sortedFamilyToDevicesMap.get(family) ?? []) {
 
-        output += `## ${uniqueDeviceName(device)}\n`
+        if (isPreReleaseDevice(device)) {
+            output += `## ${uniqueDeviceName(device)} <Badge type="warning" text="Pre-Release" />\n`
+        } else {
+            output += `## ${uniqueDeviceName(device)}\n`
+        }
+
         output += `- **Family**: \`${family}\`\n`
 
         if (device.variant) {
@@ -130,15 +135,31 @@ console.log()
 
 // MARK: Functions
 
+function isPreReleaseDevice(device: IDevice): boolean {
+    return (
+        device.ids.length == 0 || 
+        device.a_numbers.length == 0 || 
+        device.internal_names.length == 0
+    )
+}
+
 function uniqueDeviceName(device: IDevice): string {
 
     switch (device.family) {
     case "iPhone":
 
-        // Don't include generation component
-        // for iPhone "X" devices
-
+        // Don't include generation component for iPhone "X" devices
         if ((device.gen == 11 || device.gen == 12) && device.traits.includes("display.fluid")) {
+            return variantDeviceName(device)
+        }
+
+        // Don't include generation component for iPhone Air
+        if (device.gen == 19 && device.name.includes("Air")) {
+            return variantDeviceName(device)
+        }
+
+        // Don't include generation component for iPhone Duo
+        if (device.gen == 20 && device.name.includes("Duo")) {
             return variantDeviceName(device)
         }
 

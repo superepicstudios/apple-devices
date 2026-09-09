@@ -292,6 +292,7 @@
   - `watchOS 10.0 → 26.6`
 - **Traits**
   -  `display.always-on`
+  -  `intelligence`
 - **Internal Names**
   -  `N207sAP`
   -  `N207bAP`
@@ -320,6 +321,7 @@
 - **Traits**
   -  `button.action`
   -  `display.always-on`
+  -  `intelligence`
 - **Internal Names**
   -  `N210AP`
 - **A Numbers**
@@ -337,6 +339,7 @@
   - `watchOS 11.0 → 26.6`
 - **Traits**
   -  `display.always-on`
+  -  `intelligence`
 - **Internal Names**
   -  `N217sAP`
   -  `N217bAP`
@@ -366,6 +369,7 @@
   - `watchOS 26.0 → 26.6`
 - **Traits**
   -  `display.always-on`
+  -  `intelligence`
 - **Internal Names**
   -  `N227sAP`
   -  `N227bAP`
@@ -395,6 +399,7 @@
   - `watchOS 26.0 → 26.6`
 - **Traits**
   -  `display.always-on`
+  -  `intelligence`
 - **Internal Names**
   -  `N243sAP`
   -  `N243bAP`
@@ -425,6 +430,7 @@
 - **Traits**
   -  `button.action`
   -  `display.always-on`
+  -  `intelligence`
 - **Internal Names**
   -  `N230AP`
 - **A Numbers**
@@ -432,3 +438,26 @@
   -  `A3282`
 - **Identifiers**
   -  `Watch7,12`
+
+## Apple Watch Series 12 <Badge type="warning" text="Pre-Release" />
+- **Family**: `Apple_Watch`
+- **Generation**: `12`
+- **Year**: `2026`
+- **Chip**: `Apple S11`
+- **Software**
+  - `watchOS 27.0 → 26.6`
+- **Traits**
+  -  `display.always-on`
+  -  `intelligence`
+
+## Apple Watch Ultra 4 <Badge type="warning" text="Pre-Release" />
+- **Family**: `Apple_Watch`
+- **Generation**: `4`
+- **Year**: `2026`
+- **Chip**: `Apple S11`
+- **Software**
+  - `watchOS 27.0 → 26.6`
+- **Traits**
+  -  `button.action`
+  -  `display.always-on`
+  -  `intelligence`
