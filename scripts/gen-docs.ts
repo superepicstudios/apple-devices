@@ -43,7 +43,12 @@ for (const family of sortedFamilyToDevicesMap.keys()) {
 
     for (const device of sortedFamilyToDevicesMap.get(family) ?? []) {
 
-        output += `## ${uniqueDeviceName(device)}\n`
+        if (isDeviceWorkInProgress(device)) {
+            output += `## ${uniqueDeviceName(device)} <Badge type="warning" text="WIP" />\n`
+        } else {
+            output += `## ${uniqueDeviceName(device)}\n`
+        }
+
         output += `- **Family**: \`${family}\`\n`
 
         if (device.variant) {
@@ -130,15 +135,31 @@ console.log()
 
 // MARK: Functions
 
+function isDeviceWorkInProgress(device: IDevice): boolean {
+    const hasEmptyComponents = device.ids.length == 0 || device.a_numbers.length == 0 || device.internal_names.length == 0
+    const hasUnknownIdentifiers = device.ids.some(str => str.includes("?"))
+    const hasUnknownANumbers = device.a_numbers.some(str => str.includes("?"))
+    const hasUnknownInternalNames = device.internal_names.some(str => str.includes("?"))
+    return hasEmptyComponents || hasUnknownIdentifiers || hasUnknownANumbers || hasUnknownInternalNames
+}
+
 function uniqueDeviceName(device: IDevice): string {
 
     switch (device.family) {
     case "iPhone":
 
-        // Don't include generation component
-        // for iPhone "X" devices
-
+        // Don't include generation component for iPhone "X" devices
         if ((device.gen == 11 || device.gen == 12) && device.traits.includes("display.fluid")) {
+            return variantDeviceName(device)
+        }
+
+        // Don't include generation component for iPhone Air
+        if (device.gen == 19 && device.name.includes("Air")) {
+            return variantDeviceName(device)
+        }
+
+        // Don't include generation component for iPhone Duo
+        if (device.gen == 20 && device.name.includes("Duo")) {
             return variantDeviceName(device)
         }
 

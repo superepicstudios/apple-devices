@@ -706,7 +706,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D53gAP"],
         "a_numbers": ["A2172", "A2402", "A2404", "A2403"],
@@ -733,7 +734,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D52gAP"],
         "a_numbers": ["A2176", "A2398", "A2400", "A2399"],
@@ -760,7 +762,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D53pAP"],
         "a_numbers": ["A2341", "A2406", "A2407", "A2408"],
@@ -787,7 +790,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D54pAP"],
         "a_numbers": ["A2342", "A2410", "A2411", "A2412"],
@@ -814,7 +818,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D17AP"],
         "a_numbers": ["A2482", "A2631", "A2634", "A2635", "A2633"],
@@ -841,7 +846,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D16AP"],
         "a_numbers": ["A2481", "A2626", "A2629", "A2630", "A2628"],
@@ -869,7 +875,8 @@
             "display.fluid",
             "display.pro-motion",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D63AP"],
         "a_numbers": ["A2483", "A2636", "A2639", "A2640", "A2638"],
@@ -897,7 +904,8 @@
             "display.fluid",
             "display.pro-motion",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D64AP"],
         "a_numbers": ["A2484", "A2641", "A2644", "A2645", "A2643"],
@@ -950,7 +958,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D27AP"],
         "a_numbers": ["A2649", "A2881", "A2882", "A2883", "A2884"],
@@ -977,7 +986,8 @@
         "traits": [
             "display.fluid",
             "display.notch",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D28AP"],
         "a_numbers": ["A2632", "A2885", "A2886", "A2887", "A2888"],
@@ -1006,7 +1016,8 @@
             "display.dynamic-island",
             "display.fluid",
             "display.pro-motion",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D73AP"],
         "a_numbers": ["A2650", "A2889", "A2890", "A2891", "A2892"],
@@ -1035,7 +1046,8 @@
             "display.dynamic-island",
             "display.fluid",
             "display.pro-motion",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D74AP"],
         "a_numbers": ["A2651", "A2893", "A2894", "A2895", "A2896"],
@@ -1063,7 +1075,8 @@
             "button.action",
             "display.dynamic-island",
             "display.fluid",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D37AP"],
         "a_numbers": ["A2846", "A3089", "A3090", "A3092"],
@@ -1091,7 +1104,8 @@
             "button.action",
             "display.dynamic-island",
             "display.fluid",
-            "id.face"
+            "id.face",
+            "magsafe"
         ],
         "internal_names": ["D38AP"],
         "a_numbers": ["A2847", "A3093", "A3094", "A3096"],
@@ -1122,7 +1136,8 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["D83AP"],
         "a_numbers": ["A2848", "A3101", "A3102", "A3104"],
@@ -1153,7 +1168,8 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["D84AP"],
         "a_numbers": ["A2849", "A3105", "A3106", "A3108"],
@@ -1183,7 +1199,8 @@
             "display.dynamic-island",
             "display.fluid",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["D47AP"],
         "a_numbers": ["A3081", "A3286", "A3287", "A3288"],
@@ -1213,7 +1230,8 @@
             "display.dynamic-island",
             "display.fluid",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["D48AP"],
         "a_numbers": ["A3082", "A3289", "A3290", "A3291"],
@@ -1245,7 +1263,8 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["D93AP"],
         "a_numbers": ["A3083", "A3292", "A3293", "A3294"],
@@ -1277,7 +1296,8 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["D94AP"],
         "a_numbers": ["A3084", "A3295", "A3296", "A3297"],
@@ -1338,7 +1358,8 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["V57AP"],
         "a_numbers": ["A3258", "A3519", "A3520", "A3521"],
@@ -1370,7 +1391,8 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["V53AP"],
         "a_numbers": ["A3256", "A3522", "A3523", "A3524"],
@@ -1402,7 +1424,8 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["V54AP"],
         "a_numbers": ["A3257", "A3525", "A3526", "A3527"],
@@ -1431,7 +1454,8 @@
             "display.fluid",
             "display.notch",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["V159AP"],
         "a_numbers": ["A3575", "A3634", "A3635"],
@@ -1463,10 +1487,110 @@
             "display.fluid",
             "display.pro-motion",
             "id.face",
-            "intelligence"
+            "intelligence",
+            "magsafe"
         ],
         "internal_names": ["D23AP"],
         "a_numbers": ["A3260", "A3516", "A3517", "A3518"],
         "ids": ["iPhone18,4"]
+    },
+    {
+        "name": "iPhone 18 Pro",
+        "year": 2026,
+        "gen": 20,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a20pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "27.0"
+                }
+            }
+        ],
+        "traits": [
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence",
+            "magsafe"
+        ],
+        "internal_names": ["???"],
+        "a_numbers": ["A3472", "A3713", "A3714", "A3715"],
+        "ids": ["iPhone19,2"]
+    },
+    {
+        "name": "iPhone 18 Pro Max",
+        "year": 2026,
+        "gen": 20,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a20pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "27.0"
+                }
+            }
+        ],
+        "traits": [
+            "button.action",
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.pro-motion",
+            "id.face",
+            "intelligence",
+            "magsafe"
+        ],
+        "internal_names": ["???"],
+        "a_numbers": ["A3473", "A3716", "A3717", "A3718"],
+        "ids": ["iPhone19,3", "iPhone19,7"]
+    },
+    {
+        "name": "iPhone Duo",
+        "year": 2026,
+        "gen": 20,
+        "family": {
+            "$ref": "../family.json#/iphone"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a20pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ios.json#/ios",
+                "device_version": {
+                    "min": "27.0"
+                }
+            }
+        ],
+        "traits": [
+            "button.camera",
+            "display.always-on",
+            "display.dynamic-island",
+            "display.fluid",
+            "display.foldable",
+            "display.pro-motion",
+            "id.touch",
+            "intelligence",
+            "magsafe"
+        ],
+        "internal_names": ["???"],
+        "a_numbers": ["A3447", "A3719", "A3720"],
+        "ids": ["iPhone19,4"]
     }
 ]

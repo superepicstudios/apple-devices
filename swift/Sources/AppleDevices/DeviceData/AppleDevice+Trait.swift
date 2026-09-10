@@ -42,6 +42,9 @@ public extension AppleDevice /* Trait */ {
         /// A fluid (edge-to-edge) display trait.
         case fluidDisplay = "display.fluid"
 
+        /// A foldable display trait.
+        case foldable = "display.foldable"
+
         /// A notch (cutout) display trait.
         case notch = "display.notch"
 
@@ -64,6 +67,7 @@ public extension AppleDevice /* Trait */ {
         /// An intelligence (AI) trait.
         case intelligence
 
+        /// A MagSafe trait.
+        case magsafe
     }
-    
 }

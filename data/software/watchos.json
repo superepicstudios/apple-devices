@@ -4,7 +4,7 @@
         "name": "watchOS",
         "version": {
             "min": "1.0",
-            "max": "26.6"
+            "max": "27.0"
         }
     }
 }

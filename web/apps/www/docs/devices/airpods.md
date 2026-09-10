@@ -181,3 +181,20 @@
 - **Identifiers**
   -  `AirPodsPro1,3`
   -  `Device1,8231`
+
+## AirPods 5 <Badge type="warning" text="WIP" />
+- **Family**: `AirPods`
+- **Generation**: `5`
+- **Year**: `2026`
+- **Chip**: `Apple H2`
+- **Software**
+  - `AirPods Firmware 8.1+8B21 → 8.4+8E258`
+- **Traits**
+  -  `audio.anc`
+  -  `audio.spatial`
+- **Internal Names**
+  -  `???`
+- **A Numbers**
+  -  `???`
+- **Identifiers**
+  -  `???`

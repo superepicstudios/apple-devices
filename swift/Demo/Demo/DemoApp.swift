@@ -12,13 +12,10 @@ import SwiftUI
 struct DemoApp: App {
     
     var body: some Scene {
-        
         WindowGroup {
             NavigationView {
                 MainView()
             }
         }
-        
     }
-    
 }

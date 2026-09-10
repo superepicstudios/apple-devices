@@ -42,5 +42,9 @@
     "s10": {
         "id": "s10",
         "name": "Apple S10"
+    },
+    "s11": {
+        "id": "s11",
+        "name": "Apple S11"
     }
 }
