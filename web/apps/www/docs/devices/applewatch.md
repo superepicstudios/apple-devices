@@ -439,7 +439,7 @@
 - **Identifiers**
   -  `Watch7,12`
 
-## Apple Watch Series 12 <Badge type="warning" text="Pre-Release" />
+## Apple Watch Series 12
 - **Family**: `Apple_Watch`
 - **Generation**: `12`
 - **Year**: `2026`
@@ -449,8 +449,27 @@
 - **Traits**
   -  `display.always-on`
   -  `intelligence`
+- **Internal Names**
+  -  `N237sAP`
+  -  `N237bAP`
+  -  `N238sAP`
+  -  `N238bAP`
+- **A Numbers**
+  -  `A3581`
+  -  `A3582`
+  -  `A3583`
+  -  `A3584`
+  -  `A3585`
+  -  `A3586`
+  -  `A3587`
+  -  `A3588`
+- **Identifiers**
+  -  `Watch8,2`
+  -  `Watch8,3`
+  -  `Watch8,4`
+  -  `Watch8,5`
 
-## Apple Watch Ultra 4 <Badge type="warning" text="Pre-Release" />
+## Apple Watch Ultra 4 <Badge type="warning" text="WIP" />
 - **Family**: `Apple_Watch`
 - **Generation**: `4`
 - **Year**: `2026`
@@ -461,3 +480,10 @@
   -  `button.action`
   -  `display.always-on`
   -  `intelligence`
+- **Internal Names**
+  -  `N240AP`
+- **A Numbers**
+  -  `A3579`
+  -  `A3580`
+- **Identifiers**
+  -  `???`

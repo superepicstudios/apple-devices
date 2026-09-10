@@ -53,8 +53,8 @@ struct MainView: View {
                 } else {
                     Text(device.uniqueName)
                 }
-                if device.isPreRelease {
-                    BadgeView("Pre-Release")
+                if device.isWorkInProgress {
+                    BadgeView("WIP")
                 }
                 Spacer()
                 Text(verbatim: "\(device.year)").foregroundStyle(.secondary)

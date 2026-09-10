@@ -57,9 +57,6 @@ struct DeviceView: View {
                 rowView(title: "Year", value: "\(self.device.year)")
                 rowView(title: "Chip", value: self.device.chip.name)
                 rowView(title: "Software", value: self.device.softwareRangeString(latestOnly: false))
-                if self.device.isPreRelease {
-                    rowView(title: "Pre-Release", value: "true")
-                }
             }
             Section {
                 rowView(

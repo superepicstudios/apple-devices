@@ -82,9 +82,16 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     /// Flag indicating if this is a simulated device.
     public let isSimulated: Bool
     
-    /// Flag indicating if this is a pre-release device.
-    public var isPreRelease: Bool {
-        self.data.identifiers.isEmpty || self.data.aNumbers.isEmpty || self.data.internalNames.isEmpty
+    /// Flag indicating if this is a work-in-progress (WIP) device.
+    ///
+    /// - Note: WIP devices are often pre-release and contain tentative, or missing data.
+    ///   WIP device information is considered unstable - use at your own risk.
+    public var isWorkInProgress: Bool {
+        let hasEmptyIdentifiers = self.data.identifiers.isEmpty || self.data.aNumbers.isEmpty || self.data.internalNames.isEmpty
+        let hasUnknownIdentifiers = self.data.identifiers.contains(where: { $0.contains("?") })
+        let hasUnknownANumbers = self.data.aNumbers.contains(where: { $0.contains("?") })
+        let hasUnknownInternalNames = self.data.internalNames.contains(where: { $0.contains("?") })
+        return hasEmptyIdentifiers || hasUnknownIdentifiers || hasUnknownANumbers || hasUnknownInternalNames
     }
     
     private let data: DeviceData
@@ -92,19 +99,15 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     
     /// Initializes an Apple device using the current device.
     public init() {
-        
         var identifier = Self.currentIdentifier()
         var simulated: Bool = false
         
         if identifier.hasPrefix(Self.simulatorPrefix) {
-            
             simulated = true
-            
             identifier = identifier.replacingOccurrences(
                 of: Self.simulatorPrefix,
                 with: ""
             )
-            
         }
         
         let data = (try? Self.deviceData(for: identifier)) ?? .unknown(id: identifier)
@@ -117,45 +120,37 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
             ),
             simulated: simulated
         )
-        
     }
     
     /// Initializes an Apple device using a device identifier.
     /// - parameter identifier: The device identifier.
     public init?(_ identifier: String) {
-        
         guard let data = try? Self.deviceData(for: identifier) else {
             return nil
         }
-        
         self.init(data: data)
-        
     }
     
     // MARK: Private
     
-    init(data: DeviceData,
-         currentSoftware: DeviceSoftware.Current? = nil,
-         simulated: Bool = false) {
-        
+    init(
+        data: DeviceData,
+        currentSoftware: DeviceSoftware.Current? = nil,
+        simulated: Bool = false
+    ) {
         self.data = data
         self.currentSoftware = currentSoftware
         self.isSimulated = simulated
-        
     }
     
     private static func currentIdentifier() -> String {
-        
         var identifier: String = ""
         
         #if targetEnvironment(simulator)
-        
         if let simulatedIdentifier = ProcessInfo().environment["SIMULATOR_MODEL_IDENTIFIER"] {
             identifier = "\(Self.simulatorPrefix)\(simulatedIdentifier)"
         }
-        
         #else
-        
         var systemInfo = utsname()
         uname(&systemInfo)
         
@@ -172,20 +167,16 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
             return deviceId + String(UnicodeScalar(UInt8(value)))
             
         }
-        
         #endif
         
         return identifier
-        
     }
     
     internal static func deviceData() throws -> [DeviceData] {
-        
         guard let url = Bundle.module.url(forResource: "data", withExtension: "json"),
-              let data = try? Data(contentsOf: url) else {
-            
+              let data = try? Data(contentsOf: url)
+        else {
             throw AppleDeviceError.missingData
-            
         }
         
         guard let jsons = (try? JSONSerialization.jsonObject(with: data)) as? [[String: Any]] else {
@@ -198,17 +189,14 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
                 from: JSONSerialization.data(withJSONObject: $0)
             )
         }
-        
     }
     
     private static func deviceData(for identifier: String) throws -> DeviceData {
-        
-        guard let data = try deviceData().first(where: { $0.identifiers.contains(identifier) }) else {
+        guard let data = try deviceData().first(where: {
+            $0.identifiers.contains(identifier)
+        }) else {
             throw AppleDeviceError.missingIdentifier
         }
-        
         return data
-        
     }
-    
 }

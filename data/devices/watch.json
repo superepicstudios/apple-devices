@@ -473,9 +473,9 @@
             "display.always-on",
             "intelligence"
         ],
-        "internal_names": [],
-        "a_numbers": [],
-        "ids": []
+        "internal_names": ["N237sAP", "N237bAP", "N238sAP", "N238bAP"],
+        "a_numbers": ["A3581", "A3582", "A3583", "A3584", "A3585", "A3586", "A3587", "A3588"],
+        "ids": ["Watch8,2", "Watch8,3", "Watch8,4", "Watch8,5"]
     },
     {
         "name": "Apple Watch Ultra 4",
@@ -500,8 +500,8 @@
             "display.always-on",
             "intelligence"
         ],
-        "internal_names": [],
-        "a_numbers": [],
-        "ids": []
+        "internal_names": ["N240AP"],
+        "a_numbers": ["A3579", "A3580"],
+        "ids": ["???"]
     }
 ]

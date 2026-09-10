@@ -1167,7 +1167,7 @@
 - **Identifiers**
   -  `iPhone18,4`
 
-## iPhone 18 Pro <Badge type="warning" text="Pre-Release" />
+## iPhone 18 Pro <Badge type="warning" text="WIP" />
 - **Family**: `iPhone`
 - **Generation**: `20`
 - **Year**: `2026`
@@ -1184,10 +1184,17 @@
   -  `id.face`
   -  `intelligence`
   -  `magsafe`
+- **Internal Names**
+  -  `???`
+- **A Numbers**
+  -  `A3472`
+  -  `A3713`
+  -  `A3714`
+  -  `A3715`
 - **Identifiers**
   -  `iPhone19,2`
 
-## iPhone 18 Pro Max <Badge type="warning" text="Pre-Release" />
+## iPhone 18 Pro Max <Badge type="warning" text="WIP" />
 - **Family**: `iPhone`
 - **Generation**: `20`
 - **Year**: `2026`
@@ -1204,10 +1211,18 @@
   -  `id.face`
   -  `intelligence`
   -  `magsafe`
+- **Internal Names**
+  -  `???`
+- **A Numbers**
+  -  `A3473`
+  -  `A3716`
+  -  `A3717`
+  -  `A3718`
 - **Identifiers**
   -  `iPhone19,3`
+  -  `iPhone19,7`
 
-## iPhone Duo <Badge type="warning" text="Pre-Release" />
+## iPhone Duo <Badge type="warning" text="WIP" />
 - **Family**: `iPhone`
 - **Generation**: `20`
 - **Year**: `2026`
@@ -1224,3 +1239,11 @@
   -  `id.touch`
   -  `intelligence`
   -  `magsafe`
+- **Internal Names**
+  -  `???`
+- **A Numbers**
+  -  `A3447`
+  -  `A3719`
+  -  `A3720`
+- **Identifiers**
+  -  `iPhone19,4`

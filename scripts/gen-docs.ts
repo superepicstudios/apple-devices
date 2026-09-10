@@ -43,8 +43,8 @@ for (const family of sortedFamilyToDevicesMap.keys()) {
 
     for (const device of sortedFamilyToDevicesMap.get(family) ?? []) {
 
-        if (isPreReleaseDevice(device)) {
-            output += `## ${uniqueDeviceName(device)} <Badge type="warning" text="Pre-Release" />\n`
+        if (isDeviceWorkInProgress(device)) {
+            output += `## ${uniqueDeviceName(device)} <Badge type="warning" text="WIP" />\n`
         } else {
             output += `## ${uniqueDeviceName(device)}\n`
         }
@@ -135,12 +135,12 @@ console.log()
 
 // MARK: Functions
 
-function isPreReleaseDevice(device: IDevice): boolean {
-    return (
-        device.ids.length == 0 || 
-        device.a_numbers.length == 0 || 
-        device.internal_names.length == 0
-    )
+function isDeviceWorkInProgress(device: IDevice): boolean {
+    const hasEmptyComponents = device.ids.length == 0 || device.a_numbers.length == 0 || device.internal_names.length == 0
+    const hasUnknownIdentifiers = device.ids.some(str => str.includes("?"))
+    const hasUnknownANumbers = device.a_numbers.some(str => str.includes("?"))
+    const hasUnknownInternalNames = device.internal_names.some(str => str.includes("?"))
+    return hasEmptyComponents || hasUnknownIdentifiers || hasUnknownANumbers || hasUnknownInternalNames
 }
 
 function uniqueDeviceName(device: IDevice): string {
