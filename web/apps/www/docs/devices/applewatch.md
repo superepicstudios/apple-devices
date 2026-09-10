@@ -469,7 +469,7 @@
   -  `Watch8,4`
   -  `Watch8,5`
 
-## Apple Watch Ultra 4 <Badge type="warning" text="WIP" />
+## Apple Watch Ultra 4
 - **Family**: `Apple_Watch`
 - **Generation**: `4`
 - **Year**: `2026`
@@ -486,4 +486,4 @@
   -  `A3579`
   -  `A3580`
 - **Identifiers**
-  -  `???`
+  -  `Watch8,1`
