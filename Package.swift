@@ -5,32 +5,25 @@ import PackageDescription
 let package = Package(
     name: "AppleDevices",
     platforms: [
-        
-        .iOS(.v15),
+        .iOS(.v16),
         .macOS(.v12),
         .tvOS(.v15),
         .visionOS(.v1),
-        .watchOS(.v4)
-        
+        .watchOS(.v9)
     ],
     products: [
-
         .library(
             name: "AppleDevices",
             targets: ["AppleDevices"]
         )
-
     ],
     dependencies: [
-        
         .package(
             url: "https://github.com/sersoft-gmbh/semver",
             from: "5.0.0"
         )
-        
     ],
     targets: [
-
         .target(
             name: "AppleDevices",
             dependencies: [
@@ -46,13 +39,11 @@ let package = Package(
                 .copy("Resources/data.json")
             ]
         ),
-
         .testTarget(
             name: "AppleDevicesTests",
             dependencies: ["AppleDevices"],
             path: "swift/Sources/AppleDevicesTests"
         )
-
     ],
     swiftLanguageModes: [.v6]
 )

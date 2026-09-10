@@ -58,12 +58,10 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     
     /// The device's software information.
     public var software: DeviceSoftware {
-        
         .init(
             supported: self.data.software,
             current: self.currentSoftware
         )
-        
     }
     
     /// The device's traits.
@@ -83,6 +81,11 @@ public struct AppleDevice: Identifiable, Equatable, Sendable {
     
     /// Flag indicating if this is a simulated device.
     public let isSimulated: Bool
+    
+    /// Flag indicating if this is a pre-release device.
+    public var isPreRelease: Bool {
+        self.data.identifiers.isEmpty || self.data.aNumbers.isEmpty || self.data.internalNames.isEmpty
+    }
     
     private let data: DeviceData
     private let currentSoftware: DeviceSoftware.Current?
