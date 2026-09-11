@@ -1523,7 +1523,7 @@
             "intelligence",
             "magsafe"
         ],
-        "internal_names": ["???"],
+        "internal_names": ["V63AP"],
         "a_numbers": ["A3472", "A3713", "A3714", "A3715"],
         "ids": ["iPhone19,2"]
     },
@@ -1556,7 +1556,7 @@
             "intelligence",
             "magsafe"
         ],
-        "internal_names": ["???"],
+        "internal_names": ["V64sAP"],
         "a_numbers": ["A3473", "A3716", "A3717", "A3718"],
         "ids": ["iPhone19,3", "iPhone19,7"]
     },
@@ -1589,7 +1589,7 @@
             "intelligence",
             "magsafe"
         ],
-        "internal_names": ["???"],
+        "internal_names": ["V68AP"],
         "a_numbers": ["A3447", "A3719", "A3720", "A3721"],
         "ids": ["iPhone19,4"]
     }

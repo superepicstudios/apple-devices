@@ -237,8 +237,8 @@
             "audio.anc",
             "audio.spatial"
         ],
-        "internal_names": ["???"],
-        "a_numbers": ["???"],
+        "internal_names": ["B868EAP", "B868MAP"],
+        "a_numbers": ["A3529", "A3530", "A3531", "A3532", "A3439", "A3440"],
         "ids": ["???"]
     }
 ]

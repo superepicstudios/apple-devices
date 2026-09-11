@@ -1167,7 +1167,7 @@
 - **Identifiers**
   -  `iPhone18,4`
 
-## iPhone 18 Pro <Badge type="warning" text="WIP" />
+## iPhone 18 Pro
 - **Family**: `iPhone`
 - **Generation**: `20`
 - **Year**: `2026`
@@ -1185,7 +1185,7 @@
   -  `intelligence`
   -  `magsafe`
 - **Internal Names**
-  -  `???`
+  -  `V63AP`
 - **A Numbers**
   -  `A3472`
   -  `A3713`
@@ -1194,7 +1194,7 @@
 - **Identifiers**
   -  `iPhone19,2`
 
-## iPhone 18 Pro Max <Badge type="warning" text="WIP" />
+## iPhone 18 Pro Max
 - **Family**: `iPhone`
 - **Generation**: `20`
 - **Year**: `2026`
@@ -1212,7 +1212,7 @@
   -  `intelligence`
   -  `magsafe`
 - **Internal Names**
-  -  `???`
+  -  `V64sAP`
 - **A Numbers**
   -  `A3473`
   -  `A3716`
@@ -1222,7 +1222,7 @@
   -  `iPhone19,3`
   -  `iPhone19,7`
 
-## iPhone Duo <Badge type="warning" text="WIP" />
+## iPhone Duo
 - **Family**: `iPhone`
 - **Generation**: `20`
 - **Year**: `2026`
@@ -1240,7 +1240,7 @@
   -  `intelligence`
   -  `magsafe`
 - **Internal Names**
-  -  `???`
+  -  `V68AP`
 - **A Numbers**
   -  `A3447`
   -  `A3719`

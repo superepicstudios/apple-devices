@@ -193,8 +193,14 @@
   -  `audio.anc`
   -  `audio.spatial`
 - **Internal Names**
-  -  `???`
+  -  `B868EAP`
+  -  `B868MAP`
 - **A Numbers**
-  -  `???`
+  -  `A3529`
+  -  `A3530`
+  -  `A3531`
+  -  `A3532`
+  -  `A3439`
+  -  `A3440`
 - **Identifiers**
   -  `???`
