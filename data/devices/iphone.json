@@ -1556,7 +1556,7 @@
             "intelligence",
             "magsafe"
         ],
-        "internal_names": ["V64sAP"],
+        "internal_names": ["V64AP", "V64sAP"],
         "a_numbers": ["A3473", "A3716", "A3717", "A3718"],
         "ids": ["iPhone19,3", "iPhone19,7"]
     },

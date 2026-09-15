@@ -611,7 +611,8 @@
             {
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
-                    "min": "13.1"
+                    "min": "13.1",
+                    "max": "26.7"
                 }
             }
         ],
@@ -644,7 +645,8 @@
             {
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
-                    "min": "13.1"
+                    "min": "13.1",
+                    "max": "26.7"
                 }
             }
         ],
@@ -671,7 +673,8 @@
             {
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
-                    "min": "13.4"
+                    "min": "13.4",
+                    "max": "26.7"
                 }
             }
         ],
@@ -699,7 +702,8 @@
             {
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
-                    "min": "13.4"
+                    "min": "13.4",
+                    "max": "26.7"
                 }
             }
         ],
@@ -726,7 +730,8 @@
             {
                 "$ref": "../software/ipados.json#/ipados",
                 "device_version": {
-                    "min": "14.0"
+                    "min": "14.0",
+                    "max": "26.7"
                 }
             }
         ],

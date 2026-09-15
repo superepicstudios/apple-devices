@@ -183,7 +183,8 @@
             {
                 "$ref": "../software/watchos.json#/watchos",
                 "device_version": {
-                    "min": "7.0"
+                    "min": "7.0",
+                    "max": "26.6"
                 }
             }
         ],
@@ -208,7 +209,8 @@
             {
                 "$ref": "../software/watchos.json#/watchos",
                 "device_version": {
-                    "min": "8.0"
+                    "min": "8.0",
+                    "max": "26.6"
                 }
             }
         ],
@@ -233,7 +235,8 @@
             {
                 "$ref": "../software/watchos.json#/watchos",
                 "device_version": {
-                    "min": "9.0"
+                    "min": "9.0",
+                    "max": "26.6"
                 }
             }
         ],
@@ -256,7 +259,8 @@
             {
                 "$ref": "../software/watchos.json#/watchos",
                 "device_version": {
-                    "min": "9.0"
+                    "min": "9.0",
+                    "max": "26.6"
                 }
             }
         ],
@@ -281,7 +285,8 @@
             {
                 "$ref": "../software/watchos.json#/watchos",
                 "device_version": {
-                    "min": "9.0"
+                    "min": "9.0",
+                    "max": "26.6"
                 }
             }
         ],
