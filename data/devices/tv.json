@@ -85,7 +85,8 @@
             {
                 "$ref": "../software/tvos.json#/tvos",
                 "device_version": {
-                    "min": "9.0"
+                    "min": "9.0",
+                    "max": "26.6"
                 }
             }
         ],
@@ -108,7 +109,8 @@
             {
                 "$ref": "../software/tvos.json#/tvos",
                 "device_version": {
-                    "min": "11.0"
+                    "min": "11.0",
+                    "max": "26.6"
                 }
             }
         ],

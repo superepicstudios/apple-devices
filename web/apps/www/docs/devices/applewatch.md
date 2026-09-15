@@ -160,7 +160,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple S6`
 - **Software**
-  - `watchOS 7.0 → 27.0`
+  - `watchOS 7.0 → 26.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -187,7 +187,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple S7`
 - **Software**
-  - `watchOS 8.0 → 27.0`
+  - `watchOS 8.0 → 26.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -214,7 +214,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 27.0`
+  - `watchOS 9.0 → 26.6`
 - **Internal Names**
   -  `N143sAP`
   -  `N143bAP`
@@ -241,7 +241,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 27.0`
+  - `watchOS 9.0 → 26.6`
 - **Traits**
   -  `display.always-on`
 - **Internal Names**
@@ -270,7 +270,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple S8`
 - **Software**
-  - `watchOS 9.0 → 27.0`
+  - `watchOS 9.0 → 26.6`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -469,7 +469,7 @@
   -  `Watch8,4`
   -  `Watch8,5`
 
-## Apple Watch Ultra 4 <Badge type="warning" text="WIP" />
+## Apple Watch Ultra 4
 - **Family**: `Apple_Watch`
 - **Generation**: `4`
 - **Year**: `2026`
@@ -486,4 +486,4 @@
   -  `A3579`
   -  `A3580`
 - **Identifiers**
-  -  `???`
+  -  `Watch8,1`

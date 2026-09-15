@@ -182,7 +182,7 @@
   -  `AirPodsPro1,3`
   -  `Device1,8231`
 
-## AirPods 5 <Badge type="warning" text="WIP" />
+## AirPods 5
 - **Family**: `AirPods`
 - **Generation**: `5`
 - **Year**: `2026`
@@ -193,8 +193,15 @@
   -  `audio.anc`
   -  `audio.spatial`
 - **Internal Names**
-  -  `???`
+  -  `B868EAP`
+  -  `B868MAP`
 - **A Numbers**
-  -  `???`
+  -  `A3529`
+  -  `A3530`
+  -  `A3531`
+  -  `A3532`
+  -  `A3439`
+  -  `A3440`
 - **Identifiers**
-  -  `???`
+  -  `AirPods3,7`
+  -  `AirPods3,8`
