@@ -441,7 +441,7 @@
 - **Chip**: `Apple A12 Bionic`
 - **Software**
   - `iOS 12.2 → 13.0`
-  - `iPadOS 13.1 → 27.0`
+  - `iPadOS 13.1 → 26.7`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -464,7 +464,7 @@
 - **Chip**: `Apple A12 Bionic`
 - **Software**
   - `iOS 12.2 → 13.0`
-  - `iPadOS 13.1 → 27.0`
+  - `iPadOS 13.1 → 26.7`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -487,7 +487,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
 - **Software**
-  - `iPadOS 13.4 → 27.0`
+  - `iPadOS 13.4 → 26.7`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -511,7 +511,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12Z Bionic`
 - **Software**
-  - `iPadOS 13.4 → 27.0`
+  - `iPadOS 13.4 → 26.7`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -534,7 +534,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `iPadOS 14.0 → 27.0`
+  - `iPadOS 14.0 → 26.7`
 - **Traits**
   -  `button.home`
   -  `id.touch`

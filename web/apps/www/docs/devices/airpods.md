@@ -182,7 +182,7 @@
   -  `AirPodsPro1,3`
   -  `Device1,8231`
 
-## AirPods 5 <Badge type="warning" text="WIP" />
+## AirPods 5
 - **Family**: `AirPods`
 - **Generation**: `5`
 - **Year**: `2026`
@@ -203,4 +203,5 @@
   -  `A3439`
   -  `A3440`
 - **Identifiers**
-  -  `???`
+  -  `AirPods3,7`
+  -  `AirPods3,8`

@@ -1212,6 +1212,7 @@
   -  `intelligence`
   -  `magsafe`
 - **Internal Names**
+  -  `V64AP`
   -  `V64sAP`
 - **A Numbers**
   -  `A3473`
