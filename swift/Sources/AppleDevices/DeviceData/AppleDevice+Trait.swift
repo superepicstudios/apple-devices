@@ -43,7 +43,7 @@ public extension AppleDevice /* Trait */ {
         case fluidDisplay = "display.fluid"
 
         /// A foldable display trait.
-        case foldable = "display.foldable"
+        case foldableDisplay = "display.foldable"
 
         /// A notch (cutout) display trait.
         case notch = "display.notch"
