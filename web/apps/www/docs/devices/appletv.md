@@ -101,3 +101,17 @@
   -  `A2843`
 - **Identifiers**
   -  `AppleTV14,1`
+
+## Apple TV 4K (4th Gen)
+- **Family**: `Apple_TV`
+- **Generation**: `4`
+- **Year**: `2026`
+- **Chip**: `Apple A19`
+- **Software**
+  - `tvOS 27.2 → 27.0`
+- **Internal Names**
+  -  `J265AP`
+- **A Numbers**
+  -  `A3593`
+- **Identifiers**
+  -  `AppleTV18,1`

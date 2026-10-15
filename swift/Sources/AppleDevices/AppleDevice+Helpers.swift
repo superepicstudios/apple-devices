@@ -119,6 +119,11 @@ extension AppleDevice /* Helpers */ {
         )
         .contains(self) || self.isWatch
     }
+
+    /// Flag indicating if the device supports vertical nav & tab bar layouts.
+    public var supportsVerticalBarLayout: Bool {
+        hasTraits(.verticalBarLayout)
+    }
     
     /// Gets a formatted software range string for the device.
     /// - parameter latestOnly: Flag indicating if only the most recently

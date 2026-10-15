@@ -292,7 +292,7 @@
   - `watchOS 10.0 → 27.0`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N207sAP`
   -  `N207bAP`
@@ -321,7 +321,7 @@
 - **Traits**
   -  `button.action`
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N210AP`
 - **A Numbers**
@@ -339,7 +339,7 @@
   - `watchOS 11.0 → 27.0`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N217sAP`
   -  `N217bAP`
@@ -369,7 +369,7 @@
   - `watchOS 26.0 → 27.0`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N227sAP`
   -  `N227bAP`
@@ -399,7 +399,7 @@
   - `watchOS 26.0 → 27.0`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N243sAP`
   -  `N243bAP`
@@ -430,7 +430,7 @@
 - **Traits**
   -  `button.action`
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N230AP`
 - **A Numbers**
@@ -448,7 +448,7 @@
   - `watchOS 27.0 → 27.0`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N237sAP`
   -  `N237bAP`
@@ -479,7 +479,7 @@
 - **Traits**
   -  `button.action`
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N240AP`
 - **A Numbers**

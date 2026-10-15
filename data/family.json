@@ -1,11 +1,12 @@
 {
     "airpods": "AirPods",
     "airtag": "AirTag",
-    "tv": "Apple_TV",
-    "vision": "Apple_Vision",
-    "watch": "Apple_Watch",
     "homepod": "HomePod",
+    "homeview": "Apple_HomeView",
     "ipad": "iPad",
     "iphone": "iPhone",
-    "ipod": "iPod"
+    "ipod": "iPod",
+    "tv": "Apple_TV",
+    "vision": "Apple_Vision",
+    "watch": "Apple_Watch"
 }

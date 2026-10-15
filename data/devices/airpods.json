@@ -74,8 +74,8 @@
             }
         ],
         "traits": [
-            "audio.anc",
-            "audio.spatial"
+            { "$ref": "../traits.json#/audio/anc" },
+            { "$ref": "../traits.json#/audio/spatial" }
         ],
         "internal_names": ["B298AP"],
         "a_numbers": ["A2083", "A2084", "A2190"],
@@ -101,8 +101,8 @@
             }
         ],
         "traits": [
-            "audio.anc",
-            "audio.spatial"
+            { "$ref": "../traits.json#/audio/anc" },
+            { "$ref": "../traits.json#/audio/spatial" }
         ],
         "internal_names": ["B515AP"],
         "a_numbers": ["A2096", "A3184"],
@@ -128,7 +128,7 @@
             }
         ],
         "traits": [
-            "audio.spatial"
+            { "$ref": "../traits.json#/audio/spatial" }
         ],
         "internal_names": ["B388AP"],
         "a_numbers": ["A2564", "A2565", "A2897", "A2566"],
@@ -154,8 +154,8 @@
             }
         ],
         "traits": [
-            "audio.anc",
-            "audio.spatial"
+            { "$ref": "../traits.json#/audio/anc" },
+            { "$ref": "../traits.json#/audio/spatial" }
         ],
         "internal_names": ["B698AP"],
         "a_numbers": ["A2931", "A2699", "A2698", "A3047", "A3048", "A3049", "A2700", "A2968"],
@@ -181,8 +181,8 @@
             }
         ],
         "traits": [
-            "audio.anc",
-            "audio.spatial"
+            { "$ref": "../traits.json#/audio/anc" },
+            { "$ref": "../traits.json#/audio/spatial" }
         ],
         "internal_names": ["B768AP", "B768MAP", "B768EAP"],
         "a_numbers": ["A3053", "A3050", "A3054", "A3056", "A3055", "A3057", "A3058", "A3059"],
@@ -208,8 +208,8 @@
             }
         ],
         "traits": [
-            "audio.anc",
-            "audio.spatial"
+            { "$ref": "../traits.json#/audio/anc" },
+            { "$ref": "../traits.json#/audio/spatial" }
         ],
         "internal_names": ["B788AP"],
         "a_numbers": ["A3063", "A3064", "A3065", "A3122"],
@@ -234,8 +234,8 @@
             }
         ],
         "traits": [
-            "audio.anc",
-            "audio.spatial"
+            { "$ref": "../traits.json#/audio/anc" },
+            { "$ref": "../traits.json#/audio/spatial" }
         ],
         "internal_names": ["B868EAP", "B868MAP"],
         "a_numbers": ["A3529", "A3530", "A3531", "A3532", "A3439", "A3440"],

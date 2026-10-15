@@ -231,6 +231,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J98aAP`
   -  `J99aAP`
@@ -253,6 +254,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J127AP`
   -  `J128AP`
@@ -300,6 +302,7 @@
   -  `button.home`
   -  `display.pro-motion`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J120AP`
   -  `J121AP`
@@ -324,6 +327,7 @@
   -  `button.home`
   -  `display.pro-motion`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J207AP`
   -  `J208AP`
@@ -345,6 +349,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J71bAP`
   -  `J72bAP`
@@ -368,6 +373,7 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
 - **Internal Names**
   -  `J317AP`
   -  `J317xAP`
@@ -397,6 +403,7 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
 - **Internal Names**
   -  `J320AP`
   -  `J320xAP`
@@ -423,6 +430,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J171AP`
   -  `J172AP`
@@ -445,6 +453,8 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J210AP`
   -  `J211AP`
@@ -468,6 +478,8 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J217AP`
   -  `J218AP`
@@ -492,6 +504,8 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J417AP`
   -  `J418AP`
@@ -516,6 +530,8 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J420AP`
   -  `J421AP`
@@ -538,6 +554,8 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J171aAP`
   -  `J172aAP`
@@ -560,6 +578,8 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J307AP`
   -  `J308AP`
@@ -584,7 +604,9 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J517AP`
   -  `J517xAP`
@@ -613,7 +635,9 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J522AP`
   -  `J522xAP`
@@ -640,6 +664,8 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J181AP`
   -  `J182AP`
@@ -662,6 +688,8 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J310AP`
   -  `J311AP`
@@ -683,7 +711,9 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J407AP`
   -  `J408AP`
@@ -705,6 +735,8 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J271AP`
   -  `J272AP`
@@ -729,7 +761,9 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J617AP`
   -  `J618AP`
@@ -754,7 +788,9 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J620AP`
   -  `J621AP`
@@ -778,7 +814,9 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J507AP`
   -  `J508AP`
@@ -801,7 +839,9 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J537AP`
   -  `J538AP`
@@ -823,7 +863,9 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J410AP`
   -  `J411AP`
@@ -847,7 +889,9 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J717AP`
   -  `J718AP`
@@ -871,7 +915,9 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J720AP`
   -  `J721AP`
@@ -894,7 +940,9 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J607AP`
   -  `J608AP`
@@ -917,7 +965,9 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J637AP`
   -  `J638AP`
@@ -939,6 +989,8 @@
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J481AP`
   -  `J482AP`
@@ -962,7 +1014,9 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J817AP`
   -  `J818AP`
@@ -986,7 +1040,10 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.pencil`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J820AP`
   -  `J821AP`

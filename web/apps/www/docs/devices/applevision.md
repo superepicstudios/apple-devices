@@ -9,7 +9,7 @@
   - `visionOS 1.0 → 27.0`
 - **Traits**
   -  `id.optic`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N301AP`
 - **A Numbers**
@@ -26,7 +26,7 @@
   - `visionOS 26.0 → 27.0`
 - **Traits**
   -  `id.optic`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N301aAP`
 - **A Numbers**

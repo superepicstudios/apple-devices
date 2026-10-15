@@ -164,5 +164,28 @@
         "internal_names": ["J255AP"],
         "a_numbers": ["A2737", "A2843"],
         "ids": ["AppleTV14,1"]
+    },
+    {
+        "name": "Apple TV 4K",
+        "year": 2026,
+        "gen": 4,
+        "family": {
+            "$ref": "../family.json#/tv"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a19"
+        },
+        "software": [
+            {
+                "$ref": "../software/tvos.json#/tvos",
+                "device_version": {
+                    "min": "27.2"
+                }
+            }
+        ],
+        "traits": [],
+        "internal_names": ["J265AP"],
+        "a_numbers": ["A3593"],
+        "ids": ["AppleTV18,1"]
     }
 ]

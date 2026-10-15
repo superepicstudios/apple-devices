@@ -43,3 +43,17 @@
   -  `A2825`
 - **Identifiers**
   -  `AudioAccessory6,1`
+
+## HomePod mini (2nd Gen)
+- **Family**: `HomePod`
+- **Generation**: `2`
+- **Year**: `2026`
+- **Chip**: `Apple S10`
+- **Software**
+  - `audioOS 27.2 → 27.0`
+- **Internal Names**
+  -  `B525AP`
+- **A Numbers**
+  -  `A3374`
+- **Identifiers**
+  -  `AudioAccessory11,1`

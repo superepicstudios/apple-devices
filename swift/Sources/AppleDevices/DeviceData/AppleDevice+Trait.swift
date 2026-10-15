@@ -45,6 +45,9 @@ public extension AppleDevice /* Trait */ {
         /// A foldable display trait.
         case foldableDisplay = "display.foldable"
 
+        /// An under-screen-display (UDC) display trait.
+        case underDisplayCamera = "display.under-display-camera"
+
         /// A notch (cutout) display trait.
         case notch = "display.notch"
 
@@ -62,10 +65,21 @@ public extension AppleDevice /* Trait */ {
         /// A TouchID trait.
         case touchId = "id.touch"
 
-        // MARK: Other
+        // MARK: Software
 
-        /// An intelligence (AI) trait.
-        case intelligence
+        /// A software intelligence trait.
+        case intelligence = "software.intelligence"
+
+        /// A software pencil trait.
+        case pencil = "software.pencil"
+
+        /// A vertical-bar layout (VBL) software trait.
+        case verticalBarLayout = "software.vertical-bar-layout"
+
+        /// A windowing software trait.
+        case windowing = "software.windowing"
+
+        // MARK: Common
 
         /// A MagSafe trait.
         case magsafe

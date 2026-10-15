@@ -520,10 +520,10 @@
 - **Software**
   - `iOS 14.1 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D53gAP`
 - **A Numbers**
@@ -542,10 +542,10 @@
 - **Software**
   - `iOS 14.1 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D52gAP`
 - **A Numbers**
@@ -564,10 +564,10 @@
 - **Software**
   - `iOS 14.1 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D53pAP`
 - **A Numbers**
@@ -586,10 +586,10 @@
 - **Software**
   - `iOS 14.1 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D54pAP`
 - **A Numbers**
@@ -608,10 +608,10 @@
 - **Software**
   - `iOS 15.0 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D17AP`
 - **A Numbers**
@@ -631,10 +631,10 @@
 - **Software**
   - `iOS 15.0 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D16AP`
 - **A Numbers**
@@ -654,11 +654,11 @@
 - **Software**
   - `iOS 15.0 → 27.0`
 - **Traits**
-  -  `display.fluid`
-  -  `display.pro-motion`
-  -  `display.notch`
-  -  `id.face`
   -  `magsafe`
+  -  `display.fluid`
+  -  `display.notch`
+  -  `display.pro-motion`
+  -  `id.face`
 - **Internal Names**
   -  `D63AP`
 - **A Numbers**
@@ -678,11 +678,11 @@
 - **Software**
   - `iOS 15.0 → 27.0`
 - **Traits**
-  -  `display.fluid`
-  -  `display.pro-motion`
-  -  `display.notch`
-  -  `id.face`
   -  `magsafe`
+  -  `display.fluid`
+  -  `display.notch`
+  -  `display.pro-motion`
+  -  `id.face`
 - **Internal Names**
   -  `D64AP`
 - **A Numbers**
@@ -723,10 +723,10 @@
 - **Software**
   - `iOS 16.0 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D27AP`
 - **A Numbers**
@@ -746,10 +746,10 @@
 - **Software**
   - `iOS 16.0 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D28AP`
 - **A Numbers**
@@ -769,12 +769,12 @@
 - **Software**
   - `iOS 16.0 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D73AP`
 - **A Numbers**
@@ -794,12 +794,12 @@
 - **Software**
   - `iOS 16.0 → 27.0`
 - **Traits**
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D74AP`
 - **A Numbers**
@@ -820,10 +820,10 @@
   - `iOS 17.0 → 27.0`
 - **Traits**
   -  `button.action`
+  -  `magsafe`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D37AP`
 - **A Numbers**
@@ -843,10 +843,10 @@
   - `iOS 17.0 → 27.0`
 - **Traits**
   -  `button.action`
+  -  `magsafe`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `id.face`
-  -  `magsafe`
 - **Internal Names**
   -  `D38AP`
 - **A Numbers**
@@ -866,13 +866,13 @@
   - `iOS 17.0 → 27.0`
 - **Traits**
   -  `button.action`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `D83AP`
 - **A Numbers**
@@ -892,13 +892,13 @@
   - `iOS 17.0 → 27.0`
 - **Traits**
   -  `button.action`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `D84AP`
 - **A Numbers**
@@ -919,11 +919,11 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `D47AP`
 - **A Numbers**
@@ -944,11 +944,11 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `D48AP`
 - **A Numbers**
@@ -969,13 +969,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `D93AP`
 - **A Numbers**
@@ -996,13 +996,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `D94AP`
 - **A Numbers**
@@ -1025,7 +1025,7 @@
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `V59AP`
 - **A Numbers**
@@ -1046,13 +1046,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `V57AP`
 - **A Numbers**
@@ -1073,13 +1073,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `V53AP`
 - **A Numbers**
@@ -1100,13 +1100,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `V54AP`
 - **A Numbers**
@@ -1126,11 +1126,11 @@
   - `iOS 26.3 → 27.0`
 - **Traits**
   -  `button.action`
+  -  `magsafe`
   -  `display.fluid`
   -  `display.notch`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `V159AP`
 - **A Numbers**
@@ -1150,13 +1150,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `D23AP`
 - **A Numbers**
@@ -1177,13 +1177,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `V63AP`
 - **A Numbers**
@@ -1204,13 +1204,13 @@
 - **Traits**
   -  `button.action`
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
 - **Internal Names**
   -  `V64AP`
   -  `V64sAP`
@@ -1232,14 +1232,18 @@
   - `iOS 27.0 → 27.0`
 - **Traits**
   -  `button.camera`
+  -  `magsafe`
   -  `display.always-on`
   -  `display.dynamic-island`
   -  `display.fluid`
   -  `display.foldable`
   -  `display.pro-motion`
+  -  `display.under-display-camera`
   -  `id.touch`
-  -  `intelligence`
-  -  `magsafe`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
+  -  `software.vertical-bar-layout`
 - **Internal Names**
   -  `V68AP`
 - **A Numbers**

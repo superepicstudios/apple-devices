@@ -139,7 +139,7 @@
             }
         ],
         "traits": [
-            "display.always-on"
+            { "$ref": "../traits.json#/display/always-on" }
         ],
         "internal_names": ["N146sAP", "N146bAP"],
         "a_numbers": ["A2094", "A2156", "A2095", "A2157"],
@@ -189,7 +189,7 @@
             }
         ],
         "traits": [
-            "display.always-on"
+            { "$ref": "../traits.json#/display/always-on" }
         ],
         "internal_names": ["N157sAP", "N157bAP", "N158sAP", "N158bAP"],
         "a_numbers": ["A2291", "A2292", "A2293", "A2375", "A2294", "A2376"],
@@ -215,7 +215,7 @@
             }
         ],
         "traits": [
-            "display.always-on"
+            { "$ref": "../traits.json#/display/always-on" }
         ],
         "internal_names": ["N187sAP", "N187bAP", "N188sAP", "N188bAP"],
         "a_numbers": ["A2473", "A2474", "A2475", "A2476", "A2477", "A2478"],
@@ -265,7 +265,7 @@
             }
         ],
         "traits": [
-            "display.always-on"
+            { "$ref": "../traits.json#/display/always-on" }
         ],
         "internal_names": ["N197sAP", "N197bAP", "N198sAP", "N198bAP"],
         "a_numbers": ["A2770", "A2771", "A2772", "A2773", "A2857", "A2774", "A2775", "A2858"],
@@ -291,8 +291,8 @@
             }
         ],
         "traits": [
-            "button.action",
-            "display.always-on"
+            { "$ref": "../traits.json#/button/action" },
+            { "$ref": "../traits.json#/display/always-on" }
         ],
         "internal_names": ["N199AP"],
         "a_numbers": ["A2622", "A2684", "A2859"],
@@ -317,8 +317,8 @@
             }
         ],
         "traits": [
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N207sAP", "N207bAP", "N208sAP", "N208bAP"],
         "a_numbers": ["A2978", "A2980", "A2982", "A2983", "A2984", "A2985"],
@@ -343,9 +343,9 @@
             }
         ],
         "traits": [
-            "button.action",
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/button/action" },
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N210AP"],
         "a_numbers": ["A2986", "A2987"],
@@ -370,8 +370,8 @@
             }
         ],
         "traits": [
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N217sAP", "N217bAP", "N218sAP", "N218bAP"],
         "a_numbers": ["A2997", "A2998", "A2999", "A3000", "A3001", "A3002", "A3003", "A3206"],
@@ -396,8 +396,8 @@
             }
         ],
         "traits": [
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N227sAP", "N227bAP", "N228sAP", "N228bAP"],
         "a_numbers": ["A3331", "A3333", "A3450", "A3451", "A3335", "A3337", "A3452", "A3453"],
@@ -422,8 +422,8 @@
             }
         ],
         "traits": [
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N243sAP", "N243bAP", "N244sAP", "N244bAP"],
         "a_numbers": ["A3324", "A3325", "A3391", "A3392", "A3326", "A3327", "A3328", "A3329"],
@@ -448,9 +448,9 @@
             }
         ],
         "traits": [
-            "button.action",
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/button/action" },
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N230AP"],
         "a_numbers": ["A3281", "A3282"],
@@ -475,8 +475,8 @@
             }
         ],
         "traits": [
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N237sAP", "N237bAP", "N238sAP", "N238bAP"],
         "a_numbers": ["A3581", "A3582", "A3583", "A3584", "A3585", "A3586", "A3587", "A3588"],
@@ -501,9 +501,9 @@
             }
         ],
         "traits": [
-            "button.action",
-            "display.always-on",
-            "intelligence"
+            { "$ref": "../traits.json#/button/action" },
+            { "$ref": "../traits.json#/display/always-on" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N240AP"],
         "a_numbers": ["A3579", "A3580"],
