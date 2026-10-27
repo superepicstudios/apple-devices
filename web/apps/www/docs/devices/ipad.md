@@ -368,7 +368,7 @@
 - **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS 12.1 → 13.0`
-  - `iPadOS 13.1 → 27.0`
+  - `iPadOS 13.1 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -398,7 +398,7 @@
 - **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS 12.1 → 13.0`
-  - `iPadOS 13.1 → 27.0`
+  - `iPadOS 13.1 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -574,7 +574,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iPadOS 14.0 → 27.0`
+  - `iPadOS 14.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -599,7 +599,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 14.5 → 27.0`
+  - `iPadOS 14.5 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -630,7 +630,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 14.5 → 27.0`
+  - `iPadOS 14.5 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -660,7 +660,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iPadOS 15.0 → 27.0`
+  - `iPadOS 15.0 → 27.2`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -684,7 +684,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iPadOS 15.0 → 27.0`
+  - `iPadOS 15.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -707,7 +707,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 15.4 → 27.0`
+  - `iPadOS 15.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -731,7 +731,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iPadOS 16.0 → 27.0`
+  - `iPadOS 16.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -756,7 +756,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 16.0 → 27.0`
+  - `iPadOS 16.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -783,7 +783,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 16.0 → 27.0`
+  - `iPadOS 16.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -810,7 +810,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -835,7 +835,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -859,7 +859,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A17 Pro`
 - **Software**
-  - `iPadOS 18.0.1 → 27.0`
+  - `iPadOS 18.0.1 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -884,7 +884,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -910,7 +910,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -936,7 +936,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**
-  - `iPadOS 18.3.2 → 27.0`
+  - `iPadOS 18.3.2 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -961,7 +961,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**
-  - `iPadOS 18.3.2 → 27.0`
+  - `iPadOS 18.3.2 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -985,7 +985,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iPadOS 18.3.2 → 27.0`
+  - `iPadOS 18.3.2 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
@@ -1009,7 +1009,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `iPadOS 26.0 → 27.0`
+  - `iPadOS 26.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -1035,7 +1035,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `iPadOS 26.0 → 27.0`
+  - `iPadOS 26.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
@@ -1054,3 +1054,27 @@
 - **Identifiers**
   -  `iPad17,3`
   -  `iPad17,4`
+
+## iPad mini (8th Gen)
+- **Family**: `iPad`
+- **Generation**: `8`
+- **Year**: `2026`
+- **Chip**: `Apple A20 Pro`
+- **Software**
+  - `iPadOS 27.2 → 27.2`
+- **Traits**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
+- **Internal Names**
+  -  `J510AP`
+  -  `J511AP`
+- **A Numbers**
+  -  `A3595`
+  -  `A3596`
+  -  `A3597`
+- **Identifiers**
+  -  `iPad19,1`
+  -  `iPad19,2`

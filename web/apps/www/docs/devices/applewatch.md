@@ -289,7 +289,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 10.0 → 27.0`
+  - `watchOS 10.0 → 27.2`
 - **Traits**
   -  `display.always-on`
   -  `software.intelligence`
@@ -317,7 +317,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 11.0 → 27.0`
+  - `watchOS 11.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -336,7 +336,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 11.0 → 27.0`
+  - `watchOS 11.0 → 27.2`
 - **Traits**
   -  `display.always-on`
   -  `software.intelligence`
@@ -366,7 +366,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 27.0`
+  - `watchOS 26.0 → 27.2`
 - **Traits**
   -  `display.always-on`
   -  `software.intelligence`
@@ -396,7 +396,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 27.0`
+  - `watchOS 26.0 → 27.2`
 - **Traits**
   -  `display.always-on`
   -  `software.intelligence`
@@ -426,7 +426,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 27.0`
+  - `watchOS 26.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
@@ -445,7 +445,7 @@
 - **Year**: `2026`
 - **Chip**: `Apple S11`
 - **Software**
-  - `watchOS 27.0 → 27.0`
+  - `watchOS 27.0 → 27.2`
 - **Traits**
   -  `display.always-on`
   -  `software.intelligence`
@@ -475,7 +475,7 @@
 - **Year**: `2026`
 - **Chip**: `Apple S11`
 - **Software**
-  - `watchOS 27.0 → 27.0`
+  - `watchOS 27.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`

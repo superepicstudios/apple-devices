@@ -439,7 +439,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.0 → 27.0`
+  - `iOS 13.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -459,7 +459,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.0 → 27.0`
+  - `iOS 13.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -479,7 +479,7 @@
 - **Year**: `2019`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.0 → 27.0`
+  - `iOS 13.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.notch`
@@ -499,7 +499,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iOS 13.4 → 27.0`
+  - `iOS 13.4 → 27.2`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -518,7 +518,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 27.0`
+  - `iOS 14.1 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -540,7 +540,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 27.0`
+  - `iOS 14.1 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -562,7 +562,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 27.0`
+  - `iOS 14.1 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -584,7 +584,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iOS 14.1 → 27.0`
+  - `iOS 14.1 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -606,7 +606,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 27.0`
+  - `iOS 15.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -629,7 +629,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 27.0`
+  - `iOS 15.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -652,7 +652,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 27.0`
+  - `iOS 15.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -676,7 +676,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.0 → 27.0`
+  - `iOS 15.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -700,7 +700,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 15.4 → 27.0`
+  - `iOS 15.4 → 27.2`
 - **Traits**
   -  `button.home`
   -  `id.touch`
@@ -721,7 +721,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 16.0 → 27.0`
+  - `iOS 16.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -744,7 +744,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iOS 16.0 → 27.0`
+  - `iOS 16.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.fluid`
@@ -767,7 +767,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 16.0 → 27.0`
+  - `iOS 16.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.always-on`
@@ -792,7 +792,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 16.0 → 27.0`
+  - `iOS 16.0 → 27.2`
 - **Traits**
   -  `magsafe`
   -  `display.always-on`
@@ -817,7 +817,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 17.0 → 27.0`
+  - `iOS 17.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `magsafe`
@@ -840,7 +840,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iOS 17.0 → 27.0`
+  - `iOS 17.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `magsafe`
@@ -863,7 +863,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
 - **Software**
-  - `iOS 17.0 → 27.0`
+  - `iOS 17.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `magsafe`
@@ -889,7 +889,7 @@
 - **Year**: `2023`
 - **Chip**: `Apple A17 Pro`
 - **Software**
-  - `iOS 17.0 → 27.0`
+  - `iOS 17.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `magsafe`
@@ -915,7 +915,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18`
 - **Software**
-  - `iOS 18.0 → 27.0`
+  - `iOS 18.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -940,7 +940,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18`
 - **Software**
-  - `iOS 18.0 → 27.0`
+  - `iOS 18.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -965,7 +965,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
 - **Software**
-  - `iOS 18.0 → 27.0`
+  - `iOS 18.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -992,7 +992,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple A18 Pro`
 - **Software**
-  - `iOS 18.0 → 27.0`
+  - `iOS 18.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1019,7 +1019,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A18`
 - **Software**
-  - `iOS 18.3 → 27.0`
+  - `iOS 18.3 → 27.2`
 - **Traits**
   -  `button.action`
   -  `display.fluid`
@@ -1042,7 +1042,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A19`
 - **Software**
-  - `iOS 26.0 → 27.0`
+  - `iOS 26.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1069,7 +1069,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A19 Pro`
 - **Software**
-  - `iOS 26.0 → 27.0`
+  - `iOS 26.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1096,7 +1096,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A19 Pro`
 - **Software**
-  - `iOS 26.0 → 27.0`
+  - `iOS 26.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1123,7 +1123,7 @@
 - **Year**: `2026`
 - **Chip**: `Apple A19`
 - **Software**
-  - `iOS 26.3 → 27.0`
+  - `iOS 26.3 → 27.2`
 - **Traits**
   -  `button.action`
   -  `magsafe`
@@ -1146,7 +1146,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple A19 Pro`
 - **Software**
-  - `iOS 26.0 → 27.0`
+  - `iOS 26.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1173,7 +1173,7 @@
 - **Year**: `2026`
 - **Chip**: `Apple A20 Pro`
 - **Software**
-  - `iOS 27.0 → 27.0`
+  - `iOS 27.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1200,7 +1200,7 @@
 - **Year**: `2026`
 - **Chip**: `Apple A20 Pro`
 - **Software**
-  - `iOS 27.0 → 27.0`
+  - `iOS 27.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `button.camera`
@@ -1229,7 +1229,7 @@
 - **Year**: `2026`
 - **Chip**: `Apple A20 Pro`
 - **Software**
-  - `iOS 27.0 → 27.0`
+  - `iOS 27.1 → 27.2`
 - **Traits**
   -  `button.camera`
   -  `magsafe`

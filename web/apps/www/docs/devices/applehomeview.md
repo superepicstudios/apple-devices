@@ -1,6 +1,6 @@
 # Devices → Apple HomeView
 
-## Apple HomeView <Badge type="warning" text="WIP" />
+## Apple HomeView
 - **Family**: `Apple_HomeView`
 - **Generation**: `1`
 - **Year**: `2026`
@@ -11,7 +11,8 @@
   -  `J490AP`
   -  `J491AP`
 - **A Numbers**
-  -  `???`
+  -  `A3218`
+  -  `A3300`
 - **Identifiers**
   -  `HomeAccessory17,1`
   -  `HomeAccessory17,2`

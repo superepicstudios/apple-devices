@@ -1327,5 +1327,34 @@
         "internal_names": ["J820AP", "J821AP"],
         "a_numbers": ["A3360", "A3361", "A3362"],
         "ids": ["iPad17,3", "iPad17,4"]
+    },
+    {
+        "name": "iPad mini",
+        "year": 2026,
+        "gen": 8,
+        "family": {
+            "$ref": "../family.json#/ipad"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a20pro"
+        },
+        "software": [
+            {
+                "$ref": "../software/ipados.json#/ipados",
+                "device_version": {
+                    "min": "27.2"
+                }
+            }
+        ],
+        "traits": [
+            { "$ref": "../traits.json#/display/fluid" },
+            { "$ref": "../traits.json#/id/touch" },
+            { "$ref": "../traits.json#/software/intelligence" },
+            { "$ref": "../traits.json#/software/pencil" },
+            { "$ref": "../traits.json#/software/windowing" }
+        ],
+        "internal_names": ["J510AP", "J511AP"],
+        "a_numbers": ["A3595", "A3596", "A3597"],
+        "ids": ["iPad19,1", "iPad19,2"]
     }
 ]

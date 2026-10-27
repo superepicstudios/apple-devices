@@ -1574,7 +1574,7 @@
             {
                 "$ref": "../software/ios.json#/ios",
                 "device_version": {
-                    "min": "27.0"
+                    "min": "27.1"
                 }
             }
         ],

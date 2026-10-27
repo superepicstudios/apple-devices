@@ -6,7 +6,7 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `visionOS 1.0 → 27.0`
+  - `visionOS 1.0 → 27.2`
 - **Traits**
   -  `id.optic`
   -  `software.intelligence`
@@ -23,7 +23,7 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `visionOS 26.0 → 27.0`
+  - `visionOS 26.0 → 27.2`
 - **Traits**
   -  `id.optic`
   -  `software.intelligence`
