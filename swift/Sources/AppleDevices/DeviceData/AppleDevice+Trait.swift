@@ -15,7 +15,7 @@ public extension AppleDevice /* Trait */ {
         // MARK: Audio
 
         /// An active noise cancelling (ANC) audio trait.
-        case activeNoiseCancelling = "audio.anc"
+        case activeNoiseCancellation = "audio.active-noise-cancellation"
 
         /// A spatial audio trait.
         case spatialAudio = "audio.spatial"
@@ -45,14 +45,14 @@ public extension AppleDevice /* Trait */ {
         /// A foldable display trait.
         case foldableDisplay = "display.foldable"
 
-        /// An under-screen-display (UDC) display trait.
-        case underDisplayCamera = "display.under-display-camera"
-
         /// A notch (cutout) display trait.
         case notch = "display.notch"
 
         /// A pro-motion display trait.
         case proMotionDisplay = "display.pro-motion"
+        
+        /// An under-screen-display (UDC) display trait.
+        case underDisplayCamera = "display.under-display-camera"
 
         // MARK: Identification
 
