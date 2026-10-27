@@ -79,7 +79,7 @@
 - **Year**: `2021`
 - **Chip**: `Apple A12 Bionic`
 - **Software**
-  - `tvOS 14.5 → 27.0`
+  - `tvOS 14.5 → 27.2`
 - **Internal Names**
   -  `J305AP`
 - **A Numbers**
@@ -93,7 +93,7 @@
 - **Year**: `2022`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `tvOS 16.0 → 27.0`
+  - `tvOS 16.0 → 27.2`
 - **Internal Names**
   -  `J255AP`
 - **A Numbers**
@@ -101,3 +101,17 @@
   -  `A2843`
 - **Identifiers**
   -  `AppleTV14,1`
+
+## Apple TV 4K (4th Gen)
+- **Family**: `Apple_TV`
+- **Generation**: `4`
+- **Year**: `2026`
+- **Chip**: `Apple A19`
+- **Software**
+  - `tvOS 27.2 → 27.2`
+- **Internal Names**
+  -  `J265AP`
+- **A Numbers**
+  -  `A3593`
+- **Identifiers**
+  -  `AppleTV18,1`

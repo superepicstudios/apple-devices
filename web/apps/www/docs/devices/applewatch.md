@@ -289,10 +289,10 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 10.0 → 27.0`
+  - `watchOS 10.0 → 27.2`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N207sAP`
   -  `N207bAP`
@@ -317,11 +317,11 @@
 - **Year**: `2023`
 - **Chip**: `Apple S9`
 - **Software**
-  - `watchOS 11.0 → 27.0`
+  - `watchOS 11.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N210AP`
 - **A Numbers**
@@ -336,10 +336,10 @@
 - **Year**: `2024`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 11.0 → 27.0`
+  - `watchOS 11.0 → 27.2`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N217sAP`
   -  `N217bAP`
@@ -366,10 +366,10 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 27.0`
+  - `watchOS 26.0 → 27.2`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N227sAP`
   -  `N227bAP`
@@ -396,10 +396,10 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 27.0`
+  - `watchOS 26.0 → 27.2`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N243sAP`
   -  `N243bAP`
@@ -426,11 +426,11 @@
 - **Year**: `2025`
 - **Chip**: `Apple S10`
 - **Software**
-  - `watchOS 26.0 → 27.0`
+  - `watchOS 26.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N230AP`
 - **A Numbers**
@@ -445,10 +445,10 @@
 - **Year**: `2026`
 - **Chip**: `Apple S11`
 - **Software**
-  - `watchOS 27.0 → 27.0`
+  - `watchOS 27.0 → 27.2`
 - **Traits**
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N237sAP`
   -  `N237bAP`
@@ -475,11 +475,11 @@
 - **Year**: `2026`
 - **Chip**: `Apple S11`
 - **Software**
-  - `watchOS 27.0 → 27.0`
+  - `watchOS 27.0 → 27.2`
 - **Traits**
   -  `button.action`
   -  `display.always-on`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N240AP`
 - **A Numbers**

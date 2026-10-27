@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Apple HomeView",
+        "year": 2026,
+        "gen": 1,
+        "family": {
+            "$ref": "../family.json#/homeview"
+        },
+        "chip": {
+            "$ref": "../chips/a.json#/a18"
+        },
+        "software": [
+            {
+                "$ref": "../software/homeos.json#/homeos",
+                "device_version": {
+                    "min": "27.2"
+                }
+            }
+        ],
+        "traits": [],
+        "internal_names": ["J490AP", "J491AP"],
+        "a_numbers": ["A3218", "A3300"],
+        "ids": ["HomeAccessory17,1", "HomeAccessory17,2"]
+    }
+]

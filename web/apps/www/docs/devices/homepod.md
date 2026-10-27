@@ -6,7 +6,7 @@
 - **Year**: `2018`
 - **Chip**: `Apple A8`
 - **Software**
-  - `audioOS 11.0.2 → 27.0`
+  - `audioOS 11.0.2 → 27.2`
 - **Internal Names**
   -  `B238AP`
   -  `B238aAP`
@@ -22,7 +22,7 @@
 - **Year**: `2020`
 - **Chip**: `Apple S5`
 - **Software**
-  - `audioOS 14.1 → 27.0`
+  - `audioOS 14.1 → 27.2`
 - **Internal Names**
   -  `B520AP`
 - **A Numbers**
@@ -36,10 +36,24 @@
 - **Year**: `2023`
 - **Chip**: `Apple S7`
 - **Software**
-  - `audioOS 16.0 → 27.0`
+  - `audioOS 16.0 → 27.2`
 - **Internal Names**
   -  `B620AP`
 - **A Numbers**
   -  `A2825`
 - **Identifiers**
   -  `AudioAccessory6,1`
+
+## HomePod mini (2nd Gen)
+- **Family**: `HomePod`
+- **Generation**: `2`
+- **Year**: `2026`
+- **Chip**: `Apple S10`
+- **Software**
+  - `audioOS 27.2 → 27.2`
+- **Internal Names**
+  -  `B525AP`
+- **A Numbers**
+  -  `A3374`
+- **Identifiers**
+  -  `AudioAccessory11,1`

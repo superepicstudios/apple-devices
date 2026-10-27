@@ -151,12 +151,24 @@ public extension AppleDevice /* Groups */ {
     var isPhone: Bool {
         self.family == .iphone
     }
+    
+    /// Flag indicating if the device is an iPhone Duo.
+    var isPhoneDuo: Bool {
+        self.family == .iphone && self.hasFoldableDisplay && self.name.contains("Duo")
+    }
 
     /// Flag indicating if the device is an iPod.
     var isPod: Bool {
         self.family == .ipod
     }
 
+    // MARK: Foldables
+    
+    /// An array of foldable devices.
+    static var foldables: [AppleDevice] {
+        withTraits(.foldableDisplay)
+    }
+    
     // MARK: Wearables
     
     /// An array of wearable devices.

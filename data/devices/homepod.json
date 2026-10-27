@@ -67,5 +67,28 @@
         "internal_names": ["B620AP"],
         "a_numbers": ["A2825"],
         "ids": ["AudioAccessory6,1"]
+    },
+    {
+        "name": "HomePod mini",
+        "year": 2026,
+        "gen": 2,
+        "family": {
+            "$ref": "../family.json#/homepod"
+        },
+        "chip": {
+            "$ref": "../chips/s.json#/s10"
+        },
+        "software": [
+            {
+                "$ref": "../software/audioos.json#/audioos",
+                "device_version": {
+                    "min": "27.2"
+                }
+            }
+        ],
+        "traits": [],
+        "internal_names": ["B525AP"],
+        "a_numbers": ["A3374"],
+        "ids": ["AudioAccessory11,1"]
     }
 ]

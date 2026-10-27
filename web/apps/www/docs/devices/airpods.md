@@ -46,7 +46,7 @@
 - **Software**
   - `AirPods Firmware 2.1+2B576 → 6.5+6F21`
 - **Traits**
-  -  `audio.anc`
+  -  `audio.active-noise-cancellation`
   -  `audio.spatial`
 - **Internal Names**
   -  `B298AP`
@@ -68,7 +68,7 @@
 - **Software**
   - `AirPods Firmware 3.2+3C16 → 7.4+7E108`
 - **Traits**
-  -  `audio.anc`
+  -  `audio.active-noise-cancellation`
   -  `audio.spatial`
 - **Internal Names**
   -  `B515AP`
@@ -111,7 +111,7 @@
 - **Software**
   - `AirPods Firmware 5.0+5A374 → 8.1+8B28`
 - **Traits**
-  -  `audio.anc`
+  -  `audio.active-noise-cancellation`
   -  `audio.spatial`
 - **Internal Names**
   -  `B698AP`
@@ -138,7 +138,7 @@
 - **Software**
   - `AirPods Firmware 7.0+7A291 → 8.1+8B21`
 - **Traits**
-  -  `audio.anc`
+  -  `audio.active-noise-cancellation`
   -  `audio.spatial`
 - **Internal Names**
   -  `B768AP`
@@ -169,7 +169,7 @@
 - **Software**
   - `AirPods Firmware 8.0+8A354 → 8.1+8B30`
 - **Traits**
-  -  `audio.anc`
+  -  `audio.active-noise-cancellation`
   -  `audio.spatial`
 - **Internal Names**
   -  `B788AP`
@@ -190,7 +190,7 @@
 - **Software**
   - `AirPods Firmware 8.1+8B21 → 8.4+8E258`
 - **Traits**
-  -  `audio.anc`
+  -  `audio.active-noise-cancellation`
   -  `audio.spatial`
 - **Internal Names**
   -  `B868EAP`

@@ -19,7 +19,7 @@
             }
         ],
         "traits": [
-            "button.home"
+            { "$ref": "../traits.json#/button/home" }
         ],
         "internal_names": ["N45AP"],
         "a_numbers": ["A1213"],
@@ -52,7 +52,7 @@
             }
         ],
         "traits": [
-            "button.home"
+            { "$ref": "../traits.json#/button/home" }
         ],
         "internal_names": ["N72AP"],
         "a_numbers": ["A1288", "A1319"],
@@ -85,7 +85,7 @@
             }
         ],
         "traits": [
-            "button.home"
+            { "$ref": "../traits.json#/button/home" }
         ],
         "internal_names": ["N18AP"],
         "a_numbers": ["A1318"],
@@ -111,7 +111,7 @@
             }
         ],
         "traits": [
-            "button.home"
+            { "$ref": "../traits.json#/button/home" }
         ],
         "internal_names": ["N81AP"],
         "a_numbers": ["A1367"],
@@ -137,7 +137,7 @@
             }
         ],
         "traits": [
-            "button.home"
+            { "$ref": "../traits.json#/button/home" }
         ],
         "internal_names": ["N78AP"],
         "a_numbers": ["A1421"],
@@ -163,7 +163,7 @@
             }
         ],
         "traits": [
-            "button.home"
+            { "$ref": "../traits.json#/button/home" }
         ],
         "internal_names": ["N102AP"],
         "a_numbers": ["A1574"],
@@ -189,7 +189,7 @@
             }
         ],
         "traits": [
-            "button.home"
+            { "$ref": "../traits.json#/button/home" }
         ],
         "internal_names": ["N112AP"],
         "a_numbers": ["A2178"],

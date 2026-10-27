@@ -6,10 +6,10 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `visionOS 1.0 → 27.0`
+  - `visionOS 1.0 → 27.2`
 - **Traits**
   -  `id.optic`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N301AP`
 - **A Numbers**
@@ -23,10 +23,10 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `visionOS 26.0 → 27.0`
+  - `visionOS 26.0 → 27.2`
 - **Traits**
   -  `id.optic`
-  -  `intelligence`
+  -  `software.intelligence`
 - **Internal Names**
   -  `N301aAP`
 - **A Numbers**

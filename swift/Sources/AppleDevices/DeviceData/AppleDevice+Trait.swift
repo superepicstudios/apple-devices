@@ -15,7 +15,7 @@ public extension AppleDevice /* Trait */ {
         // MARK: Audio
 
         /// An active noise cancelling (ANC) audio trait.
-        case activeNoiseCancelling = "audio.anc"
+        case activeNoiseCancellation = "audio.active-noise-cancellation"
 
         /// A spatial audio trait.
         case spatialAudio = "audio.spatial"
@@ -43,13 +43,16 @@ public extension AppleDevice /* Trait */ {
         case fluidDisplay = "display.fluid"
 
         /// A foldable display trait.
-        case foldable = "display.foldable"
+        case foldableDisplay = "display.foldable"
 
         /// A notch (cutout) display trait.
         case notch = "display.notch"
 
         /// A pro-motion display trait.
         case proMotionDisplay = "display.pro-motion"
+        
+        /// An under-screen-display (UDC) display trait.
+        case underDisplayCamera = "display.under-display-camera"
 
         // MARK: Identification
 
@@ -62,10 +65,21 @@ public extension AppleDevice /* Trait */ {
         /// A TouchID trait.
         case touchId = "id.touch"
 
-        // MARK: Other
+        // MARK: Software
 
-        /// An intelligence (AI) trait.
-        case intelligence
+        /// A software intelligence trait.
+        case intelligence = "software.intelligence"
+
+        /// A software pencil trait.
+        case pencil = "software.pencil"
+
+        /// A vertical-bar layout (VBL) software trait.
+        case verticalBarLayout = "software.vertical-bar-layout"
+
+        /// A windowing software trait.
+        case windowing = "software.windowing"
+
+        // MARK: Common
 
         /// A MagSafe trait.
         case magsafe

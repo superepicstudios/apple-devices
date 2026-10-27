@@ -18,8 +18,8 @@
             }
         ],
         "traits": [
-            "id.optic",
-            "intelligence"
+            { "$ref": "../traits.json#/id/optic" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N301AP"],
         "a_numbers": ["A2117"],
@@ -44,8 +44,8 @@
             }
         ],
         "traits": [
-            "id.optic",
-            "intelligence"
+            { "$ref": "../traits.json#/id/optic" },
+            { "$ref": "../traits.json#/software/intelligence" }
         ],
         "internal_names": ["N301aAP"],
         "a_numbers": ["A3416"],

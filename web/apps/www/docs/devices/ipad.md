@@ -231,6 +231,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J98aAP`
   -  `J99aAP`
@@ -253,6 +254,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J127AP`
   -  `J128AP`
@@ -300,6 +302,7 @@
   -  `button.home`
   -  `display.pro-motion`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J120AP`
   -  `J121AP`
@@ -324,6 +327,7 @@
   -  `button.home`
   -  `display.pro-motion`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J207AP`
   -  `J208AP`
@@ -345,6 +349,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J71bAP`
   -  `J72bAP`
@@ -363,11 +368,12 @@
 - **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS 12.1 → 13.0`
-  - `iPadOS 13.1 → 27.0`
+  - `iPadOS 13.1 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
 - **Internal Names**
   -  `J317AP`
   -  `J317xAP`
@@ -392,11 +398,12 @@
 - **Chip**: `Apple A12X Bionic`
 - **Software**
   - `iOS 12.1 → 13.0`
-  - `iPadOS 13.1 → 27.0`
+  - `iPadOS 13.1 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
 - **Internal Names**
   -  `J320AP`
   -  `J320xAP`
@@ -423,6 +430,7 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
 - **Internal Names**
   -  `J171AP`
   -  `J172AP`
@@ -445,6 +453,8 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J210AP`
   -  `J211AP`
@@ -468,6 +478,8 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J217AP`
   -  `J218AP`
@@ -492,6 +504,8 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J417AP`
   -  `J418AP`
@@ -516,6 +530,8 @@
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J420AP`
   -  `J421AP`
@@ -538,6 +554,8 @@
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J171aAP`
   -  `J172aAP`
@@ -556,10 +574,12 @@
 - **Year**: `2020`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iPadOS 14.0 → 27.0`
+  - `iPadOS 14.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J307AP`
   -  `J308AP`
@@ -579,12 +599,14 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 14.5 → 27.0`
+  - `iPadOS 14.5 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J517AP`
   -  `J517xAP`
@@ -608,12 +630,14 @@
 - **Year**: `2021`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 14.5 → 27.0`
+  - `iPadOS 14.5 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J522AP`
   -  `J522xAP`
@@ -636,10 +660,12 @@
 - **Year**: `2021`
 - **Chip**: `Apple A13 Bionic`
 - **Software**
-  - `iPadOS 15.0 → 27.0`
+  - `iPadOS 15.0 → 27.2`
 - **Traits**
   -  `button.home`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J181AP`
   -  `J182AP`
@@ -658,10 +684,12 @@
 - **Year**: `2021`
 - **Chip**: `Apple A15 Bionic`
 - **Software**
-  - `iPadOS 15.0 → 27.0`
+  - `iPadOS 15.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J310AP`
   -  `J311AP`
@@ -679,11 +707,13 @@
 - **Year**: `2022`
 - **Chip**: `Apple M1`
 - **Software**
-  - `iPadOS 15.4 → 27.0`
+  - `iPadOS 15.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J407AP`
   -  `J408AP`
@@ -701,10 +731,12 @@
 - **Year**: `2022`
 - **Chip**: `Apple A14 Bionic`
 - **Software**
-  - `iPadOS 16.0 → 27.0`
+  - `iPadOS 16.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J271AP`
   -  `J272AP`
@@ -724,12 +756,14 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 16.0 → 27.0`
+  - `iPadOS 16.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J617AP`
   -  `J618AP`
@@ -749,12 +783,14 @@
 - **Year**: `2022`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 16.0 → 27.0`
+  - `iPadOS 16.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J620AP`
   -  `J621AP`
@@ -774,11 +810,13 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J507AP`
   -  `J508AP`
@@ -797,11 +835,13 @@
 - **Year**: `2024`
 - **Chip**: `Apple M2`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J537AP`
   -  `J538AP`
@@ -819,11 +859,13 @@
 - **Year**: `2024`
 - **Chip**: `Apple A17 Pro`
 - **Software**
-  - `iPadOS 18.0.1 → 27.0`
+  - `iPadOS 18.0.1 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J410AP`
   -  `J411AP`
@@ -842,12 +884,14 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J717AP`
   -  `J718AP`
@@ -866,12 +910,14 @@
 - **Year**: `2024`
 - **Chip**: `Apple M4`
 - **Software**
-  - `iPadOS 17.4 → 27.0`
+  - `iPadOS 17.4 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J720AP`
   -  `J721AP`
@@ -890,11 +936,13 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**
-  - `iPadOS 18.3.2 → 27.0`
+  - `iPadOS 18.3.2 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J607AP`
   -  `J608AP`
@@ -913,11 +961,13 @@
 - **Year**: `2025`
 - **Chip**: `Apple M3`
 - **Software**
-  - `iPadOS 18.3.2 → 27.0`
+  - `iPadOS 18.3.2 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J637AP`
   -  `J638AP`
@@ -935,10 +985,12 @@
 - **Year**: `2025`
 - **Chip**: `Apple A16 Bionic`
 - **Software**
-  - `iPadOS 18.3.2 → 27.0`
+  - `iPadOS 18.3.2 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `id.touch`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J481AP`
   -  `J482AP`
@@ -957,12 +1009,14 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `iPadOS 26.0 → 27.0`
+  - `iPadOS 26.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J817AP`
   -  `J818AP`
@@ -981,12 +1035,15 @@
 - **Year**: `2025`
 - **Chip**: `Apple M5`
 - **Software**
-  - `iPadOS 26.0 → 27.0`
+  - `iPadOS 26.0 → 27.2`
 - **Traits**
   -  `display.fluid`
   -  `display.pro-motion`
   -  `id.face`
-  -  `intelligence`
+  -  `software.pencil`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
 - **Internal Names**
   -  `J820AP`
   -  `J821AP`
@@ -997,3 +1054,27 @@
 - **Identifiers**
   -  `iPad17,3`
   -  `iPad17,4`
+
+## iPad mini (8th Gen)
+- **Family**: `iPad`
+- **Generation**: `8`
+- **Year**: `2026`
+- **Chip**: `Apple A20 Pro`
+- **Software**
+  - `iPadOS 27.2 → 27.2`
+- **Traits**
+  -  `display.fluid`
+  -  `id.touch`
+  -  `software.intelligence`
+  -  `software.pencil`
+  -  `software.windowing`
+- **Internal Names**
+  -  `J510AP`
+  -  `J511AP`
+- **A Numbers**
+  -  `A3595`
+  -  `A3596`
+  -  `A3597`
+- **Identifiers**
+  -  `iPad19,1`
+  -  `iPad19,2`

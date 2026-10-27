@@ -1,0 +1,34 @@
+{
+    "audio": {
+        "anc": "audio.active-noise-cancellation",
+        "spatial": "audio.spatial"
+    },
+    "button": {
+        "action": "button.action",
+        "camera": "button.camera",
+        "home": "button.home"
+    },
+    "common": {
+        "magsafe": "magsafe"
+    },
+    "display": {
+        "always-on": "display.always-on",
+        "dynamic-island": "display.dynamic-island",
+        "fluid": "display.fluid",
+        "foldable": "display.foldable",
+        "notch": "display.notch",
+        "pro-motion": "display.pro-motion",
+        "udc": "display.under-display-camera"
+    },
+    "id": {
+        "face": "id.face",
+        "optic": "id.optic",
+        "touch": "id.touch"
+    },
+    "software": {
+        "intelligence": "software.intelligence",
+        "pencil": "software.pencil",
+        "vbl": "software.vertical-bar-layout",
+        "windowing": "software.windowing"
+    }
+}
